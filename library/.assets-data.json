@@ -1,0 +1,301 @@
+{
+  "7e891eac-ef97-41a1-a293-4cff88dc1d97": {
+    "url": "db://assets/Scene",
+    "value": {}
+  },
+  "bcf21023-3a8c-4c54-99de-76e4893f2a8e": {
+    "url": "db://assets/Scripts",
+    "value": {}
+  },
+  "ff034e87-f2ea-4ef8-a07f-a6a51c2161a9": {
+    "url": "db://assets/resources",
+    "value": {}
+  },
+  "971935a0-bee6-4e78-92d3-5e0c1d7af85d": {
+    "url": "db://assets/Scene/GameScene.scene",
+    "value": {
+      "depends": [
+        "971935a0-bee6-4e78-92d3-5e0c1d7af85d"
+      ],
+      "dependScripts": [
+        "c136252c-bd5f-44e0-ba8c-d09e88117fb7",
+        "ae57305c-0529-47b1-b514-e88ee912744d"
+      ]
+    }
+  },
+  "c5e7bd2a-f079-4aa4-9f78-72519b427715": {
+    "url": "db://assets/resources/Prefabs/Ball.prefab",
+    "value": {
+      "depends": [
+        "ccc344b7-7d50-40a9-bbf5-28258822a5e1@f9941"
+      ],
+      "dependScripts": [
+        "bc71fd2e-9c59-485f-a467-25b1219b6cf0"
+      ]
+    }
+  },
+  "51d7adff-7e5e-4a7c-97af-dab57af7a533": {
+    "url": "db://assets/resources/Prefabs/GameScene.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": [
+        "7f521d0b-f961-46ec-86f1-aa360d229e76"
+      ]
+    }
+  },
+  "c136252c-bd5f-44e0-ba8c-d09e88117fb7": {
+    "url": "db://assets/Scripts/GameManagerComponent.ts",
+    "value": {}
+  },
+  "7c1ae3b1-d625-4313-9390-211381ac725f": {
+    "url": "db://assets/Scripts/Enums",
+    "value": {}
+  },
+  "8338c0b9-8b1d-4cd6-8785-69f504939318": {
+    "url": "db://assets/Scripts/Enums/folder",
+    "value": {}
+  },
+  "d27f79ea-0856-4100-8ba6-5928a801aefd": {
+    "url": "db://assets/Scripts/Enums/LocationType.ts",
+    "value": {}
+  },
+  "c952dbc5-2dcf-40ac-89cb-71a34c4b259e": {
+    "url": "db://assets/Scripts/Enums/CCEnums.ts",
+    "value": {}
+  },
+  "f2df34c8-da81-4574-a353-7f90e2e53c96": {
+    "url": "db://assets/Scripts/Scene",
+    "value": {}
+  },
+  "f9462079-18a2-43ae-afb9-7aded183015e": {
+    "url": "db://assets/Scripts/Scene/ISceneManager.ts",
+    "value": {}
+  },
+  "ae57305c-0529-47b1-b514-e88ee912744d": {
+    "url": "db://assets/Scripts/Scene/ScenePoolManagerComponent.ts",
+    "value": {}
+  },
+  "216455f8-8530-4d34-8f1b-aacedc9e7bd7": {
+    "url": "db://assets/Scripts/Utils",
+    "value": {}
+  },
+  "4b877ba5-7988-49d5-853e-3e3f2dc51c0a": {
+    "url": "db://assets/Scripts/Utils/Dispatcher.ts",
+    "value": {}
+  },
+  "8522b5de-9922-4082-971f-457379761337": {
+    "url": "db://assets/Scripts/Utils/Observer.ts",
+    "value": {}
+  },
+  "534b4653-d598-4035-8aa6-f0e7b9a6bd67": {
+    "url": "db://assets/Scripts/Utils/PrefabLoader.ts",
+    "value": {}
+  },
+  "df625cb2-10d3-423d-8262-9af84ad59da1": {
+    "url": "db://assets/Scripts/Scene/StartScene",
+    "value": {}
+  },
+  "27e13da0-4cbd-47df-99de-cc7cecfc015f": {
+    "url": "db://assets/Scripts/Scene/GameScene",
+    "value": {}
+  },
+  "264817dc-78f8-4430-8d68-d46d4fcf8446": {
+    "url": "db://assets/Scripts/Scene/ScoreScene",
+    "value": {}
+  },
+  "385207b3-3627-4e10-85c0-6a7dede02683": {
+    "url": "db://assets/Scripts/Application",
+    "value": {}
+  },
+  "c8da5fce-87ac-4d70-9858-b95b724016d0": {
+    "url": "db://assets/Scripts/Application/AppRoot.ts",
+    "value": {}
+  },
+  "10639bbc-6cdb-4fce-81be-b6f942f860e4": {
+    "url": "db://assets/Scripts/Application/AppState.ts",
+    "value": {}
+  },
+  "8902c08b-b1bb-4bb9-97fa-7bdd732a4449": {
+    "url": "db://assets/Scripts/Application/ApplicationInterfaces.ts",
+    "value": {}
+  },
+  "8a35b99a-4e35-4cd7-8107-55788c72513a": {
+    "url": "db://assets/Scripts/Application/ApplicationConfig.ts",
+    "value": {}
+  },
+  "5a90e2a4-75f5-40a7-bd03-2673bb8d6d18": {
+    "url": "db://assets/Scripts/Application/AppDevice.ts",
+    "value": {}
+  },
+  "ffb83110-502d-42bc-b1b9-1768f9a0cd3e": {
+    "url": "db://assets/Scripts/Application/AppAudio.ts",
+    "value": {}
+  },
+  "63c8f97e-d6e8-4eac-b48d-e8851e1f1487": {
+    "url": "db://assets/resources/Prefabs",
+    "value": {}
+  },
+  "86ee5b06-6ce1-4af1-ad10-aaee4cda5977": {
+    "url": "db://assets/resources/Images",
+    "value": {}
+  },
+  "c0796e62-4667-4a46-a2d3-01a3f3aa3bd8": {
+    "url": "db://assets/Scripts/Enums/BallColor.ts",
+    "value": {}
+  },
+  "bc71fd2e-9c59-485f-a467-25b1219b6cf0": {
+    "url": "db://assets/Scripts/Scene/GameScene/BallComponent.ts",
+    "value": {}
+  },
+  "8e15a611-5531-47eb-bb3b-7d8127bb4737": {
+    "url": "db://assets/Scripts/Scene/LoadingScene",
+    "value": {}
+  },
+  "ba7a4343-3524-4b0a-8fa4-d4a2249efb9b": {
+    "url": "db://assets/Scripts/Session",
+    "value": {}
+  },
+  "4273d575-8511-41f0-8bf9-38d11680f627": {
+    "url": "db://assets/Scripts/Session/GameContext.ts",
+    "value": {}
+  },
+  "fcc19248-a9e9-47c0-b330-9eb2d8e3028d": {
+    "url": "db://assets/Scripts/Session/GameFactory.ts",
+    "value": {}
+  },
+  "53c7b37a-6296-4244-96e2-7ce7cdc64e76": {
+    "url": "db://assets/Scripts/Session/GameSaveListener.ts",
+    "value": {}
+  },
+  "a1ae059e-eaf1-4e6e-9f75-e50954701a53": {
+    "url": "db://assets/Scripts/Session/SessionDeviceListener.ts",
+    "value": {}
+  },
+  "cd6076b0-6493-4121-a877-fdf47c26bf74": {
+    "url": "db://assets/Scripts/Session/GameoverListener.ts",
+    "value": {}
+  },
+  "39c90f99-9602-413a-9273-a6e3a8fb167c": {
+    "url": "db://assets/Scripts/Scene/TransferComponent.ts",
+    "value": {}
+  },
+  "ccc344b7-7d50-40a9-bbf5-28258822a5e1": {
+    "url": "db://assets/resources/Images/BallImage.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ccc344b7-7d50-40a9-bbf5-28258822a5e1@6c48a": {
+    "url": "db://assets/resources/Images/BallImage.png@6c48a",
+    "value": {
+      "depends": [
+        "ccc344b7-7d50-40a9-bbf5-28258822a5e1"
+      ]
+    }
+  },
+  "ccc344b7-7d50-40a9-bbf5-28258822a5e1@f9941": {
+    "url": "db://assets/resources/Images/BallImage.png@f9941",
+    "value": {
+      "depends": [
+        "ccc344b7-7d50-40a9-bbf5-28258822a5e1@6c48a"
+      ]
+    }
+  },
+  "7f521d0b-f961-46ec-86f1-aa360d229e76": {
+    "url": "db://assets/Scripts/Scene/GameScene/GameSceneComponent.ts",
+    "value": {}
+  },
+  "890ec2db-42bd-4a7b-af94-30a44753b674": {
+    "url": "db://assets/Scripts/Session/GameLogic.ts",
+    "value": {}
+  },
+  "4957e93b-2929-4618-962b-0fcdea84d71b": {
+    "url": "db://assets/Scripts/Logic",
+    "value": {}
+  },
+  "6521e35b-60c3-4f73-9c5b-de830b2c9322": {
+    "url": "db://assets/Scripts/Logic/Field.ts",
+    "value": {}
+  },
+  "af98794e-1c31-46a5-8638-515071453f52": {
+    "url": "db://assets/Scripts/Session/GameState.ts",
+    "value": {}
+  },
+  "1c4ddb24-b4bb-4acb-b001-806d0a4b5ffe": {
+    "url": "db://assets/Scripts/Save",
+    "value": {}
+  },
+  "1a04b614-23ea-4440-b026-458828f586a4": {
+    "url": "db://assets/Scripts/Logic/FieldState.ts",
+    "value": {}
+  },
+  "afe6abaf-2182-44ff-a431-af1575ae83ea": {
+    "url": "db://assets/Scripts/Logic/GameStatsInfo.ts",
+    "value": {}
+  },
+  "7600e90b-030d-4f78-bfb6-3f99bad04121": {
+    "url": "db://assets/Scripts/Logic/Loop.ts",
+    "value": {}
+  },
+  "2f8fcc27-0658-41cf-ac19-cc3dc85d9d74": {
+    "url": "db://assets/Scripts/Save/Android",
+    "value": {}
+  },
+  "423afe2c-1a9a-40c3-b87c-0e7ee0ea8a56": {
+    "url": "db://assets/Scripts/Save/Editor",
+    "value": {}
+  },
+  "ef4bb3b0-508a-4b35-8283-b1c705cf972f": {
+    "url": "db://assets/Scripts/Save/SaveContext.ts",
+    "value": {}
+  },
+  "e6c5740e-d3fb-4117-8002-369d7a3df0d7": {
+    "url": "db://assets/Scripts/Save/SaveDispatcher.ts",
+    "value": {}
+  },
+  "c8c1473b-d7f7-451c-a969-23e54e5f189d": {
+    "url": "db://assets/Scripts/Save/SaveInterfaces.ts",
+    "value": {}
+  },
+  "6ff9d8ab-a379-491b-b69e-79523379d065": {
+    "url": "db://assets/Scripts/Save/SaveTimerExecutor.ts",
+    "value": {}
+  },
+  "44478751-26af-4a4e-8d2d-c711303a8f2f": {
+    "url": "db://assets/Scripts/Save/State.ts",
+    "value": {}
+  },
+  "f479a792-4958-4b36-b338-817aaa4b8f20": {
+    "url": "db://assets/Scripts/Save/Android/AndroidSaveState.ts",
+    "value": {}
+  },
+  "9fc84195-cfec-4ef6-bf06-909c891b9be7": {
+    "url": "db://assets/Scripts/Save/Editor/EditorSaveState.ts",
+    "value": {}
+  },
+  "ffff50cd-97e2-47d9-832c-aafcf5645008": {
+    "url": "db://assets/Scripts/Application/IAppTimer.ts",
+    "value": {}
+  },
+  "f02d1243-00a7-4abe-bc83-0e75eff2f155": {
+    "url": "db://assets/resources/Prefabs/ScoreScene.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    }
+  },
+  "01fa1060-78b1-479d-8ddd-c8a50b2131ed": {
+    "url": "db://assets/resources/Prefabs/StartScene.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    }
+  },
+  "a7275191-e0de-409b-9086-0826e0d9be94": {
+    "url": "db://assets/resources/Prefabs/LoadingScene.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    }
+  }
+}

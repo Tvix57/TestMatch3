@@ -1,0 +1,1737 @@
+{
+  "chunks": {
+    "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        "__unresolved_10": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        "__unresolved_11": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        "__unresolved_12": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        "__unresolved_13": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        "__unresolved_14": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm"
+          },
+          "messages": []
+        },
+        "__unresolved_15": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        "__unresolved_16": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        "__unresolved_17": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        "__unresolved_18": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/geometry-renderer"
+          },
+          "messages": []
+        },
+        "__unresolved_19": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        "__unresolved_20": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        "__unresolved_21": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/xr"
+          },
+          "messages": []
+        },
+        "__unresolved_22": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        "__unresolved_23": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        "__unresolved_24": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        },
+        "__unresolved_25": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        "__unresolved_26": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        "__unresolved_27": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        "__unresolved_28": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        "__unresolved_29": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-empty"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        "__unresolved_9": {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268871721
+    },
+    "bf2a5ff7e8de9b32e53abd7c8de160e985314530": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268871868
+    },
+    "6fb63abd3ee4062e6e5725fd794ec010fe77cd13": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Scene/AudioManagerComponent\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268871891
+    },
+    "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
+      "imports": {},
+      "timestamp": 1727268871900
+    },
+    "467c7fcf82730964b2b3022104cd0026380cab7b": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Notifications/Android/AndroidNoticationScheduler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Notifications/Editor/EditorNoticationScheduler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./Android/AndroidApplicationConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d955999ca3937cf282cc1e66844f8175b9523e73"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./Editor/ApplicationListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./Editor/EditorAppConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268871924
+    },
+    "d955999ca3937cf282cc1e66844f8175b9523e73": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268871934
+    },
+    "76cb67036cc5edaaf7aec909fff4334c7395c74b": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ec8eda8f55e566a0695a32ddf51eaf19c971742"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Game/Types\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872067
+    },
+    "6e9105e8b0f94f073107845df773383dcbfb3d82": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872083
+    },
+    "643169aa23096feaac7cb01e33215cf88c373abf": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../BusinessScene/ManagerTypes\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872102
+    },
+    "69cca37b97b97ce55331bf2df659f3f6432e074d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Save/Android/AndroidSaveState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Save/Editor/EditorSaveState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Save/SaveContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Save/SaveDispatcher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d955999ca3937cf282cc1e66844f8175b9523e73"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872126
+    },
+    "6409a33f43c0e8a0eefaf51502c711a4203420db": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872135
+    },
+    "d75ff1eb2bdae457c23e22d284dab97b7eeaeacb": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872158
+    },
+    "a27f91dfd3ce643d2edc910ddc27de657efeaef6": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ac9abb8c0fdbb6d7835050faa452289c5e748351"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d75ff1eb2bdae457c23e22d284dab97b7eeaeacb"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872168
+    },
+    "ac9abb8c0fdbb6d7835050faa452289c5e748351": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872178
+    },
+    "86606f925addcdec7261d0c5426a40c5165fc12e": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "c7e6696988c18f94b3b6894e2276cc88b665df5a"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ac9abb8c0fdbb6d7835050faa452289c5e748351"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872207
+    },
+    "c7e6696988c18f94b3b6894e2276cc88b665df5a": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ac9abb8c0fdbb6d7835050faa452289c5e748351"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "67caa09a54ca6312c98bac70ae4ef7dca940b398"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ec4e772db45785450f911b4a5d77ef473d3357fc"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872267
+    },
+    "67caa09a54ca6312c98bac70ae4ef7dca940b398": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872279
+    },
+    "ec4e772db45785450f911b4a5d77ef473d3357fc": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872289
+    },
+    "d3a239c972151f671ffa8c4431f9085fe562f9c9": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872311
+    },
+    "786aa9f2ae1a183fd96a2bb581086b1cdbfc233a": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./LocationType\" not found for file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ec8eda8f55e566a0695a32ddf51eaf19c971742"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872328
+    },
+    "df89741321dfcad4628d9c8ac7ba5e156c19290f": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ec8eda8f55e566a0695a32ddf51eaf19c971742"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872342
+    },
+    "fbd12150deb310b5bef6413036fff1f4741a0d86": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727268872350
+    },
+    "9ec8eda8f55e566a0695a32ddf51eaf19c971742": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Settings/Library\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "a4df9ce64a683289daf02dc66d1dd03d0a03a461"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6fb63abd3ee4062e6e5725fd794ec010fe77cd13"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "467c7fcf82730964b2b3022104cd0026380cab7b"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727269996250
+    },
+    "527fb3f7aadcf69b097d6fbcb4bb5abd549f1328": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "a27f91dfd3ce643d2edc910ddc27de657efeaef6"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727270381166
+    },
+    "28c31814615195a8b8228614752d18f0e5988cbe": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727270459812
+    },
+    "a4df9ce64a683289daf02dc66d1dd03d0a03a461": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "45e591488b6e4fccaf3cf3e84af4a2a0fffbf632"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "76cb67036cc5edaaf7aec909fff4334c7395c74b"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6e9105e8b0f94f073107845df773383dcbfb3d82"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "643169aa23096feaac7cb01e33215cf88c373abf"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085658
+    },
+    "45e591488b6e4fccaf3cf3e84af4a2a0fffbf632": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./Loop\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../GameStats/GameStats\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "abc1a0f915410d5f9b93709a80fc68f41db0554d"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085672
+    },
+    "abc1a0f915410d5f9b93709a80fc68f41db0554d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085680
+    },
+    "a71bc3d6c17825b6dde77f74be9f53d955bc0e35": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085690
+    },
+    "daf033c6da77ccd5c60547bd4fa65bcbd26d79b1": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085697
+    },
+    "4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "67caa09a54ca6312c98bac70ae4ef7dca940b398"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085711
+    },
+    "7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "771d75b289c20130a165444119ede10bb3eb3535"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085723
+    },
+    "771d75b289c20130a165444119ede10bb3eb3535": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Ads/AdsState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Game/GameState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Store/StoreState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "b866ee3a12a4475703819ba080655097146ebdf1"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Settings/SettingsState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Statistic/StatisticState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Statistic/AppsflyerState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Offers/OfferState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085740
+    },
+    "b866ee3a12a4475703819ba080655097146ebdf1": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085749
+    },
+    "57428597d364a000f18def810d2c907dc916d19f": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "771d75b289c20130a165444119ede10bb3eb3535"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../../Game/GameState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../../Game/Types\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../../Ads/AdsState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../../Store/StoreState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../../Settings/SettingsState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../../Statistic/StatisticState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085769
+    },
+    "eec285b8e36c70f80047e339f5b513ed3b7c8421": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"../Game/GameState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8f80d8783c2b5285c8efa7c9340de82f507e6f41"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085786
+    },
+    "8f80d8783c2b5285c8efa7c9340de82f507e6f41": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085798
+    },
+    "8d029dac42efc189782dfc4e1203945050ab3179": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "67caa09a54ca6312c98bac70ae4ef7dca940b398"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085808
+    },
+    "f00709ce0035973f2d003dc3050a51b3c8ec6154": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "b866ee3a12a4475703819ba080655097146ebdf1"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273085819
+    },
+    "6d8fd2b0177941b032ddc0733af48a561fb60657": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "bf2a5ff7e8de9b32e53abd7c8de160e985314530"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6fb63abd3ee4062e6e5725fd794ec010fe77cd13"
+          },
+          "messages": []
+        },
+        "__unresolved_10": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ac9abb8c0fdbb6d7835050faa452289c5e748351"
+          },
+          "messages": []
+        },
+        "__unresolved_11": {
+          "resolved": {
+            "type": "chunk",
+            "id": "86606f925addcdec7261d0c5426a40c5165fc12e"
+          },
+          "messages": []
+        },
+        "__unresolved_12": {
+          "resolved": {
+            "type": "chunk",
+            "id": "abc1a0f915410d5f9b93709a80fc68f41db0554d"
+          },
+          "messages": []
+        },
+        "__unresolved_13": {
+          "resolved": {
+            "type": "chunk",
+            "id": "a71bc3d6c17825b6dde77f74be9f53d955bc0e35"
+          },
+          "messages": []
+        },
+        "__unresolved_14": {
+          "resolved": {
+            "type": "chunk",
+            "id": "daf033c6da77ccd5c60547bd4fa65bcbd26d79b1"
+          },
+          "messages": []
+        },
+        "__unresolved_15": {
+          "resolved": {
+            "type": "chunk",
+            "id": "4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d"
+          },
+          "messages": []
+        },
+        "__unresolved_16": {
+          "resolved": {
+            "type": "chunk",
+            "id": "7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28"
+          },
+          "messages": []
+        },
+        "__unresolved_17": {
+          "resolved": {
+            "type": "chunk",
+            "id": "57428597d364a000f18def810d2c907dc916d19f"
+          },
+          "messages": []
+        },
+        "__unresolved_18": {
+          "resolved": {
+            "type": "chunk",
+            "id": "eec285b8e36c70f80047e339f5b513ed3b7c8421"
+          },
+          "messages": []
+        },
+        "__unresolved_19": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8d029dac42efc189782dfc4e1203945050ab3179"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "467c7fcf82730964b2b3022104cd0026380cab7b"
+          },
+          "messages": []
+        },
+        "__unresolved_20": {
+          "resolved": {
+            "type": "chunk",
+            "id": "b866ee3a12a4475703819ba080655097146ebdf1"
+          },
+          "messages": []
+        },
+        "__unresolved_21": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8f80d8783c2b5285c8efa7c9340de82f507e6f41"
+          },
+          "messages": []
+        },
+        "__unresolved_22": {
+          "resolved": {
+            "type": "chunk",
+            "id": "771d75b289c20130a165444119ede10bb3eb3535"
+          },
+          "messages": []
+        },
+        "__unresolved_23": {
+          "resolved": {
+            "type": "chunk",
+            "id": "527fb3f7aadcf69b097d6fbcb4bb5abd549f1328"
+          },
+          "messages": []
+        },
+        "__unresolved_24": {
+          "resolved": {
+            "type": "chunk",
+            "id": "28c31814615195a8b8228614752d18f0e5988cbe"
+          },
+          "messages": []
+        },
+        "__unresolved_25": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d3a239c972151f671ffa8c4431f9085fe562f9c9"
+          },
+          "messages": []
+        },
+        "__unresolved_26": {
+          "resolved": {
+            "type": "chunk",
+            "id": "c7e6696988c18f94b3b6894e2276cc88b665df5a"
+          },
+          "messages": []
+        },
+        "__unresolved_27": {
+          "resolved": {
+            "type": "chunk",
+            "id": "786aa9f2ae1a183fd96a2bb581086b1cdbfc233a"
+          },
+          "messages": []
+        },
+        "__unresolved_28": {
+          "resolved": {
+            "type": "chunk",
+            "id": "a4df9ce64a683289daf02dc66d1dd03d0a03a461"
+          },
+          "messages": []
+        },
+        "__unresolved_29": {
+          "resolved": {
+            "type": "chunk",
+            "id": "df89741321dfcad4628d9c8ac7ba5e156c19290f"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "9ec8eda8f55e566a0695a32ddf51eaf19c971742"
+          },
+          "messages": []
+        },
+        "__unresolved_30": {
+          "resolved": {
+            "type": "chunk",
+            "id": "45e591488b6e4fccaf3cf3e84af4a2a0fffbf632"
+          },
+          "messages": []
+        },
+        "__unresolved_31": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6e9105e8b0f94f073107845df773383dcbfb3d82"
+          },
+          "messages": []
+        },
+        "__unresolved_32": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f00709ce0035973f2d003dc3050a51b3c8ec6154"
+          },
+          "messages": []
+        },
+        "__unresolved_33": {
+          "resolved": {
+            "type": "chunk",
+            "id": "76cb67036cc5edaaf7aec909fff4334c7395c74b"
+          },
+          "messages": []
+        },
+        "__unresolved_34": {
+          "resolved": {
+            "type": "chunk",
+            "id": "643169aa23096feaac7cb01e33215cf88c373abf"
+          },
+          "messages": []
+        },
+        "__unresolved_35": {
+          "resolved": {
+            "type": "chunk",
+            "id": "67caa09a54ca6312c98bac70ae4ef7dca940b398"
+          },
+          "messages": []
+        },
+        "__unresolved_36": {
+          "resolved": {
+            "type": "chunk",
+            "id": "fbd12150deb310b5bef6413036fff1f4741a0d86"
+          },
+          "messages": []
+        },
+        "__unresolved_37": {
+          "resolved": {
+            "type": "chunk",
+            "id": "ec4e772db45785450f911b4a5d77ef473d3357fc"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "69cca37b97b97ce55331bf2df659f3f6432e074d"
+          },
+          "messages": []
+        },
+        "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d955999ca3937cf282cc1e66844f8175b9523e73"
+          },
+          "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6409a33f43c0e8a0eefaf51502c711a4203420db"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
+            "id": "65a98eaefb7a79291d392cb1f33a28a28379cc31"
+          },
+          "messages": []
+        },
+        "__unresolved_8": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d75ff1eb2bdae457c23e22d284dab97b7eeaeacb"
+          },
+          "messages": []
+        },
+        "__unresolved_9": {
+          "resolved": {
+            "type": "chunk",
+            "id": "a27f91dfd3ce643d2edc910ddc27de657efeaef6"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273647104
+    },
+    "65a98eaefb7a79291d392cb1f33a28a28379cc31": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1727273647113
+    }
+  },
+  "entries": {
+    "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+    "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "bf2a5ff7e8de9b32e53abd7c8de160e985314530",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts": "6fb63abd3ee4062e6e5725fd794ec010fe77cd13",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts": "467c7fcf82730964b2b3022104cd0026380cab7b",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts": "9ec8eda8f55e566a0695a32ddf51eaf19c971742",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts": "69cca37b97b97ce55331bf2df659f3f6432e074d",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts": "d955999ca3937cf282cc1e66844f8175b9523e73",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts": "6409a33f43c0e8a0eefaf51502c711a4203420db",
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts": "65a98eaefb7a79291d392cb1f33a28a28379cc31",
+    "file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts": "d75ff1eb2bdae457c23e22d284dab97b7eeaeacb",
+    "file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts": "a27f91dfd3ce643d2edc910ddc27de657efeaef6",
+    "file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts": "ac9abb8c0fdbb6d7835050faa452289c5e748351",
+    "file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts": "86606f925addcdec7261d0c5426a40c5165fc12e",
+    "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts": "abc1a0f915410d5f9b93709a80fc68f41db0554d",
+    "file:///F:/git/TestMatch3/assets/Scripts/Logic/FieldState.ts": "a71bc3d6c17825b6dde77f74be9f53d955bc0e35",
+    "file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts": "daf033c6da77ccd5c60547bd4fa65bcbd26d79b1",
+    "file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts": "4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts": "7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts": "57428597d364a000f18def810d2c907dc916d19f",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts": "eec285b8e36c70f80047e339f5b513ed3b7c8421",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts": "8d029dac42efc189782dfc4e1203945050ab3179",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts": "b866ee3a12a4475703819ba080655097146ebdf1",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts": "8f80d8783c2b5285c8efa7c9340de82f507e6f41",
+    "file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts": "771d75b289c20130a165444119ede10bb3eb3535",
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts": "527fb3f7aadcf69b097d6fbcb4bb5abd549f1328",
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts": "28c31814615195a8b8228614752d18f0e5988cbe",
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts": "d3a239c972151f671ffa8c4431f9085fe562f9c9",
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts": "c7e6696988c18f94b3b6894e2276cc88b665df5a",
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts": "786aa9f2ae1a183fd96a2bb581086b1cdbfc233a",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts": "a4df9ce64a683289daf02dc66d1dd03d0a03a461",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts": "df89741321dfcad4628d9c8ac7ba5e156c19290f",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts": "45e591488b6e4fccaf3cf3e84af4a2a0fffbf632",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts": "6e9105e8b0f94f073107845df773383dcbfb3d82",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts": "f00709ce0035973f2d003dc3050a51b3c8ec6154",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts": "76cb67036cc5edaaf7aec909fff4334c7395c74b",
+    "file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts": "643169aa23096feaac7cb01e33215cf88c373abf",
+    "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts": "67caa09a54ca6312c98bac70ae4ef7dca940b398",
+    "file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts": "fbd12150deb310b5bef6413036fff1f4741a0d86",
+    "file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts": "ec4e772db45785450f911b4a5d77ef473d3357fc"
+  }
+}

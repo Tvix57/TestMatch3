@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts"],"names":["Platform"],"mappings":";;;;;;;;;;;;;;0BAAYA,Q,0BAAAA,Q;AAAAA,QAAAA,Q,CAAAA,Q;AAAAA,QAAAA,Q,CAAAA,Q;AAAAA,QAAAA,Q,CAAAA,Q;eAAAA,Q","sourcesContent":["export enum Platform{\r\n    Editor,\r\n    Ios,\r\n    Android\r\n}"]}

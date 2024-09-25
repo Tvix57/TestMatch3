@@ -1,0 +1,398 @@
+25.09.2024 19:54:26-log: Cannot access game frame or container.
+25.09.2024 19:54:26-debug: asset-db:require-engine-code (802ms)
+25.09.2024 19:54:26-log: Cocos Creator v3.8.1
+25.09.2024 19:54:26-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:22.13MB, end 92.17MB, increase: 70.04MB
+25.09.2024 19:54:26-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:96.66MB, end 100.24MB, increase: 3.59MB
+25.09.2024 19:54:26-debug: [Assets Memory track]: asset-db-plugin-enable: project start:96.83MB, end 100.25MB, increase: 3.42MB
+25.09.2024 19:54:26-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:92.18MB, end 100.25MB, increase: 8.07MB
+25.09.2024 19:54:26-debug: [Assets Memory track]: asset-db-plugin-register: programming start:92.80MB, end 96.61MB, increase: 3.81MB
+25.09.2024 19:54:26-debug: asset-db:worker-init: initPlugin (107ms)
+25.09.2024 19:54:26-debug: [Assets Memory track]: asset-db:worker-init start:22.13MB, end 94.44MB, increase: 72.31MB
+25.09.2024 19:54:26-debug: Run asset db hook programming:beforePreStart success!
+25.09.2024 19:54:26-debug: Run asset db hook programming:beforePreStart ...
+25.09.2024 19:54:26-debug: Run asset db hook engine-extends:beforePreStart ...
+25.09.2024 19:54:26-debug: Run asset db hook engine-extends:beforePreStart success!
+25.09.2024 19:54:27-debug: asset-db:worker-init (1857ms)
+25.09.2024 19:54:27-debug: asset-db-hook-programming-beforePreStart (524ms)
+25.09.2024 19:54:27-debug: asset-db-hook-engine-extends-beforePreStart (524ms)
+25.09.2024 19:54:27-debug: Preimport db internal success
+25.09.2024 19:54:27-debug: Preimport db assets success
+25.09.2024 19:54:27-debug: Run asset db hook programming:afterPreStart ...
+25.09.2024 19:54:28-debug: run package(builder) handler(enable) start
+25.09.2024 19:54:31-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:112.78MB, end 299.62MB, increase: 186.84MB
+25.09.2024 19:54:31-debug: run package(shortcuts) handler(enable) start
+25.09.2024 19:54:31-debug: run package(animation-graph) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(builder) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(animation-graph) handler(enable) start
+25.09.2024 19:54:31-debug: run package(about) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(shortcuts) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(assets) handler(enable) start
+25.09.2024 19:54:31-debug: run package(assets) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(about) handler(enable) start
+25.09.2024 19:54:31-debug: run package(console) handler(enable) start
+25.09.2024 19:54:31-debug: run package(crash-reporter) handler(enable) start
+25.09.2024 19:54:31-debug: run package(crash-reporter) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(extension) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(extension) handler(enable) start
+25.09.2024 19:54:31-debug: run package(console) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(hierarchy) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(hierarchy) handler(enable) start
+25.09.2024 19:54:31-debug: run package(light-probe) handler(enable) start
+25.09.2024 19:54:31-debug: run package(inspector) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(lightmap) handler(enable) start
+25.09.2024 19:54:31-debug: run package(light-probe) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(node-library) handler(enable) start
+25.09.2024 19:54:31-debug: run package(inspector) handler(enable) start
+25.09.2024 19:54:31-debug: run package(node-library) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(package-asset) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(process) handler(enable) start
+25.09.2024 19:54:31-debug: run package(lightmap) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(package-asset) handler(enable) start
+25.09.2024 19:54:31-debug: run package(reference-image) handler(enable) start
+25.09.2024 19:54:31-debug: run package(reflection-probe) handler(enable) start
+25.09.2024 19:54:31-debug: run package(reflection-probe) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(reference-image) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(engine-extends) handler(enable) start
+25.09.2024 19:54:31-debug: run package(engine-extends) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(adsense-h5g-plugin) handler(enable) start
+25.09.2024 19:54:31-debug: run package(adsense-h5g-plugin) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(process) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(android) handler(enable) start
+25.09.2024 19:54:31-debug: run package(android) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(bytedance-mini-game) handler(enable) start
+25.09.2024 19:54:31-debug: run package(bytedance-mini-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(certificate) handler(enable) start
+25.09.2024 19:54:31-debug: run package(alipay-mini-game) handler(enable) start
+25.09.2024 19:54:31-debug: run package(channel-upload-tools) handler(enable) start
+25.09.2024 19:54:31-debug: run package(certificate) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(channel-upload-tools) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(fb-instant-games) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(fb-instant-games) handler(enable) start
+25.09.2024 19:54:31-debug: run package(huawei-agc) handler(enable) start
+25.09.2024 19:54:31-debug: run package(huawei-agc) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(alipay-mini-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(huawei-quick-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(huawei-quick-game) handler(enable) start
+25.09.2024 19:54:31-debug: run package(ios) handler(enable) start
+25.09.2024 19:54:31-debug: run package(ios) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(mac) handler(enable) start
+25.09.2024 19:54:31-debug: run package(linux) handler(enable) start
+25.09.2024 19:54:31-debug: run package(linux) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(native) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(mac) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(ohos) handler(enable) start
+25.09.2024 19:54:31-debug: run package(ohos) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(native) handler(enable) start
+25.09.2024 19:54:31-debug: run package(openharmony) handler(enable) start
+25.09.2024 19:54:31-debug: run package(openharmony) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(oppo-mini-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(oppo-mini-game) handler(enable) start
+25.09.2024 19:54:31-debug: run package(runtime-dev-tools) handler(enable) start
+25.09.2024 19:54:31-debug: run package(taobao-creative-app) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(taobao-mini-game) handler(enable) start
+25.09.2024 19:54:31-debug: run package(runtime-dev-tools) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(vivo-mini-game) handler(enable) start
+25.09.2024 19:54:31-debug: run package(taobao-mini-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(vivo-mini-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(web-desktop) handler(enable) start
+25.09.2024 19:54:31-debug: run package(web-desktop) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(web-mobile) handler(enable) start
+25.09.2024 19:54:31-debug: run package(web-mobile) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(wechatgame) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(wechatgame) handler(enable) start
+25.09.2024 19:54:31-debug: run package(wechatprogram) handler(enable) start
+25.09.2024 19:54:31-debug: run package(wechatprogram) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(windows) handler(enable) start
+25.09.2024 19:54:31-debug: run package(taobao-creative-app) handler(enable) start
+25.09.2024 19:54:31-debug: run package(xiaomi-quick-game) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(windows) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(cocos-service) handler(enable) start
+25.09.2024 19:54:31-debug: run package(cocos-service) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(im-plugin) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(im-plugin) handler(enable) start
+25.09.2024 19:54:31-debug: run package(placeholder) handler(enable) start
+25.09.2024 19:54:31-debug: run package(placeholder) handler(enable) success!
+25.09.2024 19:54:31-debug: run package(xiaomi-quick-game) handler(enable) start
+25.09.2024 19:54:32-debug: Set detail map pack:///resolution-detail-map.json: {  "./chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js": {    "__unresolved_1": {      "error": "Error: Module \"../Save/Android/AndroidSaveState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_2": {      "error": "Error: Module \"../Save/Editor/EditorSaveState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_3": {      "error": "Error: Module \"../Save/SaveContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_4": {      "error": "Error: Module \"../Save/SaveDispatcher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js": {    "__unresolved_1": {      "error": "Error: Module \"../Settings/Library\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js": {    "__unresolved_1": {      "error": "Error: Module \"../Notifications/Android/AndroidNoticationScheduler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_2": {      "error": "Error: Module \"../Notifications/Editor/EditorNoticationScheduler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_3": {      "error": "Error: Module \"./Android/AndroidApplicationConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_5": {      "error": "Error: Module \"./Editor/ApplicationListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_6": {      "error": "Error: Module \"./Editor/EditorAppConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js": {    "__unresolved_1": {      "error": "Error: Module \"../Scene/AudioManagerComponent\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js": {    "__unresolved_1": {      "error": "Error: Module \"../Ads/AdsContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_10": {      "error": "Error: Module \"../GameDailyBonus/DailyBonusContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_11": {      "error": "Error: Module \"./GameStatsListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_12": {      "error": "Error: Module \"../Tutorial/TutorialContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_13": {      "error": "Error: Module \"../Tutorial/TutorialGameHandlers\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_14": {      "error": "Error: Module \"./TutorialAdsDecorator\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_15": {      "error": "Error: Module \"../MiniGames/Slots/SlotsBalance\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_16": {      "error": "Error: Module \"./TutorialSlotsDecorator\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_17": {      "error": "Error: Module \"../GameSpecialBonus/SpecialBonusContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_18": {      "error": "Error: Module \"../Statistic/StatisticAgregator\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_19": {      "error": "Error: Module \"../Statistic/EventsContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_2": {      "error": "Error: Module \"../Store/StoreContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_20": {      "error": "Error: Module \"./StatisticsValidatedPurchaseHandler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_22": {      "error": "Error: Module \"../Offers/OffersContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_23": {      "error": "Error: Module \"./GameHardmodeExecutor\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_24": {      "error": "Error: Module \"./GameHardmodeListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_25": {      "error": "Error: Module \"./InappBuyingListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_26": {      "error": "Error: Module \"../DialogsScene/WishDialog/WishDialogFactory\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_27": {      "error": "Error: Module \"../GameDailyBonus/DailyBonusLauncher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_28": {      "error": "Error: Module \"./TransferHandlers\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_29": {      "error": "Error: Module \"../DialogsScene/OfferDialog/OfferDialogLauncher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_3": {      "error": "Error: Module \"../Game/GameLogic\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_30": {      "error": "Error: Module \"../DialogsScene/RateUsDialog/RateUsContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_31": {      "error": "Error: Module \"../DialogsScene/RateUsDialog/RateUsLauncher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_32": {      "error": "Error: Module \"../Hints/HintsContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_33": {      "error": "Error: Module \"./StarRewardDialogListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_34": {      "error": "Error: Module \"./TutorialSaveBlocker\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_4": {      "error": "Error: Module \"./DialogAdministrator\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_6": {      "error": "Error: Module \"./GameoverDialogLauncher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_7": {      "error": "Error: Module \"../Scene/DialogFactory\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    },    "__unresolved_9": {      "error": "Error: Module \"../GameAlerts/GameAlertsContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js": {    "__unresolved_2": {      "error": "Error: Module \"../Game/Types\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js": {    "__unresolved_1": {      "error": "Error: Module \"../BusinessScene/ManagerTypes\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  },  "./chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js": {    "__unresolved_1": {      "error": "Error: Module \"./LocationType\" not found for file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts",      "messages": [        {          "level": "warn",          "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."        }      ]    }  }}
+25.09.2024 19:54:32-debug: Run asset db hook programming:afterPreStart success!
+25.09.2024 19:54:32-debug: Run asset db hook engine-extends:afterPreStart success!
+25.09.2024 19:54:32-debug: [Assets Memory track]: asset-db:worker-init: preStart start:94.45MB, end 297.00MB, increase: 202.56MB
+25.09.2024 19:54:32-debug: Start up the 'internal' database...
+25.09.2024 19:54:32-debug: Run asset db hook engine-extends:afterPreStart ...
+25.09.2024 19:54:32-debug: asset-db-hook-programming-afterPreStart (5428ms)
+25.09.2024 19:54:32-debug: asset-db:worker-effect-data-processing (29ms)
+25.09.2024 19:54:32-debug: asset-db-hook-engine-extends-afterPreStart (29ms)
+25.09.2024 19:54:32-debug: start asset-db(internal) with asset: 463
+25.09.2024 19:54:32-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:114.30MB, end 301.06MB, increase: 186.76MB
+25.09.2024 19:54:32-debug: start asset-db(assets) with asset: 39
+25.09.2024 19:54:32-debug: Start up the 'assets' database...
+25.09.2024 19:54:32-debug: asset-db:worker-startup-database[internal] (5618ms)
+25.09.2024 19:54:32-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:117.32MB, end 301.15MB, increase: 183.83MB
+25.09.2024 19:54:32-debug: [Assets Memory track]: asset-db:worker-init: startup start:297.01MB, end 301.16MB, increase: 4.15MB
+25.09.2024 19:54:32-debug: asset-db:worker-startup-database[assets] (5482ms)
+25.09.2024 19:54:32-debug: asset-db:start-database (6019ms)
+25.09.2024 19:54:32-debug: asset-db:ready (9493ms)
+25.09.2024 19:54:32-debug: init worker message success
+25.09.2024 19:54:33-debug: [Build Memory track]: builder:worker-init start:297.02MB, end 311.96MB, increase: 14.94MB
+25.09.2024 19:54:33-debug: programming:execute-script (3ms)
+25.09.2024 19:54:33-debug: builder:worker-init (349ms)
+25.09.2024 19:54:34-debug: programming:execute-script (3ms)
+25.09.2024 19:54:36-debug: refresh db internal success
+25.09.2024 19:54:36-debug: refresh db assets success
+25.09.2024 19:54:36-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 19:54:36-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 19:54:36-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 20:13:16-debug: refresh db internal success
+25.09.2024 20:13:16-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:13:16-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameContext.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:13:16-debug: refresh db assets success
+25.09.2024 20:13:16-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:13:16-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:13:16-debug: asset-db:refresh-all-database (36ms)
+25.09.2024 20:13:16-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:13:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:13:39-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Images\BallImage.png...
+25.09.2024 20:13:39-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Images\BallImage.pngbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:13:39-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Images\BallImage.png@6c48abackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:13:39-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Images\BallImage.png@f9941background: #aaff85; color: #000;color: #000;
+25.09.2024 20:13:39-debug: refresh asset F:\git\TestMatch3\assets\resources\Images success
+25.09.2024 20:13:40-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Imagesbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:13:40-debug: refresh db internal success
+25.09.2024 20:13:40-debug: refresh db assets success
+25.09.2024 20:13:40-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:13:40-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:13:40-debug: asset-db:refresh-all-database (37ms)
+25.09.2024 20:13:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:13:53-debug: refresh db internal success
+25.09.2024 20:13:53-debug: refresh db assets success
+25.09.2024 20:13:53-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:13:53-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:13:53-debug: asset-db:refresh-all-database (31ms)
+25.09.2024 20:13:53-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:14:00-debug: refresh db internal success
+25.09.2024 20:14:00-debug: refresh db assets success
+25.09.2024 20:14:00-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:14:00-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:14:00-debug: asset-db:refresh-all-database (36ms)
+25.09.2024 20:14:30-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefab...
+25.09.2024 20:14:30-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefabbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:14:30-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
+25.09.2024 20:14:41-debug: refresh db internal success
+25.09.2024 20:14:41-debug: refresh db assets success
+25.09.2024 20:14:41-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:14:41-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:14:41-debug: asset-db:refresh-all-database (31ms)
+25.09.2024 20:14:41-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:14:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:14:56-debug: refresh db internal success
+25.09.2024 20:14:56-debug: refresh db assets success
+25.09.2024 20:14:56-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:14:56-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:14:56-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 20:14:56-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:14:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:06-debug: refresh db internal success
+25.09.2024 20:15:06-debug: refresh db assets success
+25.09.2024 20:15:06-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:06-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:06-debug: asset-db:refresh-all-database (27ms)
+25.09.2024 20:15:06-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:06-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:10-debug: refresh db internal success
+25.09.2024 20:15:10-debug: refresh db assets success
+25.09.2024 20:15:10-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:10-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:10-debug: asset-db:refresh-all-database (32ms)
+25.09.2024 20:15:10-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:10-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:13-debug: refresh db internal success
+25.09.2024 20:15:13-debug: refresh db assets success
+25.09.2024 20:15:13-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:13-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:13-debug: asset-db:refresh-all-database (27ms)
+25.09.2024 20:15:13-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:14-debug: refresh db internal success
+25.09.2024 20:15:14-debug: refresh db assets success
+25.09.2024 20:15:14-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:14-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:14-debug: asset-db:refresh-all-database (22ms)
+25.09.2024 20:15:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:14-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:17-debug: refresh db internal success
+25.09.2024 20:15:17-debug: refresh db assets success
+25.09.2024 20:15:17-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:17-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:17-debug: asset-db:refresh-all-database (23ms)
+25.09.2024 20:15:17-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:31-debug: refresh db internal success
+25.09.2024 20:15:31-debug: refresh db assets success
+25.09.2024 20:15:31-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:31-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:31-debug: asset-db:refresh-all-database (26ms)
+25.09.2024 20:15:36-debug: refresh db internal success
+25.09.2024 20:15:36-debug: refresh db assets success
+25.09.2024 20:15:36-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:36-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:36-debug: asset-db:refresh-all-database (25ms)
+25.09.2024 20:15:36-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:15:59-debug: refresh db internal success
+25.09.2024 20:15:59-debug: refresh db assets success
+25.09.2024 20:15:59-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:15:59-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:15:59-debug: asset-db:refresh-all-database (27ms)
+25.09.2024 20:15:59-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:15:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:16:08-debug: refresh db internal success
+25.09.2024 20:16:08-debug: refresh db assets success
+25.09.2024 20:16:08-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:16:08-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:16:08-debug: asset-db:refresh-all-database (26ms)
+25.09.2024 20:16:08-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 20:16:08-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:19:41-debug: refresh db internal success
+25.09.2024 20:19:41-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScene\BallComponent.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:19:41-debug: refresh db assets success
+25.09.2024 20:19:41-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:19:41-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:19:41-debug: asset-db:refresh-all-database (25ms)
+25.09.2024 20:19:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 20:19:45-debug: refresh db internal success
+25.09.2024 20:19:45-debug: refresh db assets success
+25.09.2024 20:19:45-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:19:45-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:19:45-debug: asset-db:refresh-all-database (25ms)
+25.09.2024 20:19:57-debug: refresh db internal success
+25.09.2024 20:19:57-debug: refresh db assets success
+25.09.2024 20:19:57-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:19:57-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:19:57-debug: asset-db:refresh-all-database (24ms)
+25.09.2024 20:20:10-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefab...
+25.09.2024 20:20:10-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefabbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:20:10-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
+25.09.2024 20:20:10-debug: refresh db internal success
+25.09.2024 20:20:10-debug: refresh db assets success
+25.09.2024 20:20:10-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:20:10-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:20:10-debug: asset-db:refresh-all-database (25ms)
+25.09.2024 20:20:59-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\GameScene\GameSceneComponent.ts...
+25.09.2024 20:20:59-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScene\GameSceneComponent.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:20:59-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene\GameScene success
+25.09.2024 20:20:59-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScenebackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:21:06-debug: refresh db internal success
+25.09.2024 20:21:06-debug: refresh db assets success
+25.09.2024 20:21:06-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:21:06-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:21:06-debug: asset-db:refresh-all-database (22ms)
+25.09.2024 20:21:53-debug: refresh db internal success
+25.09.2024 20:21:53-debug: refresh db assets success
+25.09.2024 20:21:53-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:21:53-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:21:53-debug: asset-db:refresh-all-database (24ms)
+25.09.2024 20:24:22-debug: refresh db internal success
+25.09.2024 20:24:22-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameLogic.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:24:22-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:24:22-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameContext.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:24:22-debug: refresh db assets success
+25.09.2024 20:24:22-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:24:22-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:24:22-debug: asset-db:refresh-all-database (31ms)
+25.09.2024 20:24:22-debug: asset-db:worker-effect-data-processing (-1ms)
+25.09.2024 20:24:22-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+25.09.2024 20:24:24-debug: refresh db internal success
+25.09.2024 20:24:24-debug: refresh db assets success
+25.09.2024 20:24:24-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:24:24-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:24:24-debug: asset-db:refresh-all-database (26ms)
+25.09.2024 20:24:24-debug: asset-db:worker-effect-data-processing (-1ms)
+25.09.2024 20:24:26-debug: refresh db internal success
+25.09.2024 20:24:26-debug: refresh db assets success
+25.09.2024 20:24:26-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:24:26-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:24:26-debug: asset-db:refresh-all-database (22ms)
+25.09.2024 20:40:30-debug: refresh db internal success
+25.09.2024 20:40:30-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logicbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:40:30-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\Field.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:40:30-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:40:30-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:40:30-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:40:30-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameLogic.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 20:40:30-debug: refresh db assets success
+25.09.2024 20:40:30-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 20:40:30-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 20:40:30-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 21:04:45-debug: refresh db internal success
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Savebackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\FieldState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\GameStatsInfo.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\Loop.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\Editorbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\SaveContext.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\Androidbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\SaveDispatcher.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\SaveInterfaces.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\SaveTimerExecutor.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\State.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\Android\AndroidSaveState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\Editor\EditorSaveState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logicbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\Field.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameContext.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameLogic.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:04:45-debug: refresh db assets success
+25.09.2024 21:04:45-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 21:04:45-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 21:04:45-debug: asset-db:refresh-all-database (36ms)
+25.09.2024 21:04:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 21:14:07-debug: refresh db internal success
+25.09.2024 21:14:07-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\IAppTimer.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:14:07-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Applicationbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:14:07-debug: refresh db assets success
+25.09.2024 21:14:07-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 21:14:07-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 21:14:07-debug: asset-db:refresh-all-database (26ms)
+25.09.2024 21:14:07-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 21:14:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 21:14:28-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\ScoreScene.prefab...
+25.09.2024 21:14:28-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\ScoreScene.prefabbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:14:28-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
+25.09.2024 21:14:28-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:14:39-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\StartScene.prefab...
+25.09.2024 21:14:39-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\StartScene.prefabbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:14:39-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
+25.09.2024 21:14:39-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:15:06-debug: refresh db internal success
+25.09.2024 21:15:06-debug: refresh db assets success
+25.09.2024 21:15:06-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 21:15:06-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 21:15:06-debug: asset-db:refresh-all-database (26ms)
+25.09.2024 21:15:06-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 21:15:06-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 21:15:16-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\LoadingScene.prefab...
+25.09.2024 21:15:16-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\LoadingScene.prefabbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:15:16-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
+25.09.2024 21:15:16-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:15:21-debug: refresh db internal success
+25.09.2024 21:15:21-debug: refresh db assets success
+25.09.2024 21:15:21-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 21:15:21-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 21:15:21-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 21:15:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 21:15:21-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 21:17:33-debug: refresh db internal success
+25.09.2024 21:17:33-debug: refresh db assets success
+25.09.2024 21:17:33-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 21:17:33-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 21:17:33-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 21:17:36-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefab...
+25.09.2024 21:17:36-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefabbackground: #aaff85; color: #000;color: #000;
+25.09.2024 21:17:36-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
+25.09.2024 21:17:36-debug: refresh db internal success
+25.09.2024 21:17:36-debug: refresh db assets success
+25.09.2024 21:17:36-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 21:17:36-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 21:17:36-debug: asset-db:refresh-all-database (25ms)
