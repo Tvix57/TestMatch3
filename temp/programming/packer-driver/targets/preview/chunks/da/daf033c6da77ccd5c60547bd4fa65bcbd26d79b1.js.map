@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":[]}
+{"version":3,"sources":["file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts"],"names":["GameStats"],"mappings":";;;iBAKaA,S;;;;;;;;;;;;;2BAAAA,S,GAAN,MAAMA,SAAN,CAAgB,E","sourcesContent":["export type GameStatsInfo = { \r\n    name: string,\r\n    score: number,\r\n}\r\n\r\nexport class GameStats {\r\n    \r\n}"]}

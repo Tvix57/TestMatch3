@@ -8,11 +8,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfLoop(extras) {
-    _reporterNs.report("Loop", "./Loop", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfLibrary(extras) {
-    _reporterNs.report("Library", "../Settings/Library", _context.meta, extras);
+    _reporterNs.report("Loop", "./../Logic/Loop", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfIAppTimer(extras) {
@@ -54,11 +50,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
 
       _export("GameLogic", GameLogic = class GameLogic {
-        constructor(library, timer, state) {
+        constructor(timer, state) {
           this._loop = void 0;
           this._field = void 0;
           this._gameStats = void 0;
-          this.library = library;
           this.state = state;
           this._loop = new (_crd && Loop === void 0 ? (_reportPossibleCrUseOfLoop({
             error: Error()
@@ -69,10 +64,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this._gameStats = new (_crd && GameStats === void 0 ? (_reportPossibleCrUseOfGameStats({
             error: Error()
           }), GameStats) : GameStats)(state.gameStats);
-        }
-
-        ResolveLibrary() {
-          return this.library;
         }
 
         ResolveLoop() {

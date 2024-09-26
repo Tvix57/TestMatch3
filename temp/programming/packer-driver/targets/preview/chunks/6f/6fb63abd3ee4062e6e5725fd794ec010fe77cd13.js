@@ -7,10 +7,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     _reporterNs.report("AudioType", "../Scene/AudioManagerComponent", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfSettingsState(extras) {
-    _reporterNs.report("SettingsState", "../Settings/SettingsState", _context.meta, extras);
-  }
-
   function _reportPossibleCrUseOfAudio(extras) {
     _reporterNs.report("Audio", "./ApplicationInterfaces", _context.meta, extras);
   }
@@ -80,15 +76,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       };
 
       _export("AppAudio", AppAudio = class AppAudio {
-        constructor(manager, setting) {
+        constructor(_mng) {
           this._sound = void 0;
           this._music = void 0;
-          this._mng = void 0;
-          this._mng = manager;
-          this._sound = new Sound(manager);
-          this._music = new Music(manager);
-          setting.musicState ? this._music.Activate() : this._music.Deactivate();
-          setting.soundState ? this._sound.Activate() : this._sound.Deactivate();
+          this._mng = _mng;
+          this._sound = new Sound(_mng);
+          this._music = new Music(_mng);
         }
 
         ResolveAudio(type) {

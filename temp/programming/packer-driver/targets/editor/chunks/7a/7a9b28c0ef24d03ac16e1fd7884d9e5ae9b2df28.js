@@ -32,13 +32,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _crd = true;
 
       _cclegacy._RF.push({}, "f479aeSSVhLNrM4gXqqS48g", "AndroidSaveState", undefined);
-      /**
-       * 
-       * AndroidSaveState.ts
-       * db://assets/Scripts/Save/Android/AndroidSaveState.ts
-       *
-       */
-
 
       __checkObsolete__(['native']);
 
@@ -50,7 +43,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         LoadState() {
           return (_crd && ApplicationState === void 0 ? (_reportPossibleCrUseOfApplicationState({
             error: Error()
-          }), ApplicationState) : ApplicationState).Load(this.getFile(), this.prefferedLang);
+          }), ApplicationState) : ApplicationState).Load(this.getFile());
         }
 
         SaveState(state) {

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 9048.947499990463,
+      "mTimestamp": 14229.224500000477,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -283,7 +283,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4784547.354600012,
+      "mTimestamp": 10101552.387600005,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -357,7 +357,7 @@
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -366,12 +366,12 @@
             },
             "end": {
               "line": 9,
-              "column": 82
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -380,12 +380,12 @@
             },
             "end": {
               "line": 10,
-              "column": 86
+              "column": 74
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -394,12 +394,12 @@
             },
             "end": {
               "line": 11,
-              "column": 74
+              "column": 71
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -408,12 +408,12 @@
             },
             "end": {
               "line": 12,
-              "column": 68
+              "column": 96
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -422,12 +422,12 @@
             },
             "end": {
               "line": 13,
-              "column": 66
+              "column": 91
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -436,12 +436,12 @@
             },
             "end": {
               "line": 14,
-              "column": 71
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -450,12 +450,12 @@
             },
             "end": {
               "line": 15,
-              "column": 73
+              "column": 76
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -464,12 +464,12 @@
             },
             "end": {
               "line": 16,
-              "column": 64
+              "column": 68
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/FieldState.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -478,12 +478,12 @@
             },
             "end": {
               "line": 17,
-              "column": 69
+              "column": 66
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -492,12 +492,12 @@
             },
             "end": {
               "line": 18,
-              "column": 72
+              "column": 71
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -506,12 +506,12 @@
             },
             "end": {
               "line": 19,
-              "column": 63
+              "column": 73
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -520,12 +520,12 @@
             },
             "end": {
               "line": 20,
-              "column": 82
+              "column": 64
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -534,12 +534,12 @@
             },
             "end": {
               "line": 21,
-              "column": 80
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -548,12 +548,12 @@
             },
             "end": {
               "line": 22,
-              "column": 69
+              "column": 63
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -562,12 +562,12 @@
             },
             "end": {
               "line": 23,
-              "column": 72
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
@@ -576,12 +576,12 @@
             },
             "end": {
               "line": 24,
-              "column": 72
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
@@ -590,12 +590,12 @@
             },
             "end": {
               "line": 25,
-              "column": 75
+              "column": 69
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
@@ -604,12 +604,12 @@
             },
             "end": {
               "line": 26,
-              "column": 63
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
@@ -618,12 +618,12 @@
             },
             "end": {
               "line": 27,
-              "column": 82
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
@@ -632,12 +632,12 @@
             },
             "end": {
               "line": 28,
-              "column": 87
+              "column": 75
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
@@ -646,12 +646,12 @@
             },
             "end": {
               "line": 29,
-              "column": 72
+              "column": 63
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
@@ -660,12 +660,12 @@
             },
             "end": {
               "line": 30,
-              "column": 84
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
@@ -674,12 +674,12 @@
             },
             "end": {
               "line": 31,
-              "column": 76
+              "column": 82
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
@@ -688,12 +688,12 @@
             },
             "end": {
               "line": 32,
-              "column": 72
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
@@ -702,12 +702,12 @@
             },
             "end": {
               "line": 33,
-              "column": 72
+              "column": 87
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
@@ -716,12 +716,12 @@
             },
             "end": {
               "line": 34,
-              "column": 70
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
@@ -730,12 +730,12 @@
             },
             "end": {
               "line": 35,
-              "column": 77
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
@@ -744,12 +744,12 @@
             },
             "end": {
               "line": 36,
-              "column": 70
+              "column": 76
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
@@ -758,12 +758,12 @@
             },
             "end": {
               "line": 37,
-              "column": 77
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts",
           "resolved": "__unresolved_34",
           "loc": {
             "start": {
@@ -772,12 +772,12 @@
             },
             "end": {
               "line": 38,
-              "column": 82
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts",
           "resolved": "__unresolved_35",
           "loc": {
             "start": {
@@ -786,12 +786,12 @@
             },
             "end": {
               "line": 39,
-              "column": 69
+              "column": 70
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
@@ -800,12 +800,12 @@
             },
             "end": {
               "line": 40,
-              "column": 67
+              "column": 77
             }
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts",
           "resolved": "__unresolved_37",
           "loc": {
             "start": {
@@ -814,6 +814,76 @@
             },
             "end": {
               "line": 41,
+              "column": 70
+            }
+          }
+        },
+        {
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 7
+            },
+            "end": {
+              "line": 42,
+              "column": 77
+            }
+          }
+        },
+        {
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts",
+          "resolved": "__unresolved_39",
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 7
+            },
+            "end": {
+              "line": 43,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts",
+          "resolved": "__unresolved_40",
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 7
+            },
+            "end": {
+              "line": 44,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts",
+          "resolved": "__unresolved_41",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts",
+          "resolved": "__unresolved_42",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 7
+            },
+            "end": {
+              "line": 46,
               "column": 71
             }
           }
@@ -859,13 +929,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts"
           },
           "messages": []
@@ -874,6 +937,41 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts"
           },
           "messages": []
         },
@@ -909,13 +1007,6 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Logic/FieldState.ts"
           },
           "messages": []
         },
@@ -985,6 +1076,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts"
           },
           "messages": []
@@ -993,6 +1091,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts"
           },
           "messages": []
         },
@@ -1143,7 +1248,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts": {
       "mTimestamp": {
-        "mtime": 1726713031987.1006,
+        "mtime": 1727281998201.5852,
         "uuid": "ffb83110-502d-42bc-b1b9-1768f9a0cd3e"
       },
       "chunkId": "6fb63abd3ee4062e6e5725fd794ec010fe77cd13",
@@ -1188,20 +1293,15 @@
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Scene/AudioManagerComponent\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
         }
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1727268862637,
+      "mTimestamp": 1727358424386,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1209,7 +1309,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts": {
       "mTimestamp": {
-        "mtime": 1726713031987.1006,
+        "mtime": 1727284426033.2537,
         "uuid": "5a90e2a4-75f5-40a7-bd03-2673bb8d6d18"
       },
       "chunkId": "467c7fcf82730964b2b3022104cd0026380cab7b",
@@ -1222,85 +1322,57 @@
           "value": "cc"
         },
         {
-          "value": "../Notifications/Android/AndroidNoticationScheduler",
+          "value": "./native/AndroidApplicationConfig",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 8,
-              "column": 43
-            },
-            "end": {
-              "line": 8,
-              "column": 96
-            }
-          }
-        },
-        {
-          "value": "../Notifications/Editor/EditorNoticationScheduler",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 9,
-              "column": 42
-            },
-            "end": {
-              "line": 9,
-              "column": 93
-            }
-          }
-        },
-        {
-          "value": "./Android/AndroidApplicationConfig",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 11,
+              "line": 1,
               "column": 41
             },
             "end": {
-              "line": 11,
-              "column": 77
+              "line": 1,
+              "column": 76
             }
           }
         },
         {
-          "value": "./ApplicationConfig",
-          "resolved": "__unresolved_4",
+          "value": "./../Enums/ApplicationConfig",
+          "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 12,
+              "line": 2,
               "column": 25
             },
             "end": {
-              "line": 12,
-              "column": 46
+              "line": 2,
+              "column": 55
             }
           }
         },
         {
-          "value": "./Editor/ApplicationListener",
-          "resolved": "__unresolved_5",
+          "value": "./native/ApplicationListener",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 13,
+              "line": 3,
               "column": 36
             },
             "end": {
-              "line": 13,
+              "line": 3,
               "column": 66
             }
           }
         },
         {
-          "value": "./Editor/EditorAppConfig",
-          "resolved": "__unresolved_6",
+          "value": "./native/EditorAppConfig",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 14,
+              "line": 4,
               "column": 32
             },
             "end": {
-              "line": 14,
+              "line": 4,
               "column": 58
             }
           }
@@ -1324,98 +1396,42 @@
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Notifications/Android/AndroidNoticationScheduler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Notifications/Editor/EditorNoticationScheduler\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"./Android/AndroidApplicationConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
             "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts"
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts"
           },
           "messages": []
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"./Editor/ApplicationListener\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"./Editor/EditorAppConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts": {
-      "mTimestamp": {
-        "mtime": 1722480446694.1472,
-        "uuid": "8a35b99a-4e35-4cd7-8107-55788c72513a"
-      },
-      "chunkId": "d955999ca3937cf282cc1e66844f8175b9523e73",
-      "imports": [
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "58f237b82ebe810515e2db237f0643aa6b22a795"
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts": {
       "mTimestamp": {
-        "mtime": 1727269221603.0815,
+        "mtime": 1727284205053.589,
         "uuid": "c8da5fce-87ac-4d70-9858-b95b724016d0"
       },
       "chunkId": "9ec8eda8f55e566a0695a32ddf51eaf19c971742",
@@ -1428,57 +1444,43 @@
           "value": "cc"
         },
         {
-          "value": "../Settings/Library",
+          "value": "../Session/GameContext",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 24
-            },
-            "end": {
-              "line": 3,
-              "column": 45
-            }
-          }
-        },
-        {
-          "value": "../Session/GameContext",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 4,
+              "line": 1,
               "column": 28
             },
             "end": {
-              "line": 4,
+              "line": 1,
               "column": 52
             }
           }
         },
         {
           "value": "./AppAudio",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 2,
               "column": 25
             },
             "end": {
-              "line": 5,
+              "line": 2,
               "column": 37
             }
           }
         },
         {
           "value": "./AppDevice",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 3,
               "column": 26
             },
             "end": {
-              "line": 6,
+              "line": 3,
               "column": 39
             }
           }
@@ -1499,18 +1501,6 @@
             "url": "cce:/internal/x/cc"
           },
           "messages": []
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Settings/Library\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
         },
         {
           "resolved": {
@@ -1537,7 +1527,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts": {
       "mTimestamp": {
-        "mtime": 1727273007044.774,
+        "mtime": 1727284508469.1965,
         "uuid": "4273d575-8511-41f0-8bf9-38d11680f627"
       },
       "chunkId": "a4df9ce64a683289daf02dc66d1dd03d0a03a461",
@@ -1554,53 +1544,25 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 1,
               "column": 26
             },
             "end": {
-              "line": 10,
+              "line": 1,
               "column": 39
             }
           }
         },
         {
-          "value": "./GameoverListener",
+          "value": "./SessionDeviceListener",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 12,
-              "column": 33
-            },
-            "end": {
-              "line": 12,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "./GameSaveListener",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 15,
-              "column": 33
-            },
-            "end": {
-              "line": 15,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "./SessionDeviceListener",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 16,
+              "line": 7,
               "column": 38
             },
             "end": {
-              "line": 16,
+              "line": 7,
               "column": 63
             }
           }
@@ -1626,20 +1588,6 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts"
           },
           "messages": []
         },
@@ -1826,7 +1774,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts": {
       "mTimestamp": {
-        "mtime": 1726713031987.7568,
+        "mtime": 1727275079763.3748,
         "uuid": "10639bbc-6cdb-4fce-81be-b6f942f860e4"
       },
       "chunkId": "69cca37b97b97ce55331bf2df659f3f6432e074d",
@@ -1927,58 +1875,43 @@
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Save/Android/AndroidSaveState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Save/Editor/EditorSaveState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Save/SaveContext\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Save/SaveDispatcher\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationConfig.ts"
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./ApplicationConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
         }
       ]
     },
@@ -2028,7 +1961,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts": {
       "mTimestamp": {
-        "mtime": 1727191230074.4028,
+        "mtime": 1727280340629.3835,
         "uuid": "c952dbc5-2dcf-40ac-89cb-71a34c4b259e"
       },
       "chunkId": "a27f91dfd3ce643d2edc910ddc27de657efeaef6",
@@ -2048,11 +1981,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 50
+              "column": 33
             },
             "end": {
               "line": 1,
-              "column": 54
+              "column": 37
             }
           }
         },
@@ -2081,6 +2014,20 @@
             "end": {
               "line": 3,
               "column": 39
+            }
+          }
+        },
+        {
+          "value": "../Scene/AudioManagerComponent",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 58
             }
           }
         }
@@ -2128,6 +2075,13 @@
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts"
+          },
+          "messages": []
         }
       ]
     },
@@ -2155,7 +2109,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727192244570.9565,
+        "mtime": 1727283454610.629,
         "uuid": "c136252c-bd5f-44e0-ba8c-d09e88117fb7"
       },
       "chunkId": "86606f925addcdec7261d0c5426a40c5165fc12e",
@@ -2175,11 +2129,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 64
+              "column": 53
             },
             "end": {
               "line": 1,
-              "column": 68
+              "column": 57
             }
           }
         },
@@ -2207,6 +2161,62 @@
             },
             "end": {
               "line": 4,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./Application/AppRoot",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 24
+            },
+            "end": {
+              "line": 5,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "./Application/ApplicationConfig",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "./Scene/AudioManagerComponent",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 38
+            },
+            "end": {
+              "line": 7,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "./Application/Timers",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 29
+            },
+            "end": {
+              "line": 8,
               "column": 51
             }
           }
@@ -2253,6 +2263,39 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: Module \"./Application/ApplicationConfig\" not found for file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts"
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts"
           },
           "messages": []
         }
@@ -2687,7 +2730,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts": {
       "mTimestamp": {
-        "mtime": 1726713032033.813,
+        "mtime": 1727274951017.915,
         "uuid": "fcc19248-a9e9-47c0-b330-9eb2d8e3028d"
       },
       "chunkId": "df89741321dfcad4628d9c8ac7ba5e156c19290f",
@@ -2763,11 +2806,15 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727270459777.7397,
+        "mtime": 1727368495760.786,
         "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
       },
       "chunkId": "28c31814615195a8b8228614752d18f0e5988cbe",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -2779,17 +2826,24 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 55
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 59
             }
           }
         }
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
@@ -2815,7 +2869,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts": {
       "mTimestamp": {
-        "mtime": 1727273031728.7366,
+        "mtime": 1727274752675.8474,
         "uuid": "890ec2db-42bd-4a7b-af94-30a44753b674"
       },
       "chunkId": "45e591488b6e4fccaf3cf3e84af4a2a0fffbf632",
@@ -2828,7 +2882,7 @@
           "value": "cc"
         },
         {
-          "value": "./Loop",
+          "value": "./../Logic/Loop",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -2837,7 +2891,7 @@
             },
             "end": {
               "line": 10,
-              "column": 29
+              "column": 38
             }
           }
         },
@@ -2846,11 +2900,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 13,
+              "line": 12,
               "column": 26
             },
             "end": {
-              "line": 13,
+              "line": 12,
               "column": 50
             }
           }
@@ -2860,11 +2914,11 @@
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 14,
+              "line": 13,
               "column": 22
             },
             "end": {
-              "line": 14,
+              "line": 13,
               "column": 38
             }
           }
@@ -2888,15 +2942,10 @@
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"./Loop\" not found for file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
         },
         {
           "resolved": {
@@ -2954,7 +3003,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts": {
       "mTimestamp": {
-        "mtime": 1727272496158.796,
+        "mtime": 1727282741188.0144,
         "uuid": "af98794e-1c31-46a5-8638-515071453f52"
       },
       "chunkId": "f00709ce0035973f2d003dc3050a51b3c8ec6154",
@@ -3041,7 +3090,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts": {
       "mTimestamp": {
-        "mtime": 1727271953890.443,
+        "mtime": 1727274809971.6162,
         "uuid": "afe6abaf-2182-44ff-a431-af1575ae83ea"
       },
       "chunkId": "daf033c6da77ccd5c60547bd4fa65bcbd26d79b1",
@@ -3063,7 +3112,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts": {
       "mTimestamp": {
-        "mtime": 1727187318085.5005,
+        "mtime": 1727274829116.8357,
         "uuid": "7600e90b-030d-4f78-bfb6-3f99bad04121"
       },
       "chunkId": "4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d",
@@ -3117,7 +3166,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts": {
       "mTimestamp": {
-        "mtime": 1726713032031.8115,
+        "mtime": 1727363326272.7073,
         "uuid": "f479a792-4958-4b36-b338-817aaa4b8f20"
       },
       "chunkId": "7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28",
@@ -3136,11 +3185,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 1,
               "column": 23
             },
             "end": {
-              "line": 8,
+              "line": 1,
               "column": 27
             }
           }
@@ -3150,11 +3199,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 3,
               "column": 33
             },
             "end": {
-              "line": 10,
+              "line": 3,
               "column": 43
             }
           }
@@ -3201,7 +3250,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts": {
       "mTimestamp": {
-        "mtime": 1727187318100.5,
+        "mtime": 1727363279940.788,
         "uuid": "44478751-26af-4a4e-8d2d-c711303a8f2f"
       },
       "chunkId": "771d75b289c20130a165444119ede10bb3eb3535",
@@ -3214,114 +3263,30 @@
           "value": "cc"
         },
         {
-          "value": "../Ads/AdsState",
+          "value": "../Session/GameState",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 8,
-              "column": 25
-            },
-            "end": {
-              "line": 8,
-              "column": 42
-            }
-          }
-        },
-        {
-          "value": "../Game/GameState",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 9,
+              "line": 1,
               "column": 26
             },
             "end": {
-              "line": 9,
-              "column": 45
-            }
-          }
-        },
-        {
-          "value": "../Store/StoreState",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 10,
-              "column": 27
-            },
-            "end": {
-              "line": 10,
+              "line": 1,
               "column": 48
             }
           }
         },
         {
           "value": "./SaveInterfaces",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 11,
+              "line": 2,
               "column": 23
             },
             "end": {
-              "line": 11,
+              "line": 2,
               "column": 41
-            }
-          }
-        },
-        {
-          "value": "../Settings/SettingsState",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 12,
-              "column": 30
-            },
-            "end": {
-              "line": 12,
-              "column": 57
-            }
-          }
-        },
-        {
-          "value": "../Statistic/StatisticState",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 13,
-              "column": 31
-            },
-            "end": {
-              "line": 13,
-              "column": 60
-            }
-          }
-        },
-        {
-          "value": "../Statistic/AppsflyerState",
-          "resolved": "__unresolved_7",
-          "loc": {
-            "start": {
-              "line": 14,
-              "column": 31
-            },
-            "end": {
-              "line": 14,
-              "column": 60
-            }
-          }
-        },
-        {
-          "value": "../Offers/OfferState",
-          "resolved": "__unresolved_8",
-          "loc": {
-            "start": {
-              "line": 15,
-              "column": 27
-            },
-            "end": {
-              "line": 15,
-              "column": 49
             }
           }
         }
@@ -3344,39 +3309,10 @@
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Ads/AdsState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Game/GameState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Store/StoreState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
         },
         {
           "resolved": {
@@ -3384,54 +3320,6 @@
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts"
           },
           "messages": []
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Settings/SettingsState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Statistic/StatisticState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Statistic/AppsflyerState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
-        },
-        {
-          "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Offers/OfferState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts"
-          },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
         }
       ]
     },
@@ -3699,7 +3587,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts": {
       "mTimestamp": {
-        "mtime": 1726713032031.8115,
+        "mtime": 1727363148605.2317,
         "uuid": "ef4bb3b0-508a-4b35-8283-b1c705cf972f"
       },
       "chunkId": "eec285b8e36c70f80047e339f5b513ed3b7c8421",
@@ -3712,16 +3600,16 @@
           "value": "cc"
         },
         {
-          "value": "../Game/GameState",
+          "value": "../Session/GameState",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 2,
               "column": 26
             },
             "end": {
-              "line": 9,
-              "column": 45
+              "line": 2,
+              "column": 48
             }
           }
         },
@@ -3730,11 +3618,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 12,
+              "line": 5,
               "column": 34
             },
             "end": {
-              "line": 12,
+              "line": 5,
               "column": 55
             }
           }
@@ -3758,15 +3646,10 @@
         },
         {
           "resolved": {
-            "type": "error",
-            "text": "Error: Module \"../Game/GameState\" not found for file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts"
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts"
           },
-          "messages": [
-            {
-              "level": "warn",
-              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
-            }
-          ]
+          "messages": []
         },
         {
           "resolved": {
@@ -3779,7 +3662,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts": {
       "mTimestamp": {
-        "mtime": 1722480446908.1475,
+        "mtime": 1727282988657.444,
         "uuid": "6ff9d8ab-a379-491b-b69e-79523379d065"
       },
       "chunkId": "8f80d8783c2b5285c8efa7c9340de82f507e6f41",
@@ -3866,10 +3749,402 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts": {
       "mTimestamp": {
-        "mtime": 1722480446696.1477,
+        "mtime": 1727281156223.91,
         "uuid": "ffff50cd-97e2-47d9-832c-aafcf5645008"
       },
       "chunkId": "65a98eaefb7a79291d392cb1f33a28a28379cc31",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts": {
+      "mTimestamp": {
+        "mtime": 1727281150374.3933,
+        "uuid": "bd91b9fb-245e-49a6-8eb4-372f0a518078"
+      },
+      "chunkId": "f75fe1e43a46f1fb85753999636958208ba09367",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../Utils/Dispatcher",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1727280322335.0588,
+        "uuid": "40be852b-b36c-489b-b242-ec3305c52bcb"
+      },
+      "chunkId": "8ddfc2b23975eef38de0b38c6a57b431b4bf67ad",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 74
+            },
+            "end": {
+              "line": 1,
+              "column": 78
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1727284451261.073,
+        "uuid": "58c0c51e-0613-411d-861e-2fac02b44e78"
+      },
+      "chunkId": "7c55e3be1bddd2ab974320442e15f25f5c4a09d5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 23
+            },
+            "end": {
+              "line": 8,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts": {
+      "mTimestamp": {
+        "mtime": 1722480446695.1472,
+        "uuid": "385eba82-ec1d-4b86-9236-b14f89883edb"
+      },
+      "chunkId": "7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 27
+            },
+            "end": {
+              "line": 8,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "../../Utils/Dispatcher",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 35
+            },
+            "end": {
+              "line": 9,
+              "column": 59
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1727284447183.0212,
+        "uuid": "2cf052c7-47d3-438c-a125-1079343d2389"
+      },
+      "chunkId": "de623b8a93ebf0b873e4d9961f4dedd91abf6c87",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts": {
+      "mTimestamp": {
+        "mtime": 1722480446694.1472,
+        "uuid": "8a35b99a-4e35-4cd7-8107-55788c72513a"
+      },
+      "chunkId": "9635225e7604ff2fdd061cbd45f958901806e3c0",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts": {
+      "mTimestamp": {
+        "mtime": 1727368506323.9214,
+        "uuid": "a74c58f9-5962-48de-9fba-09ad195c17d9"
+      },
+      "chunkId": "0ae9e8ea598abdeb450e19423177861d10fb2169",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

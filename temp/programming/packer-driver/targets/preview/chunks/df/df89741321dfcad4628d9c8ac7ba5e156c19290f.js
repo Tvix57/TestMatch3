@@ -42,16 +42,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.saveContext = saveContext;
         }
 
-        CreateGame(name, tutor) {
-          this.CreateNewGame(this.saveContext.ResolveSaveContext().CreateNewGameState(name, tutor));
-          (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResovleSaveState().ResolveSaveContext().GetCurrentSaveState().statistic.characters++;
-          (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResolveStatistic().ResolveStatistic().ResolveGameReporter().ReportNewGame((_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResovleSaveState().ResolveSaveContext().GetCurrentSaveState().statistic.characters);
+        CreateGame(name) {
+          this.CreateNewGame(this.saveContext.ResolveSaveContext().CreateNewGameState(name));
         }
 
         LoadGame() {
@@ -77,12 +69,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
           }), AppRoot) : AppRoot).getInstance.ResolveGameContext().CreateGame((_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResolveLibrary(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResolveStore(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResolveAds().ResolveAds(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
           }), AppRoot) : AppRoot).getInstance.ResolveTimer(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()

@@ -8,7 +8,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
   }
 
   function _reportPossibleCrUseOfGameState(extras) {
-    _reporterNs.report("GameState", "../Game/GameState", _context.meta, extras);
+    _reporterNs.report("GameState", "../Session/GameState", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfSaveDispatcher(extras) {
@@ -47,21 +47,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _crd = true;
 
       _cclegacy._RF.push({}, "ef4bbOwUIpLNYKDsccFz5cv", "SaveContext", undefined);
-      /**
-       * 
-       * SaveContext.ts
-       * db://assets/Scripts/Save/SaveContext.ts
-       *
-       */
-
 
       _export("SaveContext", SaveContext = class SaveContext {
         constructor(saver, saveDispatcher, timer) {
           this._timeSaveExecutor = void 0;
           this._state = void 0;
           this.saver = saver;
-          this.saveDispatcher = saveDispatcher;
-          this.timer = timer;
           this._timeSaveExecutor = new (_crd && SaveTimerExecutor === void 0 ? (_reportPossibleCrUseOfSaveTimerExecutor({
             error: Error()
           }), SaveTimerExecutor) : SaveTimerExecutor)(timer, saveDispatcher, 60);
@@ -93,23 +84,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           return this._state;
         }
 
-        CreateNewGameState(name, tutor) {
-          if (this._state.HasHardsave()) {
-            let copyState = (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
-              error: Error()
-            }), GameState) : GameState).Load(JSON.parse(JSON.stringify(this._state.hardSave.toJSON())));
-            copyState.name = name;
-            copyState.isTutorial = false;
-            this._state.gameState = copyState;
-          } else {
-            let nextDay = this.timer.GetTime();
-            this._state.gameState = new (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
-              error: Error()
-            }), GameState) : GameState)(2000, 17, 100 * 12, name, tutor, undefined, 0, nextDay);
-          }
-
-          this._state.storeState.ResetTemporalyTimer();
-
+        CreateNewGameState(name) {
+          this._state.gameState = new (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState)(name);
           this.saver.SaveState(this._state);
           return this._state;
         }

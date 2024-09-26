@@ -396,3 +396,121 @@
 25.09.2024 21:17:36-debug: Run asset db hook engine-extends:afterRefresh ...
 25.09.2024 21:17:36-debug: Run asset db hook engine-extends:afterRefresh success!
 25.09.2024 21:17:36-debug: asset-db:refresh-all-database (25ms)
+25.09.2024 22:58:01-debug: refresh db internal success
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\Loop.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logic\GameStatsInfo.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameFactory.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameContext.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameLogic.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 22:58:01-debug: refresh db assets success
+25.09.2024 22:58:01-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 22:58:01-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 22:58:01-debug: asset-db:refresh-all-database (38ms)
+25.09.2024 22:58:01-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+25.09.2024 22:58:01-debug: asset-db:worker-effect-data-processing (2ms)
+25.09.2024 23:01:43-debug: refresh db internal success
+25.09.2024 23:01:43-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:01:43-debug: refresh db assets success
+25.09.2024 23:01:43-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:01:43-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:01:43-debug: asset-db:refresh-all-database (41ms)
+25.09.2024 23:01:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 23:01:50-debug: refresh db internal success
+25.09.2024 23:01:50-debug: refresh db assets success
+25.09.2024 23:01:50-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:01:50-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:01:50-debug: asset-db:refresh-all-database (26ms)
+25.09.2024 23:19:45-debug: refresh db internal success
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\Timers.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\AudioManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Applicationbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\CCEnums.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\IAppTimer.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:19:45-debug: refresh db assets success
+25.09.2024 23:19:45-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:19:45-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:19:45-debug: asset-db:refresh-all-database (28ms)
+25.09.2024 23:20:22-debug: refresh db internal success
+25.09.2024 23:20:22-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:20:22-debug: refresh db assets success
+25.09.2024 23:20:22-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:20:22-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:20:22-debug: asset-db:refresh-all-database (32ms)
+25.09.2024 23:20:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 23:50:20-debug: refresh db internal success
+25.09.2024 23:50:20-debug: %cDestroy%c: F:\git\TestMatch3\assets\Scripts\Logic\FieldState.tsbackground: #ffb8b8; color: #000;color: #000;
+25.09.2024 23:50:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Logicbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:50:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppAudio.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:50:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:50:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\SaveContext.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:50:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Save\SaveTimerExecutor.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:50:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameState.tsbackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:50:20-debug: refresh db assets success
+25.09.2024 23:50:20-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:50:20-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:50:20-debug: asset-db:refresh-all-database (28ms)
+25.09.2024 23:50:41-debug: refresh db internal success
+25.09.2024 23:50:41-debug: refresh db assets success
+25.09.2024 23:50:41-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:50:41-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:50:41-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 23:50:47-debug: refresh db internal success
+25.09.2024 23:50:47-debug: refresh db assets success
+25.09.2024 23:50:47-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:50:47-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:50:47-debug: asset-db:refresh-all-database (24ms)
+25.09.2024 23:50:47-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 23:50:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 23:51:17-debug: refresh db internal success
+25.09.2024 23:51:17-debug: refresh db assets success
+25.09.2024 23:51:17-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:51:17-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:51:17-debug: asset-db:refresh-all-database (25ms)
+25.09.2024 23:51:17-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 23:51:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 23:51:21-debug: refresh db internal success
+25.09.2024 23:51:21-debug: refresh db assets success
+25.09.2024 23:51:21-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:51:21-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:51:21-debug: asset-db:refresh-all-database (29ms)
+25.09.2024 23:51:21-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 23:51:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 23:51:22-debug: refresh db internal success
+25.09.2024 23:51:22-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:51:22-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:51:22-debug: refresh db assets success
+25.09.2024 23:51:22-debug: asset-db:refresh-all-database (21ms)
+25.09.2024 23:51:31-debug: refresh db internal success
+25.09.2024 23:51:31-debug: refresh db assets success
+25.09.2024 23:51:31-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:51:31-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:51:31-debug: asset-db:refresh-all-database (28ms)
+25.09.2024 23:52:13-debug: refresh db internal success
+25.09.2024 23:52:13-debug: refresh db assets success
+25.09.2024 23:52:13-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:52:13-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:52:13-debug: asset-db:refresh-all-database (23ms)
+25.09.2024 23:52:13-debug: asset-db:worker-effect-data-processing (-1ms)
+25.09.2024 23:52:13-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+25.09.2024 23:52:19-debug: refresh db internal success
+25.09.2024 23:52:19-debug: refresh db assets success
+25.09.2024 23:52:19-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:52:19-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:52:19-debug: asset-db:refresh-all-database (22ms)
+25.09.2024 23:52:19-debug: asset-db:worker-effect-data-processing (-1ms)
+25.09.2024 23:52:19-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+25.09.2024 23:52:46-debug: refresh db internal success
+25.09.2024 23:52:46-debug: refresh db assets success
+25.09.2024 23:52:46-debug: Run asset db hook engine-extends:afterRefresh ...
+25.09.2024 23:52:46-debug: Run asset db hook engine-extends:afterRefresh success!
+25.09.2024 23:52:46-debug: asset-db:refresh-all-database (22ms)
+25.09.2024 23:52:46-debug: asset-db:worker-effect-data-processing (1ms)
+25.09.2024 23:52:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+25.09.2024 23:53:13-debug: start refresh asset from F:\git\TestMatch3\assets\Scene\GameScene.scene...
+25.09.2024 23:53:13-debug: %cImport%c: F:\git\TestMatch3\assets\Scene\GameScene.scenebackground: #aaff85; color: #000;color: #000;
+25.09.2024 23:53:13-debug: refresh asset F:\git\TestMatch3\assets\Scene success

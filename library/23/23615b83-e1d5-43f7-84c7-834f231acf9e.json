@@ -1,0 +1,15 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "Match3Field",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<map version=\"1.10\" tiledversion=\"1.11.0\" orientation=\"orthogonal\" renderorder=\"right-down\" width=\"10\" height=\"10\" tilewidth=\"32\" tileheight=\"32\" infinite=\"0\" nextlayerid=\"4\" nextobjectid=\"8\">\r\n <layer id=\"1\" name=\"Слой тайлов 1\" width=\"10\" height=\"10\">\r\n  <data encoding=\"csv\">\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0,\r\n0,0,0,0,0,0,0,0,0,0\r\n</data>\r\n </layer>\r\n</map>\r\n",
+  "tsxFiles": [],
+  "tsxFileNames": [],
+  "spriteFrames": [],
+  "imageLayerSpriteFrame": [],
+  "imageLayerSpriteFrameNames": [],
+  "spriteFrameNames": [],
+  "spriteFrameSizes": []
+}

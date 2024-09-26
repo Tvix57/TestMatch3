@@ -1,7 +1,9 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _crd;
+  var _cclegacy, GameStats, _crd;
+
+  _export("GameStats", void 0);
 
   return {
     setters: [function (_cc) {
@@ -11,6 +13,8 @@ System.register(["cc"], function (_export, _context) {
       _crd = true;
 
       _cclegacy._RF.push({}, "afe6auvIYJE/6QxrxV1roPq", "GameStatsInfo", undefined);
+
+      _export("GameStats", GameStats = class GameStats {});
 
       _cclegacy._RF.pop();
 

@@ -27,13 +27,6 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       _crd = true;
 
       _cclegacy._RF.push({}, "6ff9diro3lJG7aeeVIzedBl", "SaveTimerExecutor", undefined);
-      /**
-       * 
-       * SaveTimerExecutor.ts
-       * db://assets/Scripts/Save/SaveTimerExecutor.ts
-       *
-       */
-
 
       _export("SaveTimerExecutor", SaveTimerExecutor = class SaveTimerExecutor {
         constructor(timer, saveDispatcher, period) {
@@ -53,8 +46,6 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
             this._count = this.period;
           }
         }
-
-        Tick10() {}
 
         OnActivate() {}
 

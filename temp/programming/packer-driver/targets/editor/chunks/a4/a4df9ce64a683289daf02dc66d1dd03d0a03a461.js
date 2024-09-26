@@ -1,11 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, GameLogic, GameoverListener, GameSaveListener, SessionDeviceListener, GameContext, _crd;
-
-  function _reportPossibleCrUseOfLibrary(extras) {
-    _reporterNs.report("Library", "../Settings/Library", _context.meta, extras);
-  }
+  var _reporterNs, _cclegacy, GameLogic, SessionDeviceListener, GameContext, _crd;
 
   function _reportPossibleCrUseOfGameLogic(extras) {
     _reporterNs.report("GameLogic", "./GameLogic", _context.meta, extras);
@@ -43,6 +39,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("AppDevice", "../Application/AppDevice", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfIAppTimer(extras) {
+    _reporterNs.report("IAppTimer", "../Application/IAppTimer", _context.meta, extras);
+  }
+
   _export("GameContext", void 0);
 
   return {
@@ -53,23 +53,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_unresolved_2) {
       GameLogic = _unresolved_2.GameLogic;
     }, function (_unresolved_3) {
-      GameoverListener = _unresolved_3.GameoverListener;
-    }, function (_unresolved_4) {
-      GameSaveListener = _unresolved_4.GameSaveListener;
-    }, function (_unresolved_5) {
-      SessionDeviceListener = _unresolved_5.SessionDeviceListener;
+      SessionDeviceListener = _unresolved_3.SessionDeviceListener;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "4273dV1hRFB8Iv5ONEWgPYn", "GameContext", undefined);
-      /**
-       *
-       * GameContext.ts
-       * db://assets/Scripts/Game/GameContext.ts
-       *
-       */
-
 
       _export("GameContext", GameContext = class GameContext {
         constructor(sceneManager, device) {
@@ -83,18 +72,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.device = device;
         }
 
-        CreateGame(library, timer, saveDisp, state) {
+        CreateGame(timer, saveDisp, state) {
           this.isGameActive = true;
           this._state = state.gameState;
           this._logic = new (_crd && GameLogic === void 0 ? (_reportPossibleCrUseOfGameLogic({
             error: Error()
-          }), GameLogic) : GameLogic)(library, timer, this._state);
-          this._gameoverListener = new (_crd && GameoverListener === void 0 ? (_reportPossibleCrUseOfGameoverListener({
-            error: Error()
-          }), GameoverListener) : GameoverListener)(this._logic);
-          this._saveListener = new (_crd && GameSaveListener === void 0 ? (_reportPossibleCrUseOfGameSaveListener({
-            error: Error()
-          }), GameSaveListener) : GameSaveListener)(saveDisp, this._logic, this._adsContext, this._store, this._tutorialContext, this.device, this._statisticsAgregator, state);
+          }), GameLogic) : GameLogic)(timer, this._state); // this._gameoverListener = new GameoverListener(this._logic);
+          // this._saveListener = new GameSaveListener(saveDisp, this._logic, this.device, state);
+
           this._sessionDeviceListener = new (_crd && SessionDeviceListener === void 0 ? (_reportPossibleCrUseOfSessionDeviceListener({
             error: Error()
           }), SessionDeviceListener) : SessionDeviceListener)(this.device, this._logic);
