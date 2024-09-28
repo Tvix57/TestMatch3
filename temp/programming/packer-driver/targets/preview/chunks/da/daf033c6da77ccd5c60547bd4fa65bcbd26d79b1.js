@@ -14,7 +14,23 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "afe6auvIYJE/6QxrxV1roPq", "GameStatsInfo", undefined);
 
-      _export("GameStats", GameStats = class GameStats {});
+      _export("GameStats", GameStats = class GameStats {
+        constructor(stats) {
+          this.stats = stats;
+        }
+
+        Add(name, score) {
+          this.stats.push({
+            name,
+            score
+          });
+        }
+
+        GetData() {
+          return this.stats;
+        }
+
+      });
 
       _cclegacy._RF.pop();
 

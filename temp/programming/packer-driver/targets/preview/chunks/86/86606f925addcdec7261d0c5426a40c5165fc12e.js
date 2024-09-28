@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, director, sys, ScenePoolManagerComponent, LocationType, AppRoot, Platform, AudioManagerComponent, OfflineTimer, _dec, _class, _crd, ccclass, uniquelyReferenced, GameManagerComponent;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, director, sys, ScenePoolManagerComponent, LocationType, AppRoot, Platform, AudioManagerComponent, OfflineTimer, DialogManagerComponent, _dec, _class, _crd, ccclass, uniquelyReferenced, GameManagerComponent;
 
   function _reportPossibleCrUseOfISceneManager(extras) {
     _reporterNs.report("ISceneManager", "./Scene/ISceneManager", _context.meta, extras);
@@ -20,7 +20,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfPlatform(extras) {
-    _reporterNs.report("Platform", "./Application/ApplicationConfig", _context.meta, extras);
+    _reporterNs.report("Platform", "./Enums/ApplicationConfig", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfAudioManagerComponent(extras) {
@@ -29,6 +29,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
   function _reportPossibleCrUseOfOfflineTimer(extras) {
     _reporterNs.report("OfflineTimer", "./Application/Timers", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfDialogManagerComponent(extras) {
+    _reporterNs.report("DialogManagerComponent", "./Dialog/DialogManagerComponent", _context.meta, extras);
   }
 
   return {
@@ -54,6 +58,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       AudioManagerComponent = _unresolved_6.AudioManagerComponent;
     }, function (_unresolved_7) {
       OfflineTimer = _unresolved_7.OfflineTimer;
+    }, function (_unresolved_8) {
+      DialogManagerComponent = _unresolved_8.DialogManagerComponent;
     }],
     execute: function () {
       _crd = true;
@@ -72,6 +78,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           super(...arguments);
           this._scene = void 0;
           this._soundManager = void 0;
+          this._dialog = void 0;
         }
 
         onLoad() {
@@ -79,6 +86,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var scene = this.getComponent(_crd && ScenePoolManagerComponent === void 0 ? (_reportPossibleCrUseOfScenePoolManagerComponent({
             error: Error()
           }), ScenePoolManagerComponent) : ScenePoolManagerComponent);
+          this._dialog = this.getComponent(_crd && DialogManagerComponent === void 0 ? (_reportPossibleCrUseOfDialogManagerComponent({
+            error: Error()
+          }), DialogManagerComponent) : DialogManagerComponent);
           this._scene = scene;
           this._soundManager = this.getComponent(_crd && AudioManagerComponent === void 0 ? (_reportPossibleCrUseOfAudioManagerComponent({
             error: Error()
@@ -88,13 +98,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), OfflineTimer) : OfflineTimer);
           (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
-          }), AppRoot) : AppRoot).getInstance.Init(sys.os == sys.OS.IOS ? (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
-            error: Error()
-          }), Platform) : Platform).Ios : sys.os == sys.OS.ANDROID ? (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
-            error: Error()
-          }), Platform) : Platform).Android : (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
-            error: Error()
-          }), Platform) : Platform).Editor, this._scene, this._soundManager, timer);
+          }), AppRoot) : AppRoot).getInstance.Init(this.getOS(), this._scene, this._soundManager, timer, this._dialog);
           (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
           }), AppRoot) : AppRoot).getInstance.onLoad();
@@ -110,6 +114,30 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
           }), LocationType) : LocationType).ScoreScene, "Prefabs/ScoreScene", 2);
+        }
+
+        getOS() {
+          switch (sys.os) {
+            case sys.OS.IOS:
+              return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+                error: Error()
+              }), Platform) : Platform).Ios;
+
+            case sys.OS.ANDROID:
+              return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+                error: Error()
+              }), Platform) : Platform).Android;
+
+            case sys.OS.WINDOWS:
+              return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+                error: Error()
+              }), Platform) : Platform).Editor;
+
+            default:
+              return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+                error: Error()
+              }), Platform) : Platform).Editor;
+          }
         }
 
       }) || _class) || _class));

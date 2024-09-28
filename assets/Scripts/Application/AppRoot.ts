@@ -6,6 +6,7 @@ import { Platform } from './../Enums/ApplicationConfig';
 import { ISceneManager } from '../Scene/ISceneManager';
 import { IAudioManager } from './ApplicationInterfaces';
 import { IAppTimer } from './IAppTimer';
+import { IDialogManager } from '../Dialog/IDialogManager';
 
 
 export class AppRoot 
@@ -13,6 +14,7 @@ export class AppRoot
     private _gameContext!:GameContext
     private _scene!:ISceneManager
     private _soundManager!:IAudioManager
+    private _dialog!:IDialogManager
 
     private _sound!:AppAudio
     private _device!:AppDevice
@@ -32,16 +34,19 @@ export class AppRoot
     Init(platform:Platform,
          scene:ISceneManager,
          soundManager:IAudioManager,
-         timer:IAppTimer
+         timer:IAppTimer,
+         dialog:IDialogManager
     ){
         this._platform = platform
         this._scene = scene
         this._soundManager = soundManager
         this._timer = timer
+        this._dialog = dialog
     }
 
     onLoad() {
-        this._device = new AppDevice(this._platform)                                           
+        this._device = new AppDevice(this._platform)      
+        this._saveState = new AppState( this._platform, this._timer)                                     
         this._sound = new AppAudio(this._soundManager);
         this._gameContext = new GameContext(this._scene, this._device);
     }
@@ -52,5 +57,6 @@ export class AppRoot
     ResolveDevice() { return this._device }
     ResolveTimer() { return this._timer }
     ResovleSaveState() { return this._saveState }
+    ResolveDialogManager() { return this._dialog }
 }
 

@@ -24,7 +24,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfPlatform(extras) {
-    _reporterNs.report("Platform", "./ApplicationConfig", _context.meta, extras);
+    _reporterNs.report("Platform", "../Enums/ApplicationConfig", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfIAppTimer(extras) {
@@ -62,7 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
 
       _export("AppState", AppState = class AppState {
-        constructor(platform, timer, prefferedLang) {
+        constructor(platform, timer) {
           this._platformSaver = void 0;
           this._context = void 0;
           this._saveDispatcher = void 0;
@@ -74,7 +74,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               {
                 this._platformSaver = new (_crd && AndroidSaveState === void 0 ? (_reportPossibleCrUseOfAndroidSaveState({
                   error: Error()
-                }), AndroidSaveState) : AndroidSaveState)(prefferedLang);
+                }), AndroidSaveState) : AndroidSaveState)("en");
                 break;
               }
 

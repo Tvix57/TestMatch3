@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, AudioClip, AudioSource, Component, Node, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _dec4, _dec5, _dec6, _dec7, _class4, _class5, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, AudioType, AudioItem, AudioManagerComponent;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, AudioClip, AudioSource, Component, Node, AudioType, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _dec4, _dec5, _dec6, _dec7, _class4, _class5, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, AudioItem, AudioManagerComponent;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,6 +17,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
     _reporterNs.report("IAudioManager", "../Application/ApplicationInterfaces", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfAudioType(extras) {
+    _reporterNs.report("AudioType", "../Enums/CCEnums", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -29,6 +33,8 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       AudioSource = _cc.AudioSource;
       Component = _cc.Component;
       Node = _cc.Node;
+    }, function (_unresolved_2) {
+      AudioType = _unresolved_2.AudioType;
     }],
     execute: function () {
       _crd = true;
@@ -42,14 +48,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("AudioType", AudioType = /*#__PURE__*/function (AudioType) {
-        AudioType[AudioType["SOUND"] = 0] = "SOUND";
-        AudioType[AudioType["MUSIC"] = 1] = "MUSIC";
-        return AudioType;
-      }({}));
-
       _export("AudioItem", AudioItem = (_dec = ccclass('AudioItem'), _dec2 = property({
-        type: AudioType
+        type: _crd && AudioType === void 0 ? (_reportPossibleCrUseOfAudioType({
+          error: Error()
+        }), AudioType) : AudioType
       }), _dec3 = property(AudioClip), _dec(_class = (_class2 = class AudioItem {
         constructor() {
           _initializerDefineProperty(this, "type", _descriptor, this);
@@ -74,7 +76,9 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return AudioType.SOUND;
+          return (_crd && AudioType === void 0 ? (_reportPossibleCrUseOfAudioType({
+            error: Error()
+          }), AudioType) : AudioType).SOUND;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "clip", [_dec3], {
         configurable: true,
@@ -129,9 +133,13 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
 
           var item = this.audios.find(item => item.name === name);
 
-          if (item && item.type == AudioType.MUSIC) {
+          if (item && item.type == (_crd && AudioType === void 0 ? (_reportPossibleCrUseOfAudioType({
+            error: Error()
+          }), AudioType) : AudioType).MUSIC) {
             this.addMusic(item, volume);
-          } else if (item && item.type == AudioType.SOUND) {
+          } else if (item && item.type == (_crd && AudioType === void 0 ? (_reportPossibleCrUseOfAudioType({
+            error: Error()
+          }), AudioType) : AudioType).SOUND) {
             this.addSound(item, volume);
           }
         }
@@ -139,9 +147,13 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
         RemoveAudio(name) {
           var item = this.audios.find(item => item.name === name);
 
-          if (item && item.type == AudioType.MUSIC) {
+          if (item && item.type == (_crd && AudioType === void 0 ? (_reportPossibleCrUseOfAudioType({
+            error: Error()
+          }), AudioType) : AudioType).MUSIC) {
             this.removeMusic(item);
-          } else if (item && item.type == AudioType.SOUND) {
+          } else if (item && item.type == (_crd && AudioType === void 0 ? (_reportPossibleCrUseOfAudioType({
+            error: Error()
+          }), AudioType) : AudioType).SOUND) {
             this.removeSound(item);
           }
         }

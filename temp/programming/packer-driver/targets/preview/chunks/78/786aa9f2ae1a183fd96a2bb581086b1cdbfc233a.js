@@ -10,7 +10,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
   function _reportPossibleCrUseOfLocationType(extras) {
-    _reporterNs.report("LocationType", "./LocationType", _context.meta, extras);
+    _reporterNs.report("LocationType", "../Enums/LocationType", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfAppRoot(extras) {

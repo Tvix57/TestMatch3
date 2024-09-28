@@ -12,7 +12,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
   }
 
   function _reportPossibleCrUseOfAudioType(extras) {
-    _reporterNs.report("AudioType", "../Scene/AudioManagerComponent", _context.meta, extras);
+    _reporterNs.report("AudioType", "./AudioType", _context.meta, extras);
   }
 
   return {

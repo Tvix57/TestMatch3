@@ -58,23 +58,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this._btnPause = false;
         }
 
-        OnActivate() {
-          throw "FIXME: Loop add mechanic if needed";
-        }
-
-        OnDeactivate() {
-          //FIXME:add mechanic if needed
-          throw "FIXME: Loop add mechanic if needed";
-        }
-
         Tick() {
           if (this.GetTimeSpeed() === TimeSpeed.Play) {
-            this._dispatcher.Post(arg => arg.OnDayChange == null ? void 0 : arg.OnDayChange());
-          }
-        }
-
-        Tick10() {
-          if (this.GetTimeSpeed() === TimeSpeed.SpeedUp) {
             this._dispatcher.Post(arg => arg.OnDayChange == null ? void 0 : arg.OnDayChange());
           }
         }

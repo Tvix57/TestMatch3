@@ -1,5 +1,5 @@
 import { _decorator, Button, CCString, Component} from 'cc';
-import {  LocationType } from './LocationType';
+import {  LocationType } from '../Enums/LocationType';
 import { AppRoot } from '../Application/AppRoot';
 const { ccclass, property,requireComponent } = _decorator;
 

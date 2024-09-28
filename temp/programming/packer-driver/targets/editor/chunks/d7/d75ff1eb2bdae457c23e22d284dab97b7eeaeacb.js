@@ -19,6 +19,7 @@ System.register(["cc"], function (_export, _context) {
         BallColor[BallColor["Blue"] = 3] = "Blue";
         BallColor[BallColor["Yellow"] = 4] = "Yellow";
         BallColor[BallColor["Black"] = 5] = "Black";
+        BallColor[BallColor["NONE"] = 6] = "NONE";
         return BallColor;
       }({}));
 

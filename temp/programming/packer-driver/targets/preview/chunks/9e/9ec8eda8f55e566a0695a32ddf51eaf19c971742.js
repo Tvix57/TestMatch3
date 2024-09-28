@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, GameContext, AppAudio, AppDevice, AppRoot, _crd;
+  var _reporterNs, _cclegacy, GameContext, AppAudio, AppDevice, AppState, AppRoot, _crd;
 
   function _reportPossibleCrUseOfGameContext(extras) {
     _reporterNs.report("GameContext", "../Session/GameContext", _context.meta, extras);
@@ -35,6 +35,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("IAppTimer", "./IAppTimer", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfIDialogManager(extras) {
+    _reporterNs.report("IDialogManager", "../Dialog/IDialogManager", _context.meta, extras);
+  }
+
   _export("AppRoot", void 0);
 
   return {
@@ -48,6 +52,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       AppAudio = _unresolved_3.AppAudio;
     }, function (_unresolved_4) {
       AppDevice = _unresolved_4.AppDevice;
+    }, function (_unresolved_5) {
+      AppState = _unresolved_5.AppState;
     }],
     execute: function () {
       _crd = true;
@@ -59,6 +65,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this._gameContext = void 0;
           this._scene = void 0;
           this._soundManager = void 0;
+          this._dialog = void 0;
           this._sound = void 0;
           this._device = void 0;
           this._saveState = void 0;
@@ -74,17 +81,21 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           return this.instance;
         }
 
-        Init(platform, scene, soundManager, timer) {
+        Init(platform, scene, soundManager, timer, dialog) {
           this._platform = platform;
           this._scene = scene;
           this._soundManager = soundManager;
           this._timer = timer;
+          this._dialog = dialog;
         }
 
         onLoad() {
           this._device = new (_crd && AppDevice === void 0 ? (_reportPossibleCrUseOfAppDevice({
             error: Error()
           }), AppDevice) : AppDevice)(this._platform);
+          this._saveState = new (_crd && AppState === void 0 ? (_reportPossibleCrUseOfAppState({
+            error: Error()
+          }), AppState) : AppState)(this._platform, this._timer);
           this._sound = new (_crd && AppAudio === void 0 ? (_reportPossibleCrUseOfAppAudio({
             error: Error()
           }), AppAudio) : AppAudio)(this._soundManager);
@@ -115,6 +126,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         ResovleSaveState() {
           return this._saveState;
+        }
+
+        ResolveDialogManager() {
+          return this._dialog;
         }
 
       });

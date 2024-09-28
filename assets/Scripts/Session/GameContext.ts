@@ -8,6 +8,7 @@ import { SessionDeviceListener } from "./SessionDeviceListener";
 import { ISceneManager } from "../Scene/ISceneManager";
 import { AppDevice } from "../Application/AppDevice";
 import { IAppTimer } from "../Application/IAppTimer";
+import { DialogFactory } from "../Dialog/DialogFactory";
 
 export class GameContext {
     private _logic: GameLogic | null = null;
@@ -24,22 +25,21 @@ export class GameContext {
 
     CreateGame(timer: IAppTimer,
                saveDisp: SaveDispatcher,
-               state: ApplicationState
+               sceneManager: ISceneManager,
+               state: ApplicationState,
     ){
         this.isGameActive = true
         this._state = state.gameState!;
-        this._logic = new GameLogic(timer, this._state);
-        
-        // this._gameoverListener = new GameoverListener(this._logic);
-
-        // this._saveListener = new GameSaveListener(saveDisp, this._logic, this.device, state);
-       
+        this._logic = new GameLogic(this._state);
+        this._gameoverListener = new GameoverListener(this._logic, sceneManager);
+        this._saveListener = new GameSaveListener(saveDisp, this._logic, this.device, state);
         this._sessionDeviceListener = new SessionDeviceListener(this.device,this._logic)
     }
 
     FinishGame() {
         this._state.isFinished = true
     }
+    
     ClearGame(){
         this._saveListener.ManualSave()
         this._logic?.Finish();
@@ -58,6 +58,7 @@ export class GameContext {
     ResolveGame() {
         return this._logic!;
     }
+
     ResolveState() {
         return this._state;
     }

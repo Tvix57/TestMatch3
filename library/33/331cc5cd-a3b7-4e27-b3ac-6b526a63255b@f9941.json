@@ -19,10 +19,10 @@
     },
     "rotated": false,
     "capInsets": [
-      0,
-      0,
-      0,
-      0
+      260,
+      110,
+      254,
+      110
     ],
     "vertices": {
       "rawPosition": [

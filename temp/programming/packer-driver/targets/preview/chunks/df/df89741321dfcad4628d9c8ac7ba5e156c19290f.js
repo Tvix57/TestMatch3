@@ -43,18 +43,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         CreateGame(name) {
-          this.CreateNewGame(this.saveContext.ResolveSaveContext().CreateNewGameState(name));
+          this.createNewGame(this.saveContext.ResolveSaveContext().CreateNewGameState(name));
         }
 
         LoadGame() {
-          this.CreateNewGame(this.saveContext.ResolveSaveContext().GetCurrentSaveState());
+          this.createNewGame(this.saveContext.ResolveSaveContext().GetCurrentSaveState());
         }
 
-        CreateNewGame(state) {
-          (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResovleSaveState().ResolveSaveContext().GetCurrentSaveState().statistic.totalSession++;
-
+        createNewGame(state) {
           if ((_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
           }), AppRoot) : AppRoot).getInstance.ResolveGameContext().IsGameActive()) {
@@ -72,7 +68,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             error: Error()
           }), AppRoot) : AppRoot).getInstance.ResolveTimer(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResovleSaveState().ResolveSaveDispatcher(), state);
+          }), AppRoot) : AppRoot).getInstance.ResovleSaveState().ResolveSaveDispatcher(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
+            error: Error()
+          }), AppRoot) : AppRoot).getInstance.ResolveSceneManager(), state);
         }
 
       });

@@ -4,5 +4,6 @@ export enum BallColor {
     Green,
     Blue,
     Yellow,
-    Black
+    Black,
+    NONE
 }

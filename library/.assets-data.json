@@ -15,7 +15,11 @@
     "url": "db://assets/Scene/GameScene.scene",
     "value": {
       "depends": [
-        "971935a0-bee6-4e78-92d3-5e0c1d7af85d"
+        "971935a0-bee6-4e78-92d3-5e0c1d7af85d",
+        "531408bf-f1bb-4103-b157-82de886aa8b2",
+        "21054d91-b099-4130-ae8c-064068b02231",
+        "e9832a50-d7d8-45fb-8272-d229551ca0ec",
+        "ef9431b8-d916-427f-876b-cee8cced2815"
       ],
       "dependScripts": [
         "c136252c-bd5f-44e0-ba8c-d09e88117fb7",
@@ -26,18 +30,19 @@
     }
   },
   "c5e7bd2a-f079-4aa4-9f78-72519b427715": {
-    "url": "db://assets/resources/Prefabs/Ball.prefab",
+    "url": "db://assets/resources/Prefabs/GameScene/Ball.prefab",
     "value": {
       "depends": [
         "ccc344b7-7d50-40a9-bbf5-28258822a5e1@f9941"
       ],
       "dependScripts": [
-        "bc71fd2e-9c59-485f-a467-25b1219b6cf0"
+        "bc71fd2e-9c59-485f-a467-25b1219b6cf0",
+        "9abfe34e-4f34-465a-8b8e-bddcdb9bd693"
       ]
     }
   },
   "51d7adff-7e5e-4a7c-97af-dab57af7a533": {
-    "url": "db://assets/resources/Prefabs/GameScene.prefab",
+    "url": "db://assets/resources/Prefabs/GameScene/GameScene.prefab",
     "value": {
       "depends": [
         "26162d20-dcc7-4294-a099-186ff9fd4c87@f9941",
@@ -48,6 +53,7 @@
         "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941"
       ],
       "dependScripts": [
+        "39c90f99-9602-413a-9273-a6e3a8fb167c",
         "7f521d0b-f961-46ec-86f1-aa360d229e76"
       ]
     }
@@ -296,10 +302,7 @@
   },
   "a7275191-e0de-409b-9086-0826e0d9be94": {
     "url": "db://assets/resources/Prefabs/LoadingScene.prefab",
-    "value": {
-      "depends": [],
-      "dependScripts": []
-    }
+    "value": {}
   },
   "bd91b9fb-245e-49a6-8eb4-372f0a518078": {
     "url": "db://assets/Scripts/Application/Timers.ts",
@@ -480,21 +483,222 @@
         "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941"
       ],
       "dependScripts": [
-        "7f521d0b-f961-46ec-86f1-aa360d229e76"
+        "e8b1dee8-5859-4c98-b6f8-4aec6e2f9715"
       ]
     }
   },
   "05c6906b-454e-44b8-ab0e-01df34e7da3c": {
-    "url": "db://assets/resources/Prefabs/ScoreScene.prefab",
+    "url": "db://assets/resources/Prefabs/ScoreScene/ScoreScene.prefab",
     "value": {
       "depends": [
         "26162d20-dcc7-4294-a099-186ff9fd4c87@f9941",
+        "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941",
+        "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
+        "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
+        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941"
+      ],
+      "dependScripts": [
+        "4a9d85e7-521b-44dc-80cf-9f3ca4d85d19"
+      ]
+    }
+  },
+  "c1b4f81b-1f1d-48e7-abf1-f58b41dccf6a": {
+    "url": "db://assets/resources/Prefabs/GameScene",
+    "value": {}
+  },
+  "616c6344-269e-45fa-9142-53ff2d60a08b": {
+    "url": "db://assets/resources/Prefabs/ScoreScene",
+    "value": {}
+  },
+  "6aa13f78-9cee-4555-b85b-af6de3a4445e": {
+    "url": "db://assets/resources/Prefabs/ScoreScene/ScoreItem.prefab",
+    "value": {
+      "depends": [
+        "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
+        "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941"
+      ],
+      "dependScripts": [
+        "f3b64dd1-7385-42e8-833b-692ade99462a"
+      ]
+    }
+  },
+  "f3b64dd1-7385-42e8-833b-692ade99462a": {
+    "url": "db://assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts",
+    "value": {}
+  },
+  "4a9d85e7-521b-44dc-80cf-9f3ca4d85d19": {
+    "url": "db://assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts",
+    "value": {}
+  },
+  "21d2ece7-8f95-4336-9357-03776371f87f": {
+    "url": "db://assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts",
+    "value": {}
+  },
+  "e8b1dee8-5859-4c98-b6f8-4aec6e2f9715": {
+    "url": "db://assets/Scripts/Scene/StartScene/StartSceneComponent.ts",
+    "value": {}
+  },
+  "09dfd7c8-e7d2-43d0-adb8-d0e95333ad3a": {
+    "url": "db://assets/Scripts/Scene/StartScene/StartScenePresenter.ts",
+    "value": {}
+  },
+  "b48d4e54-c7c9-404e-b9e8-519901454fcc": {
+    "url": "db://assets/resources/Sounds",
+    "value": {}
+  },
+  "21054d91-b099-4130-ae8c-064068b02231": {
+    "url": "db://assets/resources/Sounds/button_click_sound.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "531408bf-f1bb-4103-b157-82de886aa8b2": {
+    "url": "db://assets/resources/Sounds/ball_bloop_sound.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "ef9431b8-d916-427f-876b-cee8cced2815": {
+    "url": "db://assets/resources/Sounds/Lose_sound.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "e9832a50-d7d8-45fb-8272-d229551ca0ec": {
+    "url": "db://assets/resources/Sounds/INGame_music.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "0d246b0d-ef2d-41a5-855a-259636beba97": {
+    "url": "db://assets/Scripts/Enums/AudioType.ts",
+    "value": {}
+  },
+  "9abfe34e-4f34-465a-8b8e-bddcdb9bd693": {
+    "url": "db://assets/Scripts/Scene/AudioComponent.ts",
+    "value": {}
+  },
+  "a92b85f7-594b-475b-8970-112139b5dce0": {
+    "url": "db://assets/resources/Prefabs/Dialog/LoseDialog.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    }
+  },
+  "f1da65dc-33c0-4cc5-8466-1173f7d43718": {
+    "url": "db://assets/Scripts/Dialog",
+    "value": {}
+  },
+  "327ba72d-0ad3-41b6-8f2e-520b35a11574": {
+    "url": "db://assets/Scripts/Utils/DeviceAreaSizeComponent.ts",
+    "value": {}
+  },
+  "3b64b2af-c673-4b24-94d9-c3075899917e": {
+    "url": "db://assets/Scripts/Dialog/DialogManagerComponent.ts",
+    "value": {}
+  },
+  "5e0a7cbe-4d6c-425c-bbbe-7a1c02fe9904": {
+    "url": "db://assets/Scripts/Dialog/AnsverDialogComponent.ts",
+    "value": {}
+  },
+  "c92013e5-c903-4410-999d-7ccf0f0949e9": {
+    "url": "db://assets/Scripts/Dialog/Dialog.ts",
+    "value": {}
+  },
+  "2dd1a575-c24d-483b-8576-22f49749aeba": {
+    "url": "db://assets/Scripts/Dialog/DialogFactory.ts",
+    "value": {}
+  },
+  "1318ac48-a562-45c1-b217-b18c6961276d": {
+    "url": "db://assets/Scripts/Dialog/IAnsverHandler.ts",
+    "value": {}
+  },
+  "a0f05d9c-b68c-471f-98fb-73a7354ad982": {
+    "url": "db://assets/Scripts/Dialog/IDialogManager.ts",
+    "value": {}
+  },
+  "589d6ca0-b559-4824-af58-6632baf4c0a1": {
+    "url": "db://assets/Scripts/Scene/BackActionComponent.ts",
+    "value": {}
+  },
+  "6fb8677c-273f-46f5-abd2-8ee857e433cb": {
+    "url": "db://assets/Scripts/Scene/BackgroundManagerComponent.ts",
+    "value": {}
+  },
+  "a615f176-3445-4589-8638-ee822ef291bf": {
+    "url": "db://assets/Scripts/Scene/TransferComponent copy.ts",
+    "value": {}
+  },
+  "bf0841c8-0710-4784-8b79-bf1ba38ab9dd": {
+    "url": "db://assets/resources/Prefabs/Dialog",
+    "value": {}
+  },
+  "03f4e696-1fda-4d9e-a0ad-622cfd126b58": {
+    "url": "db://assets/resources/Prefabs/Dialog/DialogScene.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "c01b8ade-9db3-44f0-8331-7d27ee60e438",
+        "d1fc503e-1143-4938-8224-8339a64bf16d"
+      ],
+      "dependScripts": []
+    }
+  },
+  "d649a0ae-4e26-4394-b8c2-aa01d7efe70f": {
+    "url": "db://assets/resources/AnimationClips/Dialogs",
+    "value": {}
+  },
+  "d1fc503e-1143-4938-8224-8339a64bf16d": {
+    "url": "db://assets/resources/AnimationClips/Dialogs/Close.anim",
+    "value": {
+      "depends": []
+    }
+  },
+  "c01b8ade-9db3-44f0-8331-7d27ee60e438": {
+    "url": "db://assets/resources/AnimationClips/Dialogs/Open.anim",
+    "value": {
+      "depends": []
+    }
+  },
+  "f9d045c3-d077-4add-aefa-712a41e5ca7d": {
+    "url": "db://assets/resources/AnimationClips",
+    "value": {}
+  },
+  "5db07353-505f-4400-9fc2-0bad3792d297": {
+    "url": "db://assets/Scripts/Scene/TransferHandlers.ts",
+    "value": {}
+  },
+  "0a842c0b-0505-421e-8248-6459f319bff5": {
+    "url": "db://assets/resources/Prefabs/Dialog/EndDialog.prefab",
+    "value": {
+      "depends": [
+        "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941",
+        "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
+        "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
+        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941"
+      ],
+      "dependScripts": [
+        "5e0a7cbe-4d6c-425c-bbbe-7a1c02fe9904"
+      ]
+    }
+  },
+  "cda1d96b-1601-4d2a-874d-086534f773a5": {
+    "url": "db://assets/resources/Prefabs/LoadingScene.prefab",
+    "value": {
+      "depends": [
+        "26162d20-dcc7-4294-a099-186ff9fd4c87@f9941",
+        "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
+        "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
         "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941",
         "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941"
       ],
       "dependScripts": [
-        "7f521d0b-f961-46ec-86f1-aa360d229e76"
+        "e8b1dee8-5859-4c98-b6f8-4aec6e2f9715"
       ]
     }
+  },
+  "7180c9d4-41b3-4d95-bc51-1c423094cc5b": {
+    "url": "db://assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts",
+    "value": {}
   }
 }

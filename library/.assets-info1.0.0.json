@@ -12,35 +12,35 @@
       "time": 1727187645344.71
     },
     "F:\\git\\TestMatch3\\assets\\Scripts": {
-      "time": 1727273085611.1863,
+      "time": 1727499917953.5947,
       "uuid": "bcf21023-3a8c-4c54-99de-76e4893f2a8e"
     },
     "F:\\git\\TestMatch3\\assets\\resources.meta": {
       "time": 1727187660663.6611
     },
     "F:\\git\\TestMatch3\\assets\\resources": {
-      "time": 1727365790149.4736,
+      "time": 1727501248763.4905,
       "uuid": "ff034e87-f2ea-4ef8-a07f-a6a51c2161a9"
     },
     "F:\\git\\TestMatch3\\assets\\Scene\\GameScene.scene.meta": {
       "time": 1727187680465.1177
     },
     "F:\\git\\TestMatch3\\assets\\Scene\\GameScene.scene": {
-      "time": 1727284628190.9175,
+      "time": 1727496933992.6638,
       "uuid": "971935a0-bee6-4e78-92d3-5e0c1d7af85d"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\GameManagerComponent.ts.meta": {
       "time": 1722480446695.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\GameManagerComponent.ts": {
-      "time": 1727283454610.629,
+      "time": 1727500972303.0544,
       "uuid": "c136252c-bd5f-44e0-ba8c-d09e88117fb7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums.meta": {
       "time": 1727188548387.5554
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums": {
-      "time": 1727284082804.1245,
+      "time": 1727495059105.268,
       "uuid": "7c1ae3b1-d625-4313-9390-211381ac725f"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\LocationType.ts.meta": {
@@ -54,14 +54,14 @@
       "time": 1727188881243.604
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\CCEnums.ts": {
-      "time": 1727280340629.3835,
+      "time": 1727495037027.6426,
       "uuid": "c952dbc5-2dcf-40ac-89cb-71a34c4b259e"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene.meta": {
       "time": 1727188981639.648
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene": {
-      "time": 1727281185535.1533,
+      "time": 1727516958693.513,
       "uuid": "f2df34c8-da81-4574-a353-7f90e2e53c96"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ISceneManager.ts.meta": {
@@ -82,7 +82,7 @@
       "time": 1727189087311.5994
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils": {
-      "time": 1727189172741.137,
+      "time": 1727500099642.5732,
       "uuid": "216455f8-8530-4d34-8f1b-aacedc9e7bd7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Dispatcher.ts.meta": {
@@ -110,7 +110,7 @@
       "time": 1727189481872.504
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\StartScene": {
-      "time": 1727189481871.5024,
+      "time": 1727449346058.0923,
       "uuid": "df625cb2-10d3-423d-8262-9af84ad59da1"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene.meta": {
@@ -124,7 +124,7 @@
       "time": 1727189509015.1433
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene": {
-      "time": 1727189509013.1404,
+      "time": 1727448810989.699,
       "uuid": "264817dc-78f8-4430-8d68-d46d4fcf8446"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application.meta": {
@@ -138,14 +138,14 @@
       "time": 1722480446694.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\AppRoot.ts": {
-      "time": 1727284205053.589,
+      "time": 1727501018807.2383,
       "uuid": "c8da5fce-87ac-4d70-9858-b95b724016d0"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\AppState.ts.meta": {
       "time": 1722480446694.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\AppState.ts": {
-      "time": 1727275079763.3748,
+      "time": 1727497259739.861,
       "uuid": "10639bbc-6cdb-4fce-81be-b6f942f860e4"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\ApplicationInterfaces.ts.meta": {
@@ -173,7 +173,7 @@
       "time": 1727191063970.2925
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs": {
-      "time": 1727369359101.5017,
+      "time": 1727517409725.3694,
       "uuid": "63c8f97e-d6e8-4eac-b48d-e8851e1f1487"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images.meta": {
@@ -187,7 +187,7 @@
       "time": 1727191244057.48
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\BallColor.ts": {
-      "time": 1727191202685.8137,
+      "time": 1727511838461.1482,
       "uuid": "c0796e62-4667-4a46-a2d3-01a3f3aa3bd8"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\BallComponent.ts.meta": {
@@ -201,22 +201,8 @@
       "time": 1727191297527.277
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\LoadingScene": {
-      "time": 1727191297526.2786,
+      "time": 1727517731253.7134,
       "uuid": "8e15a611-5531-47eb-bb3b-7d8127bb4737"
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Ball.prefab.meta": {
-      "time": 1727191381084.3352
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Ball.prefab": {
-      "time": 1727363413736.9514,
-      "uuid": "c5e7bd2a-f079-4aa4-9f78-72519b427715"
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene.prefab.meta": {
-      "time": 1727191390286.943
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene.prefab": {
-      "time": 1727369091820.0059,
-      "uuid": "51d7adff-7e5e-4a7c-97af-dab57af7a533"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session.meta": {
       "time": 1727192357868.2014
@@ -229,42 +215,42 @@
       "time": 1722480446913.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameContext.ts": {
-      "time": 1727284508469.1965,
+      "time": 1727517059908.1516,
       "uuid": "4273d575-8511-41f0-8bf9-38d11680f627"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameFactory.ts.meta": {
       "time": 1722480446913.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameFactory.ts": {
-      "time": 1727274951017.915,
+      "time": 1727517180257.0352,
       "uuid": "fcc19248-a9e9-47c0-b330-9eb2d8e3028d"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameSaveListener.ts.meta": {
       "time": 1722480446913.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameSaveListener.ts": {
-      "time": 1726713032033.813,
+      "time": 1727504266160.098,
       "uuid": "53c7b37a-6296-4244-96e2-7ce7cdc64e76"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\SessionDeviceListener.ts.meta": {
       "time": 1722480446915.1475
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\SessionDeviceListener.ts": {
-      "time": 1726713032033.813,
+      "time": 1727499604423.891,
       "uuid": "a1ae059e-eaf1-4e6e-9f75-e50954701a53"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameoverListener.ts.meta": {
       "time": 1722480446914.1482
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameoverListener.ts": {
-      "time": 1722480446914.1482,
+      "time": 1727510274196.2534,
       "uuid": "cd6076b0-6493-4121-a877-fdf47c26bf74"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\TransferComponent.ts.meta": {
       "time": 1722480446912.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\TransferComponent.ts": {
-      "time": 1722480446912.1472,
+      "time": 1727501876863.4944,
       "uuid": "39c90f99-9602-413a-9273-a6e3a8fb167c"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\BallImage.png.meta": {
@@ -285,7 +271,7 @@
       "time": 1727270662014.0542
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameLogic.ts": {
-      "time": 1727274752675.8474,
+      "time": 1727511961521.4092,
       "uuid": "890ec2db-42bd-4a7b-af94-30a44753b674"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic.meta": {
@@ -302,7 +288,7 @@
       "uuid": "4957e93b-2929-4618-962b-0fcdea84d71b"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Field.ts": {
-      "time": 1727271867036.1873,
+      "time": 1727516686258.824,
       "uuid": "6521e35b-60c3-4f73-9c5b-de830b2c9322"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameState.ts": {
@@ -358,11 +344,11 @@
       "uuid": "423afe2c-1a9a-40c3-b87c-0e7ee0ea8a56"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\GameStatsInfo.ts": {
-      "time": 1727274809971.6162,
+      "time": 1727450123036.2954,
       "uuid": "afe6abaf-2182-44ff-a431-af1575ae83ea"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Loop.ts": {
-      "time": 1727274829116.8357,
+      "time": 1727501683517.3167,
       "uuid": "7600e90b-030d-4f78-bfb6-3f99bad04121"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\SaveContext.ts": {
@@ -390,22 +376,15 @@
       "uuid": "f479a792-4958-4b36-b338-817aaa4b8f20"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Editor\\EditorSaveState.ts": {
-      "time": 1727187318100.5,
+      "time": 1727499364013.6074,
       "uuid": "9fc84195-cfec-4ef6-bf06-909c891b9be7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\IAppTimer.ts.meta": {
       "time": 1727273647084.0825
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\IAppTimer.ts": {
-      "time": 1727281156223.91,
+      "time": 1727501675424.4397,
       "uuid": "ffff50cd-97e2-47d9-832c-aafcf5645008"
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\LoadingScene.prefab.meta": {
-      "time": 1727273716567.4968
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\LoadingScene.prefab": {
-      "time": 1727273716566.4973,
-      "uuid": "a7275191-e0de-409b-9086-0826e0d9be94"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\Timers.ts.meta": {
       "time": 1727281185536.1533
@@ -418,7 +397,7 @@
       "uuid": "bd91b9fb-245e-49a6-8eb4-372f0a518078"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\AudioManagerComponent.ts": {
-      "time": 1727280322335.0588,
+      "time": 1727495051858.3076,
       "uuid": "40be852b-b36c-489b-b242-ec3305c52bcb"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\native.meta": {
@@ -498,7 +477,7 @@
       "time": 1727367971626.5537
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate2.png.meta": {
-      "time": 1727367971647.553
+      "time": 1727448259713.964
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate1.png": {
       "time": 1727367830734.9712,
@@ -520,7 +499,7 @@
       "uuid": "a74c58f9-5962-48de-9fba-09ad195c17d9"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate4.png.meta": {
-      "time": 1727368748728.9978
+      "time": 1727517570056.5579
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate4.png": {
       "time": 1727368737025.5884,
@@ -530,22 +509,288 @@
       "time": 1727368944165.153
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\StartScene.prefab": {
-      "time": 1727369333856.205,
+      "time": 1727501992903.7212,
       "uuid": "a1c79278-615e-40a9-b522-6c6ec162d33a"
     },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.prefab.meta": {
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene.meta": {
+      "time": 1727447583149.3965
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene": {
+      "time": 1727502456380.0303,
+      "uuid": "c1b4f81b-1f1d-48e7-abf1-f58b41dccf6a"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\Ball.prefab.meta": {
+      "time": 1727191381084.3352
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\Ball.prefab": {
+      "time": 1727502034928.1936,
+      "uuid": "c5e7bd2a-f079-4aa4-9f78-72519b427715"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab.meta": {
+      "time": 1727191390286.943
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab": {
+      "time": 1727501911682.2285,
+      "uuid": "51d7adff-7e5e-4a7c-97af-dab57af7a533"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.meta": {
+      "time": 1727447603177.02
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene": {
+      "time": 1727447642249.942,
+      "uuid": "616c6344-269e-45fa-9142-53ff2d60a08b"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene\\ScoreScene.prefab.meta": {
       "time": 1727369359104.5017
     },
-    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.prefab": {
-      "time": 1727369390543.697,
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene\\ScoreScene.prefab": {
+      "time": 1727448851328.0208,
       "uuid": "05c6906b-454e-44b8-ab0e-01df34e7da3c"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene\\ScoreItem.prefab.meta": {
+      "time": 1727447642252.9438
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene\\ScoreItem.prefab": {
+      "time": 1727447846434.275,
+      "uuid": "6aa13f78-9cee-4555-b85b-af6de3a4445e"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreItemComponent.ts.meta": {
+      "time": 1727447671385.609
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreItemComponent.ts": {
+      "time": 1727448529020.959,
+      "uuid": "f3b64dd1-7385-42e8-833b-692ade99462a"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreSceneComponent.ts.meta": {
+      "time": 1727448337607.9795
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreSceneComponent.ts": {
+      "time": 1727448641908.01,
+      "uuid": "4a9d85e7-521b-44dc-80cf-9f3ca4d85d19"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreScenePresenter.ts.meta": {
+      "time": 1727448810989.699
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreScenePresenter.ts": {
+      "time": 1727448692092.0432,
+      "uuid": "21d2ece7-8f95-4336-9357-03776371f87f"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\StartScene\\StartSceneComponent.ts.meta": {
+      "time": 1727448923362.8784
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\StartScene\\StartSceneComponent.ts": {
+      "time": 1727449375002.0393,
+      "uuid": "e8b1dee8-5859-4c98-b6f8-4aec6e2f9715"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\StartScene\\StartScenePresenter.ts.meta": {
+      "time": 1727449346059.0925
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\StartScene\\StartScenePresenter.ts": {
+      "time": 1727449341680.15,
+      "uuid": "09dfd7c8-e7d2-43d0-adb8-d0e95333ad3a"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds.meta": {
+      "time": 1727494424130.8997
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds": {
+      "time": 1727494826926.0093,
+      "uuid": "b48d4e54-c7c9-404e-b9e8-519901454fcc"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\button_click_sound.wav.meta": {
+      "time": 1727494826941.9597
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\ball_bloop_sound.wav.meta": {
+      "time": 1727494826945.962
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\Lose_sound.wav.meta": {
+      "time": 1727494826953.961
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\INGame_music.wav.meta": {
+      "time": 1727494826959.962
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\button_click_sound.wav": {
+      "time": 1727494763130.3713,
+      "uuid": "21054d91-b099-4130-ae8c-064068b02231"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\ball_bloop_sound.wav": {
+      "time": 1727494508102.9722,
+      "uuid": "531408bf-f1bb-4103-b157-82de886aa8b2"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\Lose_sound.wav": {
+      "time": 1727494501403.5254,
+      "uuid": "ef9431b8-d916-427f-876b-cee8cced2815"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Sounds\\INGame_music.wav": {
+      "time": 1727494493908.686,
+      "uuid": "e9832a50-d7d8-45fb-8272-d229551ca0ec"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\AudioType.ts.meta": {
+      "time": 1727495059106.268
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\AudioType.ts": {
+      "time": 1727495012551.7346,
+      "uuid": "0d246b0d-ef2d-41a5-855a-259636beba97"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\AudioComponent.ts": {
+      "time": 1726713031990.265,
+      "uuid": "9abfe34e-4f34-465a-8b8e-bddcdb9bd693"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\AudioComponent.ts.meta": {
+      "time": 1727495777582.9087
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog.meta": {
+      "time": 1727499917954.6013
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog": {
+      "time": 1727501147530.7046,
+      "uuid": "f1da65dc-33c0-4cc5-8466-1173f7d43718"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\DeviceAreaSizeComponent.ts.meta": {
+      "time": 1722480446745.1475
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\DeviceAreaSizeComponent.ts": {
+      "time": 1722480446745.1475,
+      "uuid": "327ba72d-0ad3-41b6-8f2e-520b35a11574"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\DialogManagerComponent.ts.meta": {
+      "time": 1722480446910.1472
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\DialogManagerComponent.ts": {
+      "time": 1726713032032.8115,
+      "uuid": "3b64b2af-c673-4b24-94d9-c3075899917e"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\AnsverDialogComponent.ts.meta": {
+      "time": 1727501147533.7112
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\Dialog.ts.meta": {
+      "time": 1727501147533.7112
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\DialogFactory.ts.meta": {
+      "time": 1727501147533.7112
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\IAnsverHandler.ts.meta": {
+      "time": 1727501147533.7112
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\IDialogManager.ts.meta": {
+      "time": 1727501147533.7112
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\BackActionComponent.ts.meta": {
+      "time": 1727501147534.7104
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\BackgroundManagerComponent.ts.meta": {
+      "time": 1727501147534.7104
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\AnsverDialogComponent.ts": {
+      "time": 1727501040119.6484,
+      "uuid": "5e0a7cbe-4d6c-425c-bbbe-7a1c02fe9904"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\Dialog.ts": {
+      "time": 1727500909742.577,
+      "uuid": "c92013e5-c903-4410-999d-7ccf0f0949e9"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\DialogFactory.ts": {
+      "time": 1727501638748.4248,
+      "uuid": "2dd1a575-c24d-483b-8576-22f49749aeba"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\IAnsverHandler.ts": {
+      "time": 1727501507618.4998,
+      "uuid": "1318ac48-a562-45c1-b217-b18c6961276d"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\IDialogManager.ts": {
+      "time": 1727501066073.8718,
+      "uuid": "a0f05d9c-b68c-471f-98fb-73a7354ad982"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\BackActionComponent.ts": {
+      "time": 1727500909742.577,
+      "uuid": "589d6ca0-b559-4824-af58-6632baf4c0a1"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\BackgroundManagerComponent.ts": {
+      "time": 1722480446910.1472,
+      "uuid": "6fb8677c-273f-46f5-abd2-8ee857e433cb"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog.meta": {
+      "time": 1727501158606.756
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog": {
+      "time": 1727517367869.7168,
+      "uuid": "bf0841c8-0710-4784-8b79-bf1ba38ab9dd"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\DialogScene.prefab.meta": {
+      "time": 1722480450798.1472
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\DialogScene.prefab": {
+      "time": 1727501310273.8757,
+      "uuid": "03f4e696-1fda-4d9e-a0ad-622cfd126b58"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips.meta": {
+      "time": 1727501247148.386
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips": {
+      "time": 1727501248763.4905,
+      "uuid": "f9d045c3-d077-4add-aefa-712a41e5ca7d"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips\\Dialogs.meta": {
+      "time": 1726713032409.007
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips\\Dialogs": {
+      "time": 1727501225770.4314,
+      "uuid": "d649a0ae-4e26-4394-b8c2-aa01d7efe70f"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips\\Dialogs\\Close.anim.meta": {
+      "time": 1726713032410.0059
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips\\Dialogs\\Close.anim": {
+      "time": 1726713032410.0059,
+      "uuid": "d1fc503e-1143-4938-8224-8339a64bf16d"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips\\Dialogs\\Open.anim.meta": {
+      "time": 1726713032411.0063
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\AnimationClips\\Dialogs\\Open.anim": {
+      "time": 1726713032410.0059,
+      "uuid": "c01b8ade-9db3-44f0-8331-7d27ee60e438"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\TransferHandlers.ts.meta": {
+      "time": 1727501827081.501
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\TransferHandlers.ts": {
+      "time": 1727504043327.8164,
+      "uuid": "5db07353-505f-4400-9fc2-0bad3792d297"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\EndDialog.prefab.meta": {
+      "time": 1727502463913.6748
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\EndDialog.prefab": {
+      "time": 1727503195184.9417,
+      "uuid": "0a842c0b-0505-421e-8248-6459f319bff5"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\LoseDialog.prefab.meta": {
+      "time": 1727499887749.5193
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\LoseDialog.prefab": {
+      "time": 1727499887748.4585,
+      "uuid": "a92b85f7-594b-475b-8970-112139b5dce0"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\LoadingScene.prefab.meta": {
+      "time": 1727517409728.3752
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\LoadingScene.prefab": {
+      "time": 1727517409727.3723,
+      "uuid": "cda1d96b-1601-4d2a-874d-086534f773a5"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\LoadingScene\\LoadingSceneComponent.ts.meta": {
+      "time": 1727517731254.7136
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\LoadingScene\\LoadingSceneComponent.ts": {
+      "time": 1727517984300.8347,
+      "uuid": "7180c9d4-41b3-4d95-bc51-1c423094cc5b"
     }
   },
   "missing": {
     "51d7adff-7e5e-4a7c-97af-dab57af7a533": {
-      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\MainScene.prefab",
-      "time": 1727187938747.2195,
-      "removeTime": 1727191390285
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene.prefab",
+      "time": 1727369091820.0059,
+      "removeTime": 1727447591842
     },
     "8338c0b9-8b1d-4cd6-8785-69f504939318": {
       "path": "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\folder",
@@ -558,9 +803,9 @@
       "removeTime": 1727188899453
     },
     "c5e7bd2a-f079-4aa4-9f78-72519b427715": {
-      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ball.prefab",
-      "time": 1727187911878.5613,
-      "removeTime": 1727191381082
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Ball.prefab",
+      "time": 1727363413736.9514,
+      "removeTime": 1727447589245
     },
     "8e15a611-5531-47eb-bb3b-7d8127bb4737": {
       "path": "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\MenuScene",
@@ -608,9 +853,49 @@
       "removeTime": 1727369355881
     },
     "05c6906b-454e-44b8-ab0e-01df34e7da3c": {
-      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene-001.prefab",
-      "time": 1727369350415.0774,
-      "removeTime": 1727369359102
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.prefab",
+      "time": 1727369390543.697,
+      "removeTime": 1727447612671
+    },
+    "d649a0ae-4e26-4394-b8c2-aa01d7efe70f": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Dialogs",
+      "time": 1727501225770.4314,
+      "removeTime": 1727501248763
+    },
+    "d1fc503e-1143-4938-8224-8339a64bf16d": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Dialogs\\Close.anim",
+      "time": 1726713032410.0059,
+      "removeTime": 1727501248764
+    },
+    "c01b8ade-9db3-44f0-8331-7d27ee60e438": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Dialogs\\Open.anim",
+      "time": 1726713032410.0059,
+      "removeTime": 1727501248764
+    },
+    "0a842c0b-0505-421e-8248-6459f319bff5": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\Ball-001.prefab",
+      "time": 1727502454229.133,
+      "removeTime": 1727502463912
+    },
+    "a615f176-3445-4589-8638-ee822ef291bf": {
+      "path": "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\TransferComponent copy.ts",
+      "time": 1722480446912.1472,
+      "removeTime": 1727516958696
+    },
+    "a92b85f7-594b-475b-8970-112139b5dce0": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\LoseDialog.prefab",
+      "time": 1727499887748.4585,
+      "removeTime": 1727517367870
+    },
+    "a7275191-e0de-409b-9086-0826e0d9be94": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\LoadingScene.prefab",
+      "time": 1727273716566.4973,
+      "removeTime": 1727517406777
+    },
+    "cda1d96b-1601-4d2a-874d-086534f773a5": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\StartScene-001.prefab",
+      "time": 1727517395984.9602,
+      "removeTime": 1727517409726
     }
   }
 }

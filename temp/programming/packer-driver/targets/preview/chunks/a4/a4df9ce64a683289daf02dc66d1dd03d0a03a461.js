@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, GameLogic, SessionDeviceListener, GameContext, _crd;
+  var _reporterNs, _cclegacy, GameLogic, GameoverListener, GameSaveListener, SessionDeviceListener, GameContext, _crd;
 
   function _reportPossibleCrUseOfGameLogic(extras) {
     _reporterNs.report("GameLogic", "./GameLogic", _context.meta, extras);
@@ -53,7 +53,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
     }, function (_unresolved_2) {
       GameLogic = _unresolved_2.GameLogic;
     }, function (_unresolved_3) {
-      SessionDeviceListener = _unresolved_3.SessionDeviceListener;
+      GameoverListener = _unresolved_3.GameoverListener;
+    }, function (_unresolved_4) {
+      GameSaveListener = _unresolved_4.GameSaveListener;
+    }, function (_unresolved_5) {
+      SessionDeviceListener = _unresolved_5.SessionDeviceListener;
     }],
     execute: function () {
       _crd = true;
@@ -72,14 +76,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.device = device;
         }
 
-        CreateGame(timer, saveDisp, state) {
+        CreateGame(timer, saveDisp, sceneManager, state) {
           this.isGameActive = true;
           this._state = state.gameState;
           this._logic = new (_crd && GameLogic === void 0 ? (_reportPossibleCrUseOfGameLogic({
             error: Error()
-          }), GameLogic) : GameLogic)(timer, this._state); // this._gameoverListener = new GameoverListener(this._logic);
-          // this._saveListener = new GameSaveListener(saveDisp, this._logic, this.device, state);
-
+          }), GameLogic) : GameLogic)(this._state);
+          this._gameoverListener = new (_crd && GameoverListener === void 0 ? (_reportPossibleCrUseOfGameoverListener({
+            error: Error()
+          }), GameoverListener) : GameoverListener)(this._logic, sceneManager);
+          this._saveListener = new (_crd && GameSaveListener === void 0 ? (_reportPossibleCrUseOfGameSaveListener({
+            error: Error()
+          }), GameSaveListener) : GameSaveListener)(saveDisp, this._logic, this.device, state);
           this._sessionDeviceListener = new (_crd && SessionDeviceListener === void 0 ? (_reportPossibleCrUseOfSessionDeviceListener({
             error: Error()
           }), SessionDeviceListener) : SessionDeviceListener)(this.device, this._logic);

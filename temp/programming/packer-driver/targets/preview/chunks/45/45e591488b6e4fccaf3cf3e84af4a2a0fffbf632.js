@@ -1,22 +1,14 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, Loop, GameStats, Field, GameLogic, _crd;
+  var _reporterNs, _cclegacy, GameStats, Field, GameLogic, _crd;
 
   function _reportPossibleCrUseOfGameState(extras) {
     _reporterNs.report("GameState", "./GameState", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfLoop(extras) {
-    _reporterNs.report("Loop", "./../Logic/Loop", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfIAppTimer(extras) {
-    _reporterNs.report("IAppTimer", "../Application/IAppTimer", _context.meta, extras);
-  }
-
   function _reportPossibleCrUseOfGameStats(extras) {
-    _reporterNs.report("GameStats", "../GameStats/GameStats", _context.meta, extras);
+    _reporterNs.report("GameStats", "../Logic/GameStatsInfo", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfField(extras) {
@@ -31,11 +23,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_cc) {
       _cclegacy = _cc.cclegacy;
     }, function (_unresolved_2) {
-      Loop = _unresolved_2.Loop;
+      GameStats = _unresolved_2.GameStats;
     }, function (_unresolved_3) {
-      GameStats = _unresolved_3.GameStats;
-    }, function (_unresolved_4) {
-      Field = _unresolved_4.Field;
+      Field = _unresolved_3.Field;
     }],
     execute: function () {
       _crd = true;
@@ -50,24 +40,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
 
       _export("GameLogic", GameLogic = class GameLogic {
-        constructor(timer, state) {
-          this._loop = void 0;
+        constructor(state) {
           this._field = void 0;
           this._gameStats = void 0;
           this.state = state;
-          this._loop = new (_crd && Loop === void 0 ? (_reportPossibleCrUseOfLoop({
-            error: Error()
-          }), Loop) : Loop)(timer);
           this._field = new (_crd && Field === void 0 ? (_reportPossibleCrUseOfField({
             error: Error()
-          }), Field) : Field)(state.field);
+          }), Field) : Field)(state.isFinished, state.field);
           this._gameStats = new (_crd && GameStats === void 0 ? (_reportPossibleCrUseOfGameStats({
             error: Error()
           }), GameStats) : GameStats)(state.gameStats);
-        }
-
-        ResolveLoop() {
-          return this._loop;
         }
 
         ResolveField() {
@@ -79,16 +61,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         GetName() {
-          return this.state.field.name;
+          return this.state.name;
         }
 
         WillSave(currentState) {
-          currentState.gameStats = this._gameStats.GetTotal();
+          currentState.field = this._field.GetField();
+          currentState.gameStats = this._gameStats.GetData();
         }
 
-        Finish() {
-          this._loop.RemoveAll();
-        }
+        Finish() {}
 
       });
 
