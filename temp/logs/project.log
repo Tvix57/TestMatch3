@@ -1,253 +1,473 @@
-29.09.2024 11:37:02 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine
-29.09.2024 11:37:02 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,spine,tiled-map,tween,ui)
-29.09.2024 11:37:02 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\native
-29.09.2024 11:50:03 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-29.09.2024 12:01:53 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+29.09.2024 15:46:05 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine
+29.09.2024 15:46:05 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,spine,tiled-map,tween,ui)
+29.09.2024 15:46:05 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\native
+29.09.2024 15:46:14 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:47:01 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:47:08 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:47:58 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:48:09 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:48:30 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:50:57 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:51:20 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:52:00 - error: [Window] Cannot read property 'getAttribute' of undefinedTypeError: Cannot read property 'getAttribute' of undefined
+    at <process:scene>
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73180:47)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+    at AssetDump.decode (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:989)
+    at _decodeByType (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:5498)
+    at Object.decodePatch (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:7138)
+    at NodeManager.setProperty (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:7983)
+29.09.2024 15:52:00 - error: [Scene] asset can't be load:23615b83-e1d5-43f7-84c7-834f231acf9eError: [Scene] asset can't be load:23615b83-e1d5-43f7-84c7-834f231acf9e
+    at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:800
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:137115:9)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:178496:9)
+29.09.2024 15:52:00 - log: [Scene] Cannot read property 'getAttribute' of undefinedTypeError: Cannot read property 'getAttribute' of undefined
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73180:47)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+    at AssetDump.decode (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:989)
+    at _decodeByType (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:5498)
+    at Object.decodePatch (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:7138)
+    at NodeManager.setProperty (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:7983)
+29.09.2024 15:52:25 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 15:53:10 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:13:14 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:14:12 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:14:18 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\:\automap-tiles.tsx  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:20:32 - error: [Assets] Importer exec failed: {asset[F:\git\TestMatch3\assets\resources\TiledMap\map.tmx](d6a863e2-eb42-451a-a4b5-22e3ca50edeb)}[Assets] Importer exec failed: {asset[F:\git\TestMatch3\assets\resources\TiledMap\map.tmx](d6a863e2-eb42-451a-a4b5-22e3ca50edeb)}  
+at Object.error (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1429)  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2959)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:731)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2186)
+29.09.2024 19:20:32 - error: [Assets] Image does not exist: F:\git\TestMatch3\assets\resources\TiledMap\C:\Users\adm\Downloads\glow_frame.pngError: Image does not exist: F:\git\TestMatch3\assets\resources\TiledMap\C:\Users\adm\Downloads\glow_frame.png
+    at parseTilesetImages (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:2701)
+    at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1679)
+    at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:21:52 - error: [Assets] Importer exec failed: {asset[F:\git\TestMatch3\assets\resources\TiledMap\map.tmx](d6a863e2-eb42-451a-a4b5-22e3ca50edeb)}[Assets] Importer exec failed: {asset[F:\git\TestMatch3\assets\resources\TiledMap\map.tmx](d6a863e2-eb42-451a-a4b5-22e3ca50edeb)}  
+at Object.error (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1429)  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2959)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:731)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2186)
+29.09.2024 19:21:52 - error: [Assets] Image does not exist: F:\git\TestMatch3\assets\resources\TiledMap\C:\Users\adm\Downloads\glow_frame.pngError: Image does not exist: F:\git\TestMatch3\assets\resources\TiledMap\C:\Users\adm\Downloads\glow_frame.png
+    at parseTilesetImages (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:2701)
+    at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1679)
+    at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:28:11 - error: [Assets] Importer exec failed: {asset[F:\git\TestMatch3\assets\resources\TiledMap\map.tmx](d6a863e2-eb42-451a-a4b5-22e3ca50edeb)}[Assets] Importer exec failed: {asset[F:\git\TestMatch3\assets\resources\TiledMap\map.tmx](d6a863e2-eb42-451a-a4b5-22e3ca50edeb)}  
+at Object.error (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1429)  
+at ImportTask.importAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:2959)  
+at ImportTask.exec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\task.ccc:1:731)  
+at ParallelQueue._generate (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:2186)
+29.09.2024 19:28:11 - error: [Assets] Image does not exist: F:\git\TestMatch3\assets\resources\TiledMap\C:\Users\adm\Downloads\glow_frame.pngError: Image does not exist: F:\git\TestMatch3\assets\resources\TiledMap\C:\Users\adm\Downloads\glow_frame.png
+    at parseTilesetImages (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:2701)
+    at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1679)
+    at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:28:11 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: D:Program Files (x86)CocosDashboardile:F:gitTestMatch3assetsScriptsSceneGameSceneGameSceneComponent.ts: Unexpected token (42:8)
+
+  40 |         this.field._groups.forEach((group) => {
+  41 |             group.
+> 42 |         })
+     |         ^
+  43 |     }
+  44 | }
+  45 |
+    at Object.execute (file:///F:/git/TestMatch3/temp/programming/packer-driver/targets/editor/chunks/e6/e6e9418078e92c50deff2b1d65fe240c67650077.js:8:13)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///F:/git/TestMatch3/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13
+    at Object.execute (file:///F:/git/TestMatch3/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:311:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:194:13)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: D:Program Files (x86)CocosDashboardile:F:gitTestMatch3assetsScriptsSceneGameSceneGameSceneComponent.ts: Unexpected token (42:8)
+
+  40 |         this.field._groups.forEach((group) => {
+  41 |             group.
+> 42 |         })
+  45 |
+    at Object.execute (file:///F:/git/TestMatch3/temp/programming/packer-driver/targets/editor/chunks/e6/e6e9418078e92c50deff2b1d65fe240c67650077.js:8:13)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///F:/git/TestMatch3/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13
+    at Object.execute (file:///F:/git/TestMatch3/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:311:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:194:13)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1876)
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:492)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5391)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3485)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:87:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+29.09.2024 19:28:11 - warn: [Scene] Missing class: 7f5210L+WFG7IbxqjYNIp52Error: [Scene] Missing class: 7f5210L+WFG7IbxqjYNIp52
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:131392:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48265:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48206:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48417:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48240:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48212:29)
+29.09.2024 19:28:11 - warn: [Scene] Missing class: 7f5210L+WFG7IbxqjYNIp52Error: [Scene] Missing class: 7f5210L+WFG7IbxqjYNIp52
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:131392:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48265:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48206:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48417:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48240:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48212:29)
+29.09.2024 19:28:11 - error: [Scene] Script "7f5210L+WFG7IbxqjYNIp52" attached to "GameScene" is missing or invalid. Detailed information:
+Node path: "should_hide_in_hierarchy/GameScene"
+Script UUID: "7f521d0b-f961-46ec-86f1-aa360d229e76"
+Class ID: "7f5210L+WFG7IbxqjYNIp52"
+Error: [Scene] Script "7f5210L+WFG7IbxqjYNIp52" attached to "GameScene" is missing or invalid. Detailed information:
+Node path: "should_hide_in_hierarchy/GameScene"
+Script UUID: "7f521d0b-f961-46ec-86f1-aa360d229e76"
+Class ID: "7f5210L+WFG7IbxqjYNIp52"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)
+29.09.2024 19:28:11 - error: [Scene] Script "7f5210L+WFG7IbxqjYNIp52" attached to "GameScene" is missing or invalid. Detailed information:
+Node path: "GameScene"
+Script UUID: "7f521d0b-f961-46ec-86f1-aa360d229e76"
+Class ID: "7f5210L+WFG7IbxqjYNIp52"
+Error: [Scene] Script "7f5210L+WFG7IbxqjYNIp52" attached to "GameScene" is missing or invalid. Detailed information:
+Node path: "GameScene"
+Script UUID: "7f521d0b-f961-46ec-86f1-aa360d229e76"
+Class ID: "7f5210L+WFG7IbxqjYNIp52"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)
+29.09.2024 19:31:15 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:31:55 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.__preload (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70989:18)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:53152:171)
+29.09.2024 19:33:04 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:33:04 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:33:04 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:33:04 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:36:26 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
 at Array.forEach (<anonymous>)  
 at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
 at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:01:53 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+29.09.2024 19:36:31 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
 at Array.forEach (<anonymous>)  
 at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
 at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:02:19 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+29.09.2024 19:37:47 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:37:47 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:38:05 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:38:07 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
 at Array.forEach (<anonymous>)  
 at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
 at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:03:26 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+29.09.2024 19:38:19 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:38:49 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:38:49 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:38:49 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:38:49 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:41:14 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.__preload (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70989:18)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:53152:171)
+29.09.2024 19:41:15 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
 at Array.forEach (<anonymous>)  
 at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
 at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:03:27 - error: [Browser Preview]TypeError: Cannot read properties of null (reading 'OpenDialog')
-29.09.2024 12:05:16 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+29.09.2024 19:42:46 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/TileProj.tiled-project)} uuid: 2458ffed-72cc-422c-a616-b0f690b0da5a) and asset({asset(db://assets/resources/TiledMap/TileProj.tiled-session)} uuid: 72dfed2b-1937-4339-b91f-dcff1916b748) are the same TiledMap/TileProj, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
 at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
 at Array.forEach (<anonymous>)  
 at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
 at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:05:18 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+29.09.2024 19:46:55 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:51:28 - warn: [Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\glow_frame.tsx[Assets] cannot find F:\git\TestMatch3\assets\resources\TiledMap\glow_frame.tsx  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:07:45 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:07:52 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:13:28 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:14:25 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:16:05 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:18:11 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:19:31 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:32:11 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:34:23 - warn: [Scene] current edit clip: 'd1fc503e-1143-4938-8224-8339a64bf16d' but you want to operate: 'c01b8ade-9db3-44f0-8331-7d27ee60e438Error: [Scene] current edit clip: 'd1fc503e-1143-4938-8224-8339a64bf16d' but you want to operate: 'c01b8ade-9db3-44f0-8331-7d27ee60e438
-    at AnimationManager.getPropValueAtFrame (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\animation\index.ccc:1:17181)
-    at AnimationSceneFacade.queryAnimationPropValueAtFrame (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\facade\animation-scene-facade.ccc:1:2240)
-    at SceneFacadeManager.queryAnimationPropValueAtFrame (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:21977)
+at searchDependFiles (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:1537)  
+at TiledMapImporter.import (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\importer\importers\tiled-map.ccc:1:3356)
+29.09.2024 19:52:23 - log: [Scene] Cannot read property 'getAttribute' of undefinedTypeError: Cannot read property 'getAttribute' of undefined
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73180:47)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\utils\callbacks-invoker.ccc:1:3080)
+    at AssetWatcherManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:6747)
+    at AssetManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\index.ccc:1:4709)
+29.09.2024 19:52:23 - error: [Window] Cannot read property 'getAttribute' of undefinedTypeError: Cannot read property 'getAttribute' of undefined
+    at <process:scene>
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73180:47)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\utils\callbacks-invoker.ccc:1:3080)
+    at AssetWatcherManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:6747)
+    at AssetManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\index.ccc:1:4709)
+29.09.2024 19:54:56 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:56:02 - warn: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'Error: [Scene] Please try asset type of ../Images/glow_frame.png to 'sprite-frame'
+    at TMXMapInfo._parseImageLayer (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73402:21)
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73351:39)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+29.09.2024 19:56:16 - error: [Scene] Can't add component 'cc.SpriteRenderer' to Слой тайлов 1 because it conflicts with the existing 'cc.TiledLayer' derived component.Error: Can't add component 'cc.SpriteRenderer' to Слой тайлов 1 because it conflicts with the existing 'cc.TiledLayer' derived component.
+    at Node.eval [as _checkMultipleComp] (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:53616:19)
+    at Node.addComponent (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:57374:18)
+    at NodeManager.createComponent (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:12278)
+    at PrefabSceneFacade.createComponent (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:12480)
+    at SceneFacadeManager.createComponent (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:13953)
     at step (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:748)
     at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:1617
     at new Promise (<anonymous>)
     at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:1554
-29.09.2024 12:34:51 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+    at EventEmitter.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1013)
+29.09.2024 20:00:14 - log: [Scene] Cannot read property 'getAttribute' of undefinedTypeError: Cannot read property 'getAttribute' of undefined
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73180:47)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\utils\callbacks-invoker.ccc:1:3080)
+    at AssetWatcherManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:6747)
+    at AssetManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\index.ccc:1:4709)
+29.09.2024 20:00:14 - error: [Window] Cannot read property 'getAttribute' of undefinedTypeError: Cannot read property 'getAttribute' of undefined
+    at <process:scene>
+    at TMXMapInfo.parseXMLString (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73180:47)
+    at TMXMapInfo.initWithXML (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:73079:23)
+    at new TMXMapInfo (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:72733:16)
+    at TiledMap._applyFile (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71047:29)
+    at TiledMap.set tmxAsset (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:70782:18)
+    at TiledMap.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1215)
+    at invokeAssetSetter (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1813)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\utils\callbacks-invoker.ccc:1:3080)
+    at AssetWatcherManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:6747)
+    at AssetManager.onAssetDeleted (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\index.ccc:1:4709)
+29.09.2024 20:00:47 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+29.09.2024 20:37:47 - warn: [Assets] The TiledMapAsset used by component "cc.TiledMap" in prefab "GameScene" is missing. Detailed information:
+Node path: "GameScene/Scene/MidlleBar/TiledMap"
+Asset url: "db://assets/resources/Prefabs/GameScene/GameScene"
+Asset file: "F:\git\TestMatch3\assets\resources\TiledMap\map.tmx"
+Asset deleted time: "29.09.2024, 19:52:23"
+Missing uuid: "d6a863e2-eb42-451a-a4b5-22e3ca50edeb"
+[Assets] The TiledMapAsset used by component "cc.TiledMap" in prefab "GameScene" is missing. Detailed information:
+Node path: "GameScene/Scene/MidlleBar/TiledMap"
+Asset url: "db://assets/resources/Prefabs/GameScene/GameScene"
+Asset file: "F:\git\TestMatch3\assets\resources\TiledMap\map.tmx"
+Asset deleted time: "29.09.2024, 19:52:23"
+Missing uuid: "d6a863e2-eb42-451a-a4b5-22e3ca50edeb"
+  
+Missing uuid: "d6a863e2-eb42-451a-a4b5-22e3ca50edeb"  
+  
+at Object.encode (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:34:56 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
+at MissingObjectReporter.doReport (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-object-reporter.ccc:1:1535)
+29.09.2024 20:38:10 - warn: [Assets] The TiledMapAsset used by component "cc.TiledMap" in prefab "GameScene" is missing. Detailed information:
+Node path: "GameScene/Scene/MidlleBar/TiledMap"
+Asset url: "db://assets/resources/Prefabs/GameScene/GameScene"
+Asset file: "F:\git\TestMatch3\assets\resources\TiledMap\map.tmx"
+Asset deleted time: "29.09.2024, 19:52:23"
+Missing uuid: "d6a863e2-eb42-451a-a4b5-22e3ca50edeb"
+[Assets] The TiledMapAsset used by component "cc.TiledMap" in prefab "GameScene" is missing. Detailed information:
+Node path: "GameScene/Scene/MidlleBar/TiledMap"
+Asset url: "db://assets/resources/Prefabs/GameScene/GameScene"
+Asset file: "F:\git\TestMatch3\assets\resources\TiledMap\map.tmx"
+Asset deleted time: "29.09.2024, 19:52:23"
+Missing uuid: "d6a863e2-eb42-451a-a4b5-22e3ca50edeb"
+  
+Missing uuid: "d6a863e2-eb42-451a-a4b5-22e3ca50edeb"  
+  
+at Object.encode (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
 at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:36:10 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:36:12 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:37:03 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 12:52:13 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:05:27 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:05:28 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:15:52 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:19:39 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:19:51 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:23:09 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:25:31 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-29.09.2024 13:29:29 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:29:33 - error: [Browser Preview]TypeError: Cannot set properties of undefined (setting 'interactable')
-29.09.2024 13:30:07 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:30:50 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:31:10 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:31:11 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 13:38:02 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 14:05:21 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
-29.09.2024 14:07:15 - warn: [Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.[Assets] The loading url of asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-project)} uuid: 752f8680-b312-45a7-8c8f-f9c997ecbc04) and asset({asset(db://assets/resources/TiledMap/Match3Tile.tiled-session)} uuid: 947c22f4-7de8-4c69-8a32-c32b1221c7dd) are the same TiledMap/Match3Tile, that will affect the correctness of loading resource in script.Please adjust the resource directory structure in time.If the resource is not loaded in the script, it can be ignored.  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4645  
-at C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4775  
-at Array.forEach (<anonymous>)  
-at Bundle.initAssetPaths (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\bundle.ccc:1:4235)  
-at BundleManager.initBundleConfig (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4276)
+at MissingObjectReporter.doReport (C:\ProgramData\cocos\editors\Creator\3.8.1\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-object-reporter.ccc:1:1535)
+29.09.2024 20:49:25 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script

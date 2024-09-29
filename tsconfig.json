@@ -4,6 +4,7 @@
 
   /* Add your custom configuration here. */
   "compilerOptions": {
+    "jsx": "react",
     "strict": true,
     "lib": ["es2018"],
     "noImplicitAny": true

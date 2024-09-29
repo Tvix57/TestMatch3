@@ -21,6 +21,10 @@ export class BallComponent extends Component {
         this.cangeColor(color);
     }
 
+    OnBallClick() {
+        
+    }
+
     private cangeColor(color: BallColor) {
         switch (color) {
             case BallColor.White:

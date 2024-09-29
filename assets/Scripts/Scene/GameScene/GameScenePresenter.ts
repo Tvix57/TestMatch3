@@ -33,4 +33,8 @@ export class GameScenePresenter implements IFieldHandler {
         this.view.UpdateScore(this._state.gameState?.score.toString()??'0')
         this.view.SetName(this._state.gameState?.name??'')
     }
+
+    OnBallClick(coord: {x: number, y: number}) {
+        this._logic.OnBallClick(coord)
+    }
 }

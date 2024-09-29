@@ -4,8 +4,6 @@
         "cpu": "13th Gen Intel(R) Core(TM) i7-13700K",
         "version": "Windows 10 Pro"
     },
-    "sceneListMap": {
-        "971935a0-bee6-4e78-92d3-5e0c1d7af85d": "F:\\git\\TestMatch3\\assets\\Scene\\GameScene.scene"
-    },
+    "sceneListMap": {},
     "deviceMd5": "ead191d00a0f5c43a2c0531599d75d2e"
 }

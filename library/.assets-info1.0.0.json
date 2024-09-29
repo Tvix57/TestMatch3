@@ -19,7 +19,7 @@
       "time": 1727187660663.6611
     },
     "F:\\git\\TestMatch3\\assets\\resources": {
-      "time": 1727501248763.4905,
+      "time": 1727614814208.5261,
       "uuid": "ff034e87-f2ea-4ef8-a07f-a6a51c2161a9"
     },
     "F:\\git\\TestMatch3\\assets\\Scene\\GameScene.scene.meta": {
@@ -82,7 +82,7 @@
       "time": 1727189087311.5994
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils": {
-      "time": 1727500099642.5732,
+      "time": 1727613674104.4202,
       "uuid": "216455f8-8530-4d34-8f1b-aacedc9e7bd7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Dispatcher.ts.meta": {
@@ -180,7 +180,7 @@
       "time": 1727191091895.4983
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images": {
-      "time": 1727527012676.6653,
+      "time": 1727599744317.4846,
       "uuid": "86ee5b06-6ce1-4af1-ad10-aaee4cda5977"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\BallColor.ts.meta": {
@@ -264,7 +264,7 @@
       "time": 1727270459779.7407
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\GameSceneComponent.ts": {
-      "time": 1727594678759.9443,
+      "time": 1727617207650.307,
       "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameLogic.ts.meta": {
@@ -442,34 +442,6 @@
       "time": 1727364162374.3105,
       "uuid": "26162d20-dcc7-4294-a099-186ff9fd4c87"
     },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap.meta": {
-      "time": 1727365790150.473
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap": {
-      "time": 1727366532319.636,
-      "uuid": "bbe164b1-c5d7-4140-ba9a-0717588afd21"
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Field.tmx.meta": {
-      "time": 1727366004927.7441
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-project.meta": {
-      "time": 1727366004927.7441
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-session.meta": {
-      "time": 1727366004927.212
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-session": {
-      "time": 1727366532287.1074,
-      "uuid": "947c22f4-7de8-4c69-8a32-c32b1221c7dd"
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Field.tmx": {
-      "time": 1727366351190.2605,
-      "uuid": "23615b83-e1d5-43f7-84c7-834f231acf9e"
-    },
-    "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-project": {
-      "time": 1727365932778.486,
-      "uuid": "752f8680-b312-45a7-8c8f-f9c997ecbc04"
-    },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate1.png.meta": {
       "time": 1727367971607.553
     },
@@ -527,10 +499,10 @@
       "uuid": "c5e7bd2a-f079-4aa4-9f78-72519b427715"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab.meta": {
-      "time": 1727191390286.943
+      "time": 1727599554681.3464
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab": {
-      "time": 1727588142662.5522,
+      "time": 1727617338379.6812,
       "uuid": "51d7adff-7e5e-4a7c-97af-dab57af7a533"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.meta": {
@@ -777,6 +749,20 @@
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\Dialog\\NewGameDialog.prefab": {
       "time": 1727587085055.8591,
       "uuid": "d044037d-dfb6-47a9-b0c8-75925f841f05"
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Images\\glow_frame.png.meta": {
+      "time": 1727613528953.4146
+    },
+    "F:\\git\\TestMatch3\\assets\\resources\\Images\\glow_frame.png": {
+      "time": 1727597743876.438,
+      "uuid": "c5ca4368-1128-4045-b42a-f559212f377c"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\RawResize.ts.meta": {
+      "time": 1727613674105.419
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\RawResize.ts": {
+      "time": 1722480446746.1475,
+      "uuid": "1990c9bb-8f65-4c2e-af00-8abdc00390a8"
     }
   },
   "missing": {
@@ -909,6 +895,66 @@
       "path": "F:\\git\\TestMatch3\\assets\\Scripts\\Dialog\\NewGameDialogComponent.ts",
       "time": 1727585550222.0735,
       "removeTime": 1727585984621
+    },
+    "fba2bf9d-fba6-4a34-93dd-918aa151f3d6": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap",
+      "time": 1727599617248.377,
+      "removeTime": 1727599660835
+    },
+    "005a75d2-3cc3-4c75-9f85-d18fddc5f949": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\frame.tsx",
+      "time": 1727600024489.586,
+      "removeTime": 1727612206893
+    },
+    "23615b83-e1d5-43f7-84c7-834f231acf9e": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Field.tmx",
+      "time": 1727612050951.891,
+      "removeTime": 1727612206893
+    },
+    "752f8680-b312-45a7-8c8f-f9c997ecbc04": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-project",
+      "time": 1727612175575.8096,
+      "removeTime": 1727612206893
+    },
+    "947c22f4-7de8-4c69-8a32-c32b1221c7dd": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-session",
+      "time": 1727612176693.8467,
+      "removeTime": 1727612206893
+    },
+    "f1b9202c-8dfa-4ded-af6f-ccc05f0da088": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\Match3Tile.tiled-session.lock",
+      "time": 1727600228212.6887,
+      "removeTime": 1727611924346
+    },
+    "e547dd62-98d1-44ee-81ea-c4a6600621c6": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\glow_frame.tsx",
+      "time": 1727613464785.331,
+      "removeTime": 1727614288741
+    },
+    "2458ffed-72cc-422c-a616-b0f690b0da5a": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\TileProj.tiled-project",
+      "time": 1727612505561.1995,
+      "removeTime": 1727614288741
+    },
+    "72dfed2b-1937-4339-b91f-dcff1916b748": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\TileProj.tiled-session",
+      "time": 1727614011774.4915,
+      "removeTime": 1727614288741
+    },
+    "d6a863e2-eb42-451a-a4b5-22e3ca50edeb": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\map.tmx",
+      "time": 1727614240299.838,
+      "removeTime": 1727614343113
+    },
+    "8ba7a739-b86a-4006-a4fd-1ed93727ceb8": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap\\map.tmx",
+      "time": 1727614560728.8926,
+      "removeTime": 1727614814214
+    },
+    "af82dd73-9173-4812-a4c1-2e50baea6bb7": {
+      "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap",
+      "time": 1727614560767.892,
+      "removeTime": 1727614814214
     }
   }
 }

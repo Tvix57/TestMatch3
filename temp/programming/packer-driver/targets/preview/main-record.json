@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 8806.429600000003,
+      "mTimestamp": 8600.2798999995,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -283,7 +283,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 10154894.464399999,
+      "mTimestamp": 17659219.1382,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1111,6 +1111,20 @@
               "column": 71
             }
           }
+        },
+        {
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/RawResize.ts",
+          "resolved": "__unresolved_59",
+          "loc": {
+            "start": {
+              "line": 63,
+              "column": 7
+            },
+            "end": {
+              "line": 63,
+              "column": 68
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1527,6 +1541,13 @@
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Utils/RawResize.ts"
+          },
+          "messages": []
         }
       ]
     },
@@ -1637,7 +1658,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1727584622632,
+      "mTimestamp": 1727599565919,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -3222,7 +3243,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727594678759.9443,
+        "mtime": 1727617207650.307,
         "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
       },
       "chunkId": "28c31814615195a8b8228614752d18f0e5988cbe",
@@ -3242,11 +3263,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 55
+              "column": 85
             },
             "end": {
               "line": 1,
-              "column": 59
+              "column": 89
             }
           }
         },
@@ -3275,6 +3296,20 @@
             "end": {
               "line": 3,
               "column": 51
+            }
+          }
+        },
+        {
+          "value": "./BallComponent",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 30
+            },
+            "end": {
+              "line": 5,
+              "column": 47
             }
           }
         }
@@ -3320,6 +3355,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts"
           },
           "messages": []
         }
@@ -5891,6 +5933,58 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Utils/RawResize.ts": {
+      "mTimestamp": {
+        "mtime": 1722480446746.1475,
+        "uuid": "1990c9bb-8f65-4c2e-af00-8abdc00390a8"
+      },
+      "chunkId": "7cd5eacfaa1a03bb18440682d476fe67169ff8ac",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 63
+            },
+            "end": {
+              "line": 1,
+              "column": 67
             }
           }
         }

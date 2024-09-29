@@ -49,10 +49,11 @@
         "26162d20-dcc7-4294-a099-186ff9fd4c87@f9941",
         "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
         "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
-        "23615b83-e1d5-43f7-84c7-834f231acf9e",
-        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941"
+        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941",
+        "c5e7bd2a-f079-4aa4-9f78-72519b427715"
       ],
       "dependScripts": [
+        "1990c9bb-8f65-4c2e-af00-8abdc00390a8",
         "39c90f99-9602-413a-9273-a6e3a8fb167c",
         "7f521d0b-f961-46ec-86f1-aa360d229e76"
       ]
@@ -364,21 +365,15 @@
   },
   "23615b83-e1d5-43f7-84c7-834f231acf9e": {
     "url": "db://assets/resources/TiledMap/Match3Field.tmx",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "752f8680-b312-45a7-8c8f-f9c997ecbc04": {
     "url": "db://assets/resources/TiledMap/Match3Tile.tiled-project",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "947c22f4-7de8-4c69-8a32-c32b1221c7dd": {
     "url": "db://assets/resources/TiledMap/Match3Tile.tiled-session",
-    "value": {
-      "depends": []
-    }
+    "value": {}
   },
   "761d4310-3d28-4f58-93ab-224bf796a62a": {
     "url": "db://assets/resources/Images/plate1.png",
@@ -740,6 +735,76 @@
   },
   "f707c5e5-8a50-45a8-a98c-60e461fd7dbb": {
     "url": "db://assets/Scripts/Dialog/NewGameDialogComponent.ts",
+    "value": {}
+  },
+  "005a75d2-3cc3-4c75-9f85-d18fddc5f949": {
+    "url": "db://assets/resources/TiledMap/frame.tsx",
+    "value": {}
+  },
+  "fba2bf9d-fba6-4a34-93dd-918aa151f3d6": {
+    "url": "db://assets/resources/TiledMap",
+    "value": {}
+  },
+  "af82dd73-9173-4812-a4c1-2e50baea6bb7": {
+    "url": "db://assets/resources/TiledMap",
+    "value": {}
+  },
+  "c5ca4368-1128-4045-b42a-f559212f377c": {
+    "url": "db://assets/resources/Images/glow_frame.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c5ca4368-1128-4045-b42a-f559212f377c@6c48a": {
+    "url": "db://assets/resources/Images/glow_frame.png@6c48a",
+    "value": {
+      "depends": [
+        "c5ca4368-1128-4045-b42a-f559212f377c"
+      ]
+    }
+  },
+  "c5ca4368-1128-4045-b42a-f559212f377c@f9941": {
+    "url": "db://assets/resources/Images/glow_frame.png@f9941",
+    "value": {
+      "depends": [
+        "c5ca4368-1128-4045-b42a-f559212f377c@6c48a"
+      ]
+    }
+  },
+  "f1b9202c-8dfa-4ded-af6f-ccc05f0da088": {
+    "url": "db://assets/resources/TiledMap/Match3Tile.tiled-session.lock",
+    "value": {}
+  },
+  "e547dd62-98d1-44ee-81ea-c4a6600621c6": {
+    "url": "db://assets/resources/TiledMap/glow_frame.tsx",
+    "value": {}
+  },
+  "d6a863e2-eb42-451a-a4b5-22e3ca50edeb": {
+    "url": "db://assets/resources/TiledMap/map.tmx",
+    "value": {}
+  },
+  "2458ffed-72cc-422c-a616-b0f690b0da5a": {
+    "url": "db://assets/resources/TiledMap/TileProj.tiled-project",
+    "value": {}
+  },
+  "72dfed2b-1937-4339-b91f-dcff1916b748": {
+    "url": "db://assets/resources/TiledMap/TileProj.tiled-session",
+    "value": {}
+  },
+  "c5ca4368-1128-4045-b42a-f559212f377c@3c318": {
+    "url": "db://assets/resources/Images/glow_frame.png@3c318",
+    "value": {
+      "depends": [
+        "c5ca4368-1128-4045-b42a-f559212f377c"
+      ]
+    }
+  },
+  "1990c9bb-8f65-4c2e-af00-8abdc00390a8": {
+    "url": "db://assets/Scripts/Utils/RawResize.ts",
+    "value": {}
+  },
+  "8ba7a739-b86a-4006-a4fd-1ed93727ceb8": {
+    "url": "db://assets/resources/TiledMap/map.tmx",
     "value": {}
   }
 }
