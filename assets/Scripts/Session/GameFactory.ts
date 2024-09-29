@@ -1,10 +1,3 @@
-/**
- * 
- * GameFactory.ts
- * db://assets/Scripts/Session/GameFactory.ts
- *
- */
-
 import { AppRoot } from "../Application/AppRoot";
 import { AppState } from "../Application/AppState";
 import { ApplicationState } from "../Save/State";

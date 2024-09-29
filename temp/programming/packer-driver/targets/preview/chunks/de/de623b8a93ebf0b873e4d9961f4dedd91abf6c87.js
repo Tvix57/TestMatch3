@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, EditorAppConfig, _crd;
+  var _reporterNs, _cclegacy, EditorAppConfig, _crd;
 
   function _reportPossibleCrUseOfIDeviceConfig(extras) {
     _reporterNs.report("IDeviceConfig", "../AppDevice", _context.meta, extras);
@@ -14,21 +14,11 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       _reporterNs = _unresolved_;
     }, function (_cc) {
       _cclegacy = _cc.cclegacy;
-      __checkObsolete__ = _cc.__checkObsolete__;
-      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "2cf05LHR9NDjKElEHk0PSOJ", "EditorAppConfig", undefined);
-
-      /**
-       * 
-       * EditorAppConfig.ts
-       * db://assets/Scripts/Application/Editor/EditorAppConfig.ts
-       *
-       */
-      __checkObsolete__(['log']);
 
       _export("EditorAppConfig", EditorAppConfig = class EditorAppConfig {
         GetApplicationUserId() {

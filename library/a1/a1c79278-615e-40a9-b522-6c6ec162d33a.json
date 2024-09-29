@@ -686,7 +686,10 @@
     },
     "_hoverSprite": null,
     "_pressedSprite": null,
-    "_disabledSprite": null,
+    "_disabledSprite": {
+      "__uuid__": "0f6f352c-fa91-4541-8040-01df24cd71d2@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
     "_duration": 0.1,
     "_zoomScale": 1.2,
     "_target": {
@@ -1550,7 +1553,10 @@
     },
     "_hoverSprite": null,
     "_pressedSprite": null,
-    "_disabledSprite": null,
+    "_disabledSprite": {
+      "__uuid__": "0f6f352c-fa91-4541-8040-01df24cd71d2@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
     "_duration": 0.1,
     "_zoomScale": 1.2,
     "_target": {
@@ -2320,6 +2326,12 @@
     "_enabled": true,
     "__prefab": {
       "__id__": 103
+    },
+    "continueBtn": {
+      "__id__": 23
+    },
+    "leaderboardBtn": {
+      "__id__": 61
     },
     "_id": ""
   },

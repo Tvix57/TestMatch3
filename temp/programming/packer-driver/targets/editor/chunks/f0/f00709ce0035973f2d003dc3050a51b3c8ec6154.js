@@ -33,13 +33,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _export("GameState", GameState = class GameState extends (_crd && IState === void 0 ? (_reportPossibleCrUseOfIState({
         error: Error()
       }), IState) : IState) {
-        constructor(name, gameStats, field, isFinished) {
+        constructor(name, score, gameStats, field, isFinished) {
           super();
           this.name = void 0;
+          this.score = void 0;
           this.gameStats = void 0;
           this.field = void 0;
           this.isFinished = void 0;
           this.name = name != null ? name : "";
+          this.score = score != null ? score : 0;
           this.gameStats = gameStats != null ? gameStats : new Array();
           this.field = field != null ? field : new Array();
           this.isFinished = isFinished != null ? isFinished : false;
@@ -54,7 +56,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         static Load(input) {
-          return new GameState(input.name, input.gameStats, input.field, input.isFinished);
+          return new GameState(input.name, input.score, input.gameStats, input.field, input.isFinished);
         }
 
       });

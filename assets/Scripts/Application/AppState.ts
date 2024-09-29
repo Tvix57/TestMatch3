@@ -1,10 +1,3 @@
-/**
- * 
- * AppState.ts
- * db://assets/Scripts/Application/AppState.ts
- *
- */
-
 import { AndroidSaveState } from "../Save/Android/AndroidSaveState"
 import { EditorSaveState } from "../Save/Editor/EditorSaveState"
 import { SaveContext } from "../Save/SaveContext"

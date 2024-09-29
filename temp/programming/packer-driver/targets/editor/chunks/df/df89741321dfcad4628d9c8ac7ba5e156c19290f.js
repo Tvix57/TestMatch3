@@ -29,13 +29,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _crd = true;
 
       _cclegacy._RF.push({}, "fcc19JIqelHwLMwnrLY4wKN", "GameFactory", undefined);
-      /**
-       * 
-       * GameFactory.ts
-       * db://assets/Scripts/Session/GameFactory.ts
-       *
-       */
-
 
       _export("GameFactory", GameFactory = class GameFactory {
         constructor(saveContext) {

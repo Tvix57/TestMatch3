@@ -11,4 +11,4 @@ export class Observer<T> {
     } 
 }
 
-export{} //Supress --isolatedModules error
+export{}

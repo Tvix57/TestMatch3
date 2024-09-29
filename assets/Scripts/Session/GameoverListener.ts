@@ -1,8 +1,10 @@
+import { AppRoot } from "../Application/AppRoot";
 import { AnsverDialogComponent } from "../Dialog/AnsverDialogComponent";
 import { DialogFactory } from "../Dialog/DialogFactory";
 import { LocationType } from "../Enums/LocationType";
 import { IFieldHandler } from "../Logic/Field";
 import { GameStatsInfo } from "../Logic/GameStatsInfo";
+import { ApplicationState } from "../Save/State";
 import { ISceneManager } from "../Scene/ISceneManager";
 import { GameLogic } from "./GameLogic";
 
@@ -13,7 +15,6 @@ export type GameoverConfig = {
 
 export class GameoverListener implements IFieldHandler
 {
-
     private _dialogFactory = new DialogFactory("Prefabs/Dialog/EndDialog");
     constructor(
         private _gameLogic:GameLogic,
@@ -25,6 +26,7 @@ export class GameoverListener implements IFieldHandler
     NewGame(name: string): void {}
 
     EndGame(info: GameStatsInfo): void {
+        AppRoot.getInstance.ResolveGameContext().FinishGame()
         this.showEndDialog()
     }
 

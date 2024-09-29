@@ -53,13 +53,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       _crd = true;
 
       _cclegacy._RF.push({}, "10639u8bNtPzoG+tvlC+GDk", "AppState", undefined);
-      /**
-       * 
-       * AppState.ts
-       * db://assets/Scripts/Application/AppState.ts
-       *
-       */
-
 
       _export("AppState", AppState = class AppState {
         constructor(platform, timer) {

@@ -52,6 +52,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
           _device.AddHandler(this);
         }
 
+        OnExitApplication() {
+          this._saveDisp.Save();
+        }
+
         RemoveHandler() {
           this._saveDisp.RemoveHandler(this);
 

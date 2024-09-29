@@ -7,6 +7,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
     _reporterNs.report("BallColor", "../Enums/BallColor", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfGameState(extras) {
+    _reporterNs.report("GameState", "../Session/GameState", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfAbstractDispatcher(extras) {
     _reporterNs.report("AbstractDispatcher", "../Utils/Dispatcher", _context.meta, extras);
   }
@@ -35,13 +39,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _export("Field", Field = class Field extends (_crd && AbstractDispatcher === void 0 ? (_reportPossibleCrUseOfAbstractDispatcher({
         error: Error()
       }), AbstractDispatcher) : AbstractDispatcher) {
-        constructor(isFinished, field) {
+        constructor(isFinished, _state, field) {
           super();
           this.minCombinationLength = 3;
           this.garanteedStartCombinations = 4;
           this.fieldSize = 20;
-          this.name = "name";
-          this.currentScore = 0;
+          this._state = _state;
           this.field = field;
           if (this.field.length === 0 || isFinished) this.generateNewField();
         }
@@ -51,9 +54,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         }
 
         StartNewGame(name) {
-          this.name = name;
-          this.currentScore = 0;
+          this._state.isFinished = false;
+          this._state.name = name;
+          this._state.score = 0;
           this.generateNewField();
+
+          this._dispatcher.Post(h => h.NewGame == null ? void 0 : h.NewGame(name));
+
+          this._dispatcher.Post(h => h.NewScore == null ? void 0 : h.NewScore(this._state.score));
         }
 
         OnBallClick(coord) {
@@ -72,16 +80,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
           if (!this.checkAllOption()) {
             this._dispatcher.Post(h => h.EndGame({
-              name: this.name,
-              score: this.currentScore
+              name: this._state.name,
+              score: this._state.score
             }));
           }
         }
 
         addScore(score) {
-          this.currentScore += score;
+          this._state.score += score;
 
-          this._dispatcher.Post(h => h.NewScore == null ? void 0 : h.NewScore(this.currentScore));
+          this._dispatcher.Post(h => h.NewScore == null ? void 0 : h.NewScore(this._state.score));
         }
 
         checkFromCoord(coord) {

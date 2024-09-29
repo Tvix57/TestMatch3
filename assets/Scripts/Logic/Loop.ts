@@ -1,10 +1,3 @@
-/**
- * 
- * Loop.ts
- * db://assets/Scripts/Game/Loop.ts
- *
- */
-
 import { IAppTimer, IAppTimerHandler } from "../Application/IAppTimer"
 import { AbstractDispatcher } from "../Utils/Dispatcher"
 
@@ -40,16 +33,16 @@ export class Loop extends AbstractDispatcher<ILoopHandler> implements IAppTimerH
         }
     }
 
-    SetBtnPause(isPause:boolean){
+    SetBtnPause(isPause:boolean) {
         this._btnPause = isPause
         this._dispatcher.Post((h:ILoopHandler)=>h.OnTimeSpeedChange?.(this.GetTimeSpeed()))
     }
 
-    SetPause(isPause:boolean){
+    SetPause(isPause:boolean) {
         this._pauseCount = isPause
         this._dispatcher.Post((h:ILoopHandler)=>h.OnTimeSpeedChange?.(this.GetTimeSpeed()))
     }
-    SetSpeedUp(isSpeedup:boolean){
+    SetSpeedUp(isSpeedup:boolean) {
         this._speedType = isSpeedup ? TimeSpeed.SpeedUp : TimeSpeed.Play
         this._dispatcher.Post((h:ILoopHandler)=>h.OnTimeSpeedChange?.(this.GetTimeSpeed()))
     }
@@ -57,10 +50,8 @@ export class Loop extends AbstractDispatcher<ILoopHandler> implements IAppTimerH
     GetPause() { return this._pauseCount }
     GetBtnPause() { return this._btnPause }
     
-    GetTimeSpeed():TimeSpeed
-    {
+    GetTimeSpeed():TimeSpeed {
         if(this._pauseCount || this._btnPause) return TimeSpeed.Pause
         return this._speedType
     }
-    
 }

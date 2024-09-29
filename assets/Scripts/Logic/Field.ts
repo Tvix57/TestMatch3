@@ -1,4 +1,5 @@
 import { BallColor } from "../Enums/BallColor";
+import { GameState } from "../Session/GameState";
 import { AbstractDispatcher } from "../Utils/Dispatcher";
 import { GameStatsInfo } from "./GameStatsInfo";
 
@@ -11,15 +12,13 @@ export interface IFieldHandler {
 }
 
 export class Field extends AbstractDispatcher <IFieldHandler> {
-
     readonly minCombinationLength = 3;
     readonly garanteedStartCombinations = 4;
     readonly fieldSize = 20;
-    private name: string = "name"
-    private currentScore: number = 0
 
     constructor(
         isFinished: boolean,
+        private _state:GameState,
         private field:Array<Array<BallColor>>) {
         super()
         if (this.field.length === 0 || isFinished) this.generateNewField()
@@ -30,9 +29,12 @@ export class Field extends AbstractDispatcher <IFieldHandler> {
     }
 
     StartNewGame(name: string) {
-        this.name = name
-        this.currentScore = 0
+        this._state.isFinished = false
+        this._state.name = name
+        this._state.score = 0
         this.generateNewField()
+        this._dispatcher.Post((h)=>h.NewGame?.(name))
+        this._dispatcher.Post((h)=>h.NewScore?.(this._state.score))
     }
 
     OnBallClick(coord: {x: number, y: number}) {
@@ -49,13 +51,13 @@ export class Field extends AbstractDispatcher <IFieldHandler> {
         } 
 
         if (!this.checkAllOption()) {
-            this._dispatcher.Post((h)=>h.EndGame({name: this.name, score: this.currentScore}))
+            this._dispatcher.Post((h)=>h.EndGame({name: this._state.name, score: this._state.score}))
         }
     }
 
     private addScore(score: number) {
-        this.currentScore += score
-        this._dispatcher.Post((h)=>h.NewScore?.(this.currentScore))
+        this._state.score += score
+        this._dispatcher.Post((h)=>h.NewScore?.(this._state.score))
     }
 
     private checkFromCoord(coord: {x: number, y: number}) : {x: number, y: number}[] {

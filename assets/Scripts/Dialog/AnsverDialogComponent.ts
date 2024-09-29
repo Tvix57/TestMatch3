@@ -16,11 +16,9 @@ export class AnsverDialogComponent extends Component implements IAnsverHandler
     
     private _handler?:(isAccept:boolean)=>void
 
-    private sceneManager!:ISceneManager
     private dialogManager!:IDialogManager
 
-    protected onLoad(): void {
-        this.sceneManager = AppRoot.getInstance.ResolveSceneManager()
+    protected onEnable(): void {
         this.dialogManager = AppRoot.getInstance.ResolveDialogManager()
 
         this.rejectBtn?.node.on(Button.EventType.CLICK,this.OnRejectPressed,this)

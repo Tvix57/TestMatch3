@@ -25,7 +25,6 @@ System.register(["cc"], function (_export, _context) {
 
       });
 
-      //Supress --isolatedModules error
       _cclegacy._RF.pop();
 
       _crd = false;

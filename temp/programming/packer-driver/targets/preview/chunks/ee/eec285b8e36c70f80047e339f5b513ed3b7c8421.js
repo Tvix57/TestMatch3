@@ -74,7 +74,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
         HasGame() {
           if (this._state) {
-            return this._state.HasGame() && !this._state.IsGameFinished();
+            return this._state.HasGame();
+          }
+
+          return false;
+        }
+
+        IsGameFinished() {
+          if (this._state) {
+            return this._state.IsGameFinished();
           }
 
           return false;

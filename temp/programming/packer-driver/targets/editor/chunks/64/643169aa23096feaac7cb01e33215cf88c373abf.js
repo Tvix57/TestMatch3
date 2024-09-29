@@ -35,6 +35,8 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
           device.AddHandler(this);
         }
 
+        OnExitApplication() {}
+
         RemoveHandler() {
           this.device.RemoveHandler(this);
         }

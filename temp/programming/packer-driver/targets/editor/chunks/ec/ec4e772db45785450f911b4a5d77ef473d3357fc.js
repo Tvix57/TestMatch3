@@ -18,13 +18,6 @@ System.register(["cc"], function (_export, _context) {
       _crd = true;
 
       _cclegacy._RF.push({}, "534b4ZT1ZhANYqm8Oe5pr1n", "PrefabLoader", undefined);
-      /**
-       * 
-       * PrefabLoader.ts
-       * db://assets/Scripts/Cocos/PrefabLoader.ts
-       *
-       */
-
 
       __checkObsolete__(['Prefab', 'Node', 'instantiate', 'resources']);
 

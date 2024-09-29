@@ -25,7 +25,8 @@
         "c136252c-bd5f-44e0-ba8c-d09e88117fb7",
         "ae57305c-0529-47b1-b514-e88ee912744d",
         "bd91b9fb-245e-49a6-8eb4-372f0a518078",
-        "40be852b-b36c-489b-b242-ec3305c52bcb"
+        "40be852b-b36c-489b-b242-ec3305c52bcb",
+        "3b64b2af-c673-4b24-94d9-c3075899917e"
       ]
     }
   },
@@ -49,8 +50,7 @@
         "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
         "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
         "23615b83-e1d5-43f7-84c7-834f231acf9e",
-        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941",
-        "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941"
+        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941"
       ],
       "dependScripts": [
         "39c90f99-9602-413a-9273-a6e3a8fb167c",
@@ -478,6 +478,7 @@
       "depends": [
         "26162d20-dcc7-4294-a099-186ff9fd4c87@f9941",
         "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
+        "0f6f352c-fa91-4541-8040-01df24cd71d2@f9941",
         "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
         "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941",
         "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941"
@@ -495,9 +496,12 @@
         "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941",
         "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
         "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
-        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941"
+        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941",
+        "0f6f352c-fa91-4541-8040-01df24cd71d2@f9941",
+        "6aa13f78-9cee-4555-b85b-af6de3a4445e"
       ],
       "dependScripts": [
+        "39c90f99-9602-413a-9273-a6e3a8fb167c",
         "4a9d85e7-521b-44dc-80cf-9f3ca4d85d19"
       ]
     }
@@ -580,10 +584,7 @@
   },
   "a92b85f7-594b-475b-8970-112139b5dce0": {
     "url": "db://assets/resources/Prefabs/Dialog/LoseDialog.prefab",
-    "value": {
-      "depends": [],
-      "dependScripts": []
-    }
+    "value": {}
   },
   "f1da65dc-33c0-4cc5-8466-1173f7d43718": {
     "url": "db://assets/Scripts/Dialog",
@@ -688,17 +689,57 @@
       "depends": [
         "26162d20-dcc7-4294-a099-186ff9fd4c87@f9941",
         "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
-        "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
         "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941",
         "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941"
       ],
       "dependScripts": [
-        "e8b1dee8-5859-4c98-b6f8-4aec6e2f9715"
+        "7180c9d4-41b3-4d95-bc51-1c423094cc5b"
       ]
     }
   },
   "7180c9d4-41b3-4d95-bc51-1c423094cc5b": {
     "url": "db://assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts",
+    "value": {}
+  },
+  "0f6f352c-fa91-4541-8040-01df24cd71d2": {
+    "url": "db://assets/resources/Images/plate5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0f6f352c-fa91-4541-8040-01df24cd71d2@6c48a": {
+    "url": "db://assets/resources/Images/plate5.png@6c48a",
+    "value": {
+      "depends": [
+        "0f6f352c-fa91-4541-8040-01df24cd71d2"
+      ]
+    }
+  },
+  "0f6f352c-fa91-4541-8040-01df24cd71d2@f9941": {
+    "url": "db://assets/resources/Images/plate5.png@f9941",
+    "value": {
+      "depends": [
+        "0f6f352c-fa91-4541-8040-01df24cd71d2@6c48a"
+      ]
+    }
+  },
+  "d044037d-dfb6-47a9-b0c8-75925f841f05": {
+    "url": "db://assets/resources/Prefabs/Dialog/NewGameDialog.prefab",
+    "value": {
+      "depends": [
+        "331cc5cd-a3b7-4e27-b3ac-6b526a63255b@f9941",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "761d4310-3d28-4f58-93ab-224bf796a62a@f9941",
+        "5cc2ffa5-6cab-4df4-9402-480a10b845e9@f9941",
+        "a92046ed-1a54-4a41-af18-10b9f945c77a@f9941"
+      ],
+      "dependScripts": [
+        "5e0a7cbe-4d6c-425c-bbbe-7a1c02fe9904"
+      ]
+    }
+  },
+  "f707c5e5-8a50-45a8-a98c-60e461fd7dbb": {
+    "url": "db://assets/Scripts/Dialog/NewGameDialogComponent.ts",
     "value": {}
   }
 }

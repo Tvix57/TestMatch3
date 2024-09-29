@@ -3,6 +3,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
 
   var _reporterNs, _cclegacy, ScoreScenePresenter, _crd;
 
+  function _reportPossibleCrUseOfGameStats(extras) {
+    _reporterNs.report("GameStats", "../../Logic/GameStatsInfo", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfScoreSceneComponent(extras) {
     _reporterNs.report("ScoreSceneComponent", "./ScoreSceneComponent", _context.meta, extras);
   }
@@ -21,12 +25,15 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       _cclegacy._RF.push({}, "21d2eznj5VDNpNXA3djcfh/", "ScoreScenePresenter", undefined);
 
       _export("ScoreScenePresenter", ScoreScenePresenter = class ScoreScenePresenter {
-        constructor(view) {
+        constructor(view, context) {
           this.view = view;
+          this.context = context;
         }
 
         LoadScores() {
-          this.view.AddScore("0", 0); //// TODO
+          this.context.GetData().forEach(info => {
+            this.view.AddScore(info.name, info.score);
+          });
         }
 
       });

@@ -9,6 +9,7 @@ import { log } from "cc";
 import { ApplicationState } from "../State";
 import { IState } from "../SaveInterfaces";
 import { GameState } from "../../Session/GameState";
+import { GameStatsInfo } from "../../Logic/GameStatsInfo";
 
 export class EditorSaveState 
 {
@@ -18,8 +19,12 @@ export class EditorSaveState
     LoadState():IState {
         return new ApplicationState(
             new GameState(
-                "Player", //name
-                undefined, //stats
+                undefined, //name
+                0, //score
+                [ {name:"Player1", score: 12},
+                  {name:"Player2", score: 24},
+                  {name:"Player3", score: 26},
+                ], //stats
                 undefined, //field
                 true, //isFinished
             ),                                             //gameState

@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, TiledMap, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, GameSceneComponent;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, TiledMap, GameScenePresenter, AppRoot, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, GameSceneComponent;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,6 +11,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
 
   function _reportPossibleCrUseOfGameScenePresenter(extras) {
     _reporterNs.report("GameScenePresenter", "./GameScenePresenter", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfAppRoot(extras) {
+    _reporterNs.report("AppRoot", "../../Application/AppRoot", _context.meta, extras);
   }
 
   return {
@@ -24,6 +28,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       Component = _cc.Component;
       Label = _cc.Label;
       TiledMap = _cc.TiledMap;
+    }, function (_unresolved_2) {
+      GameScenePresenter = _unresolved_2.GameScenePresenter;
+    }, function (_unresolved_3) {
+      AppRoot = _unresolved_3.AppRoot;
     }],
     execute: function () {
       _crd = true;
@@ -50,8 +58,12 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
           this._presenter = void 0;
         }
 
-        SetPresenter(presenter) {
-          this._presenter = presenter;
+        onLoad() {
+          this._presenter = new (_crd && GameScenePresenter === void 0 ? (_reportPossibleCrUseOfGameScenePresenter({
+            error: Error()
+          }), GameScenePresenter) : GameScenePresenter)(this, (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
+            error: Error()
+          }), AppRoot) : AppRoot).getInstance.ResolveGameContext().ResolveGame().ResolveField());
         }
 
         SetName(newName) {

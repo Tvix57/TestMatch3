@@ -48,13 +48,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
       DialogEntry = class DialogEntry {
-        constructor(node, priority, dialogName) {
+        constructor(node) {
           this.node = void 0;
-          this.priority = void 0;
-          this.dialogName = void 0;
           this.node = node;
-          this.priority = priority;
-          this.dialogName = dialogName;
         }
 
       };
@@ -72,22 +68,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this._isShow = false;
         }
 
-        OpenDialog(node, dialogName, priority) {
-          if (priority === void 0) {
-            priority = 0;
-          }
+        OpenDialog(node) {
+          this._dialogStack.push(new DialogEntry(node));
 
-          var newEntry = new DialogEntry(node, priority, dialogName);
-
-          var index = this._dialogStack.findIndex(h => h.priority < priority);
-
-          if (index != -1) {
-            this._dialogStack.splice(index + (this._isShow ? 1 : 0), 0, newEntry);
-          } else {
-            this._dialogStack.push(newEntry);
-
-            this._dispatcher.Post(h => h.WillDialogShow == null ? void 0 : h.WillDialogShow());
-          }
+          this._dispatcher.Post(h => h.WillDialogShow == null ? void 0 : h.WillDialogShow());
         }
 
         CloseDialog() {
@@ -98,10 +82,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           component == null ? void 0 : component.play("Close");
           component == null ? void 0 : component.on(Animation.EventType.FINISHED, this.onAnimationEvent, this);
           return true;
-        }
-
-        GetTopDialogName() {
-          return this._dialogStack.length > 0 ? this._dialogStack[0].dialogName : "";
         }
 
         CloseAllDialogs() {

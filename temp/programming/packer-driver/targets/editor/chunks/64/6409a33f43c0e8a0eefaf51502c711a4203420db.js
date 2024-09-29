@@ -11,13 +11,6 @@ System.register(["cc"], function (_export, _context) {
       _crd = true;
 
       _cclegacy._RF.push({}, "8902cCLsbtLuZf6e91zKkRJ", "ApplicationInterfaces", undefined);
-      /**
-       * 
-       * ApplicationInterfaces.ts
-       * db://assets/Scripts/Application/ApplicationInterfaces.ts
-       *
-       */
-
 
       _cclegacy._RF.pop();
 

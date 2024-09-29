@@ -1,12 +1,22 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, GameStats, _crd;
+  var _reporterNs, _cclegacy, GameStats, _crd;
+
+  function _reportPossibleCrUseOfField(extras) {
+    _reporterNs.report("Field", "./Field", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfIFieldHandler(extras) {
+    _reporterNs.report("IFieldHandler", "./Field", _context.meta, extras);
+  }
 
   _export("GameStats", void 0);
 
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
     }],
     execute: function () {
@@ -15,15 +25,16 @@ System.register(["cc"], function (_export, _context) {
       _cclegacy._RF.push({}, "afe6auvIYJE/6QxrxV1roPq", "GameStatsInfo", undefined);
 
       _export("GameStats", GameStats = class GameStats {
-        constructor(stats) {
+        constructor(field, stats) {
+          this.field = field;
           this.stats = stats;
+          field.AddHandler(this);
         }
 
-        Add(name, score) {
-          this.stats.push({
-            name,
-            score
-          });
+        NewGame(name) {}
+
+        EndGame(info) {
+          this.stats.push(info);
         }
 
         GetData() {

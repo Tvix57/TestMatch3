@@ -29,13 +29,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _crd = true;
 
       _cclegacy._RF.push({}, "7600ekLAw1PeL+2P5m60EEh", "Loop", undefined);
-      /**
-       * 
-       * Loop.ts
-       * db://assets/Scripts/Game/Loop.ts
-       *
-       */
-
 
       _export("TimeSpeed", TimeSpeed = /*#__PURE__*/function (TimeSpeed) {
         TimeSpeed[TimeSpeed["Pause"] = 0] = "Pause";

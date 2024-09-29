@@ -8,7 +8,6 @@ import { SessionDeviceListener } from "./SessionDeviceListener";
 import { ISceneManager } from "../Scene/ISceneManager";
 import { AppDevice } from "../Application/AppDevice";
 import { IAppTimer } from "../Application/IAppTimer";
-import { DialogFactory } from "../Dialog/DialogFactory";
 
 export class GameContext {
     private _logic: GameLogic | null = null;
@@ -27,7 +26,7 @@ export class GameContext {
                saveDisp: SaveDispatcher,
                sceneManager: ISceneManager,
                state: ApplicationState,
-    ){
+    ) {
         this.isGameActive = true
         this._state = state.gameState!;
         this._logic = new GameLogic(this._state);
@@ -42,7 +41,6 @@ export class GameContext {
     
     ClearGame(){
         this._saveListener.ManualSave()
-        this._logic?.Finish();
         this._logic = null;
         this._gameoverListener = null;
         this.isGameActive = false;

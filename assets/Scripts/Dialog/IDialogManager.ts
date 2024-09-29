@@ -10,6 +10,5 @@ export interface IDialogHandler {
 export interface IDialogManager extends IDispatcher<IDialogHandler> {
     OpenDialog(node: Node): void;
     CloseDialog(): boolean;
-    GetTopDialogName(): string;
     CloseAllDialogs(): void;
 }

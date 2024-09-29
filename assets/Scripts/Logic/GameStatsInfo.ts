@@ -1,13 +1,23 @@
+import { BallColor } from "../Enums/BallColor"
+import { Field, IFieldHandler } from "./Field"
+
 export type GameStatsInfo = { 
     name: string,
     score: number,
 }
 
-export class GameStats {
-    constructor(private stats: Array<GameStatsInfo>) {}
+export class GameStats implements IFieldHandler {
+    constructor(
+        private field: Field,
+        private stats: Array<GameStatsInfo>
+    ) {
+        field.AddHandler(this)
+    }
 
-    Add(name: string, score: number) {
-        this.stats.push({name, score})
+    NewGame(name: string): void {}
+
+    EndGame(info: GameStatsInfo): void {
+        this.stats.push(info)
     }
 
     GetData(): Array<GameStatsInfo> {

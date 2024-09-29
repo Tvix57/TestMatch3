@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6071.614300000016,
+      "mTimestamp": 6007.646500000003,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 22212060.9779,
+      "mTimestamp": 8897918.3509,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1148,7 +1148,7 @@
           }
         },
         {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/BackgroundManagerComponent.ts",
+          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts",
           "resolved": "__unresolved_36",
           "loc": {
             "start": {
@@ -1157,343 +1157,315 @@
             },
             "end": {
               "line": 5,
-              "column": 3188
-            }
-          }
-        },
-        {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts",
-          "resolved": "__unresolved_37",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 3204
-            },
-            "end": {
-              "line": 5,
-              "column": 3279
+              "column": 3185
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts",
-          "resolved": "__unresolved_38",
+          "resolved": "__unresolved_37",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3295
+              "column": 3201
             },
             "end": {
               "line": 5,
-              "column": 3375
+              "column": 3281
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts",
-          "resolved": "__unresolved_39",
+          "resolved": "__unresolved_38",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3391
+              "column": 3297
             },
             "end": {
               "line": 5,
-              "column": 3471
+              "column": 3377
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts",
-          "resolved": "__unresolved_40",
+          "resolved": "__unresolved_39",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3487
+              "column": 3393
             },
             "end": {
               "line": 5,
-              "column": 3552
+              "column": 3458
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts",
-          "resolved": "__unresolved_41",
+          "resolved": "__unresolved_40",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3568
+              "column": 3474
             },
             "end": {
               "line": 5,
-              "column": 3654
+              "column": 3560
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts",
-          "resolved": "__unresolved_42",
+          "resolved": "__unresolved_41",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3670
+              "column": 3576
             },
             "end": {
               "line": 5,
-              "column": 3747
+              "column": 3653
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts",
-          "resolved": "__unresolved_43",
+          "resolved": "__unresolved_42",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3763
+              "column": 3669
             },
             "end": {
               "line": 5,
-              "column": 3844
+              "column": 3750
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts",
-          "resolved": "__unresolved_44",
+          "resolved": "__unresolved_43",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3860
+              "column": 3766
             },
             "end": {
               "line": 5,
-              "column": 3942
+              "column": 3848
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts",
-          "resolved": "__unresolved_45",
+          "resolved": "__unresolved_44",
           "loc": {
             "start": {
               "line": 5,
-              "column": 3958
+              "column": 3864
             },
             "end": {
               "line": 5,
-              "column": 4040
+              "column": 3946
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts",
-          "resolved": "__unresolved_46",
+          "resolved": "__unresolved_45",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4056
+              "column": 3962
             },
             "end": {
               "line": 5,
-              "column": 4138
-            }
-          }
-        },
-        {
-          "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartScenePresenter.ts",
-          "resolved": "__unresolved_47",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 4154
-            },
-            "end": {
-              "line": 5,
-              "column": 4236
+              "column": 4044
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts",
-          "resolved": "__unresolved_48",
+          "resolved": "__unresolved_46",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4252
+              "column": 4060
             },
             "end": {
               "line": 5,
-              "column": 4321
+              "column": 4129
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts",
-          "resolved": "__unresolved_49",
+          "resolved": "__unresolved_47",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4337
+              "column": 4145
             },
             "end": {
               "line": 5,
-              "column": 4405
+              "column": 4213
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts",
-          "resolved": "__unresolved_50",
+          "resolved": "__unresolved_48",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4421
+              "column": 4229
             },
             "end": {
               "line": 5,
-              "column": 4486
+              "column": 4294
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts",
-          "resolved": "__unresolved_51",
+          "resolved": "__unresolved_49",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4502
+              "column": 4310
             },
             "end": {
               "line": 5,
-              "column": 4567
+              "column": 4375
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts",
-          "resolved": "__unresolved_52",
+          "resolved": "__unresolved_50",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4583
+              "column": 4391
             },
             "end": {
               "line": 5,
-              "column": 4646
+              "column": 4454
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts",
-          "resolved": "__unresolved_53",
+          "resolved": "__unresolved_51",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4662
+              "column": 4470
             },
             "end": {
               "line": 5,
-              "column": 4732
+              "column": 4540
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts",
-          "resolved": "__unresolved_54",
+          "resolved": "__unresolved_52",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4748
+              "column": 4556
             },
             "end": {
               "line": 5,
-              "column": 4811
+              "column": 4619
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts",
-          "resolved": "__unresolved_55",
+          "resolved": "__unresolved_53",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4827
+              "column": 4635
             },
             "end": {
               "line": 5,
-              "column": 4897
+              "column": 4705
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts",
-          "resolved": "__unresolved_56",
+          "resolved": "__unresolved_54",
           "loc": {
             "start": {
               "line": 5,
-              "column": 4913
+              "column": 4721
             },
             "end": {
               "line": 5,
-              "column": 4988
+              "column": 4796
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts",
-          "resolved": "__unresolved_57",
+          "resolved": "__unresolved_55",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5004
+              "column": 4812
             },
             "end": {
               "line": 5,
-              "column": 5079
+              "column": 4887
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts",
-          "resolved": "__unresolved_58",
+          "resolved": "__unresolved_56",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5095
+              "column": 4903
             },
             "end": {
               "line": 5,
-              "column": 5157
+              "column": 4965
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts",
-          "resolved": "__unresolved_59",
+          "resolved": "__unresolved_57",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5173
+              "column": 4981
             },
             "end": {
               "line": 5,
-              "column": 5233
+              "column": 5041
             }
           }
         },
         {
           "value": "file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts",
-          "resolved": "__unresolved_60",
+          "resolved": "__unresolved_58",
           "loc": {
             "start": {
               "line": 5,
-              "column": 5249
+              "column": 5057
             },
             "end": {
               "line": 5,
-              "column": 5313
+              "column": 5121
             }
           }
         }
@@ -1755,13 +1727,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/BackgroundManagerComponent.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts"
           },
           "messages": []
@@ -1826,13 +1791,6 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartScenePresenter.ts"
           },
           "messages": []
         },
@@ -1983,7 +1941,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts": {
       "mTimestamp": {
-        "mtime": 1727281998201.5852,
+        "mtime": 1727528326688.224,
         "uuid": "ffb83110-502d-42bc-b1b9-1768f9a0cd3e"
       },
       "chunkId": "6fb63abd3ee4062e6e5725fd794ec010fe77cd13",
@@ -1996,7 +1954,7 @@
           "value": "cc"
         },
         {
-          "value": "../Scene/AudioManagerComponent",
+          "value": "../Enums/AudioType",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -2005,7 +1963,7 @@
             },
             "end": {
               "line": 1,
-              "column": 58
+              "column": 46
             }
           }
         }
@@ -2029,14 +1987,14 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts"
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts"
           },
           "messages": []
         }
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1727495772704,
+      "mTimestamp": 1727584622632,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2044,7 +2002,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts": {
       "mTimestamp": {
-        "mtime": 1727284426033.2537,
+        "mtime": 1727529064047.3923,
         "uuid": "5a90e2a4-75f5-40a7-bd03-2673bb8d6d18"
       },
       "chunkId": "467c7fcf82730964b2b3022104cd0026380cab7b",
@@ -2283,7 +2241,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts": {
       "mTimestamp": {
-        "mtime": 1727517059908.1516,
+        "mtime": 1727592714228.101,
         "uuid": "4273d575-8511-41f0-8bf9-38d11680f627"
       },
       "chunkId": "a4df9ce64a683289daf02dc66d1dd03d0a03a461",
@@ -2400,7 +2358,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts": {
       "mTimestamp": {
-        "mtime": 1727510274196.2534,
+        "mtime": 1727593029553.3274,
         "uuid": "cd6076b0-6493-4121-a877-fdf47c26bf74"
       },
       "chunkId": "76cb67036cc5edaaf7aec909fff4334c7395c74b",
@@ -2413,43 +2371,57 @@
           "value": "cc"
         },
         {
-          "value": "../Dialog/AnsverDialogComponent",
+          "value": "../Application/AppRoot",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 1,
-              "column": 38
+              "column": 24
             },
             "end": {
               "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../Dialog/AnsverDialogComponent",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
               "column": 71
             }
           }
         },
         {
           "value": "../Dialog/DialogFactory",
-          "resolved": "__unresolved_2",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 3,
               "column": 30
             },
             "end": {
-              "line": 2,
+              "line": 3,
               "column": 55
             }
           }
         },
         {
           "value": "../Enums/LocationType",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 3,
+              "line": 4,
               "column": 29
             },
             "end": {
-              "line": 3,
+              "line": 4,
               "column": 52
             }
           }
@@ -2468,6 +2440,13 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
           },
           "messages": []
         },
@@ -2496,7 +2475,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts": {
       "mTimestamp": {
-        "mtime": 1727504266160.098,
+        "mtime": 1727529116659.0588,
         "uuid": "53c7b37a-6296-4244-96e2-7ce7cdc64e76"
       },
       "chunkId": "6e9105e8b0f94f073107845df773383dcbfb3d82",
@@ -2529,7 +2508,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts": {
       "mTimestamp": {
-        "mtime": 1727499604423.891,
+        "mtime": 1727531019515.278,
         "uuid": "a1ae059e-eaf1-4e6e-9f75-e50954701a53"
       },
       "chunkId": "643169aa23096feaac7cb01e33215cf88c373abf",
@@ -2562,7 +2541,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts": {
       "mTimestamp": {
-        "mtime": 1727497259739.861,
+        "mtime": 1727528295134.706,
         "uuid": "10639bbc-6cdb-4fce-81be-b6f942f860e4"
       },
       "chunkId": "69cca37b97b97ce55331bf2df659f3f6432e074d",
@@ -2579,11 +2558,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 1,
               "column": 33
             },
             "end": {
-              "line": 8,
+              "line": 1,
               "column": 67
             }
           }
@@ -2593,11 +2572,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 2,
               "column": 32
             },
             "end": {
-              "line": 9,
+              "line": 2,
               "column": 64
             }
           }
@@ -2607,11 +2586,11 @@
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 3,
               "column": 28
             },
             "end": {
-              "line": 10,
+              "line": 3,
               "column": 49
             }
           }
@@ -2621,11 +2600,11 @@
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 11,
+              "line": 4,
               "column": 31
             },
             "end": {
-              "line": 11,
+              "line": 4,
               "column": 55
             }
           }
@@ -2635,11 +2614,11 @@
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 13,
+              "line": 6,
               "column": 25
             },
             "end": {
-              "line": 13,
+              "line": 6,
               "column": 53
             }
           }
@@ -2700,7 +2679,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts": {
       "mTimestamp": {
-        "mtime": 1727192097592.2246,
+        "mtime": 1727528307215.187,
         "uuid": "8902c08b-b1bb-4bb9-97fa-7bdd732a4449"
       },
       "chunkId": "6409a33f43c0e8a0eefaf51502c711a4203420db",
@@ -2892,7 +2871,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727500972303.0544,
+        "mtime": 1727531352361.0818,
         "uuid": "c136252c-bd5f-44e0-ba8c-d09e88117fb7"
       },
       "chunkId": "86606f925addcdec7261d0c5426a40c5165fc12e",
@@ -3102,7 +3081,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727189191496.1006,
+        "mtime": 1727530415536.801,
         "uuid": "ae57305c-0529-47b1-b514-e88ee912744d"
       },
       "chunkId": "c7e6696988c18f94b3b6894e2276cc88b665df5a",
@@ -3135,11 +3114,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
+              "line": 2,
               "column": 29
             },
             "end": {
-              "line": 3,
+              "line": 2,
               "column": 52
             }
           }
@@ -3149,11 +3128,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 3,
               "column": 27
             },
             "end": {
-              "line": 4,
+              "line": 3,
               "column": 48
             }
           }
@@ -3163,11 +3142,11 @@
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 5,
               "column": 29
             },
             "end": {
-              "line": 6,
+              "line": 5,
               "column": 52
             }
           }
@@ -3228,7 +3207,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts": {
       "mTimestamp": {
-        "mtime": 1722480446982.1477,
+        "mtime": 1727528694301.8755,
         "uuid": "4b877ba5-7988-49d5-853e-3e3f2dc51c0a"
       },
       "chunkId": "67caa09a54ca6312c98bac70ae4ef7dca940b398",
@@ -3250,7 +3229,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts": {
       "mTimestamp": {
-        "mtime": 1722480446745.1475,
+        "mtime": 1727528902925.8232,
         "uuid": "534b4653-d598-4035-8aa6-f0e7b9a6bd67"
       },
       "chunkId": "ec4e772db45785450f911b4a5d77ef473d3357fc",
@@ -3265,11 +3244,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 1,
               "column": 53
             },
             "end": {
-              "line": 8,
+              "line": 1,
               "column": 57
             }
           }
@@ -3386,7 +3365,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts": {
       "mTimestamp": {
-        "mtime": 1727189057552.0513,
+        "mtime": 1727530062345.4653,
         "uuid": "f9462079-18a2-43ae-afb9-7aded183015e"
       },
       "chunkId": "d3a239c972151f671ffa8c4431f9085fe562f9c9",
@@ -3524,7 +3503,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts": {
       "mTimestamp": {
-        "mtime": 1727517180257.0352,
+        "mtime": 1727528602887.2441,
         "uuid": "fcc19248-a9e9-47c0-b330-9eb2d8e3028d"
       },
       "chunkId": "df89741321dfcad4628d9c8ac7ba5e156c19290f",
@@ -3541,11 +3520,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 1,
               "column": 24
             },
             "end": {
-              "line": 8,
+              "line": 1,
               "column": 48
             }
           }
@@ -3578,7 +3557,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts": {
       "mTimestamp": {
-        "mtime": 1722480446983.1472,
+        "mtime": 1727528702299.2046,
         "uuid": "8522b5de-9922-4082-971f-457379761337"
       },
       "chunkId": "fbd12150deb310b5bef6413036fff1f4741a0d86",
@@ -3600,7 +3579,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727368495760.786,
+        "mtime": 1727593519082.8257,
         "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
       },
       "chunkId": "28c31814615195a8b8228614752d18f0e5988cbe",
@@ -3625,6 +3604,34 @@
             "end": {
               "line": 1,
               "column": 59
+            }
+          }
+        },
+        {
+          "value": "./GameScenePresenter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../../Application/AppRoot",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 51
             }
           }
         }
@@ -3658,12 +3665,26 @@
             "url": "cce:/internal/x/cc"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts": {
       "mTimestamp": {
-        "mtime": 1727511961521.4092,
+        "mtime": 1727592695563.2542,
         "uuid": "890ec2db-42bd-4a7b-af94-30a44753b674"
       },
       "chunkId": "45e591488b6e4fccaf3cf3e84af4a2a0fffbf632",
@@ -3680,11 +3701,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 2,
               "column": 26
             },
             "end": {
-              "line": 10,
+              "line": 2,
               "column": 50
             }
           }
@@ -3694,11 +3715,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 11,
+              "line": 3,
               "column": 22
             },
             "end": {
-              "line": 11,
+              "line": 3,
               "column": 38
             }
           }
@@ -3738,7 +3759,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts": {
       "mTimestamp": {
-        "mtime": 1727516686258.824,
+        "mtime": 1727593365930.291,
         "uuid": "6521e35b-60c3-4f73-9c5b-de830b2c9322"
       },
       "chunkId": "abc1a0f915410d5f9b93709a80fc68f41db0554d",
@@ -3769,11 +3790,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 3,
               "column": 35
             },
             "end": {
-              "line": 2,
+              "line": 3,
               "column": 56
             }
           }
@@ -3813,7 +3834,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts": {
       "mTimestamp": {
-        "mtime": 1727282741188.0144,
+        "mtime": 1727592977534.9978,
         "uuid": "af98794e-1c31-46a5-8638-515071453f52"
       },
       "chunkId": "f00709ce0035973f2d003dc3050a51b3c8ec6154",
@@ -3900,17 +3921,28 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts": {
       "mTimestamp": {
-        "mtime": 1727450123036.2954,
+        "mtime": 1727589870100.896,
         "uuid": "afe6abaf-2182-44ff-a431-af1575ae83ea"
       },
       "chunkId": "daf033c6da77ccd5c60547bd4fa65bcbd26d79b1",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         }
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
@@ -3922,7 +3954,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts": {
       "mTimestamp": {
-        "mtime": 1727501683517.3167,
+        "mtime": 1727529267474.6917,
         "uuid": "7600e90b-030d-4f78-bfb6-3f99bad04121"
       },
       "chunkId": "4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d",
@@ -3939,11 +3971,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 2,
               "column": 35
             },
             "end": {
-              "line": 9,
+              "line": 2,
               "column": 56
             }
           }
@@ -4157,7 +4189,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts": {
       "mTimestamp": {
-        "mtime": 1727499364013.6074,
+        "mtime": 1727592986468.755,
         "uuid": "9fc84195-cfec-4ef6-bf06-909c891b9be7"
       },
       "chunkId": "57428597d364a000f18def810d2c907dc916d19f",
@@ -4262,7 +4294,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts": {
       "mTimestamp": {
-        "mtime": 1727363148605.2317,
+        "mtime": 1727591700629.926,
         "uuid": "ef4bb3b0-508a-4b35-8283-b1c705cf972f"
       },
       "chunkId": "eec285b8e36c70f80047e339f5b513ed3b7c8421",
@@ -4625,7 +4657,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts": {
       "mTimestamp": {
-        "mtime": 1727284451261.073,
+        "mtime": 1727528350552.6318,
         "uuid": "58c0c51e-0613-411d-861e-2fac02b44e78"
       },
       "chunkId": "7c55e3be1bddd2ab974320442e15f25f5c4a09d5",
@@ -4644,11 +4676,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 1,
               "column": 23
             },
             "end": {
-              "line": 8,
+              "line": 1,
               "column": 27
             }
           }
@@ -4688,7 +4720,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts": {
       "mTimestamp": {
-        "mtime": 1722480446695.1472,
+        "mtime": 1727529186011.7163,
         "uuid": "385eba82-ec1d-4b86-9236-b14f89883edb"
       },
       "chunkId": "7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54",
@@ -4707,11 +4739,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 1,
               "column": 27
             },
             "end": {
-              "line": 8,
+              "line": 1,
               "column": 31
             }
           }
@@ -4721,11 +4753,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 9,
+              "line": 2,
               "column": 35
             },
             "end": {
-              "line": 9,
+              "line": 2,
               "column": 59
             }
           }
@@ -4772,7 +4804,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts": {
       "mTimestamp": {
-        "mtime": 1727284447183.0212,
+        "mtime": 1727528338921.257,
         "uuid": "2cf052c7-47d3-438c-a125-1079343d2389"
       },
       "chunkId": "de623b8a93ebf0b873e4d9961f4dedd91abf6c87",
@@ -4780,9 +4812,6 @@
         {
           "value": "cce:/internal/code-quality/cr.mjs",
           "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
         },
         {
           "value": "cc"
@@ -4794,13 +4823,6 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
           },
           "messages": []
         },
@@ -4837,7 +4859,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts": {
       "mTimestamp": {
-        "mtime": 1727368506323.9214,
+        "mtime": 1727593375032.9597,
         "uuid": "a74c58f9-5962-48de-9fba-09ad195c17d9"
       },
       "chunkId": "0ae9e8ea598abdeb450e19423177861d10fb2169",
@@ -4922,7 +4944,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727448641908.01,
+        "mtime": 1727589777446.403,
         "uuid": "4a9d85e7-521b-44dc-80cf-9f3ca4d85d19"
       },
       "chunkId": "9559954f984b55ae1a12c3631212f6eea1faa18c",
@@ -4963,6 +4985,34 @@
               "column": 57
             }
           }
+        },
+        {
+          "value": "./ScoreScenePresenter",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 36
+            },
+            "end": {
+              "line": 3,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "../../Application/AppRoot",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 24
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
         }
       ],
       "type": "esm",
@@ -5001,12 +5051,26 @@
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts": {
       "mTimestamp": {
-        "mtime": 1727448692092.0432,
+        "mtime": 1727591930672.069,
         "uuid": "21d2ece7-8f95-4336-9357-03776371f87f"
       },
       "chunkId": "d5afea09b21375b3c45d66f6d348314896aa9152",
@@ -5039,7 +5103,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727449375002.0393,
+        "mtime": 1727591917228.8672,
         "uuid": "e8b1dee8-5859-4c98-b6f8-4aec6e2f9715"
       },
       "chunkId": "caeffe86d428c7687b0029d928acae8a99521d24",
@@ -5059,11 +5123,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 52
+              "column": 65
             },
             "end": {
               "line": 1,
-              "column": 56
+              "column": 69
             }
           }
         },
@@ -5072,12 +5136,68 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
+              "line": 2,
               "column": 29
             },
             "end": {
-              "line": 3,
+              "line": 2,
               "column": 55
+            }
+          }
+        },
+        {
+          "value": "../../Application/AppRoot",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 24
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../../Session/GameFactory",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../../Dialog/DialogFactory",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 30
+            },
+            "end": {
+              "line": 6,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../../Dialog/AnsverDialogComponent",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 38
+            },
+            "end": {
+              "line": 7,
+              "column": 74
             }
           }
         }
@@ -5116,6 +5236,34 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts"
           },
           "messages": []
         }
@@ -5314,7 +5462,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts": {
       "mTimestamp": {
-        "mtime": 1726713032032.8115,
+        "mtime": 1727530551290.5688,
         "uuid": "3b64b2af-c673-4b24-94d9-c3075899917e"
       },
       "chunkId": "ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb",
@@ -5398,7 +5546,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727501040119.6484,
+        "mtime": 1727530637443.3596,
         "uuid": "5e0a7cbe-4d6c-425c-bbbe-7a1c02fe9904"
       },
       "chunkId": "53b884bc154663164d4eecc5b65a0cc8043b21a7",
@@ -5663,7 +5811,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts": {
       "mTimestamp": {
-        "mtime": 1727501066073.8718,
+        "mtime": 1727528051634.3142,
         "uuid": "a0f05d9c-b68c-471f-98fb-73a7354ad982"
       },
       "chunkId": "516b1ec183622d781ee31734be58eec62f13da52",
@@ -5974,7 +6122,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1727517984300.8347,
+        "mtime": 1727588971447.3167,
         "uuid": "7180c9d4-41b3-4d95-bc51-1c423094cc5b"
       },
       "chunkId": "acdd2107c3e509d4c2167c0cb8ef88ccf75e8793",
@@ -5994,11 +6142,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 70
+              "column": 64
             },
             "end": {
               "line": 1,
-              "column": 74
+              "column": 68
             }
           }
         },
@@ -6072,6 +6220,58 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/git/TestMatch3/assets/Scripts/Dialog/NewGameDialogComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1727585550222.0735,
+        "uuid": "f707c5e5-8a50-45a8-a98c-60e461fd7dbb"
+      },
+      "chunkId": "a95a85b525296d33fad3e209201f434be50d444d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }

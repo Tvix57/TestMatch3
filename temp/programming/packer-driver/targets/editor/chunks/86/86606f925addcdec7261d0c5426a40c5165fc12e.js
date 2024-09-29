@@ -107,13 +107,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), LocationType) : LocationType).LoadingScene, "Prefabs/LoadingScene", 0);
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
-          }), LocationType) : LocationType).StartScene, "Prefabs/StartScene", 0);
+          }), LocationType) : LocationType).StartScene, "Prefabs/StartScene", 1);
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
-          }), LocationType) : LocationType).GameScene, "Prefabs/GameScene", 1);
+          }), LocationType) : LocationType).GameScene, "Prefabs/GameScene/GameScene", 2);
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
-          }), LocationType) : LocationType).ScoreScene, "Prefabs/ScoreScene", 2);
+          }), LocationType) : LocationType).ScoreScene, "Prefabs/ScoreScene/ScoreScene", 2);
         }
 
         getOS() {

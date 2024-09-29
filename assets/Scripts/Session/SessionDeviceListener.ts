@@ -6,6 +6,11 @@ export class SessionDeviceListener implements IApplicationHandler
     constructor(private device:AppDevice, private logic:GameLogic){
         device.AddHandler(this)
     }
+    
+    OnExitApplication(): void {
+       
+    }
+
     RemoveHandler(){
         this.device.RemoveHandler(this)
     }

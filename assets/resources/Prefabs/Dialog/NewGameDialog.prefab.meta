@@ -2,12 +2,12 @@
   "ver": "1.1.49",
   "importer": "prefab",
   "imported": true,
-  "uuid": "a92b85f7-594b-475b-8970-112139b5dce0",
+  "uuid": "d044037d-dfb6-47a9-b0c8-75925f841f05",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "LoseDialog"
+    "syncNodeName": "NewGameDialog"
   }
 }

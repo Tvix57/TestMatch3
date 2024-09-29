@@ -1,4 +1,4 @@
-import { AudioType } from "../Scene/AudioManagerComponent"
+import { AudioType } from "../Enums/AudioType"
 import { Audio, IAudioManager } from "./ApplicationInterfaces"
 
 enum SoundLvl {

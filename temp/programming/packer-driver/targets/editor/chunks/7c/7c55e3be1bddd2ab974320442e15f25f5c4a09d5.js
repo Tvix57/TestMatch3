@@ -22,13 +22,6 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       _crd = true;
 
       _cclegacy._RF.push({}, "58c0cUeBhNBHYYeL6wCtE54", "AndroidApplicationConfig", undefined);
-      /**
-       * 
-       * AndroidApplicationConfig.ts
-       * db://assets/Scripts/Application/Android/AndroidApplicationConfig.ts
-       *
-       */
-
 
       __checkObsolete__(['native']);
 

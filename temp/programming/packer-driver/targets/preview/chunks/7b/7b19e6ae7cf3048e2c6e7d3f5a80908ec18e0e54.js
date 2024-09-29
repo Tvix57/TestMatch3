@@ -29,13 +29,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _crd = true;
 
       _cclegacy._RF.push({}, "385ebqC7B1LhpI2sU+JiD7b", "ApplicationListener", undefined);
-      /**
-       * 
-       * AndroidApplicationListener.ts
-       * db://assets/Scripts/Application/Android/AndroidApplicationListener.ts
-       *
-       */
-
 
       __checkObsolete__(['Game', 'game']);
 
@@ -44,6 +37,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           super();
           game.on(Game.EVENT_RESUME, this.OnResume, this);
           game.on(Game.EVENT_PAUSE, this.OnPause, this);
+          game.on(Game.EVENT_CLOSE, this.OnExit, this);
         }
 
         OnResume() {
@@ -52,6 +46,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         OnPause() {
           this._dispatcher.Post(h => h.OnPauseApplication());
+        }
+
+        OnExit() {
+          this._dispatcher.Post(h => h.OnExitApplication());
         }
 
       });

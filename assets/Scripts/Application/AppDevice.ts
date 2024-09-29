@@ -6,6 +6,7 @@ import { EditorAppConfig } from "./native/EditorAppConfig";
 export interface IApplicationHandler{
     OnPauseApplication():void
     OnResumeApplication():void
+    OnExitApplication():void
 }
 
 export interface IDeviceConfig{

@@ -36,10 +36,10 @@ export class GameManagerComponent extends Component
         )
         AppRoot.getInstance.onLoad()
 
-        scene.AddLocation(LocationType.LoadingScene       ,"Prefabs/LoadingScene" ,0 )
-        scene.AddLocation(LocationType.StartScene         ,"Prefabs/StartScene"   ,0 )
-        scene.AddLocation(LocationType.GameScene          ,"Prefabs/GameScene"    ,1 )
-        scene.AddLocation(LocationType.ScoreScene         ,"Prefabs/ScoreScene"   ,2 )
+        scene.AddLocation(LocationType.LoadingScene       ,"Prefabs/LoadingScene"           ,0 )
+        scene.AddLocation(LocationType.StartScene         ,"Prefabs/StartScene"             ,1 )
+        scene.AddLocation(LocationType.GameScene          ,"Prefabs/GameScene/GameScene"    ,2 )
+        scene.AddLocation(LocationType.ScoreScene         ,"Prefabs/ScoreScene/ScoreScene"  ,2 )
     }
 
     private getOS() : Platform {

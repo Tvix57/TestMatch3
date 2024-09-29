@@ -16,13 +16,6 @@ System.register(["cc"], function (_export, _context) {
       _crd = true;
 
       _cclegacy._RF.push({}, "4b877uleYhJ1YU+Pj8txRwK", "Dispatcher", undefined);
-      /**
-       * 
-       * Dispatcher.ts
-       * db://assets/Scripts/Utils/Dispatcher.ts
-       *
-       */
-
 
       _export("AbstractDispatcher", AbstractDispatcher = class AbstractDispatcher {
         constructor() {
@@ -75,7 +68,6 @@ System.register(["cc"], function (_export, _context) {
 
       });
 
-      //Supress --isolatedModules error
       _cclegacy._RF.pop();
 
       _crd = false;

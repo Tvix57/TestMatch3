@@ -98,11 +98,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         ClearGame() {
-          var _this$_logic;
-
           this._saveListener.ManualSave();
 
-          (_this$_logic = this._logic) == null ? void 0 : _this$_logic.Finish();
           this._logic = null;
           this._gameoverListener = null;
           this.isGameActive = false;

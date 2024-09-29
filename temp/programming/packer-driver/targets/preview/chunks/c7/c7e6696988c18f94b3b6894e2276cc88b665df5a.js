@@ -188,7 +188,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           this._sceneStack.push(location);
 
-          this.OpenScene(location);
+          this.openScene(location);
         }
 
         CreateScene(name) {
@@ -203,7 +203,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           while (priority <= this._sceneStack.length - 1) this._sceneStack.pop();
         }
 
-        OpenScene(location) {
+        openScene(location) {
           if (!this._pool.has(location)) {
             log("ScenePoolManagerComponent: " + (_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
               error: Error()
@@ -238,14 +238,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
         update(dt) {
           if (!this._isStart) {
-            this._isStart = true; // this.Preload()
+            this._isStart = true;
           }
-        }
-
-        PopToStart() {
-          this.Transfer((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
-            error: Error()
-          }), LocationType) : LocationType).StartScene);
         }
 
         AddHandler(arg) {

@@ -1,10 +1,3 @@
-/**
- * 
- * Dispatcher.ts
- * db://assets/Scripts/Utils/Dispatcher.ts
- *
- */
-
 export interface IDispatcher<T>
 {
     AddHandler(arg: T): void ;
@@ -55,4 +48,4 @@ export class Dispatcher<T>{
     }
 }
 
-export{} //Supress --isolatedModules error
+export{}

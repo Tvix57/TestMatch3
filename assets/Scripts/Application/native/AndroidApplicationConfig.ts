@@ -1,10 +1,3 @@
-/**
- * 
- * AndroidApplicationConfig.ts
- * db://assets/Scripts/Application/Android/AndroidApplicationConfig.ts
- *
- */
-
 import { native } from "cc";
 import { IDeviceConfig } from "../AppDevice";
 

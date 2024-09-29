@@ -1,5 +1,6 @@
 import { _decorator, Component, Label, TiledMap } from 'cc';
 import { GameScenePresenter } from './GameScenePresenter';
+import { AppRoot } from '../../Application/AppRoot';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameSceneComponent')
@@ -15,8 +16,8 @@ export class GameSceneComponent extends Component {
 
     private _presenter?: GameScenePresenter
 
-    SetPresenter(presenter: GameScenePresenter) {
-        this._presenter = presenter
+    onLoad(): void {
+        this._presenter = new GameScenePresenter(this, AppRoot.getInstance.ResolveGameContext().ResolveGame().ResolveField())
     }
 
     SetName(newName: string) {

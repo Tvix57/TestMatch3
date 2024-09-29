@@ -4,7 +4,7 @@ import { SaveDispatcher } from "../Save/SaveDispatcher";
 import { ISaveListener } from "../Save/SaveInterfaces";
 import { ApplicationState } from "../Save/State";
 
-export class GameSaveListener implements ISaveListener,IApplicationHandler
+export class GameSaveListener implements ISaveListener, IApplicationHandler
 {
     constructor(
         private _saveDisp:SaveDispatcher,
@@ -15,6 +15,11 @@ export class GameSaveListener implements ISaveListener,IApplicationHandler
         _saveDisp.AddHandler(this)
         _device.AddHandler(this)
     }
+
+    OnExitApplication(): void {
+        this._saveDisp.Save()
+    }
+
     RemoveHandler(){
         this._saveDisp.RemoveHandler(this)
         this._device.RemoveHandler(this)

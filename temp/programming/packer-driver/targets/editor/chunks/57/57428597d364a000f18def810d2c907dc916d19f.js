@@ -52,8 +52,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             error: Error()
           }), ApplicationState) : ApplicationState)(new (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
             error: Error()
-          }), GameState) : GameState)("Player", //name
-          undefined, //stats
+          }), GameState) : GameState)(undefined, //name
+          0, //score
+          [{
+            name: "Player1",
+            score: 12
+          }, {
+            name: "Player2",
+            score: 24
+          }, {
+            name: "Player3",
+            score: 26
+          }], //stats
           undefined, //field
           true), //gameState
           true);

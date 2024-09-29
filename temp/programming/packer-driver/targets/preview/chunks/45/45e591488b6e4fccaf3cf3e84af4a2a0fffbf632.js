@@ -31,13 +31,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _crd = true;
 
       _cclegacy._RF.push({}, "890ecLbQr1Ke6+UMKRHU7Z0", "GameLogic", undefined);
-      /**
-       * 
-       * GameLogic.ts
-       * db://assets/Scripts/Game/GameLogic.ts
-       *
-       */
-
 
       _export("GameLogic", GameLogic = class GameLogic {
         constructor(state) {
@@ -46,10 +39,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.state = state;
           this._field = new (_crd && Field === void 0 ? (_reportPossibleCrUseOfField({
             error: Error()
-          }), Field) : Field)(state.isFinished, state.field);
+          }), Field) : Field)(state.isFinished, state, state.field);
           this._gameStats = new (_crd && GameStats === void 0 ? (_reportPossibleCrUseOfGameStats({
             error: Error()
-          }), GameStats) : GameStats)(state.gameStats);
+          }), GameStats) : GameStats)(this._field, state.gameStats);
         }
 
         ResolveField() {
@@ -68,8 +61,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           currentState.field = this._field.GetField();
           currentState.gameStats = this._gameStats.GetData();
         }
-
-        Finish() {}
 
       });
 

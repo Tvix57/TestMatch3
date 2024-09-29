@@ -11,7 +11,6 @@ export interface ITransferHandler
 export interface ISceneManager extends IDispatcher<ITransferHandler>
 {
     Transfer(location:LocationType, parameter?:string):void
-    PopToStart():void
     RemoveAll(): void
     TransferBack():void
     GetCurrentLocation():LocationType

@@ -33,7 +33,14 @@ export class SaveContext implements ISaveListener
 
     HasGame():boolean {   
         if(this._state) {
-            return this._state.HasGame() && !this._state.IsGameFinished()
+            return this._state.HasGame()
+        }
+        return false
+    }
+
+    IsGameFinished():boolean {
+        if(this._state) {   
+            return this._state.IsGameFinished()
         }
         return false
     }

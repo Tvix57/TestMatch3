@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, ProgressBar, UITransform } from 'cc';
+import { _decorator, Component, ProgressBar, UITransform } from 'cc';
 import { ITransferHandler } from '../ISceneManager';
 import { ScenePoolManagerComponent } from '../ScenePoolManagerComponent';
 import { LocationType } from '../../Enums/LocationType';

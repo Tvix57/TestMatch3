@@ -4,7 +4,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
   var _reporterNs, _cclegacy, AudioType, AbstrastAudio, Sound, Music, AppAudio, _crd, SoundLvl;
 
   function _reportPossibleCrUseOfAudioType(extras) {
-    _reporterNs.report("AudioType", "../Scene/AudioManagerComponent", _context.meta, extras);
+    _reporterNs.report("AudioType", "../Enums/AudioType", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfAudio(extras) {

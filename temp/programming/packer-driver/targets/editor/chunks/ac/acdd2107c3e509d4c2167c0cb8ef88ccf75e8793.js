@@ -46,7 +46,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
       _cclegacy._RF.push({}, "7180cnUQbNNlbxRHEIwlMxb", "LoadingSceneComponent", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'ProgressBar', 'UITransform']);
+      __checkObsolete__(['_decorator', 'Component', 'ProgressBar', 'UITransform']);
 
       ({
         ccclass,

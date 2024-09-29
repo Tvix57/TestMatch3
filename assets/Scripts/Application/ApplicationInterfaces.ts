@@ -1,10 +1,3 @@
-/**
- * 
- * ApplicationInterfaces.ts
- * db://assets/Scripts/Application/ApplicationInterfaces.ts
- *
- */
-
 export type Audio = {
     type: number
     name: string

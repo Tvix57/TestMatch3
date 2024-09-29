@@ -1,9 +1,10 @@
 import { _decorator, Component, log, Node, error, assert, __private, tween, UIOpacity } from "cc";
-const { ccclass, property } = _decorator;
 import { LocationType } from "../Enums/LocationType";
 import { Dispatcher } from "../Utils/Dispatcher";
 import { ISceneManager, ITransferHandler } from "./ISceneManager";
 import { PrefabLoader } from "../Utils/PrefabLoader";
+
+const { ccclass, property } = _decorator;
 
 interface Factory {
     Create(node: Node, parameter?:string): void;
@@ -45,12 +46,10 @@ export class ScenePoolManagerComponent extends Component implements ISceneManage
     private _isStart: boolean = true;
     private _currentSceneShow:LocationType=LocationType.End
 
-    start() {
-        this.Init()
-    }
+    start() { this.Init() }
 
-    private async Init(){
-        if(!this._pool.has(this.loadingScene)){ 
+    private async Init() {
+        if (!this._pool.has(this.loadingScene)) { 
             const loadScene = await this.CreateScene(this._locationMap.get(this.loadingScene)!.scenePath);
             this._pool.set(this.loadingScene, loadScene);
             this.Transfer(this.loadingScene)
@@ -98,7 +97,7 @@ export class ScenePoolManagerComponent extends Component implements ISceneManage
 
         this.PopToPriority(entry!.priority);
         this._sceneStack.push(location);
-        this.OpenScene(location);
+        this.openScene(location);
     }
 
     private async CreateScene(name: string) {
@@ -109,7 +108,7 @@ export class ScenePoolManagerComponent extends Component implements ISceneManage
         while (priority <= this._sceneStack.length - 1) this._sceneStack.pop();
     }
 
-    private OpenScene(location: LocationType): void {
+    private openScene(location: LocationType): void {
         if (!this._pool.has(location)) {
             log("ScenePoolManagerComponent: " + LocationType[location] + " not exist");
             return;
@@ -144,12 +143,7 @@ export class ScenePoolManagerComponent extends Component implements ISceneManage
     protected update(dt: number): void {
         if(!this._isStart){
             this._isStart = true
-            // this.Preload()
         }
-    }
-
-    PopToStart() {
-        this.Transfer(LocationType.StartScene);
     }
 
     AddHandler(arg: ITransferHandler): void {
@@ -175,7 +169,7 @@ export class ScenePoolManagerComponent extends Component implements ISceneManage
     GetCurrentLocation() {
         return this._currentSceneShow;
     }
-    GetCurrentScene<T extends Component>(classConstructor: __private._types_globals__Constructor<T> | __private._types_globals__AbstractedConstructor<T>): T | null{
+    GetCurrentScene<T extends Component>(classConstructor: __private._types_globals__Constructor<T> | __private._types_globals__AbstractedConstructor<T>): T | null {
         if(this.currentNode.children.length) return this.currentNode.children[0].getComponent(classConstructor);
         return null
     }

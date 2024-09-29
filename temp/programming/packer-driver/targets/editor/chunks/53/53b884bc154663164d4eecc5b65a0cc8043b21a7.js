@@ -21,10 +21,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     _reporterNs.report("IAnsverHandler", "./IAnsverHandler", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfISceneManager(extras) {
-    _reporterNs.report("ISceneManager", "../Scene/ISceneManager", _context.meta, extras);
-  }
-
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -59,16 +55,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "acceptBtn", _descriptor2, this);
 
           this._handler = void 0;
-          this.sceneManager = void 0;
           this.dialogManager = void 0;
         }
 
-        onLoad() {
+        onEnable() {
           var _this$rejectBtn, _this$acceptBtn;
 
-          this.sceneManager = (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
-            error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResolveSceneManager();
           this.dialogManager = (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
           }), AppRoot) : AppRoot).getInstance.ResolveDialogManager();

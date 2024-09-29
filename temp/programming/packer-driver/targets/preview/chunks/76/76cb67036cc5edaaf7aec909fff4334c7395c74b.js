@@ -1,7 +1,11 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, AnsverDialogComponent, DialogFactory, LocationType, GameoverListener, _crd;
+  var _reporterNs, _cclegacy, AppRoot, AnsverDialogComponent, DialogFactory, LocationType, GameoverListener, _crd;
+
+  function _reportPossibleCrUseOfAppRoot(extras) {
+    _reporterNs.report("AppRoot", "../Application/AppRoot", _context.meta, extras);
+  }
 
   function _reportPossibleCrUseOfAnsverDialogComponent(extras) {
     _reporterNs.report("AnsverDialogComponent", "../Dialog/AnsverDialogComponent", _context.meta, extras);
@@ -39,11 +43,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     }, function (_cc) {
       _cclegacy = _cc.cclegacy;
     }, function (_unresolved_2) {
-      AnsverDialogComponent = _unresolved_2.AnsverDialogComponent;
+      AppRoot = _unresolved_2.AppRoot;
     }, function (_unresolved_3) {
-      DialogFactory = _unresolved_3.DialogFactory;
+      AnsverDialogComponent = _unresolved_3.AnsverDialogComponent;
     }, function (_unresolved_4) {
-      LocationType = _unresolved_4.LocationType;
+      DialogFactory = _unresolved_4.DialogFactory;
+    }, function (_unresolved_5) {
+      LocationType = _unresolved_5.LocationType;
     }],
     execute: function () {
       _crd = true;
@@ -64,6 +70,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         NewGame(name) {}
 
         EndGame(info) {
+          (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
+            error: Error()
+          }), AppRoot) : AppRoot).getInstance.ResolveGameContext().FinishGame();
           this.showEndDialog();
         }
 
