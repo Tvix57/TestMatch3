@@ -19,6 +19,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
     _reporterNs.report("GameStatsInfo", "../../Logic/GameStatsInfo", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfApplicationState(extras) {
+    _reporterNs.report("ApplicationState", "../../Save/State", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfGameSceneComponent(extras) {
     _reporterNs.report("GameSceneComponent", "./GameSceneComponent", _context.meta, extras);
   }
@@ -37,9 +41,10 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       _cclegacy._RF.push({}, "a74c5j5WWJI3p+6Ca0ZXBfZ", "GameScenePresenter", undefined);
 
       _export("GameScenePresenter", GameScenePresenter = class GameScenePresenter {
-        constructor(view, _logic) {
+        constructor(view, _logic, _state) {
           this.view = view;
           this._logic = _logic;
+          this._state = _state;
 
           this._logic.AddHandler(this);
         }
@@ -52,11 +57,19 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
           this.view.UpdateScore(score.toString());
         }
 
-        UpdateField(field, fromOutside) {}
+        UpdateField(field, fromOutside) {
+          this.view.UpdateField(field, fromOutside);
+        }
 
         EndGame(info) {}
 
-        LoadData() {}
+        LoadData() {
+          var _this$_state$gameStat, _this$_state$gameStat2, _this$_state$gameStat3, _this$_state$gameStat4;
+
+          this.view.UpdateField(this._logic.GetField());
+          this.view.UpdateScore((_this$_state$gameStat = (_this$_state$gameStat2 = this._state.gameState) == null ? void 0 : _this$_state$gameStat2.score.toString()) != null ? _this$_state$gameStat : '0');
+          this.view.SetName((_this$_state$gameStat3 = (_this$_state$gameStat4 = this._state.gameState) == null ? void 0 : _this$_state$gameStat4.name) != null ? _this$_state$gameStat3 : '');
+        }
 
       });
 

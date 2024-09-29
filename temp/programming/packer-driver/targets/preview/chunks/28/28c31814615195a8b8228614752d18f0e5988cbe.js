@@ -17,6 +17,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
     _reporterNs.report("AppRoot", "../../Application/AppRoot", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfBallColor(extras) {
+    _reporterNs.report("BallColor", "../../Enums/BallColor", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -58,12 +62,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this._presenter = void 0;
         }
 
-        onLoad() {
+        onEnable() {
           this._presenter = new (_crd && GameScenePresenter === void 0 ? (_reportPossibleCrUseOfGameScenePresenter({
             error: Error()
           }), GameScenePresenter) : GameScenePresenter)(this, (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
             error: Error()
-          }), AppRoot) : AppRoot).getInstance.ResolveGameContext().ResolveGame().ResolveField());
+          }), AppRoot) : AppRoot).getInstance.ResolveGameContext().ResolveGame().ResolveField(), (_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
+            error: Error()
+          }), AppRoot) : AppRoot).getInstance.ResovleSaveState().ResolveSaveContext().GetCurrentSaveState());
+
+          this._presenter.LoadData();
         }
 
         SetName(newName) {
@@ -73,6 +81,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         UpdateScore(newScore) {
           this.scoreLabel.string = newScore;
         }
+
+        UpdateField(field, fromOutside) {}
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "nameLabel", [_dec2], {
         configurable: true,

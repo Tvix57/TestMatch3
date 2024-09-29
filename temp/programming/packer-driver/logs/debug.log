@@ -2958,3 +2958,575 @@ debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from
 debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
 debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
 debug: Target(preview) ends with cost 89.67009999975562ms.
+debug: Dispatch build request for time accumulated 10 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 10
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:00:59 GMT+0700 (Новосибирск, стандартное время), Current mtime: Thu Jan 01 1970 09:28:17 GMT+0700 (Новосибирск, стандартное время)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts. Last mtime: Sat Sep 28 2024 20:42:11 GMT+0700 (Новосибирск, стандартное время)@4273d575-8511-41f0-8bf9-38d11680f627, Current mtime: Sun Sep 29 2024 13:51:54 GMT+0700 (Новосибирск, стандартное время)@4273d575-8511-41f0-8bf9-38d11680f627
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as cce:/internal/x/cc.
+debug: Resolve ./GameLogic from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts. Last mtime: Sun Sep 29 2024 13:05:15 GMT+0700 (Новосибирск, стандартное время)@890ec2db-42bd-4a7b-af94-30a44753b674, Current mtime: Sun Sep 29 2024 13:51:35 GMT+0700 (Новосибирск, стандартное время)@890ec2db-42bd-4a7b-af94-30a44753b674
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as cce:/internal/x/cc.
+debug: Resolve ../Logic/GameStatsInfo from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve ../Logic/Field from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts. Last mtime: Sat Sep 28 2024 16:44:46 GMT+0700 (Новосибирск, стандартное время)@6521e35b-60c3-4f73-9c5b-de830b2c9322, Current mtime: Sun Sep 29 2024 14:02:45 GMT+0700 (Новосибирск, стандартное время)@6521e35b-60c3-4f73-9c5b-de830b2c9322
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as cce:/internal/x/cc.
+debug: Resolve ../Enums/BallColor from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve ../Utils/Dispatcher from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve ./GameoverListener from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts. Last mtime: Sat Sep 28 2024 14:57:54 GMT+0700 (Новосибирск, стандартное время)@cd6076b0-6493-4121-a877-fdf47c26bf74, Current mtime: Sun Sep 29 2024 13:57:09 GMT+0700 (Новосибирск, стандартное время)@cd6076b0-6493-4121-a877-fdf47c26bf74
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as cce:/internal/x/cc.
+debug: Resolve ../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve ../Dialog/AnsverDialogComponent from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve ../Dialog/DialogFactory from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve ../Enums/LocationType from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve ./GameSaveListener from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve ./SessionDeviceListener from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts. Last mtime: Wed Sep 25 2024 23:45:41 GMT+0700 (Новосибирск, стандартное время)@af98794e-1c31-46a5-8638-515071453f52, Current mtime: Sun Sep 29 2024 13:56:17 GMT+0700 (Новосибирск, стандартное время)@af98794e-1c31-46a5-8638-515071453f52
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts as cce:/internal/x/cc.
+debug: Resolve ../Save/SaveInterfaces from file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts. Last mtime: Sun Sep 29 2024 12:49:05 GMT+0700 (Новосибирск, стандартное время)@9fc84195-cfec-4ef6-bf06-909c891b9be7, Current mtime: Sun Sep 29 2024 13:56:26 GMT+0700 (Новосибирск, стандартное время)@9fc84195-cfec-4ef6-bf06-909c891b9be7
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/x/cc.
+debug: Resolve ../State from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve ../../Session/GameState from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts. Last mtime: Thu Sep 26 2024 23:34:55 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76, Current mtime: Sun Sep 29 2024 14:05:19 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./GameScenePresenter from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts. Last mtime: Sat Sep 28 2024 20:01:58 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9, Current mtime: Sun Sep 29 2024 14:02:55 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/x/cc.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts. Last mtime: Sun Sep 29 2024 13:02:26 GMT+0700 (Новосибирск, стандартное время)@21d2ece7-8f95-4336-9357-03776371f87f, Current mtime: Sun Sep 29 2024 13:38:50 GMT+0700 (Новосибирск, стандартное время)@21d2ece7-8f95-4336-9357-03776371f87f
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts as cce:/internal/x/cc.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts. Last mtime: Sun Sep 29 2024 13:38:00 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715, Current mtime: Sun Sep 29 2024 13:38:37 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ../../Enums/LocationType from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve ../../Session/GameFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve ../../Dialog/DialogFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve ../../Dialog/AnsverDialogComponent from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
+debug: Target(editor) ends with cost 244.63910000026226ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:00:59 GMT+0700 (Новосибирск, стандартное время), Current mtime: Thu Jan 01 1970 09:28:18 GMT+0700 (Новосибирск, стандартное время)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts. Last mtime: Sat Sep 28 2024 20:42:11 GMT+0700 (Новосибирск, стандартное время)@4273d575-8511-41f0-8bf9-38d11680f627, Current mtime: Sun Sep 29 2024 13:51:54 GMT+0700 (Новосибирск, стандартное время)@4273d575-8511-41f0-8bf9-38d11680f627
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as cce:/internal/x/cc.
+debug: Resolve ./GameLogic from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts. Last mtime: Sun Sep 29 2024 13:05:15 GMT+0700 (Новосибирск, стандартное время)@890ec2db-42bd-4a7b-af94-30a44753b674, Current mtime: Sun Sep 29 2024 13:51:35 GMT+0700 (Новосибирск, стандартное время)@890ec2db-42bd-4a7b-af94-30a44753b674
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as cce:/internal/x/cc.
+debug: Resolve ../Logic/GameStatsInfo from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve ../Logic/Field from file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts. Last mtime: Sat Sep 28 2024 16:44:46 GMT+0700 (Новосибирск, стандартное время)@6521e35b-60c3-4f73-9c5b-de830b2c9322, Current mtime: Sun Sep 29 2024 14:02:45 GMT+0700 (Новосибирск, стандартное время)@6521e35b-60c3-4f73-9c5b-de830b2c9322
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as cce:/internal/x/cc.
+debug: Resolve ../Enums/BallColor from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve ../Utils/Dispatcher from file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve ./GameoverListener from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts. Last mtime: Sat Sep 28 2024 14:57:54 GMT+0700 (Новосибирск, стандартное время)@cd6076b0-6493-4121-a877-fdf47c26bf74, Current mtime: Sun Sep 29 2024 13:57:09 GMT+0700 (Новосибирск, стандартное время)@cd6076b0-6493-4121-a877-fdf47c26bf74
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as cce:/internal/x/cc.
+debug: Resolve ../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve ../Dialog/AnsverDialogComponent from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve ../Dialog/DialogFactory from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve ../Enums/LocationType from file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve ./GameSaveListener from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve ./SessionDeviceListener from file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts. Last mtime: Wed Sep 25 2024 23:45:41 GMT+0700 (Новосибирск, стандартное время)@af98794e-1c31-46a5-8638-515071453f52, Current mtime: Sun Sep 29 2024 13:56:17 GMT+0700 (Новосибирск, стандартное время)@af98794e-1c31-46a5-8638-515071453f52
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts as cce:/internal/x/cc.
+debug: Resolve ../Save/SaveInterfaces from file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts. Last mtime: Sun Sep 29 2024 12:49:05 GMT+0700 (Новосибирск, стандартное время)@9fc84195-cfec-4ef6-bf06-909c891b9be7, Current mtime: Sun Sep 29 2024 13:56:26 GMT+0700 (Новосибирск, стандартное время)@9fc84195-cfec-4ef6-bf06-909c891b9be7
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as cce:/internal/x/cc.
+debug: Resolve ../State from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve ../../Session/GameState from file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts. Last mtime: Thu Sep 26 2024 23:34:55 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76, Current mtime: Sun Sep 29 2024 14:05:19 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./GameScenePresenter from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts. Last mtime: Sat Sep 28 2024 20:01:58 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9, Current mtime: Sun Sep 29 2024 14:02:55 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/x/cc.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts. Last mtime: Sun Sep 29 2024 13:02:26 GMT+0700 (Новосибирск, стандартное время)@21d2ece7-8f95-4336-9357-03776371f87f, Current mtime: Sun Sep 29 2024 13:38:50 GMT+0700 (Новосибирск, стандартное время)@21d2ece7-8f95-4336-9357-03776371f87f
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts as cce:/internal/x/cc.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts. Last mtime: Sun Sep 29 2024 13:38:00 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715, Current mtime: Sun Sep 29 2024 13:38:37 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ../../Enums/LocationType from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve ../../Session/GameFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve ../../Dialog/DialogFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve ../../Dialog/AnsverDialogComponent from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
+debug: Target(preview) ends with cost 244.0508999992162ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:28:17 GMT+0700 (Новосибирск, стандартное время), Current mtime: Thu Jan 01 1970 09:33:47 GMT+0700 (Новосибирск, стандартное время)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts. Last mtime: Sun Sep 29 2024 14:05:19 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76, Current mtime: Sun Sep 29 2024 14:08:34 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./GameScenePresenter from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts. Last mtime: Sun Sep 29 2024 14:02:55 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9, Current mtime: Sun Sep 29 2024 14:08:55 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/x/cc.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
+debug: Target(editor) ends with cost 77.63390000164509ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:28:18 GMT+0700 (Новосибирск, стандартное время), Current mtime: Thu Jan 01 1970 09:33:47 GMT+0700 (Новосибирск, стандартное время)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts. Last mtime: Sun Sep 29 2024 14:05:19 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76, Current mtime: Sun Sep 29 2024 14:08:34 GMT+0700 (Новосибирск, стандартное время)@7f521d0b-f961-46ec-86f1-aa360d229e76
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./GameScenePresenter from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts. Last mtime: Sun Sep 29 2024 14:02:55 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9, Current mtime: Sun Sep 29 2024 14:08:55 GMT+0700 (Новосибирск, стандартное время)@a74c58f9-5962-48de-9fba-09ad195c17d9
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts as cce:/internal/x/cc.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
+debug: Target(preview) ends with cost 78.92449999973178ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:33:47 GMT+0700 (Новосибирск, стандартное время), Current mtime: Thu Jan 01 1970 09:35:15 GMT+0700 (Новосибирск, стандартное время)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts. Last mtime: Sun Sep 29 2024 13:38:37 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715, Current mtime: Sun Sep 29 2024 14:12:17 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ../../Enums/LocationType from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve ../../Session/GameFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve ../../Dialog/DialogFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve ../../Dialog/AnsverDialogComponent from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
+debug: Target(editor) ends with cost 66.17829999886453ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:33:47 GMT+0700 (Новосибирск, стандартное время), Current mtime: Thu Jan 01 1970 09:35:15 GMT+0700 (Новосибирск, стандартное время)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.1/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppAudio.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppDevice.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/AppState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/ApplicationInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/IAppTimer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/Timers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/AndroidApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/ApplicationListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Application/native/EditorAppConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/Dialog.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IAnsverHandler.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Dialog/IDialogManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/ApplicationConfig.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/AudioType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/CCEnums.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/GameManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/GameStatsInfo.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Logic/Loop.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Android/AndroidSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveDispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveInterfaces.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/SaveTimerExecutor.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Save/State.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/AudioManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/BackActionComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ISceneManager.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/LoadingScene/LoadingSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScenePoolManagerComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreItemComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreSceneComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/ScoreScene/ScoreScenePresenter.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts.
+debug: Detected change: file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts. Last mtime: Sun Sep 29 2024 13:38:37 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715, Current mtime: Sun Sep 29 2024 14:12:17 GMT+0700 (Новосибирск, стандартное время)@e8b1dee8-5859-4c98-b6f8-4aec6e2f9715
+debug: Inspect file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as cce:/internal/x/cc.
+debug: Resolve ../../Enums/LocationType from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Enums/LocationType.ts.
+debug: Resolve ../../Application/AppRoot from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts.
+debug: Resolve ../../Session/GameFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve ../../Dialog/DialogFactory from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/DialogFactory.ts.
+debug: Resolve ../../Dialog/AnsverDialogComponent from file:///F:/git/TestMatch3/assets/Scripts/Scene/StartScene/StartSceneComponent.ts as file:///F:/git/TestMatch3/assets/Scripts/Dialog/AnsverDialogComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Scene/TransferHandlers.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameContext.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameFactory.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameLogic.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameSaveListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameState.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/GameoverListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Session/SessionDeviceListener.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/DeviceAreaSizeComponent.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Dispatcher.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/Observer.ts.
+debug: Resolve file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts from cce:/internal/x/prerequisite-imports as file:///F:/git/TestMatch3/assets/Scripts/Utils/PrefabLoader.ts.
+debug: Target(preview) ends with cost 69.07689999975264ms.

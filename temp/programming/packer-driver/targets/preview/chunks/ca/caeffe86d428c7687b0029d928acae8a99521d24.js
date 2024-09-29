@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, director, EditBox, LocationType, AppRoot, GameFactory, DialogFactory, AnsverDialogComponent, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, StartSceneComponent;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, EditBox, LocationType, AppRoot, GameFactory, DialogFactory, AnsverDialogComponent, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, StartSceneComponent;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -43,7 +43,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       _decorator = _cc._decorator;
       Button = _cc.Button;
       Component = _cc.Component;
-      director = _cc.director;
       EditBox = _cc.EditBox;
     }, function (_unresolved_2) {
       LocationType = _unresolved_2.LocationType;
@@ -122,13 +121,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             dialog.getComponent(_crd && AnsverDialogComponent === void 0 ? (_reportPossibleCrUseOfAnsverDialogComponent({
               error: Error()
             }), AnsverDialogComponent) : AnsverDialogComponent).SetHandler(isAccept => {
-              if (isAccept) {
-                var name = dialog.getComponentInChildren(EditBox).string;
+              var cmp = dialog.getComponentInChildren(EditBox);
+
+              if (isAccept && cmp && cmp.string.length > 0) {
                 new (_crd && GameFactory === void 0 ? (_reportPossibleCrUseOfGameFactory({
                   error: Error()
                 }), GameFactory) : GameFactory)((_crd && AppRoot === void 0 ? (_reportPossibleCrUseOfAppRoot({
                   error: Error()
-                }), AppRoot) : AppRoot).getInstance.ResovleSaveState()).CreateGame(name);
+                }), AppRoot) : AppRoot).getInstance.ResovleSaveState()).CreateGame(cmp.string);
 
                 this._sceneManager.Transfer((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
                   error: Error()
@@ -144,9 +144,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), LocationType) : LocationType).ScoreScene);
         }
 
-        onExitClick() {
-          director.end();
-        }
+        onExitClick() {}
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "continueBtn", [_dec2], {
         configurable: true,

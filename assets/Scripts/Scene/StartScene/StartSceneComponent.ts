@@ -37,9 +37,9 @@ export class StartSceneComponent extends Component {
     onNewGameClick() {
         this.dialogFactory.CreateDialog().then((dialog) => {
             dialog.getComponent(AnsverDialogComponent)!.SetHandler((isAccept:boolean) => {
-                if (isAccept) { 
-                    let name = dialog.getComponentInChildren(EditBox)!.string
-                    new GameFactory(AppRoot.getInstance.ResovleSaveState()).CreateGame(name)
+                let cmp = dialog.getComponentInChildren(EditBox)
+                if (isAccept && cmp && cmp.string.length > 0) {
+                    new GameFactory(AppRoot.getInstance.ResovleSaveState()).CreateGame(cmp.string)
                     this._sceneManager.Transfer(LocationType.GameScene)
                 }
             })
@@ -51,7 +51,7 @@ export class StartSceneComponent extends Component {
     }
 
     onExitClick() {
-        director.end();
+        
     }
 }
 

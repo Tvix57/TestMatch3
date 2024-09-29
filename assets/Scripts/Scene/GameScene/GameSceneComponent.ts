@@ -1,6 +1,7 @@
 import { _decorator, Component, Label, TiledMap } from 'cc';
 import { GameScenePresenter } from './GameScenePresenter';
 import { AppRoot } from '../../Application/AppRoot';
+import { BallColor } from '../../Enums/BallColor';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameSceneComponent')
@@ -16,8 +17,12 @@ export class GameSceneComponent extends Component {
 
     private _presenter?: GameScenePresenter
 
-    onLoad(): void {
-        this._presenter = new GameScenePresenter(this, AppRoot.getInstance.ResolveGameContext().ResolveGame().ResolveField())
+    onEnable(): void {
+        this._presenter = new GameScenePresenter(this, 
+                                                 AppRoot.getInstance.ResolveGameContext().ResolveGame().ResolveField(),
+                                                 AppRoot.getInstance.ResovleSaveState().ResolveSaveContext().GetCurrentSaveState())
+
+        this._presenter!.LoadData()
     }
 
     SetName(newName: string) {
@@ -26,6 +31,10 @@ export class GameSceneComponent extends Component {
 
     UpdateScore(newScore: string) { 
         this.scoreLabel.string = newScore
+    }
+
+    UpdateField(field: Array<Array<BallColor>>, fromOutside?: boolean) { 
+        
     }
 }
 
