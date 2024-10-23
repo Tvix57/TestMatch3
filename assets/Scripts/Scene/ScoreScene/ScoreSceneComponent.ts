@@ -19,6 +19,10 @@ export class ScoreSceneComponent extends Component {
         this.presenter!.LoadScores()
     }
 
+    protected onDisable(): void {   
+        this.contentnode.removeAllChildren()
+    }
+
     AddScore(name : string, score: number) {
         const node = instantiate(this.scoreItemPrefab)
         const itemCmp = node.getComponent(ScoreItemComponent)

@@ -43,49 +43,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         constructor(timer) {
           super();
           this._speedType = void 0;
-          this._pauseCount = void 0;
-          this._btnPause = void 0;
           timer.AddHandler(this);
           this._speedType = TimeSpeed.Play;
-          this._pauseCount = false;
-          this._btnPause = false;
         }
 
         Tick() {
           if (this.GetTimeSpeed() === TimeSpeed.Play) {
             this._dispatcher.Post(arg => arg.OnDayChange == null ? void 0 : arg.OnDayChange());
           }
-        }
-
-        SetBtnPause(isPause) {
-          this._btnPause = isPause;
-
-          this._dispatcher.Post(h => h.OnTimeSpeedChange == null ? void 0 : h.OnTimeSpeedChange(this.GetTimeSpeed()));
-        }
-
-        SetPause(isPause) {
-          this._pauseCount = isPause;
-
-          this._dispatcher.Post(h => h.OnTimeSpeedChange == null ? void 0 : h.OnTimeSpeedChange(this.GetTimeSpeed()));
-        }
-
-        SetSpeedUp(isSpeedup) {
-          this._speedType = isSpeedup ? TimeSpeed.SpeedUp : TimeSpeed.Play;
-
-          this._dispatcher.Post(h => h.OnTimeSpeedChange == null ? void 0 : h.OnTimeSpeedChange(this.GetTimeSpeed()));
-        }
-
-        GetPause() {
-          return this._pauseCount;
-        }
-
-        GetBtnPause() {
-          return this._btnPause;
-        }
-
-        GetTimeSpeed() {
-          if (this._pauseCount || this._btnPause) return TimeSpeed.Pause;
-          return this._speedType;
         }
 
       });

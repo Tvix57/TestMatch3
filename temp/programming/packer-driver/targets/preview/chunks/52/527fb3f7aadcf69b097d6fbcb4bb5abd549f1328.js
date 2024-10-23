@@ -62,6 +62,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.cangeColor(color);
         }
 
+        OnBallClick() {}
+
+        activateDestroyAnimation() {}
+
         cangeColor(color) {
           switch (color) {
             case (_crd && BallColor === void 0 ? (_reportPossibleCrUseOfBallColor({
@@ -98,6 +102,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               error: Error()
             }), BallColor) : BallColor).Black:
               this.sprite.color = new Color(0, 0, 0, 255);
+              break;
+
+            case (_crd && BallColor === void 0 ? (_reportPossibleCrUseOfBallColor({
+              error: Error()
+            }), BallColor) : BallColor).NONE:
               break;
           }
         }

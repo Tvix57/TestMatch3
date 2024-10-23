@@ -1,1494 +1,0 @@
-24.09.2024 21:17:49-log: Cannot access game frame or container.
-24.09.2024 21:17:49-debug: asset-db:require-engine-code (1124ms)
-24.09.2024 21:17:50-log: Cocos Creator v3.8.1
-24.09.2024 21:17:50-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:20.37MB, end 91.57MB, increase: 71.20MB
-24.09.2024 21:17:50-debug: [Assets Memory track]: asset-db-plugin-register: programming start:92.37MB, end 95.76MB, increase: 3.39MB
-24.09.2024 21:17:50-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:95.81MB, end 99.40MB, increase: 3.59MB
-24.09.2024 21:17:50-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:91.58MB, end 99.41MB, increase: 7.83MB
-24.09.2024 21:17:50-debug: [Assets Memory track]: asset-db-plugin-enable: project start:95.98MB, end 99.41MB, increase: 3.43MB
-24.09.2024 21:17:50-debug: asset-db:worker-init: initPlugin (102ms)
-24.09.2024 21:17:50-debug: [Assets Memory track]: asset-db:worker-init start:20.37MB, end 93.96MB, increase: 73.60MB
-24.09.2024 21:17:50-debug: Run asset db hook programming:beforePreStart success!
-24.09.2024 21:17:50-debug: Run asset db hook engine-extends:beforePreStart success!
-24.09.2024 21:17:50-debug: Run asset db hook engine-extends:beforePreStart ...
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunksbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default-terrainbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: Run asset db hook programming:beforePreStart ...
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemapbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_contentbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materialsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_renderpipelinebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fontsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skyboxbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_uibackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: asset-db:worker-init (2256ms)
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependenciesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effectsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmobackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\physicsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\toolsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: asset-db-hook-programming-beforePreStart (517ms)
-24.09.2024 21:17:50-debug: asset-db-hook-engine-extends-beforePreStart (516ms)
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtinbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\commonbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacybackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-modelsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\post-processbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entriesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\animbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfacesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\animaskbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\animgraphbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\animgraphvaribackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\effect-surfacebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\flowbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\forward-pipelinebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\jsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\pacbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\pmtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\rppbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\rtbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\scene-2dbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\scene-qualitybackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\stgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\terrainbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\ts-animation-graphbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\ts-render-flowbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\ts-render-pipelinebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_file_content\ts-render-stagebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmapbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-freetypebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3dbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\effectsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\2dbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\lightbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\uibackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependencies\texturesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advancedbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\for2dbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internalbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\particlesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\legacybackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\utilbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipelinebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internalbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalitiesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniformsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\databackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\colorbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\debugbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lightingbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\graph-expressionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\meshbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\shadowbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\texturebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\main-functionsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\mathbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\data-structuresbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\default-functionsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\includesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\lighting-flowbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\model-functionsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\data-structuresbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functionsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\data-structuresbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\default-functionsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macrosbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\module-functionsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editorbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependencies\textures\lutbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-processbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\2d\uibackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\miscbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dccbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-planar-shadowbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-reflectmapbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-shadowmapbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\chunksbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\vatbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-scene\pipelinebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\deprecated.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\decode-base.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\common-define.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\decode-standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\decode.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\fog-base.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\input-standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\input.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\lighting.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\fog-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\lightingmap-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\lightingmap-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\fog-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\local-batch.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\output-standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\morph.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\output.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\sh-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\sh-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shading-standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shading-standard-base.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shading-standard-additive.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shading-cluster-additive.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shading-toon.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shadow-map-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shadow-map-base.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\skinning.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\shadow-map-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\standard-surface-entry.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\post-process\anti-aliasing.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\post-process\fxaa-hq.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\post-process\fxaa.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\common-functions.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\eye.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\morph-animation.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\fog.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\sh.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\probe.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\shadow-map.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\skinning-animation-lbs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\world-transform.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\alpha-test.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\functionalities\skinning-animation-dqs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\embedded-alpha.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\particle-common.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\particle-trail.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\particle-vs-legacy.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\particle-vs-gpu.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\sprite-common.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\internal\sprite-texture.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-csm.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-diffusemap.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-environment.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-forward-light.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-light-map.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-global.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-local.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-reflection-probe.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-local-batched.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-morph.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-shadow-map.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-sh.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-shadow.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-skinning.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\builtin\uniforms\cc-world-bound.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\color\aces.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\color\gamma.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\color\tone-mapping.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\data\packing.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\data\unpack.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\effect\fog.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\debug\debug-view-define.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\effect\special-effects.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\graph-expression\base.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lighting\attenuation.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lighting\brdf.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lighting\functions.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lighting\rect-area-light.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lighting\light-map.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\lighting\bxdf.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\math\coordinates.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\math\number.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\math\octahedron-transform.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\math\transform.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\mesh\material.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\mesh\vat-animation.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\texture\cubemap.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\shadow\native-pcf.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\main-functions\general-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\main-functions\outline-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\texture\texture-misc.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\legacy\main-functions\outline-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\common\texture\texture-lod.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\data-structures\lighting-intermediate-data.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\data-structures\lighting-result.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\data-structures\lighting-misc-data.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\default-functions\simple-skin.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\default-functions\skin.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\default-functions\standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\default-functions\toon.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\includes\common.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\includes\unlit.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\includes\toon.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\includes\standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\lighting-flow\common-flow.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\model-functions\standard-common.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\lighting-flow\unlit-flow.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\model-functions\standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\lighting-models\model-functions\toon.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\data-structures\fs-input.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\data-structures\vs-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\data-structures\vs-input.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\data-structures\vs-intermediate.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\data-structures\standard.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\data-structures\toon.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\data-structures\unlit.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\data-structures\vs-output.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\default-functions\common-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\default-functions\standard-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\default-functions\skin.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\default-functions\unlit-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\render-planar-shadow.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\common-macros.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\render-to-shadowmap.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\sky.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\default-functions\toon-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\silhouette-edge.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\terrain.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\effect-macros\unlit.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\common-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\common-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\standard-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\standard-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\toon-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\unlit-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\includes\toon-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\module-functions\common-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\module-functions\debug-view.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\module-functions\standard-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\misc\silhouette-edge-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\module-functions\unlit-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\misc\silhouette-edge-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\surfaces\module-functions\toon-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\misc\sky-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\misc\sky-vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-planar-shadow\vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-reflectmap\fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-planar-shadow\fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-scene\fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-shadowmap\fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-scene\vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\chunks\fsr.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\chunks\hbao.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-shadowmap\vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-scene\pipeline\deferred-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\chunks\vs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\chunks\shading-entries\main-functions\render-to-scene\pipeline\forward-fs.chunkbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\builtin-reflection-probe-preview.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:50-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\builtin-standard.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:51-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\builtin-terrain.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:51-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\builtin-toon.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:51-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\builtin-unlit.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:52-debug: run package(builder) handler(enable) start
-24.09.2024 21:17:55-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:156.72MB, end 313.76MB, increase: 157.03MB
-24.09.2024 21:17:55-debug: run package(shortcuts) handler(enable) start
-24.09.2024 21:17:55-debug: run package(builder) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(shortcuts) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(animation-graph) handler(enable) start
-24.09.2024 21:17:55-debug: run package(animation-graph) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(about) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(assets) handler(enable) start
-24.09.2024 21:17:55-debug: run package(assets) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(console) handler(enable) start
-24.09.2024 21:17:55-debug: run package(console) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(crash-reporter) handler(enable) start
-24.09.2024 21:17:55-debug: run package(about) handler(enable) start
-24.09.2024 21:17:55-debug: run package(crash-reporter) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(extension) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(hierarchy) handler(enable) start
-24.09.2024 21:17:55-debug: run package(hierarchy) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(extension) handler(enable) start
-24.09.2024 21:17:55-debug: run package(inspector) handler(enable) start
-24.09.2024 21:17:55-debug: run package(inspector) handler(enable) success!
-24.09.2024 21:17:55-debug: run package(light-probe) handler(enable) start
-24.09.2024 21:17:56-debug: run package(lightmap) handler(enable) start
-24.09.2024 21:17:56-debug: run package(light-probe) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(node-library) handler(enable) start
-24.09.2024 21:17:56-debug: run package(node-library) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(package-asset) handler(enable) start
-24.09.2024 21:17:56-debug: run package(lightmap) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(package-asset) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(process) handler(enable) start
-24.09.2024 21:17:56-debug: run package(process) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(reference-image) handler(enable) start
-24.09.2024 21:17:56-debug: run package(reference-image) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(reflection-probe) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(reflection-probe) handler(enable) start
-24.09.2024 21:17:56-debug: run package(engine-extends) handler(enable) start
-24.09.2024 21:17:56-debug: run package(engine-extends) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(adsense-h5g-plugin) handler(enable) start
-24.09.2024 21:17:56-debug: run package(adsense-h5g-plugin) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(alipay-mini-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(alipay-mini-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(android) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(android) handler(enable) start
-24.09.2024 21:17:56-debug: run package(bytedance-mini-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(bytedance-mini-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(certificate) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(channel-upload-tools) handler(enable) start
-24.09.2024 21:17:56-debug: run package(channel-upload-tools) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(fb-instant-games) handler(enable) start
-24.09.2024 21:17:56-debug: run package(fb-instant-games) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(huawei-agc) handler(enable) start
-24.09.2024 21:17:56-debug: run package(huawei-agc) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(huawei-quick-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(huawei-quick-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(ios) handler(enable) start
-24.09.2024 21:17:56-debug: run package(ios) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(certificate) handler(enable) start
-24.09.2024 21:17:56-debug: run package(linux) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(mac) handler(enable) start
-24.09.2024 21:17:56-debug: run package(mac) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(native) handler(enable) start
-24.09.2024 21:17:56-debug: run package(ohos) handler(enable) start
-24.09.2024 21:17:56-debug: run package(ohos) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(native) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(openharmony) handler(enable) start
-24.09.2024 21:17:56-debug: run package(oppo-mini-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(linux) handler(enable) start
-24.09.2024 21:17:56-debug: run package(oppo-mini-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(openharmony) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(runtime-dev-tools) handler(enable) start
-24.09.2024 21:17:56-debug: run package(runtime-dev-tools) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(taobao-creative-app) handler(enable) start
-24.09.2024 21:17:56-debug: run package(taobao-mini-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(taobao-mini-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(taobao-creative-app) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(vivo-mini-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(web-desktop) handler(enable) start
-24.09.2024 21:17:56-debug: run package(vivo-mini-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(web-desktop) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(web-mobile) handler(enable) start
-24.09.2024 21:17:56-debug: run package(web-mobile) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(wechatgame) handler(enable) start
-24.09.2024 21:17:56-debug: run package(wechatgame) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(wechatprogram) handler(enable) start
-24.09.2024 21:17:56-debug: run package(wechatprogram) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(windows) handler(enable) start
-24.09.2024 21:17:56-debug: run package(windows) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(xiaomi-quick-game) handler(enable) start
-24.09.2024 21:17:56-debug: run package(xiaomi-quick-game) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(cocos-service) handler(enable) start
-24.09.2024 21:17:56-debug: run package(cocos-service) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(im-plugin) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(placeholder) handler(enable) success!
-24.09.2024 21:17:56-debug: run package(placeholder) handler(enable) start
-24.09.2024 21:17:56-debug: run package(im-plugin) handler(enable) start
-24.09.2024 21:17:56-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\car-paint.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:56-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\eye.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:56-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\fabric.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\glass.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:57-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\hair.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\leaf.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\simple-skin.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:58-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\skin.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\sky.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\advanced\water.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\for2d\builtin-spine.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\for2d\builtin-sprite-renderer.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\for2d\builtin-sprite.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-camera-texture.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-clear-stencil.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-debug-renderer.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-geometry-renderer.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-graphics.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-occlusion-query.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-reflection-deferred.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\builtin-wireframe.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\legacy\standard.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:17:59-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\legacy\terrain.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\legacy\toon.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\particles\builtin-billboard.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\particles\builtin-particle-gpu.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\particles\builtin-particle-trail.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\particles\builtin-particle-xr-trail.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\particles\builtin-particle.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\cluster-build.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\cluster-culling.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\copy-pass.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:00-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\deferred-lighting.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\float-output-process.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\planar-shadow.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\skybox.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\smaa.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\ssss-blur.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\tonemap.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\batched-unlit.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\profiler.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\sequence-anim.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\splash-screen.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\box-height-light.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\gizmo.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\grid-2d.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\grid-stroke.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\grid.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\light-probe-visualization.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\light.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\terrain-circle-brush.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\terrain-image-brush.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\internal\editor\terrain-select-brush.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\blit-screen.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\bloom.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\color-grading.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\fsr.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\fxaa-hq.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:01-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\hbao.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:02-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\post-final.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:02-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\pipeline\post-process\taa.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:02-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\imported-metallic-roughness.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:02-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\imported-specular-glossiness.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:02-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\vat\houdini-fluid-v3-liquid.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:02-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\vat\houdini-rigidbody-v2.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:03-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\vat\houdini-softbody-v3.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:03-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\effects\util\dcc\vat\zeno-fluid-liquid.effectbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\tools\debug-view-runtime-control.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: Preimport db internal success
-24.09.2024 21:18:04-debug: start asset-db(assets)...
-24.09.2024 21:18:04-debug: start asset-db(assets) with asset: 0
-24.09.2024 21:18:04-debug: Run asset db hook programming:afterPreStart ...
-24.09.2024 21:18:04-debug: asset-db:worker-startup-database[assets] (13ms)
-24.09.2024 21:18:04-debug: Set detail map pack:///resolution-detail-map.json: {}
-24.09.2024 21:18:04-debug: Run asset db hook programming:afterPreStart success!
-24.09.2024 21:18:04-debug: Run asset db hook engine-extends:afterPreStart ...
-24.09.2024 21:18:04-debug: asset-db-hook-programming-afterPreStart (356ms)
-24.09.2024 21:18:04-debug: recompile effect.bin success
-24.09.2024 21:18:04-debug: Run asset db hook engine-extends:afterPreStart success!
-24.09.2024 21:18:04-debug: Start up the 'internal' database...
-24.09.2024 21:18:04-debug: [Assets Memory track]: asset-db:worker-init: preStart start:93.97MB, end 579.82MB, increase: 485.85MB
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default-video.mp4background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\Default-Particle.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default-terrain\default-layer-texture.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\back.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbxbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: asset-db:worker-effect-data-processing (268ms)
-24.09.2024 21:18:04-debug: asset-db-hook-engine-extends-afterPreStart (269ms)
-24.09.2024 21:18:04-debug: Status file F:\git\TestMatch3\temp\asset-db\internal\fbx.FBX-glTF-conv\1263d74c-8167-4928-91a6-4e2672411f47\status.json: Error: ENOENT: no such file or directory, open 'F:\git\TestMatch3\temp\asset-db\internal\fbx.FBX-glTF-conv\1263d74c-8167-4928-91a6-4e2672411f47\status.json'
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\Default-Particle.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\back.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default-terrain\default-layer-texture.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\bottom.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\front.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\left.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\front.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\bottom.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\left.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\right.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\top.jpgbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-billboard-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-clear-stencil.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-material-transparent.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-particle-gpu-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-particle-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\right.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_cubemap\top.jpg@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-spine-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\default-trail-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\missing-effect-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\missing-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\particle-add.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\standard-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-alpha-test-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-base-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-graphics-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-sprite-alpha-sep-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-sprite-gray-alpha-sep-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-sprite-gray-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_materials\ui-sprite-material.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\Camera.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\Terrain.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_renderpipeline\builtin-deferred.rppbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_renderpipeline\builtin-forward.rppbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_renderpipeline\deferred-lighting.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_renderpipeline\post-process.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_renderpipeline\tonemap.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdrbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: Start to conver asset {asset[d032ac98-05e1-4090-88bb-eb640dcb5fc1](d032ac98-05e1-4090-88bb-eb640dcb5fc1)}
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom.plistbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom_new.plistbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_disabled.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_normal.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_disabled.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_normal.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_disabled.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_normal.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_pressed.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:04-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_editbox_bg.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: Conver assetC:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr -> PNG success.
-24.09.2024 21:18:05-debug: Frame rate: 24 [{asset(1263d74c-8167-4928-91a6-4e2672411f47)}]
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0@74afdbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_pressed.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@17020background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_editbox_bg.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0@8fd34background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_btn_pressed.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_editbox_bg.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@801ecbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_panel.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0@bb97fbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_progressbar.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0@7d38fbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@2e76ebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_panel.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0@e9a6dbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_panel.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@38fd2background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.png@b47c0@40c10background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@40ecebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_progressbar_bg.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_radio_button_off.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@fc873background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_progressbar.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@8abdcbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_progressbar.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_progressbar_bg.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_radio_button_off.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_progressbar_bg.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@a804abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_radio_button_off.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_radio_button_on.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@8d883background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\primitives.fbx@aae0fbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_bg.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_vertical.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_radio_button_on.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_radio_button_on.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_vertical.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_bg.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_vertical.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_bg.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_vertical_bg.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@74afdbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_sprite.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@8fd34background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_sprite_splash.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_vertical_bg.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_checkmark.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_scrollbar_vertical_bg.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@bb97fbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_sprite.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_sprite_splash.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@7d38fbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_checkmark.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_sprite.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_sprite_splash.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_checkmark.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@e9a6dbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_disabled.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_skybox\default_skybox.hdr@b47c0@40c10background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_normal.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_disabled.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_pressed.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\camera.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\directional-light.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\light-probe.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_normal.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_pressed.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_normal.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\default_toggle_pressed.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\directional-light.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:05-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\particle-system.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\reflection-probe.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\scene-gizmo.mtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\sphere-light.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\camera.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\light-probe.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\spot-light.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\webview.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\sphere-light.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\x.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\webview.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\y.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\spot-light.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\particle-system.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\z.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\physics\default-physics-material.pmtlbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\reflection-probe.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\tools\debug-view-runtime-control.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\tools\parsed-effect-info.jsonbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\x.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\x.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Bold.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-BoldItalic.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\y.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\z.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\y.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-BoldItalic_0.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Bold_0.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Italic.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\gizmo\z.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Italic_0.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Regular.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Regular_0.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Bold_0.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-BoldItalic_0.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Bold_0.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-BoldItalic_0.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-freetype\OpenSans-Bold.ttfbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Italic_0.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Regular_0.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Italic_0.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Regular_0.png@f9941background: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-freetype\OpenSans-BoldItalic.ttfbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-freetype\OpenSans-Italic.ttfbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-freetype\OpenSans-Regular.ttfbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\2d\Camera.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Capsule.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Cone.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Cube.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Cylinder.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Plane.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Quad.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Sphere.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\3d\Torus.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\effects\Particle System.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Directional Light.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Light Probe Group.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Point Light.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Ranged Directional Light.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Reflection Probe.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Sphere Light.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\light\Spot Light.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Button.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Canvas.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\EditBox.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Graphics.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Label.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Layout.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Mask.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\pageView.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\ParticleSystem2D.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\ProgressBar.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\RichText.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\ScrollView.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Slider.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Sprite.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\SpriteRenderer.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\SpriteSplash.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\TiledMap.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Toggle.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\ToggleContainer.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\VideoPlayer.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\WebView.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\ui\Widget.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependencies\textures\preintegrated-skin.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_prefab\2d\ui\Canvas.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependencies\textures\lut\original-color-grading.pngbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependencies\textures\preintegrated-skin.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\dependencies\textures\lut\original-color-grading.png@6c48abackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: start asset-db(internal) with asset: 463
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom.plistbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Bold.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-BoldItalic.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Italic.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_ui\atom_new.plistbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: %cImport%c: C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\editor\assets\default_fonts\builtin-bitmap\OpenSans-Regular.fntbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:18:06-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:113.94MB, end 577.80MB, increase: 463.86MB
-24.09.2024 21:18:06-debug: asset-db:worker-startup-database[internal] (15470ms)
-24.09.2024 21:18:06-debug: asset-db:start-database (15908ms)
-24.09.2024 21:18:06-debug: asset-db:ready (20393ms)
-24.09.2024 21:18:06-debug: init worker message success
-24.09.2024 21:18:06-debug: [Build Memory track]: builder:worker-init start:579.73MB, end 589.49MB, increase: 9.76MB
-24.09.2024 21:18:06-debug: programming:execute-script (454ms)
-24.09.2024 21:18:06-debug: builder:worker-init (447ms)
-24.09.2024 21:18:07-debug: programming:execute-script (4ms)
-24.09.2024 21:18:19-debug: refresh db internal success
-24.09.2024 21:18:19-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:18:19-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:18:19-debug: refresh db assets success
-24.09.2024 21:18:19-debug: asset-db:refresh-all-database (28ms)
-24.09.2024 21:18:19-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:18:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:18:36-debug: refresh db internal success
-24.09.2024 21:18:36-debug: refresh db assets success
-24.09.2024 21:18:36-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:18:36-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:18:36-debug: asset-db:refresh-all-database (36ms)
-24.09.2024 21:18:36-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:18:36-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-24.09.2024 21:18:38-debug: refresh db internal success
-24.09.2024 21:18:38-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:18:38-debug: refresh db assets success
-24.09.2024 21:18:38-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:18:38-debug: asset-db:refresh-all-database (33ms)
-24.09.2024 21:18:38-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:18:38-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:19:34-debug: refresh db internal success
-24.09.2024 21:19:34-debug: refresh db assets success
-24.09.2024 21:19:34-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:19:34-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:19:34-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:20:03-debug: refresh db internal success
-24.09.2024 21:20:03-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:20:03-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:20:03-debug: refresh db assets success
-24.09.2024 21:20:03-debug: asset-db:refresh-all-database (31ms)
-24.09.2024 21:20:15-debug: refresh db internal success
-24.09.2024 21:20:15-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:20:15-debug: refresh db assets success
-24.09.2024 21:20:15-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:20:15-debug: asset-db:refresh-all-database (35ms)
-24.09.2024 21:20:15-debug: asset-db:worker-effect-data-processing (2ms)
-24.09.2024 21:20:15-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-24.09.2024 21:20:29-debug: start refresh asset from F:\git\TestMatch3\assets\Scene...
-24.09.2024 21:20:29-debug: %cImport%c: F:\git\TestMatch3\assets\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:20:29-debug: refresh asset F:\git\TestMatch3\assets success
-24.09.2024 21:20:45-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts...
-24.09.2024 21:20:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:20:45-debug: refresh asset F:\git\TestMatch3\assets success
-24.09.2024 21:21:00-debug: start refresh asset from F:\git\TestMatch3\assets\resources...
-24.09.2024 21:21:00-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:21:00-debug: refresh asset F:\git\TestMatch3\assets success
-24.09.2024 21:21:14-debug: refresh db internal success
-24.09.2024 21:21:14-debug: refresh db assets success
-24.09.2024 21:21:14-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:21:14-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:21:14-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:21:20-debug: start refresh asset from F:\git\TestMatch3\assets\Scene\GameScene.scene...
-24.09.2024 21:21:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scene\GameScene.scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:21:20-debug: refresh asset F:\git\TestMatch3\assets\Scene success
-24.09.2024 21:21:20-debug: %cImport%c: F:\git\TestMatch3\assets\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:21:38-debug: refresh db internal success
-24.09.2024 21:21:38-debug: refresh db assets success
-24.09.2024 21:21:38-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:21:38-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:21:38-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:22:57-debug: refresh db internal success
-24.09.2024 21:22:57-debug: refresh db assets success
-24.09.2024 21:22:57-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:22:57-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:22:57-debug: asset-db:refresh-all-database (30ms)
-24.09.2024 21:22:57-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:23:43-debug: refresh db internal success
-24.09.2024 21:23:43-debug: refresh db assets success
-24.09.2024 21:23:43-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:23:43-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:23:43-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:23:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:23:43-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:24:06-debug: refresh db internal success
-24.09.2024 21:24:06-debug: refresh db assets success
-24.09.2024 21:24:06-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:24:06-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:24:06-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 21:24:06-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:24:06-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:24:30-debug: refresh db internal success
-24.09.2024 21:24:30-debug: refresh db assets success
-24.09.2024 21:24:30-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:24:30-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:24:30-debug: asset-db:refresh-all-database (28ms)
-24.09.2024 21:25:11-debug: start refresh asset from F:\git\TestMatch3\assets\resources\ball.prefab...
-24.09.2024 21:25:11-debug: %cImport%c: F:\git\TestMatch3\assets\resources\ball.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:25:11-debug: refresh asset F:\git\TestMatch3\assets\resources success
-24.09.2024 21:25:11-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:25:19-debug: start refresh asset from F:\git\TestMatch3\assets\resources\ball-001.prefab...
-24.09.2024 21:25:19-debug: %cImport%c: F:\git\TestMatch3\assets\resources\ball-001.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:25:19-debug: refresh asset F:\git\TestMatch3\assets\resources success
-24.09.2024 21:25:19-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:25:38-debug: start move asset from F:\git\TestMatch3\assets\resources\ball-001.prefab -> F:\git\TestMatch3\assets\resources\MainScene.prefab...
-24.09.2024 21:25:38-debug: start refresh asset from F:\git\TestMatch3\assets\resources\MainScene.prefab...
-24.09.2024 21:25:38-debug: %cImport%c: F:\git\TestMatch3\assets\resources\MainScene.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:25:38-debug: refresh asset F:\git\TestMatch3\assets\resources success
-24.09.2024 21:25:38-debug: start refresh asset from F:\git\TestMatch3\assets\resources...
-24.09.2024 21:25:38-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:25:38-debug: refresh asset F:\git\TestMatch3\assets success
-24.09.2024 21:25:38-debug: move asset from F:\git\TestMatch3\assets\resources\ball-001.prefab -> F:\git\TestMatch3\assets\resources\MainScene.prefab success
-24.09.2024 21:34:53-debug: refresh db internal success
-24.09.2024 21:34:53-debug: refresh db assets success
-24.09.2024 21:34:53-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:34:53-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:34:53-debug: asset-db:refresh-all-database (29ms)
-24.09.2024 21:34:57-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\GameManagerComponent.ts...
-24.09.2024 21:34:57-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:34:57-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 21:34:58-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:35:39-debug: refresh db internal success
-24.09.2024 21:35:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:35:39-debug: refresh db assets success
-24.09.2024 21:35:39-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:35:39-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:35:39-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:35:39-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:35:48-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Enums...
-24.09.2024 21:35:48-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:35:48-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 21:35:48-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:36:01-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Enums\folder...
-24.09.2024 21:36:01-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Enums success
-24.09.2024 21:36:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\folderbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:36:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:36:03-debug: AssetDB.dataManaer is deprecated, Please use AssetDB.dataManager instead.
-24.09.2024 21:36:03-debug: programming:execute-script (2ms)
-24.09.2024 21:36:04-debug: start remove asset F:\git\TestMatch3\assets\Scripts\Enums\folder...
-24.09.2024 21:36:04-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Enums\folder...
-24.09.2024 21:36:04-debug: %cDestroy%c: F:\git\TestMatch3\assets\Scripts\Enums\folderbackground: #ffb8b8; color: #000;color: #000;
-24.09.2024 21:36:04-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Enums success
-24.09.2024 21:36:04-debug: remove asset F:\git\TestMatch3\assets\Scripts\Enums\folder success
-24.09.2024 21:36:05-debug: refresh db internal success
-24.09.2024 21:36:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:36:05-debug: refresh db assets success
-24.09.2024 21:36:05-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:36:05-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:36:05-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:36:05-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:36:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:36:29-debug: refresh db internal success
-24.09.2024 21:36:29-debug: refresh db assets success
-24.09.2024 21:36:29-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:36:29-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:36:29-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:36:29-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:36:29-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:36:43-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Enums\LocationType.ts...
-24.09.2024 21:36:43-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\LocationType.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:36:43-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Enums success
-24.09.2024 21:36:43-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:41:21-debug: refresh db internal success
-24.09.2024 21:41:21-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\CCLocationType.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:41:21-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:41:21-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\LocationType.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:41:21-debug: refresh db assets success
-24.09.2024 21:41:21-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:41:21-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:41:21-debug: asset-db:refresh-all-database (26ms)
-24.09.2024 21:41:29-debug: refresh db internal success
-24.09.2024 21:41:29-debug: refresh db assets success
-24.09.2024 21:41:29-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:41:29-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:41:29-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 21:41:39-debug: start move asset from F:\git\TestMatch3\assets\Scripts\Enums\CCLocationType.ts -> F:\git\TestMatch3\assets\Scripts\Enums\CCEnums.ts...
-24.09.2024 21:41:39-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Enums\CCEnums.ts...
-24.09.2024 21:41:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\CCEnums.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:41:39-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Enums success
-24.09.2024 21:41:39-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Enums...
-24.09.2024 21:41:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:41:39-debug: move asset from F:\git\TestMatch3\assets\Scripts\Enums\CCLocationType.ts -> F:\git\TestMatch3\assets\Scripts\Enums\CCEnums.ts success
-24.09.2024 21:41:39-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 21:42:44-debug: refresh db internal success
-24.09.2024 21:42:44-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\LocationType.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:42:44-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:42:44-debug: refresh db assets success
-24.09.2024 21:42:44-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:42:44-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:42:44-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 21:42:44-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:42:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:43:01-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene...
-24.09.2024 21:43:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:43:01-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 21:43:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:43:05-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\ISceneManager.ts...
-24.09.2024 21:43:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\ISceneManager.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:43:05-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 21:43:05-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\ScenePoolManagerComponent.ts...
-24.09.2024 21:43:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\ScenePoolManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:43:05-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 21:43:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:43:09-debug: refresh db internal success
-24.09.2024 21:43:09-debug: refresh db assets success
-24.09.2024 21:43:09-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:43:09-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:43:09-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 21:43:09-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:43:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:44:39-debug: refresh db internal success
-24.09.2024 21:44:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:44:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\ISceneManager.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:44:39-debug: refresh db assets success
-24.09.2024 21:44:39-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:44:39-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:44:39-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 21:44:39-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:44:39-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:44:47-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Utils...
-24.09.2024 21:44:47-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Utilsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:44:47-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 21:44:47-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:45:01-debug: refresh db internal success
-24.09.2024 21:45:01-debug: refresh db assets success
-24.09.2024 21:45:01-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:45:01-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:45:01-debug: asset-db:refresh-all-database (32ms)
-24.09.2024 21:45:01-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:45:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:45:03-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Utils\Dispatcher.ts...
-24.09.2024 21:45:03-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Utils\Dispatcher.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:45:03-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Utils success
-24.09.2024 21:45:03-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Utils\Observer.ts...
-24.09.2024 21:45:03-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Utils\Observer.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:45:03-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Utils success
-24.09.2024 21:45:03-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Utilsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:45:06-debug: refresh db internal success
-24.09.2024 21:45:06-debug: refresh db assets success
-24.09.2024 21:45:06-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:45:06-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:45:06-debug: asset-db:refresh-all-database (28ms)
-24.09.2024 21:45:57-debug: refresh db internal success
-24.09.2024 21:45:57-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\ScenePoolManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:45:57-debug: refresh db assets success
-24.09.2024 21:45:57-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:45:57-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:45:57-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 21:46:10-debug: refresh db internal success
-24.09.2024 21:46:10-debug: refresh db assets success
-24.09.2024 21:46:10-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:46:10-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:46:11-debug: asset-db:refresh-all-database (36ms)
-24.09.2024 21:46:11-debug: asset-db:worker-effect-data-processing (5ms)
-24.09.2024 21:46:11-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
-24.09.2024 21:46:12-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Utils\PrefabLoader.ts...
-24.09.2024 21:46:12-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Utils\PrefabLoader.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:46:12-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Utils success
-24.09.2024 21:46:12-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Utilsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:05-debug: refresh db internal success
-24.09.2024 21:51:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\LocationType.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:05-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\ScenePoolManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:05-debug: refresh db assets success
-24.09.2024 21:51:05-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:51:05-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:51:05-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 21:51:21-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\StartScene...
-24.09.2024 21:51:21-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\StartScenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:21-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 21:51:21-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:39-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\GameScene...
-24.09.2024 21:51:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:39-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 21:51:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:49-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\ScoreScene...
-24.09.2024 21:51:49-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\ScoreScenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:51:49-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 21:51:49-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 21:52:19-debug: refresh db internal success
-24.09.2024 21:52:19-debug: refresh db assets success
-24.09.2024 21:52:19-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:52:19-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:52:19-debug: asset-db:refresh-all-database (34ms)
-24.09.2024 21:52:19-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:52:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:52:30-debug: refresh db internal success
-24.09.2024 21:52:30-debug: refresh db assets success
-24.09.2024 21:52:30-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:52:30-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:52:30-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 21:53:05-debug: refresh db internal success
-24.09.2024 21:53:05-debug: refresh db assets success
-24.09.2024 21:53:05-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:05-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:05-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 21:53:05-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:53:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:53:13-debug: refresh db internal success
-24.09.2024 21:53:13-debug: refresh db assets success
-24.09.2024 21:53:13-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:13-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:13-debug: asset-db:refresh-all-database (26ms)
-24.09.2024 21:53:13-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:53:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:53:13-debug: refresh db internal success
-24.09.2024 21:53:13-debug: refresh db assets success
-24.09.2024 21:53:13-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:13-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:13-debug: asset-db:refresh-all-database (46ms)
-24.09.2024 21:53:13-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:53:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:53:16-debug: refresh db internal success
-24.09.2024 21:53:16-debug: refresh db assets success
-24.09.2024 21:53:16-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:16-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:16-debug: asset-db:refresh-all-database (20ms)
-24.09.2024 21:53:39-debug: refresh db internal success
-24.09.2024 21:53:39-debug: refresh db assets success
-24.09.2024 21:53:39-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:39-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:39-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 21:53:39-debug: refresh db internal success
-24.09.2024 21:53:39-debug: refresh db assets success
-24.09.2024 21:53:39-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:39-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:39-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 21:53:52-debug: refresh db internal success
-24.09.2024 21:53:52-debug: refresh db assets success
-24.09.2024 21:53:52-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:53:52-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:53:52-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 21:54:11-debug: refresh db internal success
-24.09.2024 21:54:11-debug: refresh db assets success
-24.09.2024 21:54:11-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:54:11-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:54:11-debug: asset-db:refresh-all-database (30ms)
-24.09.2024 21:54:11-debug: asset-db:worker-effect-data-processing (-1ms)
-24.09.2024 21:54:11-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
-24.09.2024 21:54:41-debug: refresh db internal success
-24.09.2024 21:54:41-debug: refresh db assets success
-24.09.2024 21:54:41-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:54:41-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:54:41-debug: asset-db:refresh-all-database (26ms)
-24.09.2024 21:54:53-debug: refresh db internal success
-24.09.2024 21:54:53-debug: refresh db assets success
-24.09.2024 21:54:53-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:54:53-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:54:53-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 21:54:56-debug: refresh db internal success
-24.09.2024 21:54:56-debug: refresh db assets success
-24.09.2024 21:54:56-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:54:56-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:54:56-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 21:55:06-debug: refresh db internal success
-24.09.2024 21:55:06-debug: refresh db assets success
-24.09.2024 21:55:06-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:55:06-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:55:06-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 21:55:06-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:55:06-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 21:55:21-debug: refresh db internal success
-24.09.2024 21:55:21-debug: refresh db assets success
-24.09.2024 21:55:21-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 21:55:21-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 21:55:21-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 21:55:21-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 21:55:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:01:12-debug: refresh db internal success
-24.09.2024 22:01:12-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:01:12-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\LocationType.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:01:12-debug: refresh db assets success
-24.09.2024 22:01:12-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:01:12-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:01:12-debug: asset-db:refresh-all-database (26ms)
-24.09.2024 22:01:12-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:01:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:01:56-debug: refresh db internal success
-24.09.2024 22:01:56-debug: refresh db assets success
-24.09.2024 22:01:56-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:01:56-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:01:56-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:01:56-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:01:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:02:11-debug: refresh db internal success
-24.09.2024 22:02:11-debug: refresh db assets success
-24.09.2024 22:02:11-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:02:11-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:02:11-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:02:11-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:02:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:02:12-debug: refresh db internal success
-24.09.2024 22:02:12-debug: refresh db assets success
-24.09.2024 22:02:12-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:02:12-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:02:12-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 22:02:12-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:02:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:02:25-debug: refresh db internal success
-24.09.2024 22:02:25-debug: refresh db assets success
-24.09.2024 22:02:25-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:02:25-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:02:25-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:02:25-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:02:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:02:30-debug: refresh db internal success
-24.09.2024 22:02:30-debug: refresh db assets success
-24.09.2024 22:02:30-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:02:30-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:02:30-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 22:02:30-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:02:30-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:03:36-debug: refresh db internal success
-24.09.2024 22:03:36-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:03:36-debug: refresh db assets success
-24.09.2024 22:03:36-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:03:36-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:03:36-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 22:03:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:04:27-debug: refresh db internal success
-24.09.2024 22:04:27-debug: refresh db assets success
-24.09.2024 22:04:27-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:04:27-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:04:27-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:04:37-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application...
-24.09.2024 22:04:37-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Applicationbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:04:37-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 22:04:37-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:29-debug: refresh db internal success
-24.09.2024 22:05:29-debug: refresh db assets success
-24.09.2024 22:05:29-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:05:29-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:05:29-debug: asset-db:refresh-all-database (26ms)
-24.09.2024 22:05:29-debug: asset-db:worker-effect-data-processing (-1ms)
-24.09.2024 22:05:31-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application\AppRoot.ts...
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:31-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Application success
-24.09.2024 22:05:31-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application\AppState.ts...
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppState.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:31-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Application success
-24.09.2024 22:05:31-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application\ApplicationInterfaces.ts...
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\ApplicationInterfaces.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:31-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Application success
-24.09.2024 22:05:31-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application\ApplicationConfig.ts...
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\ApplicationConfig.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:31-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Application success
-24.09.2024 22:05:31-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application\AppDevice.ts...
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppDevice.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:31-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Application success
-24.09.2024 22:05:31-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Application\AppAudio.ts...
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppAudio.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:05:31-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Application success
-24.09.2024 22:05:31-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Applicationbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:08:45-debug: refresh db internal success
-24.09.2024 22:08:45-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:08:45-debug: refresh db assets success
-24.09.2024 22:08:45-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:08:45-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:08:45-debug: asset-db:refresh-all-database (31ms)
-24.09.2024 22:08:45-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:08:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:08:56-debug: refresh db internal success
-24.09.2024 22:08:56-debug: refresh db assets success
-24.09.2024 22:08:56-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:08:56-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:08:56-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:08:56-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 22:08:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:09:46-debug: refresh db internal success
-24.09.2024 22:09:46-debug: refresh db assets success
-24.09.2024 22:09:46-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:09:46-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:09:46-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 22:09:53-debug: refresh db internal success
-24.09.2024 22:09:53-debug: refresh db assets success
-24.09.2024 22:09:53-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:09:53-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:09:53-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:09:57-debug: refresh db internal success
-24.09.2024 22:09:57-debug: refresh db assets success
-24.09.2024 22:09:57-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:09:57-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:09:57-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:10:10-debug: refresh db internal success
-24.09.2024 22:10:10-debug: refresh db assets success
-24.09.2024 22:10:10-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:10-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:10-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:10:13-debug: refresh db internal success
-24.09.2024 22:10:13-debug: refresh db assets success
-24.09.2024 22:10:13-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:13-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:13-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 22:10:13-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:10:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:10:29-debug: refresh db internal success
-24.09.2024 22:10:29-debug: refresh db assets success
-24.09.2024 22:10:29-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:29-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:29-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:10:29-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:10:29-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:10:37-debug: refresh db internal success
-24.09.2024 22:10:37-debug: refresh db assets success
-24.09.2024 22:10:37-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:37-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:37-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 22:10:41-debug: refresh db internal success
-24.09.2024 22:10:41-debug: refresh db assets success
-24.09.2024 22:10:41-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:41-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:41-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:10:41-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:10:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:10:45-debug: refresh db internal success
-24.09.2024 22:10:45-debug: refresh db assets success
-24.09.2024 22:10:45-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:45-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:45-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:10:45-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:10:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:10:53-debug: refresh db internal success
-24.09.2024 22:10:53-debug: refresh db assets success
-24.09.2024 22:10:53-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:10:53-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:10:53-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 22:10:53-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:11:58-debug: refresh db internal success
-24.09.2024 22:11:58-debug: refresh db assets success
-24.09.2024 22:11:58-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:11:58-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:11:58-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:12:19-debug: refresh db internal success
-24.09.2024 22:12:19-debug: refresh db assets success
-24.09.2024 22:12:19-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:12:19-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:12:19-debug: asset-db:refresh-all-database (22ms)
-24.09.2024 22:13:04-debug: refresh db internal success
-24.09.2024 22:13:04-debug: refresh db assets success
-24.09.2024 22:13:04-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:13:04-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:13:04-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:13:04-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:16:55-debug: refresh db internal success
-24.09.2024 22:16:55-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:16:55-debug: refresh db assets success
-24.09.2024 22:16:55-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:16:55-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:16:55-debug: asset-db:refresh-all-database (36ms)
-24.09.2024 22:16:55-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:16:55-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:17:37-debug: refresh db internal success
-24.09.2024 22:17:37-debug: refresh db assets success
-24.09.2024 22:17:37-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:17:37-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:17:37-debug: asset-db:refresh-all-database (30ms)
-24.09.2024 22:17:43-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs...
-24.09.2024 22:17:43-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:17:43-debug: refresh asset F:\git\TestMatch3\assets\resources success
-24.09.2024 22:17:44-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:17:47-debug: start move asset from F:\git\TestMatch3\assets\resources\ball.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\ball.prefab...
-24.09.2024 22:17:47-debug: start move asset from F:\git\TestMatch3\assets\resources\MainScene.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\MainScene.prefab...
-24.09.2024 22:17:47-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\ball.prefab...
-24.09.2024 22:17:47-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\MainScene.prefab...
-24.09.2024 22:17:47-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\ball.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:17:47-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\MainScene.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:17:47-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:17:47-debug: start refresh asset from F:\git\TestMatch3\assets\resources...
-24.09.2024 22:17:47-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:17:47-debug: start refresh asset from F:\git\TestMatch3\assets\resources...
-24.09.2024 22:17:47-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:17:47-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:17:47-debug: refresh asset F:\git\TestMatch3\assets success
-24.09.2024 22:17:47-debug: move asset from F:\git\TestMatch3\assets\resources\ball.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\ball.prefab success
-24.09.2024 22:17:47-debug: refresh asset F:\git\TestMatch3\assets success
-24.09.2024 22:17:47-debug: move asset from F:\git\TestMatch3\assets\resources\MainScene.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\MainScene.prefab success
-24.09.2024 22:18:11-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Images...
-24.09.2024 22:18:11-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Imagesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:18:11-debug: refresh asset F:\git\TestMatch3\assets\resources success
-24.09.2024 22:18:11-debug: %cImport%c: F:\git\TestMatch3\assets\resourcesbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:18:34-debug: refresh db internal success
-24.09.2024 22:18:34-debug: refresh db assets success
-24.09.2024 22:18:34-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:18:34-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:18:34-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:20:44-debug: refresh db internal success
-24.09.2024 22:20:44-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\BallColor.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:20:44-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enumsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:20:44-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Enums\CCEnums.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:20:44-debug: refresh db assets success
-24.09.2024 22:20:44-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:20:44-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:20:44-debug: asset-db:refresh-all-database (30ms)
-24.09.2024 22:20:44-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:20:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:21:17-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\GameScene\BallComponent.ts...
-24.09.2024 22:21:17-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScene\BallComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:21:17-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene\GameScene success
-24.09.2024 22:21:17-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:21:37-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\MenuScene...
-24.09.2024 22:21:37-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\MenuScenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:21:37-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 22:21:37-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:21:47-debug: refresh db internal success
-24.09.2024 22:21:47-debug: refresh db assets success
-24.09.2024 22:21:47-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:21:47-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:21:47-debug: asset-db:refresh-all-database (24ms)
-24.09.2024 22:21:47-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:21:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:22:01-debug: start move asset from F:\git\TestMatch3\assets\Scripts\Scene\MenuScene -> F:\git\TestMatch3\assets\Scripts\Scene\LoadingScene...
-24.09.2024 22:22:01-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\LoadingScene...
-24.09.2024 22:22:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\LoadingScenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:22:01-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 22:22:01-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene...
-24.09.2024 22:22:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:22:01-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 22:22:01-debug: move asset from F:\git\TestMatch3\assets\Scripts\Scene\MenuScene -> F:\git\TestMatch3\assets\Scripts\Scene\LoadingScene success
-24.09.2024 22:23:01-debug: start rename asset from F:\git\TestMatch3\assets\resources\Prefabs\ball.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefab...
-24.09.2024 22:23:01-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\ball.prefab...
-24.09.2024 22:23:01-debug: %cDestroy%c: F:\git\TestMatch3\assets\resources\Prefabs\ball.prefabbackground: #ffb8b8; color: #000;color: #000;
-24.09.2024 22:23:01-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:23:01-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefab...
-24.09.2024 22:23:01-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:23:01-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:23:01-debug: rename asset from F:\git\TestMatch3\assets\resources\Prefabs\ball.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefab success
-24.09.2024 22:23:01-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:23:10-debug: start move asset from F:\git\TestMatch3\assets\resources\Prefabs\MainScene.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefab...
-24.09.2024 22:23:10-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefab...
-24.09.2024 22:23:10-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:23:10-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:23:10-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs...
-24.09.2024 22:23:10-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:23:10-debug: refresh asset F:\git\TestMatch3\assets\resources success
-24.09.2024 22:23:10-debug: move asset from F:\git\TestMatch3\assets\resources\Prefabs\MainScene.prefab -> F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefab success
-24.09.2024 22:23:38-debug: refresh db internal success
-24.09.2024 22:23:38-debug: refresh db assets success
-24.09.2024 22:23:38-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:23:38-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:23:38-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:23:45-debug: refresh db internal success
-24.09.2024 22:23:45-debug: refresh db assets success
-24.09.2024 22:23:45-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:23:45-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:23:45-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:23:45-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:23:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:23:47-debug: refresh db internal success
-24.09.2024 22:23:47-debug: refresh db assets success
-24.09.2024 22:23:47-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:23:47-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:23:47-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:27:49-debug: refresh db internal success
-24.09.2024 22:27:49-debug: refresh db assets success
-24.09.2024 22:27:49-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:27:49-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:27:49-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:27:49-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:27:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:30:11-debug: refresh db internal success
-24.09.2024 22:30:11-debug: refresh db assets success
-24.09.2024 22:30:11-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:30:11-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:30:11-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:35:04-debug: refresh db internal success
-24.09.2024 22:35:04-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:35:04-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\ApplicationInterfaces.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:35:04-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScene\BallComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:35:04-debug: refresh db assets success
-24.09.2024 22:35:04-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:35:04-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:35:04-debug: asset-db:refresh-all-database (27ms)
-24.09.2024 22:35:09-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefab...
-24.09.2024 22:35:09-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\Ball.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:35:09-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:35:09-debug: refresh db internal success
-24.09.2024 22:35:09-debug: refresh db assets success
-24.09.2024 22:35:09-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:35:09-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:35:09-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:35:50-debug: refresh db internal success
-24.09.2024 22:35:50-debug: refresh db assets success
-24.09.2024 22:35:50-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:35:50-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:35:50-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:35:54-debug: refresh db internal success
-24.09.2024 22:35:54-debug: refresh db assets success
-24.09.2024 22:35:54-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:35:54-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:35:54-debug: asset-db:refresh-all-database (28ms)
-24.09.2024 22:35:54-debug: asset-db:worker-effect-data-processing (-1ms)
-24.09.2024 22:35:59-debug: refresh db internal success
-24.09.2024 22:35:59-debug: refresh db assets success
-24.09.2024 22:35:59-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:35:59-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:35:59-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:36:15-debug: refresh db internal success
-24.09.2024 22:36:15-debug: refresh db assets success
-24.09.2024 22:36:15-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:36:15-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:36:15-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:36:27-debug: refresh db internal success
-24.09.2024 22:36:27-debug: refresh db assets success
-24.09.2024 22:36:27-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:36:27-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:36:27-debug: asset-db:refresh-all-database (21ms)
-24.09.2024 22:37:07-debug: start refresh asset from F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefab...
-24.09.2024 22:37:07-debug: %cImport%c: F:\git\TestMatch3\assets\resources\Prefabs\GameScene.prefabbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:37:07-debug: refresh asset F:\git\TestMatch3\assets\resources\Prefabs success
-24.09.2024 22:37:07-debug: refresh db internal success
-24.09.2024 22:37:07-debug: refresh db assets success
-24.09.2024 22:37:07-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:37:07-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:37:07-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:37:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:37:07-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:39:01-debug: refresh db internal success
-24.09.2024 22:39:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\GameManagerComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:01-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Application\AppRoot.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:01-debug: refresh db assets success
-24.09.2024 22:39:01-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:39:01-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:39:01-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:39:17-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Session...
-24.09.2024 22:39:17-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:17-debug: refresh asset F:\git\TestMatch3\assets\Scripts success
-24.09.2024 22:39:17-debug: %cImport%c: F:\git\TestMatch3\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:37-debug: refresh db internal success
-24.09.2024 22:39:37-debug: refresh db assets success
-24.09.2024 22:39:37-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:39:37-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:39:37-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:39:37-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:39:37-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:39:39-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Session\GameContext.ts...
-24.09.2024 22:39:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameContext.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:39-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Session success
-24.09.2024 22:39:39-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:49-debug: refresh db internal success
-24.09.2024 22:39:49-debug: refresh db assets success
-24.09.2024 22:39:49-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:39:49-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:39:49-debug: asset-db:refresh-all-database (30ms)
-24.09.2024 22:39:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:39:49-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:39:52-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Session\GameFactory.ts...
-24.09.2024 22:39:52-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameFactory.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:39:52-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Session success
-24.09.2024 22:39:52-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:40:04-debug: refresh db internal success
-24.09.2024 22:40:04-debug: refresh db assets success
-24.09.2024 22:40:04-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:40:04-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:40:04-debug: asset-db:refresh-all-database (23ms)
-24.09.2024 22:40:04-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:40:04-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:40:06-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Session\GameSaveListener.ts...
-24.09.2024 22:40:06-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameSaveListener.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:40:06-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Session success
-24.09.2024 22:40:06-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:40:46-debug: refresh db internal success
-24.09.2024 22:40:46-debug: refresh db assets success
-24.09.2024 22:40:46-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:40:46-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:40:46-debug: asset-db:refresh-all-database (31ms)
-24.09.2024 22:40:46-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:40:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:40:48-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Session\SessionDeviceListener.ts...
-24.09.2024 22:40:48-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\SessionDeviceListener.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:40:48-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Session success
-24.09.2024 22:40:48-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:40:57-debug: refresh db internal success
-24.09.2024 22:40:57-debug: refresh db assets success
-24.09.2024 22:40:57-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:40:57-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:40:57-debug: asset-db:refresh-all-database (28ms)
-24.09.2024 22:40:57-debug: asset-db:worker-effect-data-processing (1ms)
-24.09.2024 22:40:57-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-24.09.2024 22:40:59-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Session\GameoverListener.ts...
-24.09.2024 22:40:59-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Session\GameoverListener.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:40:59-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Session success
-24.09.2024 22:40:59-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Sessionbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:41:20-debug: refresh db internal success
-24.09.2024 22:41:20-debug: refresh db assets success
-24.09.2024 22:41:20-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:41:20-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:41:20-debug: asset-db:refresh-all-database (31ms)
-24.09.2024 22:41:27-debug: start refresh asset from F:\git\TestMatch3\assets\Scripts\Scene\TransferComponent.ts...
-24.09.2024 22:41:27-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\TransferComponent.tsbackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:41:27-debug: refresh asset F:\git\TestMatch3\assets\Scripts\Scene success
-24.09.2024 22:41:27-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:42:35-debug: refresh db internal success
-24.09.2024 22:42:35-debug: refresh db assets success
-24.09.2024 22:42:35-debug: Run asset db hook engine-extends:afterRefresh success!
-24.09.2024 22:42:35-debug: Run asset db hook engine-extends:afterRefresh ...
-24.09.2024 22:42:35-debug: asset-db:refresh-all-database (25ms)
-24.09.2024 22:42:37-debug: start refresh asset from F:\git\TestMatch3\assets\Scene\GameScene.scene...
-24.09.2024 22:42:37-debug: %cImport%c: F:\git\TestMatch3\assets\Scene\GameScene.scenebackground: #aaff85; color: #000;color: #000;
-24.09.2024 22:42:37-debug: refresh asset F:\git\TestMatch3\assets\Scene success

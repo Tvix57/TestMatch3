@@ -7,8 +7,8 @@ export class GameLogic
     private _field: Field
     private _gameStats:GameStats;
 
-    constructor( private state:GameState) {
-        this._field = new Field(state.isFinished, state, state.field)
+    constructor(private state:GameState) {
+        this._field = new Field(state, state.field)
         this._gameStats = new GameStats(this._field, state.gameStats)
     }
 

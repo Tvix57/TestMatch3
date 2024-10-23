@@ -107,36 +107,38 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), LocationType) : LocationType).LoadingScene, "Prefabs/LoadingScene", 0);
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
-          }), LocationType) : LocationType).StartScene, "Prefabs/StartScene", 1);
+          }), LocationType) : LocationType).StartScene, "Prefabs/StartScene", 0);
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
-          }), LocationType) : LocationType).GameScene, "Prefabs/GameScene/GameScene", 2);
+          }), LocationType) : LocationType).GameScene, "Prefabs/GameScene/GameScene", 1);
           scene.AddLocation((_crd && LocationType === void 0 ? (_reportPossibleCrUseOfLocationType({
             error: Error()
-          }), LocationType) : LocationType).ScoreScene, "Prefabs/ScoreScene/ScoreScene", 2);
+          }), LocationType) : LocationType).ScoreScene, "Prefabs/ScoreScene/ScoreScene", 1);
         }
 
         getOS() {
-          switch (sys.os) {
-            case sys.OS.IOS:
+          if (sys.isBrowser) {
+            return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+              error: Error()
+            }), Platform) : Platform).Web;
+          } else if (sys.isMobile) {
+            if (sys.os === sys.OS.IOS) {
               return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
                 error: Error()
               }), Platform) : Platform).Ios;
-
-            case sys.OS.ANDROID:
+            } else if (sys.os === sys.OS.ANDROID) {
               return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
                 error: Error()
               }), Platform) : Platform).Android;
-
-            case sys.OS.WINDOWS:
+            } else {
               return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
                 error: Error()
               }), Platform) : Platform).Editor;
-
-            default:
-              return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
-                error: Error()
-              }), Platform) : Platform).Editor;
+            }
+          } else {
+            return (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+              error: Error()
+            }), Platform) : Platform).Editor;
           }
         }
 

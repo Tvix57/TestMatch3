@@ -72,6 +72,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.presenter.LoadScores();
         }
 
+        onDisable() {
+          this.contentnode.removeAllChildren();
+        }
+
         AddScore(name, score) {
           const node = instantiate(this.scoreItemPrefab);
           const itemCmp = node.getComponent(_crd && ScoreItemComponent === void 0 ? (_reportPossibleCrUseOfScoreItemComponent({

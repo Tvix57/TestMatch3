@@ -2,6 +2,7 @@ import { AndroidApplicationConfig } from "./native/AndroidApplicationConfig";
 import { Platform } from "./../Enums/ApplicationConfig";
 import { ApplicationListener } from "./native/ApplicationListener";
 import { EditorAppConfig } from "./native/EditorAppConfig";
+import { WebAppConfig } from "./native/WebAppConfig";
 
 export interface IApplicationHandler{
     OnPauseApplication():void
@@ -29,6 +30,7 @@ export class AppDevice {
                 break;
             }
             case Platform.Ios: {} //break;
+            case Platform.Web: {} new WebAppConfig();
             default:{
                 this._config = new EditorAppConfig()
             }

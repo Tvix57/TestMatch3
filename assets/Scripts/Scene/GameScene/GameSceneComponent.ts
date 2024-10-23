@@ -1,8 +1,9 @@
-import { _decorator, Component, instantiate, Label, Node, Prefab, UITransform } from 'cc';
+import { _decorator, Component, instantiate, Label, Node, Prefab, tween, Tween, UITransform, Vec3 } from 'cc';
 import { GameScenePresenter } from './GameScenePresenter';
 import { AppRoot } from '../../Application/AppRoot';
 import { BallColor } from '../../Enums/BallColor';
 import { BallComponent } from './BallComponent';
+import { AnimationType } from '../../Logic/Field';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameSceneComponent')
@@ -13,14 +14,15 @@ export class GameSceneComponent extends Component {
     @property(Label)
     scoreLabel: Label = null!
 
-    @property(Node)
-    field: Node = null!
+    @property(UITransform)
+    field: UITransform = null!
 
     @property(Prefab)
     ballPrefab: Prefab = null!
 
     private _presenter?: GameScenePresenter
     private _balls: Array<Array<Node>> = []
+    private animation?: Tween<Node>
 
     onEnable(): void {
         this._presenter = new GameScenePresenter(this, 
@@ -28,6 +30,10 @@ export class GameSceneComponent extends Component {
                                                  AppRoot.getInstance.ResovleSaveState().ResolveSaveContext().GetCurrentSaveState())
 
         this._presenter!.LoadData()
+    }
+
+    protected onDisable(): void {
+        this._presenter?.SaveCurrentGame()
     }
 
     SetName(newName: string) {
@@ -38,33 +44,49 @@ export class GameSceneComponent extends Component {
         this.scoreLabel.string = newScore
     }
 
-    UpdateField(newfield: Array<Array<BallColor>>, fromOutside?: boolean) { 
-        if (this._balls.length != newfield.length) {
-            this._balls = new Array(newfield.length).fill(null).map(() => new Array(newfield.length).fill(null));
-            newfield.forEach((row, i) => {
+    ShowNewField(data: Array<Array<BallColor>>) {
+        if (!this._balls.length) {
+            this._balls = new Array(data.length).fill(null).map(() => new Array(data.length).fill(null));
+            data.forEach((row, i) => {
                 row.forEach((color, j) => {
                     this._balls[i][j] = instantiate(this.ballPrefab)
-                    this._balls[i][j].getComponent(BallComponent)?.SetColor(color)
-                    this.field.addChild(this._balls[i][j])
-                    this.setBallsPosition(this._balls[i][j], i, j)
+                    this.field.node.addChild(this._balls[i][j])
                 })
             })
-        } else {
-            this._balls.forEach((row, i) => {
-                row.forEach((ball, j) => {
-                    if (fromOutside) {
-                        
-                    }
-                })
+        } 
+        data.forEach((row, i) => {
+            row.forEach((color, j) => {
+                this.addBallTween(this._balls[i][j],
+                   {x:this._balls[i][j].getComponent(UITransform)!.width  /2  * (i+1), 
+                    y:this._balls[i][j].getComponent(UITransform)!.height /2  * (j+1)},
+                   {x:this._balls[i][j].getComponent(UITransform)!.width  /2  * (i+1), 
+                    y:this.field.height + this._balls[i][j].getComponent(UITransform)!.height /2  * (j+1)})
+                this._balls[i][j].getComponent(BallComponent)?.SetColor(color)
             })
-        }
+        })
+        
+        this.animation?.start()
     }
 
-    private setBallsPosition(node: Node, x: number, y: number) {
-        const nodeSize = node.getComponent(UITransform)!
-        node.position.set(nodeSize.width / 2 + (x * nodeSize.width),
-                          nodeSize.height / 2 + (y * nodeSize.height),
-                          0)
+    RemoveBalls(data: Array<Array<BallColor>>) {
+        
+    }
+
+    DropDownBalls(data: Array<Array<BallColor>>) {
+
+    }
+
+    private addBallTween(node: Node, to:{x: number, y: number}, from?:{x: number, y: number},) {
+        if (from) {
+            node.setPosition(from.x, from.y, 0)
+        }
+        let addAninm = tween(node)
+            .to(0.5, { position: new Vec3(to.x, to.y, 0) })
+        if (this.animation) {
+            // this.animation = this.animation.parallel(addAninm, this.animation)
+        } else {
+            this.animation = addAninm
+        }
     }
 
     private hideBall(node: Node) {

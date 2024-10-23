@@ -5962,3 +5962,612 @@
 29.09.2024 20:49:07-debug: asset-db:refresh-all-database (28ms)
 29.09.2024 20:49:07-debug: asset-db:worker-effect-data-processing (1ms)
 29.09.2024 20:49:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+29.09.2024 21:06:33-debug: refresh db internal success
+29.09.2024 21:06:33-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScene\BallComponent.tsbackground: #aaff85; color: #000;color: #000;
+29.09.2024 21:06:33-debug: %cImport%c: F:\git\TestMatch3\assets\Scripts\Scene\GameScene\GameScenePresenter.tsbackground: #aaff85; color: #000;color: #000;
+29.09.2024 21:06:33-debug: refresh db assets success
+29.09.2024 21:06:33-debug: Run asset db hook engine-extends:afterRefresh ...
+29.09.2024 21:06:33-debug: Run asset db hook engine-extends:afterRefresh success!
+29.09.2024 21:06:33-debug: asset-db:refresh-all-database (28ms)
+29.09.2024 21:06:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+29.09.2024 21:06:34-debug: Query all assets info in project
+29.09.2024 21:06:34-debug: init custom config: keepNodeUuid: false, useCache: true
+29.09.2024 21:06:34-debug:   Number of all scenes: 1
+29.09.2024 21:06:34-debug:   Number of all scripts: 60
+29.09.2024 21:06:34-debug:   Number of other assets: 362
+29.09.2024 21:06:34-debug: reload all scripts.
+29.09.2024 21:06:34-debug: Set detail map pack:///resolution-detail-map.json: {}
+29.09.2024 21:06:34-debug: Unregister AnsverDialogComponent
+29.09.2024 21:06:34-debug: Unregister DebugViewRuntimeControl
+29.09.2024 21:06:34-debug: Unregister OfflineTimer
+29.09.2024 21:06:34-debug: Unregister DialogManagerComponent
+29.09.2024 21:06:34-debug: Unregister GameManagerComponent
+29.09.2024 21:06:34-debug: Unregister AudioItem
+29.09.2024 21:06:34-debug: Unregister ScenePoolManagerComponent
+29.09.2024 21:06:34-debug: Unregister AudioManagerComponent
+29.09.2024 21:06:34-debug: Unregister BackActionComponent
+29.09.2024 21:06:34-debug: Unregister BallComponent
+29.09.2024 21:06:34-debug: Unregister AudioComponent
+29.09.2024 21:06:34-debug: Unregister LoadingSceneComponent
+29.09.2024 21:06:34-debug: Unregister ScoreSceneComponent
+29.09.2024 21:06:34-debug: Unregister ScoreItemComponent
+29.09.2024 21:06:34-debug: Unregister GameSceneComponent
+29.09.2024 21:06:34-debug: Unregister StartSceneComponent
+29.09.2024 21:06:34-debug: Unregister DeviceAreaSizeComponent
+29.09.2024 21:06:34-debug: Unregister RawResize
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js'
+29.09.2024 21:06:34-debug: Unregister TransferComponent
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/e4/e467fa7183dd1cdec49e74896d4438aff16c2188.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7c/7c55e3be1bddd2ab974320442e15f25f5c4a09d5.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/96/9635225e7604ff2fdd061cbd45f958901806e3c0.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7b/7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/67/67caa09a54ca6312c98bac70ae4ef7dca940b398.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/de/de623b8a93ebf0b873e4d9961f4dedd91abf6c87.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/45/45e591488b6e4fccaf3cf3e84af4a2a0fffbf632.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6e/6e9105e8b0f94f073107845df773383dcbfb3d82.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7a/7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8d/8d029dac42efc189782dfc4e1203945050ab3179.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/57/57428597d364a000f18def810d2c907dc916d19f.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/da/daf033c6da77ccd5c60547bd4fa65bcbd26d79b1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ee/eec285b8e36c70f80047e339f5b513ed3b7c8421.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/53/53b884bc154663164d4eecc5b65a0cc8043b21a7.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/34/344155d404a988c0be1b6713bc0757a61a57b5a1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/77/771d75b289c20130a165444119ede10bb3eb3535.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ac/ac9abb8c0fdbb6d7835050faa452289c5e748351.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/f0/f00709ce0035973f2d003dc3050a51b3c8ec6154.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ab/abc1a0f915410d5f9b93709a80fc68f41db0554d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ec/ec4e772db45785450f911b4a5d77ef473d3357fc.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8f/8f80d8783c2b5285c8efa7c9340de82f507e6f41.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/b8/b866ee3a12a4475703819ba080655097146ebdf1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/64/6409a33f43c0e8a0eefaf51502c711a4203420db.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/65/65a98eaefb7a79291d392cb1f33a28a28379cc31.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/f7/f75fe1e43a46f1fb85753999636958208ba09367.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d7/d75ff1eb2bdae457c23e22d284dab97b7eeaeacb.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/b0/b09bbb7b2d64eed27c0a992739c84a7b24506a5e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ce/ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/a2/a27f91dfd3ce643d2edc910ddc27de657efeaef6.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/86/86606f925addcdec7261d0c5426a40c5165fc12e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/51/516b1ec183622d781ee31734be58eec62f13da52.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8d/8ddfc2b23975eef38de0b38c6a57b431b4bf67ad.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/dd/ddf0d68126ccee8cdd78de77289d5ee3d6a23342.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/4f/4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8c/8cf6ca44d7e04960913e375196d908271b777d54.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/9c/9c9f3a2e153d104da5c788b8c91a093e54d32d4a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/52/527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/c7/c7e6696988c18f94b3b6894e2276cc88b665df5a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/0a/0ae9e8ea598abdeb450e19423177861d10fb2169.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d3/d3a239c972151f671ffa8c4431f9085fe562f9c9.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7a/7a31eaa79b48251a9340170230b8e82f9774932e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/95/9559954f984b55ae1a12c3631212f6eea1faa18c.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ac/acdd2107c3e509d4c2167c0cb8ef88ccf75e8793.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ca/caeffe86d428c7687b0029d928acae8a99521d24.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d5/d5afea09b21375b3c45d66f6d348314896aa9152.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/28/28c31814615195a8b8228614752d18f0e5988cbe.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/df/df89741321dfcad4628d9c8ac7ba5e156c19290f.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/2c/2c782b8aad7fa602c4e33570162340317ed605fa.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/fb/fbd12150deb310b5bef6413036fff1f4741a0d86.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/cd/cdb49557004fb5735bfcb8f3571f28f6aa6b7bb8.js'
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7c/7cd5eacfaa1a03bb18440682d476fe67169ff8ac.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js'
+29.09.2024 21:06:34-debug: F:\git\TestMatch3\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to F:\git\TestMatch3\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DebugViewRuntimeControl
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7c/7c55e3be1bddd2ab974320442e15f25f5c4a09d5.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/e4/e467fa7183dd1cdec49e74896d4438aff16c2188.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/96/9635225e7604ff2fdd061cbd45f958901806e3c0.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/67/67caa09a54ca6312c98bac70ae4ef7dca940b398.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/de/de623b8a93ebf0b873e4d9961f4dedd91abf6c87.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/da/daf033c6da77ccd5c60547bd4fa65bcbd26d79b1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d7/d75ff1eb2bdae457c23e22d284dab97b7eeaeacb.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ab/abc1a0f915410d5f9b93709a80fc68f41db0554d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/45/45e591488b6e4fccaf3cf3e84af4a2a0fffbf632.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/53/53b884bc154663164d4eecc5b65a0cc8043b21a7.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AnsverDialogComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7b/7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ec/ec4e772db45785450f911b4a5d77ef473d3357fc.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ac/ac9abb8c0fdbb6d7835050faa452289c5e748351.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/34/344155d404a988c0be1b6713bc0757a61a57b5a1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/b8/b866ee3a12a4475703819ba080655097146ebdf1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6e/6e9105e8b0f94f073107845df773383dcbfb3d82.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/f0/f00709ce0035973f2d003dc3050a51b3c8ec6154.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/57/57428597d364a000f18def810d2c907dc916d19f.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8f/8f80d8783c2b5285c8efa7c9340de82f507e6f41.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/77/771d75b289c20130a165444119ede10bb3eb3535.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7a/7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ee/eec285b8e36c70f80047e339f5b513ed3b7c8421.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8d/8d029dac42efc189782dfc4e1203945050ab3179.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/64/6409a33f43c0e8a0eefaf51502c711a4203420db.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/f7/f75fe1e43a46f1fb85753999636958208ba09367.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register OfflineTimer
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/65/65a98eaefb7a79291d392cb1f33a28a28379cc31.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DialogManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ce/ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/51/516b1ec183622d781ee31734be58eec62f13da52.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/dd/ddf0d68126ccee8cdd78de77289d5ee3d6a23342.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/a2/a27f91dfd3ce643d2edc910ddc27de657efeaef6.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/b0/b09bbb7b2d64eed27c0a992739c84a7b24506a5e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioItem
+29.09.2024 21:06:34-debug: [[Executor]] Register ScenePoolManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/c7/c7e6696988c18f94b3b6894e2276cc88b665df5a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register GameManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/4f/4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/86/86606f925addcdec7261d0c5426a40c5165fc12e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/9c/9c9f3a2e153d104da5c788b8c91a093e54d32d4a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8c/8cf6ca44d7e04960913e375196d908271b777d54.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register BackActionComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8d/8ddfc2b23975eef38de0b38c6a57b431b4bf67ad.js" loaded.
+29.09.2024 21:06:34-debug: F:\git\TestMatch3\temp\programming\packer-driver\targets\editor\chunks\52\527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js resolved to F:\git\TestMatch3\temp\programming\packer-driver\targets\editor\chunks\52\527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js is not in module cache!
+29.09.2024 21:06:34-debug: [[Executor]] Register BallComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/52/527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js" loaded.
+29.09.2024 21:06:34-debug: F:\git\TestMatch3\temp\programming\packer-driver\targets\editor\chunks\0a\0ae9e8ea598abdeb450e19423177861d10fb2169.js resolved to F:\git\TestMatch3\temp\programming\packer-driver\targets\editor\chunks\0a\0ae9e8ea598abdeb450e19423177861d10fb2169.js is not in module cache!
+29.09.2024 21:06:34-debug: [[Executor]] Register GameSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/0a/0ae9e8ea598abdeb450e19423177861d10fb2169.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register LoadingSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d3/d3a239c972151f671ffa8c4431f9085fe562f9c9.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/28/28c31814615195a8b8228614752d18f0e5988cbe.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScoreItemComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ac/acdd2107c3e509d4c2167c0cb8ef88ccf75e8793.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScoreSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d5/d5afea09b21375b3c45d66f6d348314896aa9152.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7a/7a31eaa79b48251a9340170230b8e82f9774932e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register StartSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/df/df89741321dfcad4628d9c8ac7ba5e156c19290f.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/95/9559954f984b55ae1a12c3631212f6eea1faa18c.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ca/caeffe86d428c7687b0029d928acae8a99521d24.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register TransferComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/2c/2c782b8aad7fa602c4e33570162340317ed605fa.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/fb/fbd12150deb310b5bef6413036fff1f4741a0d86.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DeviceAreaSizeComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/cd/cdb49557004fb5735bfcb8f3571f28f6aa6b7bb8.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register RawResize
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+29.09.2024 21:06:34-debug: Incremental keys: 
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7c/7cd5eacfaa1a03bb18440682d476fe67169ff8ac.js" loaded.
+29.09.2024 21:06:34-debug: Query asset bundle start0%
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ----
+29.09.2024 21:06:34-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ---- (17ms)
+29.09.2024 21:06:34-debug: run build task Query asset bundle success in 17 ms √5%
+29.09.2024 21:06:34-debug: [Build Memory track]: Query asset bundle start:284.96MB, end 285.12MB, increase: 161.88KB
+29.09.2024 21:06:34-debug: Query asset bundle start5%
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ----
+29.09.2024 21:06:34-debug: run build task Query asset bundle success in 1 ms √10%
+29.09.2024 21:06:34-debug: [Build Memory track]: Query asset bundle start:285.13MB, end 285.14MB, increase: 13.18KB
+29.09.2024 21:06:34-debug: Sort some build options to settings.json start10%
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ----
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ---- (1ms)
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+29.09.2024 21:06:34-debug: run build task Sort some build options to settings.json success in 1 ms √12%
+29.09.2024 21:06:34-debug: Fill script data to settings start12%
+29.09.2024 21:06:34-debug: [Build Memory track]: Sort some build options to settings.json start:285.15MB, end 285.17MB, increase: 16.42KB
+29.09.2024 21:06:34-debug: // ---- build task Fill script data to settings ----
+29.09.2024 21:06:34-debug: // ---- build task Fill script data to settings ---- (1ms)
+29.09.2024 21:06:34-debug: run build task Fill script data to settings success in 1 ms √13%
+29.09.2024 21:06:34-debug: [Build Memory track]: Fill script data to settings start:285.18MB, end 285.20MB, increase: 16.68KB
+29.09.2024 21:06:34-debug: Sort some build options to settings.json start13%
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ----
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+29.09.2024 21:06:34-debug: run build task Sort some build options to settings.json success in 2 ms √15%
+29.09.2024 21:06:34-debug: [Build Memory track]: Sort some build options to settings.json start:285.21MB, end 285.32MB, increase: 116.26KB
+29.09.2024 21:06:34-debug: Query all assets info in project
+29.09.2024 21:06:34-debug: init custom config: keepNodeUuid: false, useCache: true
+29.09.2024 21:06:34-debug:   Number of all scenes: 1
+29.09.2024 21:06:34-debug:   Number of all scripts: 60
+29.09.2024 21:06:34-debug:   Number of other assets: 362
+29.09.2024 21:06:34-debug: reload all scripts.
+29.09.2024 21:06:34-debug: Set detail map pack:///resolution-detail-map.json: {}
+29.09.2024 21:06:34-debug: Unregister OfflineTimer
+29.09.2024 21:06:34-debug: Unregister DebugViewRuntimeControl
+29.09.2024 21:06:34-debug: Unregister ScenePoolManagerComponent
+29.09.2024 21:06:34-debug: Unregister AnsverDialogComponent
+29.09.2024 21:06:34-debug: Unregister AudioItem
+29.09.2024 21:06:34-debug: Unregister DialogManagerComponent
+29.09.2024 21:06:34-debug: Unregister GameManagerComponent
+29.09.2024 21:06:34-debug: Unregister AudioManagerComponent
+29.09.2024 21:06:34-debug: Unregister AudioComponent
+29.09.2024 21:06:34-debug: Unregister BallComponent
+29.09.2024 21:06:34-debug: Unregister BackActionComponent
+29.09.2024 21:06:34-debug: Unregister LoadingSceneComponent
+29.09.2024 21:06:34-debug: Unregister GameSceneComponent
+29.09.2024 21:06:34-debug: Unregister ScoreItemComponent
+29.09.2024 21:06:34-debug: Unregister ScoreSceneComponent
+29.09.2024 21:06:34-debug: Unregister TransferComponent
+29.09.2024 21:06:34-debug: Unregister StartSceneComponent
+29.09.2024 21:06:34-debug: Unregister DeviceAreaSizeComponent
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+29.09.2024 21:06:34-debug: Unregister RawResize
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/e4/e467fa7183dd1cdec49e74896d4438aff16c2188.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7c/7c55e3be1bddd2ab974320442e15f25f5c4a09d5.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/de/de623b8a93ebf0b873e4d9961f4dedd91abf6c87.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/96/9635225e7604ff2fdd061cbd45f958901806e3c0.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/67/67caa09a54ca6312c98bac70ae4ef7dca940b398.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7b/7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6e/6e9105e8b0f94f073107845df773383dcbfb3d82.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/57/57428597d364a000f18def810d2c907dc916d19f.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/45/45e591488b6e4fccaf3cf3e84af4a2a0fffbf632.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7a/7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/da/daf033c6da77ccd5c60547bd4fa65bcbd26d79b1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8d/8d029dac42efc189782dfc4e1203945050ab3179.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/53/53b884bc154663164d4eecc5b65a0cc8043b21a7.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ab/abc1a0f915410d5f9b93709a80fc68f41db0554d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ac/ac9abb8c0fdbb6d7835050faa452289c5e748351.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ee/eec285b8e36c70f80047e339f5b513ed3b7c8421.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/34/344155d404a988c0be1b6713bc0757a61a57b5a1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8f/8f80d8783c2b5285c8efa7c9340de82f507e6f41.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/f0/f00709ce0035973f2d003dc3050a51b3c8ec6154.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d7/d75ff1eb2bdae457c23e22d284dab97b7eeaeacb.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/b8/b866ee3a12a4475703819ba080655097146ebdf1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/77/771d75b289c20130a165444119ede10bb3eb3535.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/64/6409a33f43c0e8a0eefaf51502c711a4203420db.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ec/ec4e772db45785450f911b4a5d77ef473d3357fc.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/f7/f75fe1e43a46f1fb85753999636958208ba09367.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ce/ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/dd/ddf0d68126ccee8cdd78de77289d5ee3d6a23342.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/b0/b09bbb7b2d64eed27c0a992739c84a7b24506a5e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/51/516b1ec183622d781ee31734be58eec62f13da52.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/65/65a98eaefb7a79291d392cb1f33a28a28379cc31.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/86/86606f925addcdec7261d0c5426a40c5165fc12e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/c7/c7e6696988c18f94b3b6894e2276cc88b665df5a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/a2/a27f91dfd3ce643d2edc910ddc27de657efeaef6.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/4f/4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/9c/9c9f3a2e153d104da5c788b8c91a093e54d32d4a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/52/527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8d/8ddfc2b23975eef38de0b38c6a57b431b4bf67ad.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8c/8cf6ca44d7e04960913e375196d908271b777d54.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/28/28c31814615195a8b8228614752d18f0e5988cbe.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/0a/0ae9e8ea598abdeb450e19423177861d10fb2169.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7a/7a31eaa79b48251a9340170230b8e82f9774932e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ac/acdd2107c3e509d4c2167c0cb8ef88ccf75e8793.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d5/d5afea09b21375b3c45d66f6d348314896aa9152.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d3/d3a239c972151f671ffa8c4431f9085fe562f9c9.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/95/9559954f984b55ae1a12c3631212f6eea1faa18c.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ca/caeffe86d428c7687b0029d928acae8a99521d24.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/2c/2c782b8aad7fa602c4e33570162340317ed605fa.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/cd/cdb49557004fb5735bfcb8f3571f28f6aa6b7bb8.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/df/df89741321dfcad4628d9c8ac7ba5e156c19290f.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/fb/fbd12150deb310b5bef6413036fff1f4741a0d86.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js'
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7c/7cd5eacfaa1a03bb18440682d476fe67169ff8ac.js'
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DebugViewRuntimeControl
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7c/7c55e3be1bddd2ab974320442e15f25f5c4a09d5.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/67/67caa09a54ca6312c98bac70ae4ef7dca940b398.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7b/7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/e4/e467fa7183dd1cdec49e74896d4438aff16c2188.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/de/de623b8a93ebf0b873e4d9961f4dedd91abf6c87.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d7/d75ff1eb2bdae457c23e22d284dab97b7eeaeacb.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/96/9635225e7604ff2fdd061cbd45f958901806e3c0.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ab/abc1a0f915410d5f9b93709a80fc68f41db0554d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/da/daf033c6da77ccd5c60547bd4fa65bcbd26d79b1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/45/45e591488b6e4fccaf3cf3e84af4a2a0fffbf632.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AnsverDialogComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ec/ec4e772db45785450f911b4a5d77ef473d3357fc.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ac/ac9abb8c0fdbb6d7835050faa452289c5e748351.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/53/53b884bc154663164d4eecc5b65a0cc8043b21a7.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6e/6e9105e8b0f94f073107845df773383dcbfb3d82.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/34/344155d404a988c0be1b6713bc0757a61a57b5a1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/b8/b866ee3a12a4475703819ba080655097146ebdf1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/f0/f00709ce0035973f2d003dc3050a51b3c8ec6154.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/77/771d75b289c20130a165444119ede10bb3eb3535.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/57/57428597d364a000f18def810d2c907dc916d19f.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7a/7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ee/eec285b8e36c70f80047e339f5b513ed3b7c8421.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8d/8d029dac42efc189782dfc4e1203945050ab3179.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8f/8f80d8783c2b5285c8efa7c9340de82f507e6f41.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/64/6409a33f43c0e8a0eefaf51502c711a4203420db.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/65/65a98eaefb7a79291d392cb1f33a28a28379cc31.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/b0/b09bbb7b2d64eed27c0a992739c84a7b24506a5e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/f7/f75fe1e43a46f1fb85753999636958208ba09367.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ce/ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register OfflineTimer
+29.09.2024 21:06:34-debug: [[Executor]] Register DialogManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/51/516b1ec183622d781ee31734be58eec62f13da52.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/a2/a27f91dfd3ce643d2edc910ddc27de657efeaef6.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/dd/ddf0d68126ccee8cdd78de77289d5ee3d6a23342.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/c7/c7e6696988c18f94b3b6894e2276cc88b665df5a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioItem
+29.09.2024 21:06:34-debug: [[Executor]] Register ScenePoolManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8d/8ddfc2b23975eef38de0b38c6a57b431b4bf67ad.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/86/86606f925addcdec7261d0c5426a40c5165fc12e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register GameManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/4f/4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register BackActionComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8c/8cf6ca44d7e04960913e375196d908271b777d54.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/9c/9c9f3a2e153d104da5c788b8c91a093e54d32d4a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/52/527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/0a/0ae9e8ea598abdeb450e19423177861d10fb2169.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register BallComponent
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/28/28c31814615195a8b8228614752d18f0e5988cbe.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register LoadingSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ac/acdd2107c3e509d4c2167c0cb8ef88ccf75e8793.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScoreItemComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d3/d3a239c972151f671ffa8c4431f9085fe562f9c9.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register GameSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7a/7a31eaa79b48251a9340170230b8e82f9774932e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d5/d5afea09b21375b3c45d66f6d348314896aa9152.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScoreSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/95/9559954f984b55ae1a12c3631212f6eea1faa18c.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/df/df89741321dfcad4628d9c8ac7ba5e156c19290f.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ca/caeffe86d428c7687b0029d928acae8a99521d24.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register TransferComponent
+29.09.2024 21:06:34-debug: [[Executor]] Register StartSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/cd/cdb49557004fb5735bfcb8f3571f28f6aa6b7bb8.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DeviceAreaSizeComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/fb/fbd12150deb310b5bef6413036fff1f4741a0d86.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register RawResize
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/2c/2c782b8aad7fa602c4e33570162340317ed605fa.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7c/7cd5eacfaa1a03bb18440682d476fe67169ff8ac.js" loaded.
+29.09.2024 21:06:34-debug: Incremental keys: 
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ----
+29.09.2024 21:06:34-debug: Query asset bundle start0%
+29.09.2024 21:06:34-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ---- (17ms)
+29.09.2024 21:06:34-debug: run build task Query asset bundle success in 17 ms √5%
+29.09.2024 21:06:34-debug: [Build Memory track]: Query asset bundle start:286.94MB, end 287.31MB, increase: 372.46KB
+29.09.2024 21:06:34-debug: Query asset bundle start5%
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ----
+29.09.2024 21:06:34-debug: run build task Query asset bundle success in 0 ms √10%
+29.09.2024 21:06:34-debug: [Build Memory track]: Query asset bundle start:287.32MB, end 287.33MB, increase: 8.86KB
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ----
+29.09.2024 21:06:34-debug: Sort some build options to settings.json start10%
+29.09.2024 21:06:34-debug: run build task Sort some build options to settings.json success in 0 ms √12%
+29.09.2024 21:06:34-debug: [Build Memory track]: Sort some build options to settings.json start:287.34MB, end 287.35MB, increase: 11.32KB
+29.09.2024 21:06:34-debug: Fill script data to settings start12%
+29.09.2024 21:06:34-debug: // ---- build task Fill script data to settings ----
+29.09.2024 21:06:34-debug: run build task Fill script data to settings success in 0 ms √13%
+29.09.2024 21:06:34-debug: [Build Memory track]: Fill script data to settings start:287.36MB, end 287.37MB, increase: 12.24KB
+29.09.2024 21:06:34-debug: Sort some build options to settings.json start13%
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ----
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+29.09.2024 21:06:34-debug: [Build Memory track]: Sort some build options to settings.json start:287.38MB, end 287.50MB, increase: 116.64KB
+29.09.2024 21:06:34-debug: run build task Sort some build options to settings.json success in 1 ms √15%
+29.09.2024 21:06:34-debug: Query all assets info in project
+29.09.2024 21:06:34-debug: init custom config: keepNodeUuid: false, useCache: true
+29.09.2024 21:06:34-debug:   Number of all scenes: 1
+29.09.2024 21:06:34-debug:   Number of all scripts: 60
+29.09.2024 21:06:34-debug:   Number of other assets: 362
+29.09.2024 21:06:34-debug: reload all scripts.
+29.09.2024 21:06:34-debug: Set detail map pack:///resolution-detail-map.json: {}
+29.09.2024 21:06:34-debug: Unregister AnsverDialogComponent
+29.09.2024 21:06:34-debug: Unregister DebugViewRuntimeControl
+29.09.2024 21:06:34-debug: Unregister ScenePoolManagerComponent
+29.09.2024 21:06:34-debug: Unregister DialogManagerComponent
+29.09.2024 21:06:34-debug: Unregister AudioItem
+29.09.2024 21:06:34-debug: Unregister AudioManagerComponent
+29.09.2024 21:06:34-debug: Unregister OfflineTimer
+29.09.2024 21:06:34-debug: Unregister GameManagerComponent
+29.09.2024 21:06:34-debug: Unregister BallComponent
+29.09.2024 21:06:34-debug: Unregister GameSceneComponent
+29.09.2024 21:06:34-debug: Unregister LoadingSceneComponent
+29.09.2024 21:06:34-debug: Unregister ScoreItemComponent
+29.09.2024 21:06:34-debug: Unregister BackActionComponent
+29.09.2024 21:06:34-debug: Unregister AudioComponent
+29.09.2024 21:06:34-debug: Unregister TransferComponent
+29.09.2024 21:06:34-debug: Unregister DeviceAreaSizeComponent
+29.09.2024 21:06:34-debug: Unregister StartSceneComponent
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+29.09.2024 21:06:34-debug: Unregister RawResize
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/e4/e467fa7183dd1cdec49e74896d4438aff16c2188.js'
+29.09.2024 21:06:34-debug: Unregister ScoreSceneComponent
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/96/9635225e7604ff2fdd061cbd45f958901806e3c0.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7c/7c55e3be1bddd2ab974320442e15f25f5c4a09d5.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/de/de623b8a93ebf0b873e4d9961f4dedd91abf6c87.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/67/67caa09a54ca6312c98bac70ae4ef7dca940b398.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7b/7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/45/45e591488b6e4fccaf3cf3e84af4a2a0fffbf632.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7a/7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/57/57428597d364a000f18def810d2c907dc916d19f.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ee/eec285b8e36c70f80047e339f5b513ed3b7c8421.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8d/8d029dac42efc189782dfc4e1203945050ab3179.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ab/abc1a0f915410d5f9b93709a80fc68f41db0554d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/6e/6e9105e8b0f94f073107845df773383dcbfb3d82.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/da/daf033c6da77ccd5c60547bd4fa65bcbd26d79b1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/53/53b884bc154663164d4eecc5b65a0cc8043b21a7.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ac/ac9abb8c0fdbb6d7835050faa452289c5e748351.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/f0/f00709ce0035973f2d003dc3050a51b3c8ec6154.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8f/8f80d8783c2b5285c8efa7c9340de82f507e6f41.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/77/771d75b289c20130a165444119ede10bb3eb3535.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d7/d75ff1eb2bdae457c23e22d284dab97b7eeaeacb.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ec/ec4e772db45785450f911b4a5d77ef473d3357fc.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/64/6409a33f43c0e8a0eefaf51502c711a4203420db.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/34/344155d404a988c0be1b6713bc0757a61a57b5a1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/b8/b866ee3a12a4475703819ba080655097146ebdf1.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/f7/f75fe1e43a46f1fb85753999636958208ba09367.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/b0/b09bbb7b2d64eed27c0a992739c84a7b24506a5e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ce/ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/65/65a98eaefb7a79291d392cb1f33a28a28379cc31.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/a2/a27f91dfd3ce643d2edc910ddc27de657efeaef6.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/86/86606f925addcdec7261d0c5426a40c5165fc12e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/51/516b1ec183622d781ee31734be58eec62f13da52.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8d/8ddfc2b23975eef38de0b38c6a57b431b4bf67ad.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/c7/c7e6696988c18f94b3b6894e2276cc88b665df5a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/4f/4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/9c/9c9f3a2e153d104da5c788b8c91a093e54d32d4a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/8c/8cf6ca44d7e04960913e375196d908271b777d54.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/52/527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/0a/0ae9e8ea598abdeb450e19423177861d10fb2169.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/dd/ddf0d68126ccee8cdd78de77289d5ee3d6a23342.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d3/d3a239c972151f671ffa8c4431f9085fe562f9c9.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/28/28c31814615195a8b8228614752d18f0e5988cbe.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ac/acdd2107c3e509d4c2167c0cb8ef88ccf75e8793.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/d5/d5afea09b21375b3c45d66f6d348314896aa9152.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7a/7a31eaa79b48251a9340170230b8e82f9774932e.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/df/df89741321dfcad4628d9c8ac7ba5e156c19290f.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/95/9559954f984b55ae1a12c3631212f6eea1faa18c.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/2c/2c782b8aad7fa602c4e33570162340317ed605fa.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/ca/caeffe86d428c7687b0029d928acae8a99521d24.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js'
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/fb/fbd12150deb310b5bef6413036fff1f4741a0d86.js'
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/cd/cdb49557004fb5735bfcb8f3571f28f6aa6b7bb8.js'
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/bf/bf2a5ff7e8de9b32e53abd7c8de160e985314530.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+29.09.2024 21:06:34-debug: Invalidating 'pack:///chunks/7c/7cd5eacfaa1a03bb18440682d476fe67169ff8ac.js'
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/e4/e467fa7183dd1cdec49e74896d4438aff16c2188.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6f/6fb63abd3ee4062e6e5725fd794ec010fe77cd13.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DebugViewRuntimeControl
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7c/7c55e3be1bddd2ab974320442e15f25f5c4a09d5.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/96/9635225e7604ff2fdd061cbd45f958901806e3c0.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7b/7b19e6ae7cf3048e2c6e7d3f5a80908ec18e0e54.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/46/467c7fcf82730964b2b3022104cd0026380cab7b.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/67/67caa09a54ca6312c98bac70ae4ef7dca940b398.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d7/d75ff1eb2bdae457c23e22d284dab97b7eeaeacb.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/da/daf033c6da77ccd5c60547bd4fa65bcbd26d79b1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/45/45e591488b6e4fccaf3cf3e84af4a2a0fffbf632.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ab/abc1a0f915410d5f9b93709a80fc68f41db0554d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AnsverDialogComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/de/de623b8a93ebf0b873e4d9961f4dedd91abf6c87.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ec/ec4e772db45785450f911b4a5d77ef473d3357fc.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/53/53b884bc154663164d4eecc5b65a0cc8043b21a7.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/76/76cb67036cc5edaaf7aec909fff4334c7395c74b.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/34/344155d404a988c0be1b6713bc0757a61a57b5a1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/64/643169aa23096feaac7cb01e33215cf88c373abf.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ac/ac9abb8c0fdbb6d7835050faa452289c5e748351.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/b8/b866ee3a12a4475703819ba080655097146ebdf1.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6e/6e9105e8b0f94f073107845df773383dcbfb3d82.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/f0/f00709ce0035973f2d003dc3050a51b3c8ec6154.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/a4/a4df9ce64a683289daf02dc66d1dd03d0a03a461.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7a/7a9b28c0ef24d03ac16e1fd7884d9e5ae9b2df28.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/77/771d75b289c20130a165444119ede10bb3eb3535.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/57/57428597d364a000f18def810d2c907dc916d19f.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ee/eec285b8e36c70f80047e339f5b513ed3b7c8421.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8f/8f80d8783c2b5285c8efa7c9340de82f507e6f41.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8d/8d029dac42efc189782dfc4e1203945050ab3179.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/64/6409a33f43c0e8a0eefaf51502c711a4203420db.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/65/65a98eaefb7a79291d392cb1f33a28a28379cc31.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register OfflineTimer
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/9e/9ec8eda8f55e566a0695a32ddf51eaf19c971742.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/f7/f75fe1e43a46f1fb85753999636958208ba09367.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/b0/b09bbb7b2d64eed27c0a992739c84a7b24506a5e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/69/69cca37b97b97ce55331bf2df659f3f6432e074d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register DialogManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ce/ce67cbb3ea0c2191fedf8169d1d6ce1f2e7b2eeb.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/dd/ddf0d68126ccee8cdd78de77289d5ee3d6a23342.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/51/516b1ec183622d781ee31734be58eec62f13da52.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScenePoolManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/c7/c7e6696988c18f94b3b6894e2276cc88b665df5a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioItem
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8d/8ddfc2b23975eef38de0b38c6a57b431b4bf67ad.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/86/86606f925addcdec7261d0c5426a40c5165fc12e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register GameManagerComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/4f/4f8466c89ca41bf8e0840f285c0f08f7b8d09a1d.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register AudioComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/9c/9c9f3a2e153d104da5c788b8c91a093e54d32d4a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register BackActionComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/8c/8cf6ca44d7e04960913e375196d908271b777d54.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/52/527fb3f7aadcf69b097d6fbcb4bb5abd549f1328.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/a2/a27f91dfd3ce643d2edc910ddc27de657efeaef6.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register GameSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/0a/0ae9e8ea598abdeb450e19423177861d10fb2169.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register BallComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d3/d3a239c972151f671ffa8c4431f9085fe562f9c9.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register LoadingSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ac/acdd2107c3e509d4c2167c0cb8ef88ccf75e8793.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/28/28c31814615195a8b8228614752d18f0e5988cbe.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/d5/d5afea09b21375b3c45d66f6d348314896aa9152.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7a/7a31eaa79b48251a9340170230b8e82f9774932e.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/95/9559954f984b55ae1a12c3631212f6eea1faa18c.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScoreItemComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/df/df89741321dfcad4628d9c8ac7ba5e156c19290f.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register ScoreSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/ca/caeffe86d428c7687b0029d928acae8a99521d24.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/78/786aa9f2ae1a183fd96a2bb581086b1cdbfc233a.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/2c/2c782b8aad7fa602c4e33570162340317ed605fa.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register StartSceneComponent
+29.09.2024 21:06:34-debug: [[Executor]] Register DeviceAreaSizeComponent
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/cd/cdb49557004fb5735bfcb8f3571f28f6aa6b7bb8.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Register RawResize
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/7c/7cd5eacfaa1a03bb18440682d476fe67169ff8ac.js" loaded.
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+29.09.2024 21:06:34-debug: Incremental keys: 
+29.09.2024 21:06:34-debug: [[Executor]] Module "pack:///chunks/fb/fbd12150deb310b5bef6413036fff1f4741a0d86.js" loaded.
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ----
+29.09.2024 21:06:34-debug: Query asset bundle start0%
+29.09.2024 21:06:34-debug: [[Executor]] Register TransferComponent
+29.09.2024 21:06:34-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ---- (17ms)
+29.09.2024 21:06:34-debug: run build task Query asset bundle success in 17 ms √5%
+29.09.2024 21:06:34-debug: [Build Memory track]: Query asset bundle start:287.47MB, end 288.12MB, increase: 672.59KB
+29.09.2024 21:06:34-debug: // ---- build task Query asset bundle ----
+29.09.2024 21:06:34-debug: Query asset bundle start5%
+29.09.2024 21:06:34-debug: run build task Query asset bundle success in 0 ms √10%
+29.09.2024 21:06:34-debug: [Build Memory track]: Query asset bundle start:288.14MB, end 288.15MB, increase: 10.54KB
+29.09.2024 21:06:34-debug: Sort some build options to settings.json start10%
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ----
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+29.09.2024 21:06:34-debug: run build task Sort some build options to settings.json success in 1 ms √12%
+29.09.2024 21:06:34-debug: Fill script data to settings start12%
+29.09.2024 21:06:34-debug: [Build Memory track]: Sort some build options to settings.json start:288.16MB, end 288.17MB, increase: 16.26KB
+29.09.2024 21:06:34-debug: // ---- build task Fill script data to settings ----
+29.09.2024 21:06:34-debug: run build task Fill script data to settings success in 0 ms √13%
+29.09.2024 21:06:34-debug: [Build Memory track]: Fill script data to settings start:288.19MB, end 288.20MB, increase: 10.46KB
+29.09.2024 21:06:34-debug: Sort some build options to settings.json start13%
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ----
+29.09.2024 21:06:34-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+29.09.2024 21:06:34-debug: run build task Sort some build options to settings.json success in 2 ms √15%
+29.09.2024 21:06:34-debug: [Build Memory track]: Sort some build options to settings.json start:288.21MB, end 288.34MB, increase: 130.93KB
+29.09.2024 21:06:43-debug: refresh db internal success
+29.09.2024 21:06:43-debug: refresh db assets success
+29.09.2024 21:06:43-debug: Run asset db hook engine-extends:afterRefresh ...
+29.09.2024 21:06:43-debug: Run asset db hook engine-extends:afterRefresh success!
+29.09.2024 21:06:43-debug: asset-db:refresh-all-database (25ms)
+29.09.2024 21:06:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)

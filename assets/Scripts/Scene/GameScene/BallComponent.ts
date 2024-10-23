@@ -25,6 +25,10 @@ export class BallComponent extends Component {
         
     }
 
+    private activateDestroyAnimation() {
+        
+    }
+
     private cangeColor(color: BallColor) {
         switch (color) {
             case BallColor.White:
@@ -45,6 +49,8 @@ export class BallComponent extends Component {
             case BallColor.Black:
                 this.sprite.color = new Color(0, 0, 0, 255);
                 break;
+            case BallColor.NONE:
+                break
         }
     }
 }

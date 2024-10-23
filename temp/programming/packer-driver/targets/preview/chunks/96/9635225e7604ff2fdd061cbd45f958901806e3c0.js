@@ -16,6 +16,7 @@ System.register(["cc"], function (_export, _context) {
         Platform[Platform["Editor"] = 0] = "Editor";
         Platform[Platform["Ios"] = 1] = "Ios";
         Platform[Platform["Android"] = 2] = "Android";
+        Platform[Platform["Web"] = 3] = "Web";
         return Platform;
       }({}));
 

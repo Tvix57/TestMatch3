@@ -37,21 +37,24 @@ export class GameManagerComponent extends Component
         AppRoot.getInstance.onLoad()
 
         scene.AddLocation(LocationType.LoadingScene       ,"Prefabs/LoadingScene"           ,0 )
-        scene.AddLocation(LocationType.StartScene         ,"Prefabs/StartScene"             ,1 )
-        scene.AddLocation(LocationType.GameScene          ,"Prefabs/GameScene/GameScene"    ,2 )
-        scene.AddLocation(LocationType.ScoreScene         ,"Prefabs/ScoreScene/ScoreScene"  ,2 )
+        scene.AddLocation(LocationType.StartScene         ,"Prefabs/StartScene"             ,0 )
+        scene.AddLocation(LocationType.GameScene          ,"Prefabs/GameScene/GameScene"    ,1 )
+        scene.AddLocation(LocationType.ScoreScene         ,"Prefabs/ScoreScene/ScoreScene"  ,1 )
     }
 
     private getOS() : Platform {
-        switch (sys.os) {
-            case sys.OS.IOS:
-                return Platform.Ios;
-            case sys.OS.ANDROID:
-                return Platform.Android;
-            case sys.OS.WINDOWS:
-                return Platform.Editor;
-            default:
-                return Platform.Editor;
+        if (sys.isBrowser) {
+            return Platform.Web
+        } else if (sys.isMobile) {
+            if (sys.os === sys.OS.IOS) {
+                return Platform.Ios
+            } else if (sys.os === sys.OS.ANDROID) {
+                return Platform.Android
+            } else {
+                return Platform.Editor
+            }
+        } else {
+            return Platform.Editor;
         }
     }
 }

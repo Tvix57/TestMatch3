@@ -26,14 +26,14 @@
       "time": 1727187680465.1177
     },
     "F:\\git\\TestMatch3\\assets\\Scene\\GameScene.scene": {
-      "time": 1727588222260.3384,
+      "time": 1729612048806.1423,
       "uuid": "971935a0-bee6-4e78-92d3-5e0c1d7af85d"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\GameManagerComponent.ts.meta": {
       "time": 1722480446695.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\GameManagerComponent.ts": {
-      "time": 1727531352361.0818,
+      "time": 1729324616952.6614,
       "uuid": "c136252c-bd5f-44e0-ba8c-d09e88117fb7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums.meta": {
@@ -82,7 +82,7 @@
       "time": 1727189087311.5994
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils": {
-      "time": 1727613674104.4202,
+      "time": 1728981203650.4822,
       "uuid": "216455f8-8530-4d34-8f1b-aacedc9e7bd7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Dispatcher.ts.meta": {
@@ -91,13 +91,6 @@
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Dispatcher.ts": {
       "time": 1727528694301.8755,
       "uuid": "4b877ba5-7988-49d5-853e-3e3f2dc51c0a"
-    },
-    "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Observer.ts.meta": {
-      "time": 1722480446983.1472
-    },
-    "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Observer.ts": {
-      "time": 1727528702299.2046,
-      "uuid": "8522b5de-9922-4082-971f-457379761337"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\PrefabLoader.ts.meta": {
       "time": 1722480446746.1475
@@ -159,7 +152,7 @@
       "time": 1722480446693.1477
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\AppDevice.ts": {
-      "time": 1727529064047.3923,
+      "time": 1728980141822.235,
       "uuid": "5a90e2a4-75f5-40a7-bd03-2673bb8d6d18"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\AppAudio.ts.meta": {
@@ -194,7 +187,7 @@
       "time": 1727191277065.0332
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\BallComponent.ts": {
-      "time": 1727270371121.8857,
+      "time": 1728982404935.338,
       "uuid": "bc71fd2e-9c59-485f-a467-25b1219b6cf0"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\LoadingScene.meta": {
@@ -215,7 +208,7 @@
       "time": 1722480446913.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameContext.ts": {
-      "time": 1727594152347.7012,
+      "time": 1729325341671.4353,
       "uuid": "4273d575-8511-41f0-8bf9-38d11680f627"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameFactory.ts.meta": {
@@ -264,14 +257,14 @@
       "time": 1727270459779.7407
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\GameSceneComponent.ts": {
-      "time": 1727617207650.307,
+      "time": 1729668796813.3843,
       "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameLogic.ts.meta": {
       "time": 1727270662014.0542
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameLogic.ts": {
-      "time": 1727592695563.2542,
+      "time": 1729244845898.8652,
       "uuid": "890ec2db-42bd-4a7b-af94-30a44753b674"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic.meta": {
@@ -284,11 +277,11 @@
       "time": 1727271630785.4348
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic": {
-      "time": 1727282676614.9387,
+      "time": 1729319502132.0918,
       "uuid": "4957e93b-2929-4618-962b-0fcdea84d71b"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Field.ts": {
-      "time": 1727593365930.291,
+      "time": 1729592082510.8613,
       "uuid": "6521e35b-60c3-4f73-9c5b-de830b2c9322"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameState.ts": {
@@ -300,9 +293,6 @@
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\GameStatsInfo.ts.meta": {
       "time": 1727273085614.1865
-    },
-    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Loop.ts.meta": {
-      "time": 1727273085615.187
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Android.meta": {
       "time": 1722480446905.1472
@@ -332,7 +322,7 @@
       "time": 1722480446906.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save": {
-      "time": 1727272485831.5952,
+      "time": 1728979796784.2737,
       "uuid": "1c4ddb24-b4bb-4acb-b001-806d0a4b5ffe"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Android": {
@@ -346,10 +336,6 @@
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\GameStatsInfo.ts": {
       "time": 1727589870100.896,
       "uuid": "afe6abaf-2182-44ff-a431-af1575ae83ea"
-    },
-    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Loop.ts": {
-      "time": 1727529267474.6917,
-      "uuid": "7600e90b-030d-4f78-bfb6-3f99bad04121"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\SaveContext.ts": {
       "time": 1727591700629.926,
@@ -413,7 +399,7 @@
       "time": 1727284075244.5576
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\native": {
-      "time": 1727284075241.557,
+      "time": 1728980111493.511,
       "uuid": "c9534163-da97-47c3-85d3-de0e883d3c04"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\native\\AndroidApplicationConfig.ts": {
@@ -432,7 +418,7 @@
       "time": 1722480446694.1472
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Enums\\ApplicationConfig.ts": {
-      "time": 1722480446694.1472,
+      "time": 1728980009400.23,
       "uuid": "8a35b99a-4e35-4cd7-8107-55788c72513a"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\BG.jpg.meta": {
@@ -467,7 +453,7 @@
       "time": 1727368525739.1353
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\GameScenePresenter.ts": {
-      "time": 1727594759221.6875,
+      "time": 1729326426399.6768,
       "uuid": "a74c58f9-5962-48de-9fba-09ad195c17d9"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate4.png.meta": {
@@ -502,7 +488,7 @@
       "time": 1727599554681.3464
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab": {
-      "time": 1727617338379.6812,
+      "time": 1729612047557.231,
       "uuid": "51d7adff-7e5e-4a7c-97af-dab57af7a533"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.meta": {
@@ -537,7 +523,7 @@
       "time": 1727448337607.9795
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreSceneComponent.ts": {
-      "time": 1727589777446.403,
+      "time": 1729324760567.328,
       "uuid": "4a9d85e7-521b-44dc-80cf-9f3ca4d85d19"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\ScoreScene\\ScoreScenePresenter.ts.meta": {
@@ -763,6 +749,62 @@
     "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\RawResize.ts": {
       "time": 1722480446746.1475,
       "uuid": "1990c9bb-8f65-4c2e-af00-8abdc00390a8"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Web.meta": {
+      "time": 1728979796785.2732
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Web": {
+      "time": 1728981085776.0977,
+      "uuid": "92b0da59-dc19-4557-9c66-a1edd676bb21"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\native\\WebAppConfig.ts.meta": {
+      "time": 1728980111494.5122
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\native\\WebAppConfig.ts": {
+      "time": 1728980168086.9373,
+      "uuid": "23ab7356-5fad-4efb-9dbf-5b202aaa716d"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Web\\WebSaveState.ts.meta": {
+      "time": 1728981085777.0981
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Web\\WebSaveState.ts": {
+      "time": 1728980805285.1897,
+      "uuid": "7ee88e47-1ca0-4359-a667-f9f8f781ec68"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldConfig.ts": {
+      "time": 1729238278617.2852,
+      "uuid": "34f24851-9c32-481c-bb29-232cb4c44a99"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldController.ts": {
+      "time": 1729320499445.0808,
+      "uuid": "294f2055-defc-41b7-969e-4cc929ba0533"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldGenerator.ts": {
+      "time": 1729600032514.2422,
+      "uuid": "1d7189e2-8bca-487e-a63b-d0e72dcfc5a9"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldListener.ts": {
+      "time": 1729241417941.5945,
+      "uuid": "2c538239-0f3b-498b-b431-daea0fb3584d"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldManager.ts": {
+      "time": 1729241452156.0967,
+      "uuid": "5e3b185f-6fce-4a29-8418-425c7a0891d4"
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldConfig.ts.meta": {
+      "time": 1729319505562.488
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldController.ts.meta": {
+      "time": 1729319505563.4897
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldGenerator.ts.meta": {
+      "time": 1729319505563.4897
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldListener.ts.meta": {
+      "time": 1729319505563.4897
+    },
+    "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldManager.ts.meta": {
+      "time": 1729319505564.4893
     }
   },
   "missing": {
@@ -955,6 +997,16 @@
       "path": "F:\\git\\TestMatch3\\assets\\resources\\TiledMap",
       "time": 1727614560767.892,
       "removeTime": 1727614814214
+    },
+    "7600e90b-030d-4f78-bfb6-3f99bad04121": {
+      "path": "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Loop.ts",
+      "time": 1728979873184.5222,
+      "removeTime": 1728979888474
+    },
+    "8522b5de-9922-4082-971f-457379761337": {
+      "path": "F:\\git\\TestMatch3\\assets\\Scripts\\Utils\\Observer.ts",
+      "time": 1727528702299.2046,
+      "removeTime": 1728981203653
     }
   }
 }

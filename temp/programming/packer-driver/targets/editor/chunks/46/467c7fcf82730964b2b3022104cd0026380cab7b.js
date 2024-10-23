@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, AndroidApplicationConfig, Platform, ApplicationListener, EditorAppConfig, AppDevice, _crd;
+  var _reporterNs, _cclegacy, AndroidApplicationConfig, Platform, ApplicationListener, EditorAppConfig, WebAppConfig, AppDevice, _crd;
 
   function _reportPossibleCrUseOfAndroidApplicationConfig(extras) {
     _reporterNs.report("AndroidApplicationConfig", "./native/AndroidApplicationConfig", _context.meta, extras);
@@ -19,6 +19,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("EditorAppConfig", "./native/EditorAppConfig", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfWebAppConfig(extras) {
+    _reporterNs.report("WebAppConfig", "./native/WebAppConfig", _context.meta, extras);
+  }
+
   _export("AppDevice", void 0);
 
   return {
@@ -34,6 +38,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       ApplicationListener = _unresolved_4.ApplicationListener;
     }, function (_unresolved_5) {
       EditorAppConfig = _unresolved_5.EditorAppConfig;
+    }, function (_unresolved_6) {
+      WebAppConfig = _unresolved_6.WebAppConfig;
     }],
     execute: function () {
       _crd = true;
@@ -64,6 +70,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             }), Platform) : Platform).Ios:
               {}
             //break;
+
+            case (_crd && Platform === void 0 ? (_reportPossibleCrUseOfPlatform({
+              error: Error()
+            }), Platform) : Platform).Web:
+              {}
+              new (_crd && WebAppConfig === void 0 ? (_reportPossibleCrUseOfWebAppConfig({
+                error: Error()
+              }), WebAppConfig) : WebAppConfig)();
 
             default:
               {

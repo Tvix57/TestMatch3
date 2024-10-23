@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Label, Node, Prefab, UITransform, GameScenePresenter, AppRoot, BallComponent, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, GameSceneComponent;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Label, Prefab, tween, UITransform, Vec3, GameScenePresenter, AppRoot, BallComponent, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, GameSceneComponent;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -36,9 +36,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Component = _cc.Component;
       instantiate = _cc.instantiate;
       Label = _cc.Label;
-      Node = _cc.Node;
       Prefab = _cc.Prefab;
+      tween = _cc.tween;
       UITransform = _cc.UITransform;
+      Vec3 = _cc.Vec3;
     }, function (_unresolved_2) {
       GameScenePresenter = _unresolved_2.GameScenePresenter;
     }, function (_unresolved_3) {
@@ -51,14 +52,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
       _cclegacy._RF.push({}, "7f5210L+WFG7IbxqjYNIp52", "GameSceneComponent", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'instantiate', 'Label', 'Node', 'Prefab', 'UITransform']);
+      __checkObsolete__(['_decorator', 'Component', 'instantiate', 'Label', 'Node', 'Prefab', 'tween', 'Tween', 'UITransform', 'Vec3']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("GameSceneComponent", GameSceneComponent = (_dec = ccclass('GameSceneComponent'), _dec2 = property(Label), _dec3 = property(Label), _dec4 = property(Node), _dec5 = property(Prefab), _dec(_class = (_class2 = class GameSceneComponent extends Component {
+      _export("GameSceneComponent", GameSceneComponent = (_dec = ccclass('GameSceneComponent'), _dec2 = property(Label), _dec3 = property(Label), _dec4 = property(UITransform), _dec5 = property(Prefab), _dec(_class = (_class2 = class GameSceneComponent extends Component {
         constructor(...args) {
           super(...args);
 
@@ -72,6 +73,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           this._presenter = void 0;
           this._balls = [];
+          this.animation = void 0;
         }
 
         onEnable() {
@@ -86,6 +88,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this._presenter.LoadData();
         }
 
+        onDisable() {
+          var _this$_presenter;
+
+          (_this$_presenter = this._presenter) == null ? void 0 : _this$_presenter.SaveCurrentGame();
+        }
+
         SetName(newName) {
           this.nameLabel.string = newName;
         }
@@ -94,33 +102,56 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.scoreLabel.string = newScore;
         }
 
-        UpdateField(newfield, fromOutside) {
-          if (this._balls.length != newfield.length) {
-            this._balls = new Array(newfield.length).fill(null).map(() => new Array(newfield.length).fill(null));
-            newfield.forEach((row, i) => {
-              row.forEach((color, j) => {
-                var _this$_balls$i$j$getC;
+        ShowNewField(data) {
+          var _this$animation;
 
+          if (!this._balls.length) {
+            this._balls = new Array(data.length).fill(null).map(() => new Array(data.length).fill(null));
+            data.forEach((row, i) => {
+              row.forEach((color, j) => {
                 this._balls[i][j] = instantiate(this.ballPrefab);
-                (_this$_balls$i$j$getC = this._balls[i][j].getComponent(_crd && BallComponent === void 0 ? (_reportPossibleCrUseOfBallComponent({
-                  error: Error()
-                }), BallComponent) : BallComponent)) == null ? void 0 : _this$_balls$i$j$getC.SetColor(color);
-                this.field.addChild(this._balls[i][j]);
-                this.setBallsPosition(this._balls[i][j], i, j);
-              });
-            });
-          } else {
-            this._balls.forEach((row, i) => {
-              row.forEach((ball, j) => {
-                if (fromOutside) {}
+                this.field.node.addChild(this._balls[i][j]);
               });
             });
           }
+
+          data.forEach((row, i) => {
+            row.forEach((color, j) => {
+              var _this$_balls$i$j$getC;
+
+              this.addBallTween(this._balls[i][j], {
+                x: this._balls[i][j].getComponent(UITransform).width / 2 * (i + 1),
+                y: this._balls[i][j].getComponent(UITransform).height / 2 * (j + 1)
+              }, {
+                x: this._balls[i][j].getComponent(UITransform).width / 2 * (i + 1),
+                y: this.field.height + this._balls[i][j].getComponent(UITransform).height / 2 * (j + 1)
+              });
+              (_this$_balls$i$j$getC = this._balls[i][j].getComponent(_crd && BallComponent === void 0 ? (_reportPossibleCrUseOfBallComponent({
+                error: Error()
+              }), BallComponent) : BallComponent)) == null ? void 0 : _this$_balls$i$j$getC.SetColor(color);
+            });
+          });
+          (_this$animation = this.animation) == null ? void 0 : _this$animation.start();
         }
 
-        setBallsPosition(node, x, y) {
-          const nodeSize = node.getComponent(UITransform);
-          node.position.set(nodeSize.width / 2 + x * nodeSize.width, nodeSize.height / 2 + y * nodeSize.height, 0);
+        RemoveBalls(data) {}
+
+        DropDownBalls(data) {}
+
+        addBallTween(node, to, from) {
+          if (from) {
+            node.setPosition(from.x, from.y, 0);
+          }
+
+          let addAninm = tween(node).to(0.5, {
+            position: new Vec3(to.x, to.y, 0)
+          });
+
+          if (this.animation) {
+            this.animation = this.animation.parallel(addAninm, this.animation);
+          } else {
+            this.animation = addAninm;
+          }
         }
 
         hideBall(node) {}

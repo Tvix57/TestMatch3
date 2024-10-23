@@ -39,7 +39,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.state = state;
           this._field = new (_crd && Field === void 0 ? (_reportPossibleCrUseOfField({
             error: Error()
-          }), Field) : Field)(state.isFinished, state, state.field);
+          }), Field) : Field)(state, state.field);
           this._gameStats = new (_crd && GameStats === void 0 ? (_reportPossibleCrUseOfGameStats({
             error: Error()
           }), GameStats) : GameStats)(this._field, state.gameStats);

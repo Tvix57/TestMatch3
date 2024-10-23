@@ -806,5 +806,37 @@
   "8ba7a739-b86a-4006-a4fd-1ed93727ceb8": {
     "url": "db://assets/resources/TiledMap/map.tmx",
     "value": {}
+  },
+  "92b0da59-dc19-4557-9c66-a1edd676bb21": {
+    "url": "db://assets/Scripts/Save/Web",
+    "value": {}
+  },
+  "23ab7356-5fad-4efb-9dbf-5b202aaa716d": {
+    "url": "db://assets/Scripts/Application/native/WebAppConfig.ts",
+    "value": {}
+  },
+  "7ee88e47-1ca0-4359-a667-f9f8f781ec68": {
+    "url": "db://assets/Scripts/Save/Web/WebSaveState.ts",
+    "value": {}
+  },
+  "34f24851-9c32-481c-bb29-232cb4c44a99": {
+    "url": "db://assets/Scripts/Logic/FieldConfig.ts",
+    "value": {}
+  },
+  "294f2055-defc-41b7-969e-4cc929ba0533": {
+    "url": "db://assets/Scripts/Logic/FieldController.ts",
+    "value": {}
+  },
+  "1d7189e2-8bca-487e-a63b-d0e72dcfc5a9": {
+    "url": "db://assets/Scripts/Logic/FieldGenerator.ts",
+    "value": {}
+  },
+  "2c538239-0f3b-498b-b431-daea0fb3584d": {
+    "url": "db://assets/Scripts/Logic/FieldListener.ts",
+    "value": {}
+  },
+  "5e3b185f-6fce-4a29-8418-425c7a0891d4": {
+    "url": "db://assets/Scripts/Logic/FieldManager.ts",
+    "value": {}
   }
 }
