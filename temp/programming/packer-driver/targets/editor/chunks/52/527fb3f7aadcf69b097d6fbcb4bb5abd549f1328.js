@@ -51,6 +51,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "color", _descriptor, this);
 
           _initializerDefineProperty(this, "sprite", _descriptor2, this);
+
+          this.presenterClick = void 0;
         }
 
         onLoad() {
@@ -62,7 +64,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.cangeColor(color);
         }
 
-        OnBallClick() {}
+        SetClick(callback) {
+          this.presenterClick = callback;
+        }
+
+        OnBallClick() {
+          var _this$presenterClick;
+
+          (_this$presenterClick = this.presenterClick) == null ? void 0 : _this$presenterClick.call(this);
+        }
 
         activateDestroyAnimation() {}
 

@@ -1,14 +1,10 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, AnimationType, GameScenePresenter, _crd;
+  var _reporterNs, _cclegacy, BallColor, GameScenePresenter, _crd;
 
   function _reportPossibleCrUseOfBallColor(extras) {
     _reporterNs.report("BallColor", "../../Enums/BallColor", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfAnimationType(extras) {
-    _reporterNs.report("AnimationType", "../../Logic/Field", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfField(extras) {
@@ -39,7 +35,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     }, function (_cc) {
       _cclegacy = _cc.cclegacy;
     }, function (_unresolved_2) {
-      AnimationType = _unresolved_2.AnimationType;
+      BallColor = _unresolved_2.BallColor;
     }],
     execute: function () {
       _crd = true;
@@ -48,7 +44,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _export("GameScenePresenter", GameScenePresenter = class GameScenePresenter {
         constructor(view, _logic, _state) {
-          this._animationQueue = [];
+          this.animationPromise = void 0;
           this.view = view;
           this._logic = _logic;
           this._state = _state;
@@ -64,35 +60,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.view.UpdateScore(score.toString());
         }
 
-        UpdateField(field, type, animationCallback) {
-          switch (type) {
-            case (_crd && AnimationType === void 0 ? (_reportPossibleCrUseOfAnimationType({
-              error: Error()
-            }), AnimationType) : AnimationType).REMOVE:
-              this._animationQueue.push(() => {
-                this.view.RemoveBalls(field);
-              });
-
-              break;
-
-            case (_crd && AnimationType === void 0 ? (_reportPossibleCrUseOfAnimationType({
-              error: Error()
-            }), AnimationType) : AnimationType).DropDown:
-              this._animationQueue.push(() => {
-                this.view.DropDownBalls(field);
-              });
-
-              break;
-
-            case (_crd && AnimationType === void 0 ? (_reportPossibleCrUseOfAnimationType({
-              error: Error()
-            }), AnimationType) : AnimationType).DropDownNew:
-              this._animationQueue.push(() => {
-                this.view.ShowNewField(field);
-              });
-
-              break;
-          }
+        UpdateField(field, callback) {
+          this.playAnimation(field, callback);
         }
 
         EndGame(info) {}
@@ -109,15 +78,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this._logic.OnBallClick(coord);
         }
 
-        PlayNextAnimation() {
-          if (this._animationQueue.length > 0) {
-            var _this$_animationQueue;
-
-            (_this$_animationQueue = this._animationQueue.pop()) == null ? void 0 : _this$_animationQueue();
-          }
+        SaveCurrentGame() {/////
         }
 
-        SaveCurrentGame() {/////
+        playAnimation(field, callback) {
+          if (field.some(x => x.some(y => y == (_crd && BallColor === void 0 ? (_reportPossibleCrUseOfBallColor({
+            error: Error()
+          }), BallColor) : BallColor).NONE))) {
+            this.view.RemoveBalls(field, callback);
+          } else {
+            this.view.DropDownBalls(field, callback);
+          }
         }
 
       });

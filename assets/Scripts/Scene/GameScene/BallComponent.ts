@@ -12,6 +12,8 @@ export class BallComponent extends Component {
     @property(Sprite)
     sprite: Sprite = null!
 
+    private presenterClick?: () => void
+
     protected onLoad(): void {
         this.cangeColor(this.color);
     }
@@ -21,8 +23,12 @@ export class BallComponent extends Component {
         this.cangeColor(color);
     }
 
+    SetClick(callback: () => void) {
+        this.presenterClick = callback
+    }
+
     OnBallClick() {
-        
+        this.presenterClick?.()
     }
 
     private activateDestroyAnimation() {

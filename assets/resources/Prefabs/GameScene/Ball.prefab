@@ -33,11 +33,11 @@
         "__id__": 8
       },
       {
-        "__id__": 11
+        "__id__": 12
       }
     ],
     "_prefab": {
-      "__id__": 13
+      "__id__": 14
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -178,6 +178,9 @@
     "clickEvents": [
       {
         "__id__": 10
+      },
+      {
+        "__id__": 11
       }
     ],
     "_interactable": true,
@@ -234,6 +237,16 @@
     "customEventData": ""
   },
   {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 1
+    },
+    "component": "",
+    "_componentId": "bc71f0unFlIX6RnJbEhm2zw",
+    "handler": "OnBallClick",
+    "customEventData": ""
+  },
+  {
     "__type__": "9abfeNOTzRGWouOvdzbm9aT",
     "_name": "",
     "_objFlags": 0,
@@ -243,7 +256,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 12
+      "__id__": 13
     },
     "fileName": "ball_bloop_sound",
     "volume": 1,

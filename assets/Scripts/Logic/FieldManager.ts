@@ -7,20 +7,17 @@ export class FieldManager extends FieldConfig{
     }
 
     CheckFromCoord(coord: {x: number, y: number}) : {x: number, y: number}[] {
-        const addScore: {x: number, y: number}[] = []
-        addScore.concat(this.checkVerticalFromCoord(coord))
-                .concat(this.checkHorizontalFromCoord(coord))
-        return addScore
+        return [...this.checkVerticalFromCoord(coord), ...this.checkHorizontalFromCoord(coord)]
     }
 
     private checkVerticalFromCoord(coord: {x: number, y: number}) : {x: number, y: number}[] {
         const result : {x: number, y: number}[] = []
         let startY = coord.y
-        for (; this.field[startY] && this.field[startY][coord.x] === this.field[coord.y][coord.x]; --startY) {
+        for (; this.field[coord.x][startY] && this.field[coord.x][startY] === this.field[coord.x][coord.y]; --startY) {
             result.push({x: coord.x, y: startY})
         }
         startY = coord.y + 1
-        for (; this.field[startY] && this.field[startY][coord.x] === this.field[coord.y][coord.x]; ++startY) {
+        for (; this.field[coord.x][startY] && this.field[coord.x][startY] === this.field[coord.x][coord.y]; ++startY) {
             result.push({x: coord.x, y: startY})
         }
         if (result.length >= this.minCombinationLength) return result
@@ -30,11 +27,11 @@ export class FieldManager extends FieldConfig{
     private checkHorizontalFromCoord(coord: {x: number, y: number}) : {x: number, y: number}[] {
         const result : {x: number, y: number}[] = []
         let startX = coord.x
-        for (; this.field[coord.y][startX] && this.field[coord.y][startX] === this.field[coord.y][coord.x]; --startX) {
+        for (;this.field[startX] && this.field[startX][coord.y] && this.field[startX][coord.y] === this.field[coord.x][coord.y]; --startX) {
             result.push({x: startX, y: coord.y})
         }
         startX = coord.x + 1
-        for (;this.field[coord.y][startX] && this.field[coord.y][startX] === this.field[coord.y][coord.x]; ++startX) {
+        for (;this.field[startX] && this.field[startX][coord.y] && this.field[startX][coord.y] === this.field[coord.x][coord.y]; ++startX) {
             result.push({x: startX, y: coord.y})
         }
         if (result.length >= this.minCombinationLength) return result

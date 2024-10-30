@@ -1,9 +1,8 @@
-import { _decorator, Component, instantiate, Label, Node, Prefab, tween, Tween, UITransform, Vec3 } from 'cc';
+import { _decorator, Component, instantiate, Label, Node, Prefab, tween, Tween, TweenSystem, TweenAction, TweenEasing, UITransform, Vec3 } from 'cc';
 import { GameScenePresenter } from './GameScenePresenter';
 import { AppRoot } from '../../Application/AppRoot';
 import { BallColor } from '../../Enums/BallColor';
 import { BallComponent } from './BallComponent';
-import { AnimationType } from '../../Logic/Field';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameSceneComponent')
@@ -22,7 +21,7 @@ export class GameSceneComponent extends Component {
 
     private _presenter?: GameScenePresenter
     private _balls: Array<Array<Node>> = []
-    private animation?: Tween<Node>
+    // private animationPromise: Promise<void> = new Promise<void>(() => {})
 
     onEnable(): void {
         this._presenter = new GameScenePresenter(this, 
@@ -44,7 +43,7 @@ export class GameSceneComponent extends Component {
         this.scoreLabel.string = newScore
     }
 
-    ShowNewField(data: Array<Array<BallColor>>) {
+    ShowNewField(data: Array<Array<BallColor>>, callback?: () => void) {
         if (!this._balls.length) {
             this._balls = new Array(data.length).fill(null).map(() => new Array(data.length).fill(null));
             data.forEach((row, i) => {
@@ -53,45 +52,87 @@ export class GameSceneComponent extends Component {
                     this.field.node.addChild(this._balls[i][j])
                 })
             })
-        } 
+        }
         data.forEach((row, i) => {
             row.forEach((color, j) => {
+                let cmpBall = this._balls[i][j].getComponent(BallComponent)!
+                cmpBall.SetColor(color)
+                cmpBall.SetClick(() => {this._presenter!.OnBallClick({x:i, y:j})})
+                let cmpUI = this._balls[i][j].getComponent(UITransform)!
                 this.addBallTween(this._balls[i][j],
-                   {x:this._balls[i][j].getComponent(UITransform)!.width  /2  * (i+1), 
-                    y:this._balls[i][j].getComponent(UITransform)!.height /2  * (j+1)},
-                   {x:this._balls[i][j].getComponent(UITransform)!.width  /2  * (i+1), 
-                    y:this.field.height + this._balls[i][j].getComponent(UITransform)!.height /2  * (j+1)})
-                this._balls[i][j].getComponent(BallComponent)?.SetColor(color)
+                   {x:cmpUI.width / 2 + cmpUI.width  * i, 
+                    y:cmpUI.height / 2 + cmpUI.height * j},
+                   {x:cmpUI.width / 2 + cmpUI.width  * i, 
+                    y:this.field.height + (cmpUI.height / 2 + cmpUI.height * j)}).start()
             })
         })
-        
-        this.animation?.start()
     }
 
-    RemoveBalls(data: Array<Array<BallColor>>) {
-        
+    async RemoveBalls(data: Array<Array<BallColor>>, callback?: () => void) {
+        let tweens = Array<Tween<Node>>()
+        data.forEach((row, i) => {
+            row.forEach((color, j) => {
+                if (color === BallColor.NONE) {
+                    /// add burn animation
+                    let cmpUI = this._balls[i][j].getComponent(UITransform)!
+                    tweens.push(this.hideBall(this._balls[i][j], 
+                                {x:cmpUI.width / 2 + cmpUI.width  * i,
+                                 y:this.field.height + (cmpUI.height / 2 + cmpUI.height * j)}))
+                        
+                }
+            })
+        })
+
+        this.animationAwait(tweens).then(() => {callback?.()})
     }
 
-    DropDownBalls(data: Array<Array<BallColor>>) {
+    async DropDownBalls(data: Array<Array<BallColor>>, callback?: () => void) {
+        let tweens = Array<Tween<Node>>()
+        data.forEach((row, i) => {
+            row.forEach((color, j) => {
+                let cmpUI = this._balls[i][j].getComponent(UITransform)!
+                if (this._balls[i][j].position.x !== cmpUI.width  / 2 + cmpUI.width  * i ||
+                    this._balls[i][j].position.y !== cmpUI.height / 2 + cmpUI.height * j) {
+                        if (this._balls[i][j].position.y > this.field.height) {
+                            this._balls[i][j].getComponent(BallComponent)!.SetColor(color)
+                        }
+                        tweens.push(this.addBallTween(this._balls[i][j],
+                            {x:cmpUI.width  / 2 + cmpUI.width  * i, 
+                             y:cmpUI.height / 2 + cmpUI.height * j}))
+                }
+            })
+        })
 
+        this.animationAwait(tweens).then(() => {callback?.()})
     }
 
-    private addBallTween(node: Node, to:{x: number, y: number}, from?:{x: number, y: number},) {
+    private animationAwait(tweens: Array<Tween<Node>>) {
+        let callPromise = new Promise<void>((resolve) => {
+            let count = 0
+            tweens.forEach(tween => {
+                tween.start()
+                ++count
+                if(count === tweens.length) {
+                    resolve()
+                }
+            })
+        })
+        return callPromise
+    }
+
+    private addBallTween(node: Node, to:{x: number, y: number}, from?:{x: number, y: number}) {
         if (from) {
             node.setPosition(from.x, from.y, 0)
-        }
-        let addAninm = tween(node)
-            .to(0.5, { position: new Vec3(to.x, to.y, 0) })
-        if (this.animation) {
-            // this.animation = this.animation.parallel(addAninm, this.animation)
-        } else {
-            this.animation = addAninm
-        }
+        }       
+        return tween(node).to(0.5, {position:new Vec3(to.x, to.y, 0)})
     }
 
-    private hideBall(node: Node) {
-
+    private hideBall(node: Node, to:{x: number, y: number}) {
+        return tween(node).set({position:new Vec3(to.x, to.y, 0)})
     }
+
+
+
 }
 
 

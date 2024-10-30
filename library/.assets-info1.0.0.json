@@ -187,7 +187,7 @@
       "time": 1727191277065.0332
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\BallComponent.ts": {
-      "time": 1728982404935.338,
+      "time": 1729762596622.2842,
       "uuid": "bc71fd2e-9c59-485f-a467-25b1219b6cf0"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\LoadingScene.meta": {
@@ -257,7 +257,7 @@
       "time": 1727270459779.7407
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\GameSceneComponent.ts": {
-      "time": 1729668796813.3843,
+      "time": 1730291778521.6956,
       "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameLogic.ts.meta": {
@@ -281,7 +281,7 @@
       "uuid": "4957e93b-2929-4618-962b-0fcdea84d71b"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\Field.ts": {
-      "time": 1729592082510.8613,
+      "time": 1730292190340.4004,
       "uuid": "6521e35b-60c3-4f73-9c5b-de830b2c9322"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Session\\GameState.ts": {
@@ -362,7 +362,7 @@
       "uuid": "f479a792-4958-4b36-b338-817aaa4b8f20"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Save\\Editor\\EditorSaveState.ts": {
-      "time": 1727592986468.755,
+      "time": 1730282032626.9873,
       "uuid": "9fc84195-cfec-4ef6-bf06-909c891b9be7"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Application\\IAppTimer.ts.meta": {
@@ -453,7 +453,7 @@
       "time": 1727368525739.1353
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Scene\\GameScene\\GameScenePresenter.ts": {
-      "time": 1729326426399.6768,
+      "time": 1730275576714.0554,
       "uuid": "a74c58f9-5962-48de-9fba-09ad195c17d9"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Images\\plate4.png.meta": {
@@ -481,14 +481,14 @@
       "time": 1727191381084.3352
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\Ball.prefab": {
-      "time": 1727502034928.1936,
+      "time": 1729762755489.7534,
       "uuid": "c5e7bd2a-f079-4aa4-9f78-72519b427715"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab.meta": {
       "time": 1727599554681.3464
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\GameScene\\GameScene.prefab": {
-      "time": 1729612047557.231,
+      "time": 1729913410822.083,
       "uuid": "51d7adff-7e5e-4a7c-97af-dab57af7a533"
     },
     "F:\\git\\TestMatch3\\assets\\resources\\Prefabs\\ScoreScene.meta": {
@@ -776,7 +776,7 @@
       "uuid": "34f24851-9c32-481c-bb29-232cb4c44a99"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldController.ts": {
-      "time": 1729320499445.0808,
+      "time": 1729837578700.8135,
       "uuid": "294f2055-defc-41b7-969e-4cc929ba0533"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldGenerator.ts": {
@@ -788,7 +788,7 @@
       "uuid": "2c538239-0f3b-498b-b431-daea0fb3584d"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldManager.ts": {
-      "time": 1729241452156.0967,
+      "time": 1729910710489.5857,
       "uuid": "5e3b185f-6fce-4a29-8418-425c7a0891d4"
     },
     "F:\\git\\TestMatch3\\assets\\Scripts\\Logic\\FieldConfig.ts.meta": {

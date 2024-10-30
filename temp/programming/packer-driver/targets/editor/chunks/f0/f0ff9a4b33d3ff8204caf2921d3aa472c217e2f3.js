@@ -35,16 +35,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         CheckFromCoord(coord) {
-          const addScore = [];
-          addScore.concat(this.checkVerticalFromCoord(coord)).concat(this.checkHorizontalFromCoord(coord));
-          return addScore;
+          return [...this.checkVerticalFromCoord(coord), ...this.checkHorizontalFromCoord(coord)];
         }
 
         checkVerticalFromCoord(coord) {
           const result = [];
           let startY = coord.y;
 
-          for (; this.field[startY] && this.field[startY][coord.x] === this.field[coord.y][coord.x]; --startY) {
+          for (; this.field[coord.x][startY] && this.field[coord.x][startY] === this.field[coord.x][coord.y]; --startY) {
             result.push({
               x: coord.x,
               y: startY
@@ -53,7 +51,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           startY = coord.y + 1;
 
-          for (; this.field[startY] && this.field[startY][coord.x] === this.field[coord.y][coord.x]; ++startY) {
+          for (; this.field[coord.x][startY] && this.field[coord.x][startY] === this.field[coord.x][coord.y]; ++startY) {
             result.push({
               x: coord.x,
               y: startY
@@ -68,7 +66,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           const result = [];
           let startX = coord.x;
 
-          for (; this.field[coord.y][startX] && this.field[coord.y][startX] === this.field[coord.y][coord.x]; --startX) {
+          for (; this.field[startX] && this.field[startX][coord.y] && this.field[startX][coord.y] === this.field[coord.x][coord.y]; --startX) {
             result.push({
               x: startX,
               y: coord.y
@@ -77,7 +75,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           startX = coord.x + 1;
 
-          for (; this.field[coord.y][startX] && this.field[coord.y][startX] === this.field[coord.y][coord.x]; ++startX) {
+          for (; this.field[startX] && this.field[startX][coord.y] && this.field[startX][coord.y] === this.field[coord.x][coord.y]; ++startX) {
             result.push({
               x: startX,
               y: coord.y

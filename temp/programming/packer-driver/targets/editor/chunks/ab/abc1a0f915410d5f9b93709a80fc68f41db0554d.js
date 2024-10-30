@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, AbstractDispatcher, FieldController, FieldGenerator, FieldListener, FieldManager, Field, _crd, AnimationType;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, AbstractDispatcher, FieldController, FieldGenerator, FieldListener, FieldManager, log, Field, _crd;
 
   function _reportPossibleCrUseOfBallColor(extras) {
     _reporterNs.report("BallColor", "../Enums/BallColor", _context.meta, extras);
@@ -42,6 +42,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       _reporterNs = _unresolved_;
     }, function (_cc) {
       _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      log = _cc.log;
     }, function (_unresolved_2) {
       AbstractDispatcher = _unresolved_2.AbstractDispatcher;
     }, function (_unresolved_3) {
@@ -58,21 +61,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
       _cclegacy._RF.push({}, "6521eNbYMNPc5xb3oMLLJMi", "Field", undefined);
 
-      _export("AnimationType", AnimationType = /*#__PURE__*/function (AnimationType) {
-        AnimationType[AnimationType["DropDownNew"] = 0] = "DropDownNew";
-        AnimationType[AnimationType["DropDown"] = 1] = "DropDown";
-        AnimationType[AnimationType["REMOVE"] = 2] = "REMOVE";
-        return AnimationType;
-      }({}));
+      __checkObsolete__(['log']);
 
       _export("Field", Field = class Field extends (_crd && AbstractDispatcher === void 0 ? (_reportPossibleCrUseOfAbstractDispatcher({
         error: Error()
       }), AbstractDispatcher) : AbstractDispatcher) {
         constructor(_state, field) {
           super();
-          this.minCombinationLength = 3;
-          this.garanteedStartCombinations = 4;
-          this.fieldSize = 20;
           this.fieldGenerator = void 0;
           this.fieldManager = void 0;
           this.fieldListener = void 0;
@@ -95,8 +90,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           if (this.field.length == 0) {
             this.fieldGenerator.GenerateNewField();
           }
-
-          let test = 9;
         }
 
         GetField() {
@@ -110,12 +103,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             this.addScore(addScore.length);
             this.fieldController.RemoveFromCoord(addScore);
 
-            this._dispatcher.Post(h => h.UpdateField == null ? void 0 : h.UpdateField([...this.field], AnimationType.REMOVE));
-
-            this.fieldController.DropDownBalls();
-
-            this._dispatcher.Post(h => h.UpdateField == null ? void 0 : h.UpdateField([...this.field], AnimationType.DropDown));
+            this._dispatcher.Post(h => h.UpdateField == null ? void 0 : h.UpdateField([...this.field], this.dropDownBalls.bind(this)));
           }
+        }
+
+        dropDownBalls() {
+          log("dropDownBalls");
+          this.fieldController.DropDownBalls();
+
+          this._dispatcher.Post(h => h.UpdateField == null ? void 0 : h.UpdateField([...this.field], this.checkEndGame.bind(this)));
+        }
+
+        checkEndGame() {
+          log("checkEndGame");
 
           if (!this.fieldListener.CheckAvailableOption()) {
             //// check available shuffle

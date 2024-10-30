@@ -9,7 +9,6 @@ import { log } from "cc";
 import { ApplicationState } from "../State";
 import { IState } from "../SaveInterfaces";
 import { GameState } from "../../Session/GameState";
-import { GameStatsInfo } from "../../Logic/GameStatsInfo";
 
 export class EditorSaveState 
 {
@@ -34,6 +33,6 @@ export class EditorSaveState
 
     SaveState(state: ApplicationState):void { 
         let saveStr = state.Save()
-        log("EditorSaveState: "+ saveStr)
+        // log("EditorSaveState: "+ saveStr)
     }
 }

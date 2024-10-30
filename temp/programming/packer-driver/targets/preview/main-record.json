@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 9101.622099995613,
+      "mTimestamp": 8994.686200022697,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -283,7 +283,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3596230.744800031,
+      "mTimestamp": 29568314.573899984,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1763,7 +1763,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1729665203836,
+      "mTimestamp": 1730262629611,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -3071,7 +3071,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/BallComponent.ts": {
       "mTimestamp": {
-        "mtime": 1728982404935.338,
+        "mtime": 1729762596622.2842,
         "uuid": "bc71fd2e-9c59-485f-a467-25b1219b6cf0"
       },
       "chunkId": "527fb3f7aadcf69b097d6fbcb4bb5abd549f1328",
@@ -3369,7 +3369,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameSceneComponent.ts": {
       "mTimestamp": {
-        "mtime": 1729668796813.3843,
+        "mtime": 1730291778521.6956,
         "uuid": "7f521d0b-f961-46ec-86f1-aa360d229e76"
       },
       "chunkId": "28c31814615195a8b8228614752d18f0e5988cbe",
@@ -3389,11 +3389,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 105
+              "column": 144
             },
             "end": {
               "line": 1,
-              "column": 109
+              "column": 148
             }
           }
         },
@@ -3426,8 +3426,22 @@
           }
         },
         {
-          "value": "./BallComponent",
+          "value": "../../Enums/BallColor",
           "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./BallComponent",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
@@ -3481,6 +3495,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Application/AppRoot.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts"
           },
           "messages": []
         },
@@ -3570,7 +3591,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts": {
       "mTimestamp": {
-        "mtime": 1729592082510.8613,
+        "mtime": 1730292190340.4004,
         "uuid": "6521e35b-60c3-4f73-9c5b-de830b2c9322"
       },
       "chunkId": "abc1a0f915410d5f9b93709a80fc68f41db0554d",
@@ -3578,6 +3599,9 @@
         {
           "value": "cce:/internal/code-quality/cr.mjs",
           "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
         },
         {
           "value": "cc"
@@ -3651,6 +3675,19 @@
               "column": 45
             }
           }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 20
+            },
+            "end": {
+              "line": 10,
+              "column": 24
+            }
+          }
         }
       ],
       "type": "esm",
@@ -3659,6 +3696,13 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         },
@@ -3701,6 +3745,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/git/TestMatch3/assets/Scripts/Logic/FieldManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }
@@ -4063,7 +4114,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Save/Editor/EditorSaveState.ts": {
       "mTimestamp": {
-        "mtime": 1727592986468.755,
+        "mtime": 1730282032626.9873,
         "uuid": "9fc84195-cfec-4ef6-bf06-909c891b9be7"
       },
       "chunkId": "57428597d364a000f18def810d2c907dc916d19f",
@@ -4077,19 +4128,6 @@
         },
         {
           "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 8,
-              "column": 20
-            },
-            "end": {
-              "line": 8,
-              "column": 24
-            }
-          }
         },
         {
           "value": "../State",
@@ -4126,13 +4164,6 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
           },
           "messages": []
         },
@@ -4733,7 +4764,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Scene/GameScene/GameScenePresenter.ts": {
       "mTimestamp": {
-        "mtime": 1729326426399.6768,
+        "mtime": 1730275576714.0554,
         "uuid": "a74c58f9-5962-48de-9fba-09ad195c17d9"
       },
       "chunkId": "0ae9e8ea598abdeb450e19423177861d10fb2169",
@@ -4746,16 +4777,16 @@
           "value": "cc"
         },
         {
-          "value": "../../Logic/Field",
+          "value": "../../Enums/BallColor",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 2,
-              "column": 52
+              "line": 1,
+              "column": 26
             },
             "end": {
-              "line": 2,
-              "column": 71
+              "line": 1,
+              "column": 49
             }
           }
         }
@@ -4779,7 +4810,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/git/TestMatch3/assets/Scripts/Logic/Field.ts"
+            "url": "file:///F:/git/TestMatch3/assets/Scripts/Enums/BallColor.ts"
           },
           "messages": []
         }
@@ -6323,7 +6354,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/FieldController.ts": {
       "mTimestamp": {
-        "mtime": 1729320499445.0808,
+        "mtime": 1729837578700.8135,
         "uuid": "294f2055-defc-41b7-969e-4cc929ba0533"
       },
       "chunkId": "8090426dc0319d7268166956bd50ca0a4c95f73c",
@@ -6549,7 +6580,7 @@
     },
     "file:///F:/git/TestMatch3/assets/Scripts/Logic/FieldManager.ts": {
       "mTimestamp": {
-        "mtime": 1729241452156.0967,
+        "mtime": 1729910710489.5857,
         "uuid": "5e3b185f-6fce-4a29-8418-425c7a0891d4"
       },
       "chunkId": "f0ff9a4b33d3ff8204caf2921d3aa472c217e2f3",

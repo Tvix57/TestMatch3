@@ -7,24 +7,17 @@ import { FieldListener } from "./FieldListener";
 import { FieldManager } from "./FieldManager";
 import { GameStatsInfo } from "./GameStatsInfo";
 
-export enum AnimationType {
-    DropDownNew,
-    DropDown,
-    REMOVE
-}
+import { log } from "cc";
+
 
 export interface IFieldHandler {
     NewGame(name: string): void
     NewScore?(score: number): void
     EndGame(info: GameStatsInfo): void
-    UpdateField?(field: Array<Array<BallColor>>, showAnimation?: AnimationType, animationCallback?: () => void): void
+    UpdateField?(field: Array<Array<BallColor>>, callback?: () => void): void
 }
 
 export class Field extends AbstractDispatcher <IFieldHandler> {
-    readonly minCombinationLength = 3;
-    readonly garanteedStartCombinations = 4;
-    readonly fieldSize = 20;
-
     private fieldGenerator:FieldGenerator
     private fieldManager:FieldManager
     private fieldListener:FieldListener
@@ -43,8 +36,6 @@ export class Field extends AbstractDispatcher <IFieldHandler> {
         if (this.field.length == 0) {
             this.fieldGenerator.GenerateNewField()
         }
-
-        let test = 9
     }
 
     GetField(): Array<Array<BallColor>> {
@@ -56,10 +47,17 @@ export class Field extends AbstractDispatcher <IFieldHandler> {
         if (addScore.length != 0) {
             this.addScore(addScore.length)
             this.fieldController.RemoveFromCoord(addScore)
-            this._dispatcher.Post((h)=>h.UpdateField?.([...this.field], AnimationType.REMOVE))
-            this.fieldController.DropDownBalls()
-            this._dispatcher.Post((h)=>h.UpdateField?.([...this.field], AnimationType.DropDown))
+            this._dispatcher.Post((h)=>h.UpdateField?.([...this.field], this.dropDownBalls.bind(this)))
         } 
+    }
+
+    private dropDownBalls() {
+        this.fieldController.DropDownBalls()
+        this._dispatcher.Post((h)=>h.UpdateField?.([...this.field], this.checkEndGame.bind(this)))
+    }
+
+    private checkEndGame() {
+        log("checkEndGame")
         if (!this.fieldListener.CheckAvailableOption()) { //// check available shuffle
             this._dispatcher.Post((h)=>h.EndGame({name: this._state.name, score: this._state.score}))
         }

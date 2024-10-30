@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, log, ApplicationState, GameState, EditorSaveState, _crd;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, ApplicationState, GameState, EditorSaveState, _crd;
 
   function _reportPossibleCrUseOfApplicationState(extras) {
     _reporterNs.report("ApplicationState", "../State", _context.meta, extras);
@@ -24,7 +24,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
-      log = _cc.log;
     }, function (_unresolved_2) {
       ApplicationState = _unresolved_2.ApplicationState;
     }, function (_unresolved_3) {
@@ -34,14 +33,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       _crd = true;
 
       _cclegacy._RF.push({}, "9fc84GVz+xO9r8GkJyJG5vn", "EditorSaveState", undefined);
+
       /**
        * 
        * EditorSaveState.ts
        * db://assets/Scripts/Save/Editor/EditorSaveState.ts
        *
        */
-
-
       __checkObsolete__(['log']);
 
       _export("EditorSaveState", EditorSaveState = class EditorSaveState {
@@ -70,8 +68,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         }
 
         SaveState(state) {
-          let saveStr = state.Save();
-          log("EditorSaveState: " + saveStr);
+          let saveStr = state.Save(); // log("EditorSaveState: "+ saveStr)
         }
 
       });
